@@ -1,0 +1,11 @@
+<p>
+  {% if include.url != null %}
+    <a href="{{ include.url }}">{{ include.name }}</a>
+  {% else %}
+    {{ include.name }}
+  {% endif %}
+  - {{ include.degree }}, {{ include.year }}
+  {% if include.current != null %}
+    ({{ include.current }})
+  {% endif %}
+</p>

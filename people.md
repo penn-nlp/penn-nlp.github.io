@@ -55,3 +55,6 @@ title: People
     {% endfor %}
   </div>
 </p>
+
+<h2>Alumni</h2>
+Check out our many, many alumni <a href="/alumni">here</a>.
