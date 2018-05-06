@@ -1,0 +1,44 @@
+- name: "Chris Callison-Burch"
+  status: "faculty"
+  img: assets/img/chris_callison_burch.jpg
+  url: http://www.cis.upenn.edu/~ccb/
+
+- name: "Daniel Deutsch"
+  status: "phd"
+  img: assets/img/daniel_deutsch.jpg
+  url: http://danieldeutsch.github.io
+
+- name: "Mark Liberman"
+  status: "faculty"
+  img: assets/img/mark_liberman.jpg
+  url: http://www.ling.upenn.edu/~myl/
+
+- name: "Mitch Marcus"
+  status: "faculty"
+  img: assets/img/mitch_marcus.jpg
+  url: http://www.cis.upenn.edu/~mitch/
+
+- name: "Ani Nenkova"
+  status: "faculty"
+  img: assets/img/ani_nenkova.jpg
+  url: http://www.cis.upenn.edu/~nenkova/
+
+- name: "Dan Roth"
+  status: "faculty"
+  img: assets/img/dan_roth.jpg
+  url: http://www.cis.upenn.edu/~danroth/
+
+- name: "Lyle Ungar"
+  status: "faculty"
+  img: assets/img/lyle_ungar.jpg
+  url: http://www.seas.upenn.edu/~ungar/
+
+- name: "Charles Yang"
+  status: "faculty"
+  img: assets/img/charles_yang.jpg
+  url: http://www.ling.upenn.edu/~ycharles/
+
+- name: "Jiahong Yuan"
+  status: "faculty"
+  img: assets/img/default.jpg
+  url: http://www.ling.upenn.edu/~jiahong/
