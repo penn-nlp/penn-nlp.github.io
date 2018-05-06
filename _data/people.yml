@@ -102,8 +102,3 @@
   status: "faculty"
   img: assets/img/charles_yang.jpg
   url: http://www.ling.upenn.edu/~ycharles/
-
-- name: "Jiahong Yuan"
-  status: "faculty"
-  img: assets/img/default.jpg
-  url: http://www.ling.upenn.edu/~jiahong/
