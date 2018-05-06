@@ -1,8 +1,12 @@
 <div>
   <figure>
-     <img src="{{ include.img }}" width="170" height="170" />
-     <figcaption>
-       <a href="{{ include.url }}">{{ include.name }}</a>
-     </figcaption>
+    <img src="{{ include.img }}" width="170" height="170" />
+    <figcaption>
+      {% if include.url != null %}
+        <a href="{{ include.url }}">{{ include.name }}</a>
+      {% else %}
+        {{ include.name }}
+      {% endif %}
+    </figcaption>
   </figure>
 </div>

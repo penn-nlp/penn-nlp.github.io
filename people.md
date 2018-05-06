@@ -17,7 +17,7 @@ title: People
 <p>
   <div class="people">
     {% for person in site.data.people %}
-      {% if person.status == "faculty"%}
+      {% if person.status == "faculty" %}
         {% include person.html name=person.name img=person.img url=person.url %}
       {% endif %}
     {% endfor %}
@@ -26,9 +26,9 @@ title: People
 
 <h2>Ph.D. Students</h2>
 <p>
-<div class="people">
+  <div class="people">
     {% for person in site.data.people %}
-      {% if person.status == "phd"%}
+      {% if person.status == "phd" %}
         {% include person.html name=person.name img=person.img url=person.url %}
       {% endif %}
     {% endfor %}
@@ -37,9 +37,9 @@ title: People
 
 <h2>Master's Students</h2>
 <p>
-<div class="people">
+  <div class="people">
     {% for person in site.data.people %}
-      {% if person.status == "masters"%}
+      {% if person.status == "masters" %}
         {% include person.html name=person.name img=person.img url=person.url %}
       {% endif %}
     {% endfor %}
@@ -50,7 +50,7 @@ title: People
 <p>
   <div class="people">
     {% for person in site.data.people %}
-      {% if person.status == "undergrad"%}
+      {% if person.status == "undergrad" %}
         {% include person.html name=person.name img=person.img url=person.url %}
       {% endif %}
     {% endfor %}

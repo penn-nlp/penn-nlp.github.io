@@ -3,20 +3,75 @@
   img: assets/img/chris_callison_burch.jpg
   url: http://www.cis.upenn.edu/~ccb/
 
+- name: "Anne Cocos"
+  status: "phd"
+  img: assets/img/default_female.jpg
+  url: http://acocos.github.io/
+
+- name: "Soham Dan"
+  status: "phd"
+  img: assets/img/default_male.jpg
+  url: https://scholar.google.com/citations?user=nOsmu8UAAAAJ&hl=en&oi=ao
+
 - name: "Daniel Deutsch"
   status: "phd"
   img: assets/img/daniel_deutsch.jpg
   url: http://danieldeutsch.github.io
+
+- name: "Jie Gao"
+  status: "phd"
+  img: assets/img/default_female.jpg
+  url:
+
+- name: "Nitish Gupta"
+  status: "phd"
+  img: assets/img/default_male.jpg
+  url: http://nitishgupta.github.io/
+
+- name: "Hangfeng He"
+  status: "phd"
+  img: assets/img/default_male.jpg
+  url: https://hornhehhf.github.io/hangfenghe/
+
+- name: "Daphne Ippolito"
+  status: "phd"
+  img: assets/img/default_female.jpg
+  url: http://www.seas.upenn.edu/~daphnei/
+
+- name: "Daniel Khashabi"
+  status: "phd"
+  img: assets/img/default_male.jpg
+  url: http://www.cis.upenn.edu/~danielkh/
+
+- name: "Jordan Kodner"
+  status: "phd"
+  img: assets/img/default_male.jpg
+  url: http://www.ling.upenn.edu/~jkodner/#Introduction
+
+- name: "Reno Kriz"
+  status: "phd"
+  img: assets/img/default_male.jpg
+  url:
 
 - name: "Mark Liberman"
   status: "faculty"
   img: assets/img/mark_liberman.jpg
   url: http://www.ling.upenn.edu/~myl/
 
+- name: "Danni Ma"
+  status: "phd"
+  img: assets/img/default_female.jpg
+  url:
+
 - name: "Mitch Marcus"
   status: "faculty"
   img: assets/img/mitch_marcus.jpg
   url: http://www.cis.upenn.edu/~mitch/
+
+- name: "Stephen Mayhew"
+  status: "phd"
+  img: assets/img/default_male.jpg
+  url: http://mayhewsw.github.io/
 
 - name: "Ani Nenkova"
   status: "faculty"
@@ -28,10 +83,20 @@
   img: assets/img/dan_roth.jpg
   url: http://www.cis.upenn.edu/~danroth/
 
+- name: "Joao Sedoc"
+  status: "phd"
+  img: assets/img/default_male.jpg
+  url: https://sites.google.com/site/jsedoc/home
+
 - name: "Lyle Ungar"
   status: "faculty"
   img: assets/img/lyle_ungar.jpg
   url: http://www.seas.upenn.edu/~ungar/
+
+- name: "Shyam Upadhyay"
+  status: "phd"
+  img: assets/img/default_male.jpg
+  url: http://shyamupa.com/
 
 - name: "Charles Yang"
   status: "faculty"
