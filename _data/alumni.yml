@@ -75,3 +75,297 @@
   year: 2010
   current: PostDoc, Microsoft Search Labs
   url: http://www.cis.upenn.edu/~partha/
+
+- name: Mark Dredze
+  degree: Ph.D.
+  year: 2009
+  current: Associate Professor, Johns Hopkins University (Center of Excellence)
+  url: https://www.cs.jhu.edu/~mdredze/
+
+- name: Keelan Evanini
+  degree: Ph.D.
+  year: 2009
+  current: ETS
+  url: http://www.evanini.com/keelan.html
+
+- name: Erwin Chan
+  degree: Ph.D.
+  year: 2008
+  current: Assistant Professor Linguistics, University of Arizona
+  url:
+
+- name: Liang Huang
+  degree: Ph.D.
+  year: 2008
+  current: Computer Scientist, Information Sciences Institute
+  url:
+
+- name: Edward Loper
+  degree: Ph.D.
+  year: 2008
+  current: BBN
+  url:
+
+- name: Tatjana Scheffler
+  degree: Ph.D.
+  year: 2008
+  current: Researcher, DFKI Berlin
+  url:
+
+- name: John Blitzer
+  degree: Ph.D.
+  year: 2007
+  current: Research Scientist, Google
+  url:
+
+- name: Nick Montfort
+  degree: Ph.D.
+  year: 2007
+  current: Assistant Professor, MIT
+  url:
+
+- name: Fei Sha
+  degree: Ph.D.
+  year: 2007
+  current: Assistant Professor, University of Southern California
+  url:
+
+- name: Szu-ting Yi
+  degree: Ph.D.
+  year: 2007
+  current:
+  url:
+
+- name: Jinying Chen
+  degree: Ph.D.
+  year: 2006
+  current: BBN
+  url:
+
+- name: Susan Converse
+  degree: Ph.D.
+  year: 2006
+  current:
+  url:
+
+- name: Yuan Ding
+  degree: Ph.D.
+  year: 2006
+  current:
+  url:
+
+- name: Na-Rae Han
+  degree: Ph.D.
+  year: 2006
+  current: Korea University
+  url:
+
+- name: Matt Huenerfauth
+  degree: Ph.D.
+  year: 2006
+  current: Assistant Professor, CUNY
+  url:
+
+- name: Ryan McDonald
+  degree: Ph.D.
+  year: 2006
+  current: Google Research
+  url:
+
+- name: Libin Shen
+  degree: Ph.D.
+  year: 2006
+  current: BBN
+  url:
+
+- name: Karin Kipper Schuler
+  degree: Ph.D.
+  year: 2005
+  current: University of Colorado
+  url:
+
+- name: Craig Martell
+  degree: Ph.D.
+  year: 2005
+  current: Associate Professor, Naval Postgraduate School
+  url:
+
+- name: Tom Morton
+  degree: Ph.D.
+  year: 2005
+  current: Comcast
+  url:
+
+- name: Dan Bikel
+  degree: Ph.D.
+  year: 2004
+  current: Research Scientist, Google
+  url:
+
+- name: David Chiang
+  degree: Ph.D.
+  year: 2004
+  current: ISI/USC
+  url:
+
+- name: Hoa Trang Dang
+  degree: Ph.D.
+  year: 2004
+  current: NIST
+  url:
+
+- name: Carlos Prolo
+  degree: Ph.D.
+  year: 2003
+  current: Associate Professor, Pontificia Universidade Catolica do Rio Grande do Sul (PUCRS)
+  url:
+
+- name: William Schuler
+  degree: Ph.D.
+  year: 2003
+  current: Assistant Professor, University of Minnesota
+  url:
+
+- name: Christian Vogler
+  degree: Ph.D.
+  year: 2003
+  current:
+  url:
+
+- name: Anoop Sarkar
+  degree: Ph.D.
+  year: 2002
+  current: Assistant Professor, Simon Fraser University
+  url:
+
+- name: Jason Eisner
+  degree: Ph.D.
+  year: 2001
+  current: Professor, Johns Hopkins University
+  url: http://www.cs.jhu.edu/~jason/
+
+- name: Fei Xia
+  degree: Ph.D.
+  year: 2001
+  current: Assistant Professor, University of Washington
+  url:
+
+- name: Seth Kulick
+  degree: Ph.D.
+  year: 2000
+  current: University of Pennsylvania
+  url:
+
+- name: Michael Collins
+  degree: Ph.D.
+  year: 1999
+  current: Professor, Columbia University
+  url: http://www.cs.columbia.edu/~mcollins/
+
+- name: Nobo Komagata
+  degree: Ph.D.
+  year: 1999
+  current: PhenomenoLogic
+  url:
+
+- name: Christy Doran
+  degree: Ph.D.
+  year: 1998
+  current: Mitre Corporation
+  url:
+
+- name: Dan Melamed
+  degree: Ph.D.
+  year: 1998
+  current: Assistant Professor, NYU
+  url:
+
+- name: Adwait Ratnaparkhi
+  degree: Ph.D.
+  year: 1998
+  current: Yahoo
+  url:
+
+- name: Matthew Stone
+  degree: Ph.D.
+  year: 1998
+  current: Professor, Rutgers
+  url:
+
+- name: B.Srinivas
+  degree: Ph.D.
+  year: 1997
+  current: Research Scientist, AT&T Labs
+  url:
+
+- name: David Yarowsky
+  degree: Ph.D.
+  year: 1996
+  current: Professor, Johns Hopkins University
+  url: http://www.cs.jhu.edu/~yarowsky/
+
+- name: James Henderson
+  degree: Ph.D.
+  year: 1994
+  current: University of Edinburgh
+  url:
+
+- name: Owen Rambow
+  degree: Ph.D.
+  year: 1994
+  current: Research Scientist, Columbia University
+  url:
+
+- name: Philip Resnik
+  degree: Ph.D.
+  year: 1994
+  current: Professor, University of Maryland
+  url: http://legacydirs.umiacs.umd.edu/~resnik/
+
+- name: Eric Brill
+  degree: Ph.D.
+  year: 1993
+  current: Senior Researcher, Microsoft Research
+  url:
+
+- name: Jeff Reynar
+  degree: Ph.D.
+  year: 1993
+  current: Google
+  url:
+
+- name: Michel Degraff
+  degree: Ph.D.
+  year: 1992
+  current: Associate Professor Linguistics, MIT
+  url:
+
+- name: Robert Frank
+  degree: Ph.D.
+  year: 1992
+  current: Professor Cognitive Science, Johns Hopkins
+  url:
+
+- name: Robert Rubinoff
+  degree: Ph.D.
+  year: 1992
+  current:
+  url:
+
+- name: Jugal Kalita
+  degree: Ph.D.
+  year: 1990
+  current: Associate Professor, University of Colorado
+  url:
+
+- name: Yves Schabes
+  degree: Ph.D.
+  year: 1990
+  current: Founder of Teragram, Inc
+  url:
+
+- name: Lyn Walker
+  degree: Ph.D.
+  year:
+  current: Professor, University of Sheffield
+  url:
