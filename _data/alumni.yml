@@ -369,3 +369,39 @@
   year:
   current: Professor, University of Sheffield
   url:
+
+- name: David Weir
+  degree: Ph.D.
+  year: 1988
+  current: Professor, University of Sussex
+  url:
+
+- name: Julia Hirschberg
+  degree: Ph.D.
+  year: 1985
+  current: Professor, Columbia
+  url: http://www.cs.columbia.edu/~julia/
+
+- name: Kathleen McCoy
+  degree: Ph.D.
+  year: 1985
+  current: Professor, University of Delaware
+  url:
+
+- name: Eric Mays
+  degree: Ph.D.
+  year: 1984
+  current: IBM Research
+  url:
+
+- name: Kathleen McKeown
+  degree: Ph.D.
+  year: 1982
+  current: Professor, Columbia
+  url: http://www.cs.columbia.edu/~kathy/
+
+- name: Vijay K. Shanker
+  degree: Ph.D.
+  year:
+  current: Professor, University of Delaware
+  url:

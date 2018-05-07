@@ -31,3 +31,30 @@ Missing from this list? New position? Contact <a href="http://danieldeutsch.gith
     {% endif %}
   {% endfor %}
 </p>
+
+<h2>1980's</h2>
+<p>
+  {% for person in site.data.alumni %}
+    {% if 1980 <= person.year and person.year <= 1989  %}
+      {% include alumnus.html name=person.name url=person.url year=person.year degree=person.degree current=person.current %}
+    {% endif %}
+  {% endfor %}
+</p>
+
+<h2>1970's</h2>
+<p>
+  {% for person in site.data.alumni %}
+    {% if 1970 <= person.year and person.year <= 1979  %}
+      {% include alumnus.html name=person.name url=person.url year=person.year degree=person.degree current=person.current %}
+    {% endif %}
+  {% endfor %}
+</p>
+
+<h2>1960's</h2>
+<p>
+  {% for person in site.data.alumni %}
+    {% if 1960 <= person.year and person.year <= 1969  %}
+      {% include alumnus.html name=person.name url=person.url year=person.year degree=person.degree current=person.current %}
+    {% endif %}
+  {% endfor %}
+</p>
