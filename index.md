@@ -6,4 +6,5 @@ layout: default
 title: Home
 order: 1
 ---
-Website is under construction! Check back soon...
+Welcome to the homepage of the NLP group at the University of Pennsylvania.
+Check out our <a href="people.html">current faculty and students</a>, <a href="alumni.html">long list of alumni</a>, or our <a href="clunch.html">weekly seminar series</a>.
