@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CLunch
-order: 4
+order: 3
 ---
 CLunch is the weekly <b>c</b>omputational linguistics <b>lunch</b> run by the NLP group.
 We invite external and internal speakers to come and present their research on natural language processing, computational linguistics, and machine learning.
