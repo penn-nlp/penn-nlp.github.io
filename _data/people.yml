@@ -1,3 +1,8 @@
+- name: Oshin Agarwal
+  status: "phd"
+  img: assets/img/oshin_agarwal.jpg
+  url: https://www.seas.upenn.edu/~oagarwal/
+
 - name: "Chris Callison-Burch"
   status: "faculty"
   img: assets/img/chris_callison_burch.jpg
