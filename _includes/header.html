@@ -6,7 +6,7 @@
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     <div style="display: flex; align-items: center">
       <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-      <img src="assets/img/penn_shield_small.png" width=25 style="margin-left: 10px"/>
+      <img src="assets/img/penn_shield_small.png" width=25 style="margin-left: 10px; margin-top: 2.5px"/>
     </div>
 
     {%- if titles_size > 0 -%}
