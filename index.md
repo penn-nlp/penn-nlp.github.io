@@ -4,5 +4,6 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 title: Home
+order: 1
 ---
 Website is under construction! Check back soon...

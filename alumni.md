@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Alumni
+order: 3
 ---
 <h1>Alumni</h1>
 Missing from this list? New position? Contact <a href="http://danieldeutsch.github.io">Dan Deutsch</a> for help.

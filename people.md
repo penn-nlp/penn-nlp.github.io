@@ -1,6 +1,7 @@
 ---
 layout: default
 title: People
+order: 2
 ---
 <style type="text/css">
   .people {
