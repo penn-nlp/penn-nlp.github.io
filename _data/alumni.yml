@@ -1,3 +1,27 @@
+- name: Anne Cocos
+  degree: Ph.D.
+  year: 2019
+  current:
+  url: http://acocos.github.io/
+
+- name: "Daniel Khashabi"
+  degree: Ph.D.
+  year: 2019
+  current:
+  url: http://www.cis.upenn.edu/~danielkh/
+
+- name: "Joao Sedoc"
+  degree: Ph.D.
+  year: 2019
+  current:
+  url: https://sites.google.com/site/jsedoc/home
+
+- name: "Shyam Upadhyay"
+  degree: Ph.D.
+  year: 2019
+  current:
+  url: http://shyamupa.com/
+
 - name: Junyi (Jessy) Li
   degree: Ph.D.
   year: 2017
