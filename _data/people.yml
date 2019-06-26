@@ -122,6 +122,11 @@
   img: assets/img/xiaodong_yu.jpg
   url: https://www.xiaodongyu.me/
 
+- name: Harry Zhang
+  status: phd
+  img: assets/img/harry_zhang.jpg
+  url: http://zharry.com/
+
 - name: Ben Zhou
   status: "phd"
   img: assets/img/ben_zhou.jpg
