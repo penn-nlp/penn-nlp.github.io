@@ -13,6 +13,11 @@
   img: assets/img/spencer_caplan.png
   url: http://www.spencercaplan.org/
 
+- name: Muhao Chen
+  status: "postdoc"
+  img: assets/img/muhao_chen.jpg
+  url: http://yellowstone.cs.ucla.edu/~muhao/
+
 - name: "Sihao Chen"
   status: "phd"
   img: assets/img/sihao_chen.jpg
@@ -92,10 +97,20 @@
   img: assets/img/dan_roth.jpg
   url: http://www.cis.upenn.edu/~danroth/
 
+- name: "Elior Sulem"
+  status: postdoc
+  img: assets/img/elior_sulem.jpg
+  url: http://www.cs.huji.ac.il/~eliors/
+
 - name: "Lyle Ungar"
   status: "faculty"
   img: assets/img/lyle_ungar.jpg
   url: http://www.seas.upenn.edu/~ungar/
+
+- name: Hongzhi Xu
+  status: postdoc
+  img: assets/img/hongzhi_xu.jpg
+  url: https://www.seas.upenn.edu/~xh/index.html
 
 - name: "Charles Yang"
   status: "faculty"
