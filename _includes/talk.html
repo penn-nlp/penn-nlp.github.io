@@ -1,0 +1,14 @@
+<div>
+  <p style="margin-bottom: 0px; font-size: 14pt">
+    {% if include.url != null %}
+      <a href="{{ include.url }}">{{ include.speaker }}</a>
+    {% else %}
+      {{ include.speaker }}
+    {% endif %}
+  </p>
+  <p style="margin-bottom: 10px">{{ include.date }}</p>
+  <p style="margin-bottom: 0px"><i>{{ include.title }}</i></p>
+  <p>{{include.abstract }}</p>
+  <hr />
+  <p></p>
+</div>

@@ -1,0 +1,11 @@
+# The CLunch talks can be added to this file. They will appear on the website
+# in the order that they appear here, so they should be listed in
+# reverse-chronological order.
+#
+# Here is the template for an entry:
+#
+# - speaker: Name of the Speaker
+#   url: http://speakers-website.com
+#   date: June 26, 2019
+#   title: The talk of the title goes here.
+#   abstract: The abstract of the talk will go here.
