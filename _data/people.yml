@@ -8,6 +8,11 @@
   img: assets/img/chris_callison_burch.jpg
   url: http://www.cis.upenn.edu/~ccb/
 
+- name: "Spencer Caplan"
+  status: "phd"
+  img: assets/img/spencer_caplan.png
+  url: http://www.spencercaplan.org/
+
 - name: "Sihao Chen"
   status: "phd"
   img: assets/img/sihao_chen.jpg

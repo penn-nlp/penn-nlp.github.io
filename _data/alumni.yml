@@ -58,6 +58,12 @@
   current: Postdoc, Chinese Academies of Science
   url:
 
+- name: Kyle Gorman
+  degree: Ph.D.
+  year: 2013
+  current: Assistant Professor, CUNY Graduate Center
+  url: http://wellformedness.com/
+
 - name: Annie Louis
   degree: Ph.D.
   year: 2013
@@ -67,14 +73,14 @@
 - name: Constantine Lignos
   degree: Ph.D.
   year: 2013
-  current: Post-Doctoral Fellow, Children's Hospital of Philadelphia
+  current: Assistant Professor, Brandeis University
   url: http://lignos.org/
 
 - name: Lucas Champollion
   degree: Ph.D.
   year: 2010
-  current: PostDoc, Eberhard Karls University of Tübingen
-  url: http://www.ling.upenn.edu/~champoll/
+  current: Associate Professor, NYU
+  url: https://champollion.com/
 
 - name: Nikhil Dinesh
   degree: Ph.D.
@@ -85,8 +91,8 @@
 - name: Ryan Gabbard
   degree: Ph.D.
   year: 2010
-  current: BBN
-  url: http://www.seas.upenn.edu/~gabbard
+  current: ISI
+  url: https://www.isi.edu/people/gabbard/about
 
 - name: Kuzman Ganchev
   degree: Ph.D.
@@ -121,8 +127,8 @@
 - name: Liang Huang
   degree: Ph.D.
   year: 2008
-  current: Computer Scientist, Information Sciences Institute
-  url:
+  current: Assistant Professor, Oregon State University
+  url: http://web.engr.oregonstate.edu/~huanlian/
 
 - name: Edward Loper
   degree: Ph.D.
