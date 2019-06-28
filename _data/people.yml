@@ -97,10 +97,18 @@
   img: assets/img/dan_roth.jpg
   url: http://www.cis.upenn.edu/~danroth/
 
+- name: Jennifer Sheffield
+  status: staff
+  img: assets/img/jennifer_sheffield.jpg
+
 - name: "Elior Sulem"
   status: postdoc
   img: assets/img/elior_sulem.jpg
   url: http://www.cs.huji.ac.il/~eliors/
+
+- name: Hegler Tissot
+  status: staff
+  img: assets/img/hegler_tissot.jpg
 
 - name: "Lyle Ungar"
   status: "faculty"

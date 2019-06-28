@@ -27,6 +27,17 @@ order: 1
   </div>
 </p>
 
+<h2>Research Staff</h2>
+<p>
+  <div class="people">
+    {% for person in site.data.people %}
+      {% if person.status == "staff" %}
+        {% include person.html name=person.name img=person.img url=person.url %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</p>
+
 <h2>Postdocs</h2>
 <p>
   <div class="people">
