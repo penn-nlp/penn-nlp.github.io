@@ -265,8 +265,8 @@
 - name: Anoop Sarkar
   degree: Ph.D.
   year: 2002
-  current: Assistant Professor, Simon Fraser University
-  url:
+  current: Professor, Simon Fraser University
+  url: https://www.cs.sfu.ca/~anoop/
 
 - name: Jason Eisner
   degree: Ph.D.
@@ -277,8 +277,8 @@
 - name: Fei Xia
   degree: Ph.D.
   year: 2001
-  current: Assistant Professor, University of Washington
-  url:
+  current: Professor, University of Washington
+  url: https://faculty.washington.edu/fxia/
 
 - name: Seth Kulick
   degree: Ph.D.
@@ -313,7 +313,7 @@
 - name: Adwait Ratnaparkhi
   degree: Ph.D.
   year: 1998
-  current: Yahoo
+  current: Director, Voice and NLU R&D, Roku
   url:
 
 - name: Matthew Stone
@@ -322,11 +322,11 @@
   current: Professor, Rutgers
   url:
 
-- name: B.Srinivas
+- name: Srinivas Bangalore
   degree: Ph.D.
   year: 1997
-  current: Research Scientist, AT&T Labs
-  url:
+  current: Director of AI Research, Interactions LLC
+  url: https://sbangalore.com/
 
 - name: David Yarowsky
   degree: Ph.D.
@@ -337,14 +337,14 @@
 - name: James Henderson
   degree: Ph.D.
   year: 1994
-  current: University of Edinburgh
-  url:
+  current: University of Geneva
+  url: http://cui.unige.ch/~hendersj/
 
 - name: Owen Rambow
   degree: Ph.D.
   year: 1994
-  current: Research Scientist, Columbia University
-  url:
+  current: Research Scientist, Elemental Cognition
+  url: https://owenrambow.com/
 
 - name: Philip Resnik
   degree: Ph.D.
@@ -355,7 +355,7 @@
 - name: Eric Brill
   degree: Ph.D.
   year: 1993
-  current: Senior Researcher, Microsoft Research
+  current: VP Research, eBay
   url:
 
 - name: Jeff Reynar
@@ -373,8 +373,8 @@
 - name: Robert Frank
   degree: Ph.D.
   year: 1992
-  current: Professor Cognitive Science, Johns Hopkins
-  url:
+  current: Professor & Chair, Linguistics, Yale
+  url: https://ling.yale.edu/people/robert-frank
 
 - name: Robert Rubinoff
   degree: Ph.D.
@@ -457,7 +457,7 @@
 - name: Ralph Weischedel
   degree: Ph.D.
   year: 1975
-  current: BBN
+  current: ISI Boston
   url:
 
 - name: Johnson Hart
