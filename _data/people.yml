@@ -23,6 +23,16 @@
   img: assets/img/sihao_chen.jpg
   url: https://www.seas.upenn.edu/~sihaoc/
 
+- name: Sunghye Cho
+  stats: postdoc
+  img: assest/img/sunghye_cho.png
+  url: http://www.sunghyecho.com/
+
+- name: Christopher Cieri
+  status: staff
+  img: assets/img/christopher_cieri.png
+  url: https://www.ldc.upenn.edu/staff/christopher-cieri
+
 - name: "Soham Dan"
   status: "phd"
   img: assets/img/soham_dan.jpg
@@ -96,6 +106,11 @@
   status: "faculty"
   img: assets/img/dan_roth.jpg
   url: http://www.cis.upenn.edu/~danroth/
+
+- name: Neville Ryant
+  status: staff
+  img: assets/img/default_male.jpg
+  url: https://www.ldc.upenn.edu/staff/neville-ryant
 
 - name: Jennifer Sheffield
   status: staff
