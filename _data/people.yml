@@ -67,6 +67,11 @@
   img: assets/img/daphne_ippolito.jpg
   url: http://www.seas.upenn.edu/~daphnei/
 
+- name: Aditya Kashyap
+  status: phd
+  img: assets/img/aditya_kashyap.png
+  url:
+
 - name: "Jordan Kodner"
   status: "phd"
   img: assets/img/jordan_kodner.png
