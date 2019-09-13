@@ -6,6 +6,21 @@
 #
 # - speaker: Name of the Speaker
 #   url: http://speakers-website.com
+#   affiliation: University Name
 #   date: June 26, 2019
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
+
+- speaker: Reno Kriz
+  url: https://rekriz11.github.io/
+  affiliation: University of Pennsylvania
+  date: September 17, 2019
+  title: Comparison of Diverse Decoding Methods from Conditional Language Models
+  abstract: While conditional language models have greatly improved in their ability to output high-quality natural language, many NLP applications benefit from being able to generate a diverse set of candidate sequences. Diverse decoding strategies aim to, within a given-sized candidate list, cover as much of the space of high-quality outputs as possible, leading to improvements for tasks that re-rank and combine candidate outputs. Standard decoding methods, such as beam search, optimize for generating high likelihood sequences rather than diverse ones, though recent work has focused on increasing diversity in these methods. We conduct an extensive survey of decoding-time strategies for generating diverse outputs from conditional language models. We also show how diversity can be improved without sacrificing quality by over-sampling additional candidates, then filtering to the desired number.
+
+- speaker: Daphne Ippolito
+  url: http://www.seas.upenn.edu/~daphnei/
+  affiliation: University of Pennsylvania
+  date: September 17, 2019
+  title: Detecting whether Text is Human- or Machine-Generated
+  abstract: With the advent of generative models with a billion parameters or more, it is now possible to automatically generate vast amounts of human-sounding text. But just how human-like is this machine-generated text? Intuitively, shorter amounts of machine-generated text are harder to detect, but exactly how many words can a machine generate and still fool both humans and trained discriminators? We investigate how the choices of sampling strategy and text sequence length impact discriminability from human-written text, using both automatic detection methods and human judgement.

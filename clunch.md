@@ -12,10 +12,10 @@ Interested in attending CLunch? Sign up for our mailing list [here](http://lists
 {% assign talks_size = site.data.clunch | size %}
 {% if talks_size > 0 %}
   <p>
-  <h2>Previous Talks</h2>
+  <h2>Talks</h2>
 
   {% for talk in site.data.clunch %}
-    {% include talk.html speaker=talk.speaker url=talk.url title=talk.title abstract=talk.abstract date=talk.date %}
+    {% include talk.html speaker=talk.speaker url=talk.url title=talk.title abstract=talk.abstract date=talk.date affiliation=talk.affiliation %}
   {% endfor %}
   </p>
 {% endif %}
