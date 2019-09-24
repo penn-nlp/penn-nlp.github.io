@@ -11,6 +11,13 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Robert Shaffer
+  url: https://global.upenn.edu/perryworldhouse/person/robert-shaffer
+  affiliation: University of Pennsylvania
+  date: September 24, 2019
+  title: Similarity Inference for Legal Texts
+  abstract: Quantifying similarity between pairs of documents is a ubiquitous task. Both researchers and members of the public frequently use document-level pairwise similarity measures to describe or explore unfamiliar corpora, or to test hypotheses regarding diffusion of ideas between authors. High-level similarity measures are particularly useful when dealing with legal or political corpora, which often contain long, thematically diverse, and specialized language that is difficult for non-experts to interpret. Unfortunately, though similarity estimation is a well-studied problem in the context of short documents and document excerpts, less attention has been paid to the problem of similarity inference for long documents.
+
 - speaker: Reno Kriz
   url: https://rekriz11.github.io/
   affiliation: University of Pennsylvania
