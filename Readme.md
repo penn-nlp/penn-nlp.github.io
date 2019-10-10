@@ -1,5 +1,5 @@
 ## How to make any changes to the website
-If you want to make any changes to the website, first fork the repository, make your changes to your forked version, and then submit a pull request.
+If you want to make any changes to the website, first fork the repository, make your changes to your forked version, and then submit a pull request.  
 
 ## How to add someone to the people page
 To add a new person to the people page (`/people.html`), add a new entry to `_data/people.yml`.
@@ -14,3 +14,16 @@ See [this pull request](https://github.com/penn-nlp/penn-nlp.github.io/pull/3) f
 ## How to add someone to the alumni page
 To add a new person to the alumni page (`/alumni.html`), create a new entry in `_data/alumni.yml`.
 The entries should be sorted by graduation year followed by last name.
+
+
+## How to run the website locally
+
+Before submitting a pull request, it would be great if you can test that your changes didn't inadvertently break the web site.  You can test the website locally by running the jekyll.  In your `penn-nlp.github.io/` directory run:
+```bash
+gem install bundler
+sudo gem install nokogiri -v '1.10.4' 
+sudo bundle update
+sudo bundle install
+bundle exec jekyll serve
+```
+You can then point your web browser to [http://127.0.0.1:4000](http://127.0.0.1:4000) to look at your changes.
