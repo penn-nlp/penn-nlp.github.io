@@ -22,10 +22,10 @@ Before submitting a pull request, it would be great if you can test that your ch
 ```bash
 # You need the run the following steps only once to get set up:
 gem install bundler
-sudo gem install github-pages
-sudo gem install nokogiri -v '1.10.4' 
-sudo bundle update
-sudo bundle install
+gem install github-pages
+gem install nokogiri -v '1.10.4' 
+bundle update
+bundle install
 # Run this command each time you make a change to the content:
 bundle exec jekyll serve
 ```
