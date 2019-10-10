@@ -102,11 +102,6 @@
   img: assets/img/mitch_marcus.jpg
   url: http://www.cis.upenn.edu/~mitch/
 
-- name: "Stephen Mayhew"
-  status: "phd"
-  img: assets/img/stephen_mayhew.jpg
-  url: http://mayhewsw.github.io/
-
 - name: "Ani Nenkova"
   status: "faculty"
   img: assets/img/ani_nenkova.jpg
