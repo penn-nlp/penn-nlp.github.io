@@ -18,15 +18,19 @@ The entries should be sorted by graduation year followed by last name.
 
 ## How to run the website locally
 
-Before submitting a pull request, it would be great if you can test that your changes didn't inadvertently break the web site. You can test the website locally by running jekyll in your `penn-nlp.github.io/` directory run:
+Before submitting a pull request, it would be great if you can test that your changes didn't inadvertently break the web site. You can test the website locally by running jekyll in your `penn-nlp.github.io/` directory. 
+
+First, you'll need to get the jekyll dependencies that we use.  You should only need the run these once:
 ```bash
-# You need the run the following steps only once to get set up:
 gem install bundler
 gem install github-pages
 gem install nokogiri -v '1.10.4' 
 bundle update
 bundle install
-# Run this command each time you make a change to the content:
+```
+
+Whenever you make changes to the web site content, you can run this command to test the website locally:
+```bash
 bundle exec jekyll serve
 ```
 You can then point your web browser to [http://127.0.0.1:4000](http://127.0.0.1:4000) to look at your changes.
