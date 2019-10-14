@@ -11,6 +11,16 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Jithin Pradeep
+  affiliation: The Vanguard Group
+  date: October 15, 2019
+  title: ArSI - Artificial Speech Intelligence - An end to end automatic speech recognition using Attention plus CTC
+
+- speaker: Shi Yu
+  affiliation: The Vanguard Group
+  date: October 15, 2019
+  title: A Financial Service Chatbot based on Deep Bidirectional Transformers
+
 - speaker: Christopher Lynn
   url: https://web.sas.upenn.edu/chlynn/
   affiliation: University of Pennsylvania
