@@ -11,6 +11,12 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Katharina Kann
+  affiliation: New York University
+  date: October 22, 2019
+  title: Neural Networks for Morphological Generation in the Minimal-Resource Setting
+  abstract: As languages other than English are moving more and more into the focus of natural language processing, accurate handling of morphology is increasing in importance. This talk presents neural network-based approaches to morphological generation, casting the problem as a character-based sequence-to-sequence task. First, we will generally discuss how to successfully train neural sequence-to-sequence models for this. Then, since many morphologically rich languages only have limited resources, the main part of the talk will focus on how to overcome the challenges that limited amounts of annotated training data pose to neural models. The approaches covered in this talk include multi-task learning, cross-lingual transfer learning, and meta-learning.
+
 - speaker: Jithin Pradeep
   affiliation: The Vanguard Group
   date: October 15, 2019
