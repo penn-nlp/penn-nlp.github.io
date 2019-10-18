@@ -12,6 +12,7 @@
 #   abstract: The abstract of the talk will go here.
 
 - speaker: Katharina Kann
+  url: https://cs.nyu.edu/~kann/
   affiliation: New York University
   date: October 22, 2019
   title: Neural Networks for Morphological Generation in the Minimal-Resource Setting
