@@ -11,6 +11,27 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Daniel Deutsch
+  url: https://danieldeutsch.github.io/
+  affiliation: University of Pennsylvania
+  date: October 29, 2019
+  title: A General-Purpose Algorithm for Constrained Sequential Inference
+  abstract: Inference in structured prediction involves finding the best output structure for an input, subject to certain constraints. Many current approaches use sequential inference, which constructs the output in a left-to-right manner. However, there is no general framework to specify constraints in these approaches. We present a principled approach for incorporating constraints into sequential inference algorithms. Our approach expresses constraints using an automaton, which is traversed in lock-step during inference, guiding the search to valid outputs. We show that automata can express commonly used constraints and are easily incorporated into sequential inference. When it is more natural to represent constraints as a set of automata, our algorithm uses an active set method for demonstrably fast and efficient inference. We experimentally show the benefits of our algorithm on constituency parsing and semantic role labeling. For parsing, unlike unconstrained approaches, our algorithm always generates valid output, incurring only a small drop in performance. For semantic role labeling, imposing constraints using our algorithm corrects common errors, improving F1 by 1.5 points. These benefits increase in low-resource settings. Our active set method achieves a 5.2x relative speed-up over a naive approach.
+
+- speaker: Daniel Deutsch
+  url: https://danieldeutsch.github.io/
+  affiliation: University of Pennsylvania
+  date: October 29, 2019
+  title: Summary Cloze: A New Task for Content Selection in Topic-Focused Summarization
+  abstract: A key challenge in topic-focused summarization is determining what information should be included in the summary, a problem known as content selection. In this work, we propose a new method for studying content selection in topic-focused summarization called the summary cloze task. The goal of the summary cloze task is to generate the next sentence of a summary conditioned on the beginning of the summary, a topic, and a reference document(s). The main challenge is deciding what information in the references is relevant to the topic and partial summary and should be included in the summary. Although the cloze task does not address all aspects of the traditional summarization problem, the more narrow scope of the task allows us to collect a large-scale datset of nearly 500k summary cloze instances from Wikipedia. We report experimental results on this new dataset using various extractive models and a two-step abstractive model that first extractively selects a small number of sentences and then abstractively summarizes them. Our results show that the topic and partial summary help the models identify relevant content, but the task remains a significant challenge.
+
+- speaker: Ben Zhou
+  url: http://xuanyu.me/
+  affiliation: University of Pennsylvania
+  date: October 29, 2019
+  title: "Going on a vacation" takes longer than "Going for a walk": A Study of Temporal Commonsense Understanding
+  abstract: Understanding time is crucial for understanding events expressed in natural language. Because people rarely say the obvious, it is often necessary to have commonsense knowledge about various temporal aspects of events, such as duration, frequency, and temporal order. However, this important problem has so far received limited attention. This paper systematically studies this temporal commonsense problem. Specifically, we define five classes of temporal commonsense, and use crowdsourcing to develop a new dataset, MCTACO, that serves as a test set for this task. We find that the best current methods used on MCTACO are still far behind human performance, by about 20%, and discuss several directions for improvement. We hope that the new dataset and our study here can foster more future research on this topic.
+
 - speaker: Katharina Kann
   url: https://cs.nyu.edu/~kann/
   affiliation: New York University
