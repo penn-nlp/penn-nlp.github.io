@@ -11,6 +11,13 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Hangfeng He
+  url: https://hornhehhf.github.io/hangfenghe/
+  affiliation: University of Pennsylvania
+  date: November 19, 2019
+  title: Distributed Semantic Representations from Question-Answering Signals
+  abstract: Human annotations, especially those from experts, are costly for many natural language processing (NLP) tasks. One emerging approach is to use natural language to annotate natural language, but it is challenging to get supervision effectively from annotations that are very different from the target task. This paper studies the case where the annotations are in the format of question answering (QA). We propose a novel approach to retrieve two types of semantic representations from QA, using which we can consistently improve on a suite of tasks. This work may have pointed out an alternative way to supervise NLP tasks.
+
 - speaker: Shuai Tang
   url: https://shuaitang.github.io/
   affiliation: University of California, San Diego
