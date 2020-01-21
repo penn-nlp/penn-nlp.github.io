@@ -11,6 +11,13 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Nick Montfort
+  url: http://nickm.com/
+  affiliation: Massachusetts Institute of Technology
+  date: January 23, 2020
+  title: Lean Computer-Generated Poetry as Exploration of Language, Culture, and Computation
+  abstract: "Computational poetics is a compelling area of NLP. Poetry has helped to constitute cultures for millennia and its composition is considered one of the most human activities. On the generation side, computational poetics involves the production of poetic language, potentially with meter, rhyme and other forms of musicality, metaphors and their cousins, narrative aspects, and intertextual references. Essentially, the main objective of computationally generated poetry is being culturally and individually resonant for at least some readers or listeners in some cultures. There are a wide variety of approaches, some of which seek to model human creativity, as in the computational creativity community. Work in the area is undertaken by academic researchers, poets and artists, and programmers seeking amusement and diversion during events such as NaNoGenMo (National Novel Generation Month), which accommodates the generation of all sorts of large-scale literature, including poetry. In my talk, I will introduce my own practice as a computational poet, which does not involve developing general models of human creativity. My practice is often considered experimental and sometimes conceptual; it is not, in any case, expressive, that is, mainly concerned with my experiences or with conveying my emotions. Rather, I consider myself a situated and embodied explorer of language, culture, and computation. My means of exploration is the development of computational poetry. My practice involves writing programs that are usually small and simple, based on specific unusual lexicons and combinatorial techniques. As part of inquiring about computation, my work connects with platform studies and deals with specifics of particular computers and programming languages. As I share and discuss some of my specific computational poems, I will describe how this type of NLG work touches on questions of language and thought as studied in, for instance, linguistics, cognitive science, and conventional poetics."
+
 - speaker: Adam Poliak
   url: https://www.cs.jhu.edu/~apoliak1/
   affiliation: Johns Hopkins University
