@@ -16,13 +16,12 @@
   affiliation: Carnegie Mellon University
   date: January 30, 2020
   title: Injecting output constraints into neural NLP models in a model agnostic way
-  abstract: "The talk discusses a particular method of injecting constraints into neural models, primarily for natural language processing (NLP) tasks. While neural models have set the new state of the art performance in many tasks from vision to NLP, they often fail to learn simple rules necessary for well-formed structures unless there is an immense amount of training data. The talk claims that not all the aspects of the model have to be learned from the data itself and injecting simple knowledge/constraints into the neural models can help low-resource tasks as well as improving state-of-the-art models.
+  abstract: |+
+    The talk discusses a particular method of injecting constraints into neural models, primarily for natural language processing (NLP) tasks. While neural models have set the new state of the art performance in many tasks from vision to NLP, they often fail to learn simple rules necessary for well-formed structures unless there is an immense amount of training data. The talk claims that not all the aspects of the model have to be learned from the data itself and injecting simple knowledge/constraints into the neural models can help low-resource tasks as well as improving state-of-the-art models.
 
+    The talk focuses on the structural knowledge of the output space and injects knowledge of correct or preferred structures as an objective to the model in a model-agnostic way, i.e. without modification to the model structure. The first benefit of focusing on the knowledge of output space is that it is intuitive as we can directly enforce outputs to satisfy logical/linguistic constraints. Another advantage of structural knowledge is that it often does not require a labeled dataset.
 
-  The talk focuses on the structural knowledge of the output space and injects knowledge of correct or preferred structures as an objective to the model in a model-agnostic way, i.e. without modification to the model structure. The first benefit of focusing on the knowledge of output space is that it is intuitive as we can directly enforce outputs to satisfy logical/linguistic constraints. Another advantage of structural knowledge is that it often does not require a labeled dataset.
-
-
-  Focusing on the example of Semantic Role Labeling and its constraints related to the syntactic parse tree, the talk showcases the efficacy of the proposed inference algorithm and the proposed semi-supervised learning."
+    Focusing on the example of Semantic Role Labeling and its constraints related to the syntactic parse tree, the talk showcases the efficacy of the proposed inference algorithm and the proposed semi-supervised learning.
 
 - speaker: Nick Montfort
   url: http://nickm.com/
