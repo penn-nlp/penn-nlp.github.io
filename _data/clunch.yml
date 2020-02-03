@@ -11,6 +11,13 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Noam Slonim
+  url: https://researcher.watson.ibm.com/researcher/view.php?person=il-NOAMS
+  affiliation: IBM
+  date: February 6, 2020
+  title: Project Debater – How Persuasive can a Computer be?
+  abstract: Project Debater is the first AI system that can meaningfully debate a human opponent. The system, an IBM Grand Challenge, is designed to build coherent, convincing speeches on its own, as well as provide rebuttals to the opponent’s main arguments. In 2019, Project Debater competed against Harish Natarajan, who holds the world record for most debate victories, in an event held in San Francisco that was broadcasted live world-wide. In this talk I will tell the story of Project Debater, from conception to a climatic final event, describe its underlying technology, and discuss how it can be leveraged for advancing decision making and critical thinking.
+
 - speaker: Jay-Yoon Lee
   url: https://www.andrew.cmu.edu/user/jaylee/
   affiliation: Carnegie Mellon University
