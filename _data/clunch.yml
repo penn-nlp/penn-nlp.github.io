@@ -11,6 +11,13 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Nitish Gupta
+  url: https://nitishgupta.github.io/
+  affiliation: University of Pennsylvania
+  date: February 13, 2020
+  title: Neural Module Networks for Reasoning over Text
+  abstract: Answering compositional questions that require multiple steps of reasoning against text is challenging, especially when they involve discrete, symbolic operations. Neural module networks (NMNs) learn to parse such questions as executable programs composed of learnable modules, performing well on synthetic visual QA domains. In this talk, I will outline the challenges in learning these models for non-synthetic questions on open-domain text, where a model needs to deal with the diversity of natural language and perform a broader range of reasoning. Then, I will present how we extend NMNs by: (a) introducing modules that reason over a paragraph of text, performing symbolic reasoning (such as arithmetic, sorting, counting) over numbers and dates in a probabilistic and differentiable manner; and (b) proposing an unsupervised auxiliary loss to help extract arguments associated with the events in text. Additionally, we show that a limited amount of heuristically-obtained question program and intermediate module output supervision provides sufficient inductive bias for accurate learning. In conclusion, I will present methods for achieving interpretability in such compositional neural models and challenges for future research.
+
 - speaker: Noam Slonim
   url: https://researcher.watson.ibm.com/researcher/view.php?person=il-NOAMS
   affiliation: IBM
