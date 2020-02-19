@@ -11,6 +11,13 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Connecting the Dots between Learning Paradigms
+  url: http://www.cs.cmu.edu/~zhitingh/
+  affiliation: Carnegie Mellon University
+  date: February 20, 2020
+  title: Connecting the Dots between Learning Paradigms
+  abstract: Continued research has created a diverse set of learning algorithms for ingesting distinct forms of experience (e.g. data, cost, knowledge constraints). However, it is often challenging for practitioners to choose or adapt solutions from such a bewildering marketplace of algorithms, as it could demand deep ML expertise and bespoke innovations. This talk will present an attempt to systematize several paradigms of algorithms for both a unifying understanding and new systematic methodologies of creating ML solutions. I will show that some of the popular algorithms in supervised learning, constraint-driven learning, reinforcement learning, etc, indeed share a common succinct formulation, showing that different forms of experience can be used for learning in the same way. The unifying representation of algorithms allows us to methodically exchange solutions between paradigms, and learn from combinations of experience jointly, for complex problems such as text and image generation. 
+
 - speaker: Nitish Gupta
   url: https://nitishgupta.github.io/
   affiliation: University of Pennsylvania
