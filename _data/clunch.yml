@@ -11,6 +11,13 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Mohammad Sadegh Rasooli
+  url: https://rasoolims.github.io/about/
+  affiliation: University of Pennsylvania
+  date: February 27, 2020
+  title: Cross-Lingual Transfer of Natural Language Processing Systems
+  abstract: "Accurate natural language processing systems rely heavily on annotated datasets. In the absence of such datasets, transfer methods can help to develop a model by transferring annotations from one or more rich-resource languages to the target language of interest. These methods are generally divided into two approaches: 1) annotation projection from translation data, aka parallel data, using supervised models in rich-resource languages, and 2) direct model transfer from annotated datasets in rich-resource languages. In this talk, we present different methods for transfer of syntactic and semantic dependency parsers. We propose an annotation projection method that performs well in scenarios for which a large amount of in-domain parallel data is available. We also propose a method which is a combination of annotation projection and direct model transfer that can leverage a minimal amount of information from a small out-of-domain parallel dataset to develop highly accurate transfer models. Furthermore, we present an unsupervised syntactic reordering model to improve the accuracy of dependency parser transfer for non-European languages. We also propose a method for cross-lingual transfer of dependency parsing based on multi-task learning by leveraging supervised syntactic information in the target language of interest. Finally, we introduce our current efforts for learning cross-lingual representations using information from different modalities especially from images in the massively multilingual image dataset (MMID)."
+
 - speaker: Zhiting Hu
   url: http://www.cs.cmu.edu/~zhitingh/
   affiliation: Carnegie Mellon University
