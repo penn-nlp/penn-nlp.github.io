@@ -11,6 +11,13 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Matt Gardner
+  url: https://matt-gardner.github.io/
+  affiliation: Allen Institute for Artificial Intelligence
+  date: March 5, 2020
+  title: NLP Evaluations That We Believe In
+  abstract: "With all of the modeling advancements in recent years, NLP benchmarks have been falling over left and right: \"human performance\" has been reached on SQuAD 1 and 2, GLUE and SuperGLUE, and many commonsense datasets.  Yet no serious researcher actually believes that these systems understand language, or even really solve the underlying tasks behind these datasets.  To get benchmarks that we actually believe in, we need to both think more deeply about the language phenomena that our benchmarks are targeting, and make our evaluation sets more rigorous.  I will first present ORB, an Open Reading Benchmark that collects many reading comprehension datasets that we (and others) have recently built, targeting various aspects of what it means to read.  I will then present contrast sets, a way of creating non-iid test sets that more thoroughly evaluate a model's abilities on some task, decoupling training data artifacts from test labels."
+
 - speaker: Mohammad Sadegh Rasooli
   url: https://rasoolims.github.io/about/
   affiliation: University of Pennsylvania
