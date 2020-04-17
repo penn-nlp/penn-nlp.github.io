@@ -135,11 +135,6 @@
   img: assets/img/lyle_ungar.jpg
   url: http://www.seas.upenn.edu/~ungar/
 
-- name: Hongzhi Xu
-  status: postdoc
-  img: assets/img/hongzhi_xu.jpg
-  url: https://www.seas.upenn.edu/~xh/index.html
-
 - name: "Charles Yang"
   status: "faculty"
   img: assets/img/charles_yang.jpg
