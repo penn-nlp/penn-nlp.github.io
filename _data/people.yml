@@ -25,7 +25,7 @@
 
 - name: Sunghye Cho
   stats: postdoc
-  img: assest/img/sunghye_cho.png
+  img: assets/img/sunghye_cho.png
   url: http://www.sunghyecho.com/
 
 - name: Christopher Cieri
@@ -57,6 +57,11 @@
   status: "phd"
   img: assets/img/hangfeng_he.jpg
   url: https://hornhehhf.github.io/hangfenghe/
+
+- name: Alyssa Hwang
+  status: phd
+  img: assets/img/alyssa_hwang.jpg
+  url: http://alyssahwang.com/
 
 - name: "Rebecca Iglesias-Flores"
   status: "phd"
