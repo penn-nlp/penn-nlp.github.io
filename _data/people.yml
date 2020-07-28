@@ -140,6 +140,11 @@
   img: assets/img/charles_yang.jpg
   url: http://www.ling.upenn.edu/~ycharles/
 
+- name: Yue Yang
+  status: phd
+  img: assets/img/yue_yang.png
+  url: http://www.yueyang.host
+
 - name: Xiaodong Yu
   status: "phd"
   img: assets/img/xiaodong_yu.jpg
