@@ -117,6 +117,11 @@
   img: assets/img/ani_nenkova.jpg
   url: http://www.cis.upenn.edu/~nenkova/
 
+- name: Mohammad Sadegh Rasooli
+  status: postdoc
+  img: assets/img/mohammad_sadegh_rasooli.jpg
+  url: https://rasoolims.github.io/about/
+
 - name: "Dan Roth"
   status: "faculty"
   img: assets/img/dan_roth.jpg
