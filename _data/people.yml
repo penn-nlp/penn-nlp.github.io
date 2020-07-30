@@ -165,6 +165,11 @@
   img: assets/img/mark_yatskar.jpg
   url: http://markyatskar.com/
 
+- name: Weiqiu You
+  status: phd
+  img: assets/img/weiqiu_you.jpeg
+  url: http://fallcat.github.io/
+
 - name: Xiaodong Yu
   status: "phd"
   img: assets/img/xiaodong_yu.jpg
