@@ -160,6 +160,11 @@
   img: assets/img/yue_yang.png
   url: http://www.yueyang.host
 
+- name: Mark Yatskar
+  status: faculty
+  img: assets/img/mark_yatskar.jpg
+  url: http://markyatskar.com/
+
 - name: Xiaodong Yu
   status: "phd"
   img: assets/img/xiaodong_yu.jpg
