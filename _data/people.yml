@@ -107,6 +107,11 @@
   img: assets/img/danni_ma.jpg
   url:
 
+- name: Chaitanya Malaviya
+  status: phd
+  img: assets/img/chaitanya_malaviya.jpg
+  url: https://chaitanyamalaviya.github.io/
+
 - name: "Mitch Marcus"
   status: "faculty"
   img: assets/img/mitch_marcus.jpg
