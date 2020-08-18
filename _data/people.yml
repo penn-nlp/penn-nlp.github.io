@@ -53,6 +53,11 @@
   img: assets/img/nitish_gupta.png
   url: http://nitishgupta.github.io/
 
+- name: Samar Haider
+  status: phd
+  img: assets/img/samar_haider.jpg
+  url: https://samarh.github.io/
+
 - name: "Hangfeng He"
   status: "phd"
   img: assets/img/hangfeng_he.jpg
