@@ -11,6 +11,13 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Mohit Iyyer
+  url: https://people.cs.umass.edu/~miyyer/
+  affiliation: University of Massachusetts Amherst
+  date: September 14, 2020
+  title: Towards interactive story generation
+  abstract: "Story generation is difficult to computationally formalize and evaluate, and there are many important questions to ask when tackling the problem. What should we consider as the base unit of a story (e.g., a sentence? a paragraph? a chapter?) What kind of data should we use to train these models (novels? short stories? overly simplistic mechanically-turked paragraphs?) Is any model architecture currently capable of producing long-form narratives that have some semblance of coherent discourse structure, such as plot arcs and character development? When evaluating the outputs of our models, can we do better than just asking people to rate the text based on vaguely defined properties such as \"enjoyability\"? In this talk, I'll discuss my lab's ongoing work on story generation by introducing a new dataset and evaluation method that we hope will spur progress in this area. I'll then describe practical challenges (slow inference, unsecure models) that we face when deploying our models in real-world author-facing settings, along with some solutions we have developed to combat these challenges."
+
 - speaker: Matt Gardner
   url: https://matt-gardner.github.io/
   affiliation: Allen Institute for Artificial Intelligence
