@@ -122,6 +122,11 @@
   img: assets/img/mitch_marcus.jpg
   url: http://www.cis.upenn.edu/~mitch/
 
+- name: Lara Martin
+  status: postdoc
+  img: assets/img/lara_martin.jpg
+  url: http://laramartin.net/
+
 - name: "Ani Nenkova"
   status: "faculty"
   img: assets/img/ani_nenkova.jpg
