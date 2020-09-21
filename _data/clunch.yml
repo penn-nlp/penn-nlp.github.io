@@ -11,6 +11,13 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Dan Hopkins
+  url: http://web.sas.upenn.edu/danhop/
+  affiliation: University of Pennsylvania
+  date: September 21, 2020
+  title: The Polarization and Nationalization of American State Party Platforms, 1918-2017
+  abstract: The role of U.S. state political parties has changed substantially in recent decades. One common supposition is that contemporary state parties are increasingly polarized and nationalized, meaning that the Democratic and Republican parties adopt similar positions nationwide. Yet, the relationship between these shifts, the mechanisms underpinning them, and the extent to which they have unfolded similarly across states and issue areas remain open questions. We introduce a data set of 2,041 state party platforms to measure nationalization and polarization between 1918 and 2018. Applying tools from automated and manual content analysis, we find that there is a dramatic divergence in the topics covered in Democratic and Republican platforms starting in the early 1990s, at virtually the same time as federal-level rhetorical polarization. During this same period, the differences across states in platforms decreased and social issues became more prominent, suggesting a tight connection between polarization, nationalization, and social issues such as abortion.
+
 - speaker: Mohit Iyyer
   url: https://people.cs.umass.edu/~miyyer/
   affiliation: University of Massachusetts Amherst
