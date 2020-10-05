@@ -11,6 +11,13 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Mike Lewis
+  url: https://research.fb.com/people/lewis-mike/
+  affiliation: Facebook AI Research
+  date: October 5, 2020
+  title: Modelling Language and the World
+  abstract: Much recent progress in NLP has been driven by training language models on large unlabelled datasets. I will argue that language modelling requires both linguistic and world knowledge, but that these can be disentangled and modelled separately. First, I will describe kNN-LM, which shows how converting a language model into a nearest neighbor classifier can give large gains in performance, by giving the model access to facts in the training set during inference. I will then introduce MARGE, a new approach to pre-training sequence-to-sequence models with an unsupervised paraphrasing objective. This objective emphasises learning to paraphrase over memorizing facts. MARGE performs well on classification, generation and retrieval tasks in many languages, without supervision in some cases, making it arguably the most broadly applicable pre-trained model to date.
+
 - speaker: Dan Hopkins
   url: http://web.sas.upenn.edu/danhop/
   affiliation: University of Pennsylvania
