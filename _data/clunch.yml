@@ -11,6 +11,13 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Daniel Deutsch
+  url: https://danieldeutsch.github.io/
+  affiliation: University of Pennsylvania
+  date: October 12, 2020
+  title: Ongoing Work on Summarization Evaluation Metrics
+  abstract: In this talk, I will provide an overview of two ongoing works on summarization evaluation metrics. The first work analyzes the extent to which ROUGE and BERTScore actually measure the information overlap between two summaries. I show that they largely do not and propose an alternative method of comparing summarization systems which does and is interpretable. The second work focuses on using QA to evaluate summaries. After proposing a new QA-based metric, I benchmark its performance on current datasets, identify performance bottlenecks, and estimate its upper-bound performance, concluding QA is a promising future research direction.
+
 - speaker: Mike Lewis
   url: https://research.fb.com/people/lewis-mike/
   affiliation: Facebook AI Research
