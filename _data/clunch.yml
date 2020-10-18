@@ -11,6 +11,13 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Rui Zhang
+  url: https://ryanzhumich.github.io/
+  affiliation: Penn State University
+  date: October 19, 2020
+  title: Building Robust Conversational Question Answering Systems Over Databases of Tabular Data
+  abstract: A vast amount of information is stored in relational databases consisting of tables. These databases provide fundamental frameworks of data systems for business in various domains. In real-world applications, users would like to interact with databases for information requests just like talking to a human. However, querying databases requires proficiency in the SQL query language syntax and the knowledge of underlying table structures. Consequently, despite the enormous popularity of relational databases, the ability to retrieve information from these databases is still limited for many ordinary users. In this talk, I will describe some completed and ongoing efforts to build conversational question answering systems over databases of tabular data that is (1) robust to user queries by handling different types of user inputs, (2) conversational and interactive by conversing with users in a dialog setting with its reasoning ability over multi-turn contexts of interaction history, (3) explainable and verifiable by generating natural language explanations of system predicted SQL queries and execution results for user verification and feedback, (4) transferable and adaptable by quickly adapting to different domains and scenarios of databases.
+
 - speaker: Daniel Deutsch
   url: https://danieldeutsch.github.io/
   affiliation: University of Pennsylvania
