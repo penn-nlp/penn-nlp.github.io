@@ -11,6 +11,13 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Vivek Srikumar
+  url: https://svivek.com/
+  affiliation: University of Utah
+  date: November 2, 2020
+  title: "Where Neural Networks Fail: The Case for a Little Help from Knowledge"
+  abstract: "Today's dominant paradigm for modeling complex linguistic tasks calls for training neural networks by minimizing loss on massive datasets.  While the agenda is undeniably successful, we may not have the luxury of annotated data for every task or domain of interest.  Reducing dependence on labeled examples may require us to rethink how we supervise models. In this talk, I will discuss some failures of today's end-to-end trained neural networks. In particular, I will focus on two phenomena---societal stereotypes implicitly present in their decisions, and their inability to perform complex reasoning---both due to the models inability to internalize knowledge about the world. Following this, I will describe our work on using knowledge to inform neural networks without introducing additional parameters. Declarative rules stated in logic can be systematically compiled into computation graphs that augment the structure of neural models, and also into regularizers that can use labeled or unlabeled examples.  I will present experiments involving text understanding and semantic role labeling, which show that such declaratively constrained neural networks can successfully internalize the information in the rules, providing an easy-to-use mechanism for supervising neural networks that does not involve data annotation."
+
 - speaker: Liang Huang
   url: http://web.engr.oregonstate.edu/~huanlian/
   affiliation: Oregon State University/Baidu Research USA
