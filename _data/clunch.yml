@@ -11,6 +11,20 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Dragomir R. Radev
+  url: http://www.cs.yale.edu/homes/radev/
+  affiliation: Yale University
+  date: November 30, 2020
+  title: "Closing the Loop in Natural Language Interfaces to Relational Databases: Parsing, Dialogue, and Generation"
+  abstract: |
+    Natural Language is a very efficient method of communication among humans. However, when users want to talk to their computers, translating this NL to computer actions is a very challenging task. One possible way for such human-computer interaction is to translate NL sentences to database queries and then to convert the output of these queries back to NL. In order for such an approach to work, one needs to address several challenges: the lack of annotated question-query pairs, the discourse issues present in multi-turn questions, and the issues that arise in a dialogue context.
+
+    In this presentation, I will talk about recent work on natural language interfaces to databases. As part of the Yale Spider project, we have developed three new datasets and launched three matching shared tasks. Spider is a collection of 10,181 manually created natural language questions on databases from 138 domains, and the 5,693 database queries that correspond to them. SParC (Semantic Parsing in Context) consists of 4,298 coherent sequences of questions and the matching queries. Finally, CoSQL consists of WoZ 3k dialogues and a total of 30k turns, and their translations to SQL.
+
+    I will then introduce GraPPa, a pre-training approach for table semantic parsing that learns a compositional inductive bias in the joint representations of textual and tabular data. We used GraPPa to obtain SOTA performance on four popular fully supervised and weakly supervised table semantic parsing benchmarks.
+
+    Joint work with Tao Yu, Rui Zhang, Victoria Lin, Caiming Xiong, and many others.
+
 - speaker: Ellie Pavlick
   url: https://cs.brown.edu/people/epavlick/
   affiliation: Brown University/Google AI
