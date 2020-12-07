@@ -11,6 +11,16 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Rotem Dror
+  url: https://rtmdrr.github.io/
+  affiliation: University of Pennsylvania
+  date: December 7, 2020
+  title: Statistical Significance Testing for Natural Language Processing
+  abstract: |
+    Data-driven experimental analysis has become the main evaluation tool of Natural Language Processing (NLP) algorithms. In fact, in the last decade, it has become rare to see an NLP paper, particularly one that proposes a new algorithm, that does not include extensive experimental analysis, and the number of involved tasks, datasets, domains, and languages is constantly growing. This emphasis on empirical results highlights the role of statistical significance testing in NLP research: If we, as a community, rely on empirical evaluation to validate our hypotheses and reveal the correct language processing mechanisms, we better be sure that our results are not coincidental.
+
+    In this talk, I will go through the main chapters of the book in the title (https://www.morganclaypool.com/doi/abs/10.2200/S00994ED1V01Y202002HLT045) and answer the following questions: How to choose a valid statistical test for your experiments? How to perform statistical analysis when experimenting with multiple datasets? How to compare deep neural models in a statistically valid manner? And some more surprises...
+
 - speaker: Dragomir R. Radev
   url: http://www.cs.yale.edu/homes/radev/
   affiliation: Yale University
