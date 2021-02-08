@@ -11,6 +11,23 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Liang Huang
+  url: http://web.engr.oregonstate.edu/~huanlian/
+  affiliation: Oregon State University/Baidu Research USA
+  date: February 8, 2021
+  title: "Fighting COVID-19 using Parsing Algorithms and Grammar Formalisms"
+  abstract: |
+    To defeat the current COVID-19 pandemic, a messenger RNA (mRNA) vaccine has emerged as a promising approach thanks to its rapid and scalable production and non-infectious and non-integrating properties. However, designing an mRNA sequence to achieve high stability and protein yield remains a challenging problem due to the exponentially large search space (e.g., there are 2.4 x 10^632 possible mRNA sequence candidates for the spike protein of SARS-CoV-2). We describe two on-going efforts for this problem, both using linear-time algorithms inspired by my earlier work in natural language parsing. On one hand, the Eterna OpenVaccine project from Stanford Medical School takes a crowd-sourcing approach to let game players all over the world design stable sequences. To evaluate sequence stability (in terms of free energy), they use LinearFold from my group (2019) since it’s the only linear-time RNA folding algorithm available (which makes it the only one fast enough for COVID-scale genomes). On the other hand, we take a computational approach to directly search for the optimal sequence in this exponentially large space via dynamic programming. It turns out this problem can be reduced to a classical problem in formal language theory and computational linguistics (intersection between CFG and DFA), which can be solved in O(n^3) time, just like lattice parsing for speech. In the end, we can design the optimal mRNA vaccine candidate for SARS-CoV-2 spike protein in just about 10 minutes.
+
+    This talk is dedicated to the memory of my PhD advisor Aravind Joshi who taught me that linguistics and biology share the same mathematical foundations.
+
+- speaker: Lara Martin
+  url: https://laramartin.net/
+  affiliation: University of Pennsylvania
+  date: January 25, 2021
+  title: "Dungeons and Discourse: Using Computational Storytelling & Speech to Look at Natural Language Use"
+  abstract: "Although we are currently riding a technological wave of personal assistants, many of these agents still struggle to communicate appropriately. In particular, these systems lack coherence, the ability to adapt to novel situations, creativity, emotional understanding, and collaboration. My work focuses on creating open-world storytelling systems and developing agents that leverage speech understanding to communicate with humans more effectively. In this talk, I look at how tabletop roleplaying games such as Dungeons & Dragons can be used as motivation for how to improve conversational systems and understand how people communicate."
+
 - speaker: Rotem Dror
   url: https://rtmdrr.github.io/
   affiliation: University of Pennsylvania
