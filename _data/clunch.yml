@@ -11,6 +11,11 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Ankur Parikh
+  affiliation: Google
+  title: Towards High Precision Text Generation
+  abstract: "Despite large advances in neural text generation in terms of fluency, existing generation techniques are prone to hallucination and often produce output that is unfaithful or irrelevant to the source text. In this talk, we take a multi-faceted approach to this problem from 3 aspects: data, evaluation, and modeling. From the data standpoint, we propose ToTTo, a tables-to-text-dataset with high quality annotator revised references that we hope can serve as a benchmark for high precision text generation task.  While the dataset is challenging, existing n-gram based evaluation metrics are often insufficient to detect hallucinations. To this end, we propose BLEURT, a fully learnt end-to-end metric based on transfer learning that can quickly adapt to measure specific evaluation criteria and a model based on confidence decoding to mitigate hallucinations. Finally, I will discuss GEM, a living benchmark for generation that is the result of a large collaboration among many institutions, and will be an ACL 2021 workshop this year"
+
 - speaker: Barlas Oguz
   affiliation: Facebook AI
   date: February 15, 2021
