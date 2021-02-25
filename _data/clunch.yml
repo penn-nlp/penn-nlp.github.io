@@ -11,7 +11,15 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Greg Durrett
+  url: https://www.cs.utexas.edu/~gdurrett/
+  affiliation: UT Austin
+  date: March 1, 2021
+  title: Addressing the Paradox of Flexible but Reliable Text Generation
+  abstract: "Text generation is a paradox. We want our generation models to imitate patterns in training data, but also have the flexibility to work in new settings and behave in new ways. We want our models to say creative things, but also be reliable and factual with respect to their inputs. How can we achieve these dual goals with a single system? Our work focuses on generation systems that are controlled and assessed in fine-grained ways: control mechanisms can help enumerate diverse inputs, which are then assessed according to our desired criteria. I will describe work in paraphrasing and summarization where intermediate syntactic control mechanisms can make our models more expressive. I will then describe how to assess these models' outputs from the standpoint of factuality and grammaticality in a fine-grained way, localizing errors to individual words and dependency arcs. By achieving diversity and then enforcing quality, we can build systems that are simultaneously flexible and reliable enough to handle a range of generation settings."
+
 - speaker: Ankur Parikh
+  url: https://www.cs.cmu.edu/~apparikh/
   affiliation: Google
   date: February 22, 2021
   title: Towards High Precision Text Generation
