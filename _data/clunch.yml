@@ -11,6 +11,14 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Kellie Webster
+  url: https://research.google/people/KellieWebster/
+  affiliation: Google
+  date: March 15, 2021
+  title: "Best Practices for using Natural Language Models: A Case Study from Gendered Correlations"
+  abstract: |
+    Natural language processing has seen significant progress over the past several years, with pre-trained models like BERT, ALBERT, ELECTRA, and XLNet achieving remarkable accuracy across a variety of tasks. In pre-training, representations are learned from a large text corpus, using masked language modeling. The resulting representations encode rich information about language and correlations between concepts, such as surgeons and scalpels. Given the broad adoption of these representations in many NLP tasks, it is crucial to understand the information encoded in them and how any learned correlations affect performance downstream. I will present two works in this direction, “Measuring and Reducing Gendered Correlations in Pre-trained Models” and "Scalable Cross Lingual Pivots to Model Pronoun Gender for Translation". In the first, we perform a case study on BERT and its low-memory counterpart ALBERT, looking at correlations related to gender, and formulate a series of best practices for using pre-trained language models: (i) It is important to measure for unintended correlations; (ii) Be careful even when making seemingly innocuous configuration changes; and (iii) There are opportunities for general mitigations. In the second, we explore how to leverage the rich representations in BERT to improve gendered pronoun accuracy in machine translation.
+
 - speaker: David Bamman
   url: https://people.ischool.berkeley.edu/~dbamman/
   affiliation: University of California, Berkeley
