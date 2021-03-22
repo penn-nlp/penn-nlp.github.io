@@ -11,6 +11,14 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Abigail See
+  url: https://cs.stanford.edu/people/abisee/
+  affiliation: Stanford University
+  date: March 22, 2021
+  title: "Neural Generation Meets Real People: Towards Emotionally Engaging Mixed-Initiative Conversations"
+  abstract: |
+    In this talk I will present Chirpy Cardinal, an open-domain dialogue agent built by the Stanford NLP team in the 2019-2020 Alexa Prize competition. Building an open-domain socialbot that talks to real people is challenging – such a system must meet multiple user expectations such as broad world knowledge, conversational style, and emotional connection. Our socialbot engages users on their terms – prioritizing their interests, feelings and autonomy. As a result, our socialbot provides a responsive, personalized user experience, capable of talking knowledgeably about a wide variety of topics, as well as chatting empathetically about ordinary life. Neural generation plays a key role in achieving these goals, providing the backbone for our conversational and emotional tone. Chirpy Cardinal ultimately won 2nd place in the competition, with a 3.6/5.0 average customer rating. In this talk I will cover the technical details of the bot, analysis of its strengths and weaknesses, unexpected findings during the competition, and future work.
+
 - speaker: Kellie Webster
   url: https://research.google/people/KellieWebster/
   affiliation: Google
