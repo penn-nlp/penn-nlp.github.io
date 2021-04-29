@@ -43,6 +43,11 @@
   img: assets/img/daniel_deutsch.jpg
   url: http://danieldeutsch.github.io
 
+- name: "Liam Dugan"
+  status: "phd"
+  img: assets/img/liam_dugan.jpeg
+  url: http://liamdugan.com/
+
 - name: Xingyu Fu
   status: phd
   img: assets/img/xingyu_fu.jpeg
