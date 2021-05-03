@@ -11,6 +11,14 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Elizabeth Clark
+  url: https://homes.cs.washington.edu/~eaclark7/
+  affiliation: University of Washington
+  date: March 29, 2021
+  title: "Where NLG Meets People: Text Generation Models and Evaluation for Human-Machine Collaboration"
+  abstract: |
+    Natural language generation (NLG) models' ability to generate long, fluent texts has enabled progress and new applications across many NLG subfields, but it also poses challenges for model evaluation. In this talk, I will discuss how we can use NLG models in a collaborative setting to offer suggestions to people as they perform a creative writing task. I will present a "machine-in-the-loop" framework for machine-writer collaboration and show how it can be used to improve NLG models. I will also discuss the challenge of evaluating long, fluent passages of generated text and introduce Sentence Mover's Similarity, a metric for automatically evaluating multi-sentence text. Finally, I will discuss the role of human evaluations in NLG and propose directions for collecting better human evaluations for current NLG models.
+
 - speaker: Abigail See
   url: https://cs.stanford.edu/people/abisee/
   affiliation: Stanford University
