@@ -11,6 +11,14 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Nate Chambers
+  url: https://www.usna.edu/Users/cs/nchamber/
+  affiliation: United States Naval Academy
+  date: April 19, 2021
+  title: "Extracting from Adversarial Text with a Visual Character-Based Model: extracting phone numbers from human trafficking ads"
+  abstract: |
+     Adversarial text is written with obfuscated words and characters for the purpose of fooling machine learned extractors. Illicit domains like human trafficking often employ such techniques. This talk will address the challenge of extracting phone numbers from this noisy text, such as "3w?n7_callme28tree(?nE)_573", but more broadly the talk will discuss the NLP challenge of dealing with unicode characters in any domain. With very little available training data for human trafficking, how can today's neural models learn to generalize to the diversity of noise available to an adversarial writer? This talk will present a couple solutions to this challenge, focusing on character-based neural models that use NLP architectures like LSTMs and CRFs, but also that draw inspiration from the vision community to perform image recognition of the characters with CNNs. I'll first present results from our Best Paper Award at the Workshop for Noisy User-Generated text, exploring extraction from short text snippets, and then show simple steps to expand it to full document extraction.
+
 - speaker: Ivan Vulic
   url: https://sites.google.com/site/ivanvulic/
   affiliation: Cambridge University
