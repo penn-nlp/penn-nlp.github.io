@@ -11,6 +11,12 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Lillian Lee
+  url: https://www.cs.cornell.edu/home/llee/
+  affiliation: Cornell University
+  date: April 5, 2021
+  title: "(Online) Discussion Dynamics: Early prediction of controversy; content removal as a moderation strategy"    
+
 - speaker: Elizabeth Clark
   url: https://homes.cs.washington.edu/~eaclark7/
   affiliation: University of Washington
