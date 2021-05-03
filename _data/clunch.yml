@@ -11,6 +11,14 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Danqi Chen
+  url: https://www.cs.princeton.edu/~danqic/
+  affiliation: Princeton University
+  date: May 3, 2021
+  title: Learning Representations for Dense Retrieval
+  abstract: |
+    Dense retrieval has become a new paradigm to retrieve relevant text information in open-domain question answering and other knowledge-intensive NLP tasks. Compared to sparse, non-trainable vector space models, dense retrieval holds great promise in better capturing semantic relationships (e.g., synonyms and paraphrases) between the query and retrieved text units. However, training dense vector models from limited labeled data and scale them to a large text corpus remains challenging. In this talk, I will discuss two recent studies: (1) Dense Passage Retriever (DPR), a simple and effective method that allows learning a dense retriever from a small number of question-answer pairs. It greatly outperforms BM25 and can be used with an extractive or generative reader model for QA and other tasks. (2) DensePhrases, which builds an index of dense representations of all the phrases at the Wikipedia scale. We can directly run retrieval at phrase level and obtain extreme runtime efficiency and competitive performance. DensePhrases can also be used as a dense knowledge base.
+
 - speaker: Veronica Perez-Rosas
   url: https://sites.google.com/site/perezrosasveronica/home
   affiliation: University of Michigan
