@@ -11,6 +11,15 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Veronica Perez-Rosas
+  url: https://sites.google.com/site/perezrosasveronica/home
+  affiliation: University of Michigan
+  date: April 26, 2021
+  title: Natural Language Processing for Enhanced Mental Healthcare
+  abstract: |
+    In recent years, there has been an increasing need for psychotherapy to address a wide variety of behavioral and mental health issues. This need has become even more prominent during the ongoing pandemic as COVID-19 related concerns have increased mental distress. Developing computational methods that gain a better understanding of mental health conversations can help practitioners to improve the quality of care. In this talk, I will first describe work on  identifying conversational behaviors that lead to successful counseling interactions. Next, I will present ongoing work on developing a counseling dialog generation system that can assist counselors while acquiring and improving counseling skills. In particular,  I will describe a counseling dialog system that provides language feedback to counseling trainees using the pretrained transformer architecture and context augmentation techniques inspired by traditional strategies used during counseling training.
+
+
 - speaker: Nate Chambers
   url: https://www.usna.edu/Users/cs/nchamber/
   affiliation: United States Naval Academy
