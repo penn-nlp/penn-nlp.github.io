@@ -11,11 +11,19 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Ivan Vulic
+  url: https://sites.google.com/site/ivanvulic/
+  affiliation: Cambridge University
+  date: April 12, 2021
+  title: "Cross-Lingual Transfer in Low-Data Regimes: On Some Achievements, Trends, and Challenges"
+  abstract: |
+    A key challenge in cross-lingual NLP is developing general language-independent architectures that will be equally applicable to any language. However, this ambition is hindered by the large variation in 1) structural and semantic properties of the world’s languages, as well as 2) raw and task data scarcity for many different languages, tasks, and domains. As a consequence, existing language technology is still largely limited to a handful of resource-rich languages. In this talk, we introduce and discuss a range of recent techniques and breakthroughs that aim to deal with such large cross-language variations and low-data regimes efficiently. We cover a range of cutting-edge approaches including adapter-based models for cross-lingual transfer, contextual parameter generation and hypernetworks, learning in few-shot and zero-shot scenarios, and typologically driven learning and source selection. Finally, this talk demonstrates that low-resource languages, despite very positive research trends and results achieved in recent years, still lag behind major languages, and outline several key challenges for future research in this area.
+
 - speaker: Lillian Lee
   url: https://www.cs.cornell.edu/home/llee/
   affiliation: Cornell University
   date: April 5, 2021
-  title: "(Online) Discussion Dynamics: Early prediction of controversy; content removal as a moderation strategy"    
+  title: "Discussion Dynamics: Early prediction of controversy; content removal as a moderation strategy"
 
 - speaker: Elizabeth Clark
   url: https://homes.cs.washington.edu/~eaclark7/
