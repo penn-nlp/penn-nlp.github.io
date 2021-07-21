@@ -58,6 +58,11 @@
   img: assets/img/jie_gao.jpg
   url: https://jiegaopoc.me/
 
+- name: "Salvatore Giorgi"
+  status: "phd"
+  img: assets/img/salvatore_giorgi.jpeg
+  url: http://www.salvatoregiorgi.com/
+
 - name: "Nitish Gupta"
   status: "phd"
   img: assets/img/nitish_gupta.png
