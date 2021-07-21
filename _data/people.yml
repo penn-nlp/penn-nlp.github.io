@@ -43,6 +43,11 @@
   img: assets/img/daniel_deutsch.jpg
   url: http://danieldeutsch.github.io
 
+- name: Rotem Dror
+  status: "postdoc"
+  img: assets/img/rotem_dror.jpeg
+  url: https://rtmdrr.github.io/
+
 - name: "Liam Dugan"
   status: "phd"
   img: assets/img/liam_dugan.jpeg
