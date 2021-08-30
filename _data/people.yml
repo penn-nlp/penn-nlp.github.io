@@ -3,6 +3,11 @@
   img: assets/img/oshin_agarwal.jpg
   url: https://www.seas.upenn.edu/~oagarwal/
 
+- name: Marianna Apidianaki
+  status: staff
+  img: assets/img/marianna_apidianaki.jpg
+  url: https://mariannaapi.github.io/
+
 - name: "Chris Callison-Burch"
   status: "faculty"
   img: assets/img/chris_callison_burch.jpg
@@ -131,6 +136,11 @@
   status: postdoc
   img: assets/img/lara_martin.jpg
   url: http://laramartin.net/
+
+- name: Eleni Miltsakaki
+  status: staff
+  img: assets/img/eleni_miltsakaki.jpg
+  url: https://www.miltsakaki.com/
 
 - name: "Ani Nenkova"
   status: "faculty"
