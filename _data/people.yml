@@ -161,10 +161,6 @@
   img: assets/img/elior_sulem.jpg
   url: http://www.cs.huji.ac.il/~eliors/
 
-- name: Hegler Tissot
-  status: staff
-  img: assets/img/hegler_tissot.jpg
-
 - name: "Lyle Ungar"
   status: "faculty"
   img: assets/img/lyle_ungar.jpg
