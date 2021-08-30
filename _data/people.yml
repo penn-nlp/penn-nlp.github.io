@@ -102,11 +102,6 @@
   img: assets/img/aditya_kashyap.png
   url:
 
-- name: "Reno Kriz"
-  status: "phd"
-  img: assets/img/reno_kriz.jpg
-  url: https://rekriz11.github.io/
-
 - name: Bryan Li
   status: phd
   img: assets/img/bryan_li.jpg
