@@ -68,11 +68,6 @@
   img: assets/img/salvatore_giorgi.jpeg
   url: http://www.salvatoregiorgi.com/
 
-- name: "Nitish Gupta"
-  status: "phd"
-  img: assets/img/nitish_gupta.png
-  url: http://nitishgupta.github.io/
-
 - name: Samar Haider
   status: phd
   img: assets/img/samar_haider.jpg
