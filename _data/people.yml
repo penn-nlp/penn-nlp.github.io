@@ -13,11 +13,6 @@
   img: assets/img/spencer_caplan.png
   url: http://www.spencercaplan.org/
 
-- name: Muhao Chen
-  status: "postdoc"
-  img: assets/img/muhao_chen.jpg
-  url: http://yellowstone.cs.ucla.edu/~muhao/
-
 - name: "Sihao Chen"
   status: "phd"
   img: assets/img/sihao_chen.jpg
