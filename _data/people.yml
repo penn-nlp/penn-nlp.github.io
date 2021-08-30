@@ -147,6 +147,10 @@
   img: assets/img/ani_nenkova.jpg
   url: http://www.cis.upenn.edu/~nenkova/
 
+- name: Artemis Panagopoulou
+  status: phd
+  img: assets/img/artemis_panagopoulou.jpeg
+
 - name: Mohammad Sadegh Rasooli
   status: postdoc
   img: assets/img/mohammad_sadegh_rasooli.jpg
