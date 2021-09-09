@@ -53,6 +53,11 @@
   img: assets/img/liam_dugan.jpeg
   url: http://liamdugan.com/
 
+- name: Ashley Francisco
+  status: "phd"
+  img: assets/img/ashley_francisco.jpg
+  url: https://www.linkedin.com/in/ashley-francisco-8625001b7/
+
 - name: Xingyu Fu
   status: phd
   img: assets/img/xingyu_fu.jpeg
