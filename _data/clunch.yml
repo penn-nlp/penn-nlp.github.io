@@ -11,6 +11,14 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Bryan Li, Weiqiu You, Qing Lyu (Veronica)
+  url: https://nlp.cis.upenn.edu/
+  affiliation: University of Pennsylvania
+  date: September 20, 2021
+  title: Mini Talks
+  abstract: |
+    Our mini talks include "Careful with Context: A Critique of Methods for Commonsense Inference" presented by Bryan Li, "Zero-shot Image Classification with Text using Pretrained Embedding" presented by Weiqiu You, and "Is 'my favorite new movie' 'my favorite movie;? Probing the Understanding of Recursive Noun Phrases" presented by Qing Lyu (Veronica). 
+
 - speaker: Danqi Chen
   url: https://www.cs.princeton.edu/~danqic/
   affiliation: Princeton University
