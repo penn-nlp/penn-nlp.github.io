@@ -1,0 +1,29 @@
+# Upcoming CLunch talks can be added to this file. They will appear on the website
+# in the order that they appear here, so they should be listed in
+# reverse-chronological order.
+#
+# Here is the template for an entry:
+#
+# - speaker: Name of the Speaker
+#   url: http://speakers-website.com
+#   affiliation: University Name
+#   date: June 26, 2019
+#   title: The talk of the title goes here.
+#   abstract: The abstract of the talk will go here.
+
+- speaker: Hangfeng He
+  url: https://nlp.cis.upenn.edu/
+  affiliation: University of Pennsylvania
+  date: October 4, 2021
+  title: Incidental Supervision for Natural Language Understanding
+  abstract: |
+    It is labor-intensive to acquire human annotations for natural language understanding (NLU) tasks because annotation can be complex and often requires significant linguistic expertise. Therefore, it is important to investigate how to get supervision from indirect signals and improve one's target task. In this topic, we focus on improving NLU by exploiting incidental supervision signals. Specifically, our goal is to first provide a better understanding of incidental signals, and then design more efficient algorithms to collect, select, and use incidental signals for NLU tasks. This problem is challenging because of the intrinsic differences between incidental supervision signals and target tasks. In addition, the complicated properties of natural language, such as variability and ambiguity, make the problem more challenging. Our contribution to this line of work so far is in three directions. First, we show how to exploit information from cheap signals to help other tasks. Specifically, we retrieve distributed representations from question-answering (QA) pairs to help various downstream tasks. Second, in order to facilitate selecting appropriate incidental signals for a given target task, we propose a unified informativeness measure to quantify the benefits of various incidental signals. Finally, we design efficient algorithms to exploit specific types of incidental signals, where we design a new weighted training algorithm to improve the sample efficiency of learning from cross-task signals. In the future, we plan to further investigate the usage of incidental signals for NLU tasks by better understanding the properties of natural language. Specifically, we propose to work on reasoning in natural language, and study the benefit of the structure in NLU tasks.
+
+- speaker: Tom Hope
+  url: https://allenai.org/team
+  affiliation: Allen Institute for AI
+  date: September 27, 2021
+  title: Harnessing Scientific Literature for Boosting Discovery and Innovation
+  abstract: |
+    In the year 1665, the first academic journal was published. Fast forward to today, there are millions of scientific papers coming out every year. This explosion of knowledge represents an opportunity to accelerate innovation with automated systems that scour the literature for solutions and inspirations. However, it also creates information overload and isolated “research bubbles” that limit discovery and sharing, slowing down scientific progress and cross-fertilization. In this talk, I will present our work toward addressing these large-scale challenges for the future of science. In the first part of the talk, I will overview our core approach which consists of identifying key “building blocks” of scientific thought, formalizing and structuring them into computational representations that power creative innovation systems we construct. These include systems that surface inspirations, recommend novel authors, enable search for challenges, hypotheses and causal relations, and tools for exploration and visualization of collaboration networks. The second part of the talk will consist of a dive into our new work -- SciCo: Hierarchical Cross-Document Coreference for Scientific Concepts (AKBC 2021) -- motivated by some of the applications above.  We present a new task of cross-document coreference with a referential hierarchy over mention clusters, including a new challenging dataset and models. Finally, if time permits, I will discuss our recent paper --- Scientific Language Models for Biomedical Knowledge Base Completion: An Empirical Study (AKBC 2021), where we integrate language models and graph embeddings to boost biomedical link prediction with applications in drug discovery.  
+
