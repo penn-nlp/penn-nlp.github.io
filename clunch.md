@@ -18,7 +18,6 @@ Interested in attending CLunch? Sign up for our mailing list [here](http://lists
     {% include talk.html speaker=talk.speaker url=talk.url title=talk.title abstract=talk.abstract date=talk.date affiliation=talk.affiliation %}
   {% endfor %}
   </p>
-  <hr />
 {% endif %}
 
 {% assign talks_size = site.data.clunch | size %}
