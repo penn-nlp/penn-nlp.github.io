@@ -11,6 +11,14 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Tom Hope
+  url: https://allenai.org/team
+  affiliation: Allen Institute for AI
+  date: September 27, 2021
+  title: Harnessing Scientific Literature for Boosting Discovery and Innovation
+  abstract: |
+    In the year 1665, the first academic journal was published. Fast forward to today, there are millions of scientific papers coming out every year. This explosion of knowledge represents an opportunity to accelerate innovation with automated systems that scour the literature for solutions and inspirations. However, it also creates information overload and isolated “research bubbles” that limit discovery and sharing, slowing down scientific progress and cross-fertilization. In this talk, I will present our work toward addressing these large-scale challenges for the future of science. In the first part of the talk, I will overview our core approach which consists of identifying key “building blocks” of scientific thought, formalizing and structuring them into computational representations that power creative innovation systems we construct. These include systems that surface inspirations, recommend novel authors, enable search for challenges, hypotheses and causal relations, and tools for exploration and visualization of collaboration networks. The second part of the talk will consist of a dive into our new work -- SciCo: Hierarchical Cross-Document Coreference for Scientific Concepts (AKBC 2021) -- motivated by some of the applications above.  We present a new task of cross-document coreference with a referential hierarchy over mention clusters, including a new challenging dataset and models. Finally, if time permits, I will discuss our recent paper --- Scientific Language Models for Biomedical Knowledge Base Completion: An Empirical Study (AKBC 2021), where we integrate language models and graph embeddings to boost biomedical link prediction with applications in drug discovery.  
+
 - speaker: Bryan Li, Weiqiu You, Qing Lyu (Veronica)
   url: https://nlp.cis.upenn.edu/
   affiliation: University of Pennsylvania
