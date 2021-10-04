@@ -160,6 +160,7 @@
 - name: Artemis Panagopoulou
   status: phd
   img: assets/img/artemis_panagopoulou.jpeg
+  url: https://artemisp.github.io/
 
 - name: Mohammad Sadegh Rasooli
   status: postdoc
