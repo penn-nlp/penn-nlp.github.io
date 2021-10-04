@@ -11,12 +11,5 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
-- speaker: Hangfeng He
-  url: https://nlp.cis.upenn.edu/
-  affiliation: University of Pennsylvania
-  date: October 4, 2021
-  title: Incidental Supervision for Natural Language Understanding
-  abstract: |
-    It is labor-intensive to acquire human annotations for natural language understanding (NLU) tasks because annotation can be complex and often requires significant linguistic expertise. Therefore, it is important to investigate how to get supervision from indirect signals and improve one's target task. In this topic, we focus on improving NLU by exploiting incidental supervision signals. Specifically, our goal is to first provide a better understanding of incidental signals, and then design more efficient algorithms to collect, select, and use incidental signals for NLU tasks. This problem is challenging because of the intrinsic differences between incidental supervision signals and target tasks. In addition, the complicated properties of natural language, such as variability and ambiguity, make the problem more challenging. Our contribution to this line of work so far is in three directions. First, we show how to exploit information from cheap signals to help other tasks. Specifically, we retrieve distributed representations from question-answering (QA) pairs to help various downstream tasks. Second, in order to facilitate selecting appropriate incidental signals for a given target task, we propose a unified informativeness measure to quantify the benefits of various incidental signals. Finally, we design efficient algorithms to exploit specific types of incidental signals, where we design a new weighted training algorithm to improve the sample efficiency of learning from cross-task signals. In the future, we plan to further investigate the usage of incidental signals for NLU tasks by better understanding the properties of natural language. Specifically, we propose to work on reasoning in natural language, and study the benefit of the structure in NLU tasks.
 
 
