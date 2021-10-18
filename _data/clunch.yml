@@ -11,6 +11,14 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Diyi Yang
+  url: https://www.cc.gatech.edu/~dyang888/
+  affiliation: Georgia Tech
+  date: October 18, 2021
+  title: Socially Aware Language Technologies: Theory, Method, and Practice
+  abstract: |
+    Natural language processing (NLP) has had increasing success and produced extensive industrial applications. Despite being sufficient to enable these applications, current NLP systems often ignore the social part of language, e.g., who says it, in what context, for what goals.  In this talk, we take a closer look at social factors in language via a new theory taxonomy and its interplay with computational methods via two lines of work.  The first one studies hate speech and racial bias by introducing a benchmark corpus on implicit hate speech and computational models on detecting and explaining latent hatred in language.  The second part demonstrates how more structures of conversations can be utilized to generate better summaries for everyday interaction.  We conclude by discussing several open-ended questions about how to build socially aware language technologies.
+
 - speaker: Hangfeng He
   url: https://nlp.cis.upenn.edu/
   affiliation: University of Pennsylvania
