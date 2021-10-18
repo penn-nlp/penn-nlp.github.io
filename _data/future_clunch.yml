@@ -19,13 +19,5 @@
   abstract: |
     In an effort to avoid reinforcing widespread hype about the capabilities of state-of-the-art language technology systems, researchers have developed practices in framing and citation that serve to deemphasize the field's successes, even at the cost of making misleadingly strong claims about the limits of our best systems. This is a problem, though, and it may be more serious than it looks: It limits our ability to mitigate short-term harms from NLP deployments and it limits our ability to prepare for the potentially-enormous impacts of more distant future systems. This paper urges researchers to be careful about these claims, and suggests some research directions that will make it easier to avoid or rebut them.
 
-- speaker: Diyi Yang
-  url: https://www.cc.gatech.edu/~dyang888/
-  affiliation: Georgia Tech
-  date: October 18, 2021
-  title: Socially Aware Language Technologies: Theory, Method, and Practice
-  abstract: |
-    Natural language processing (NLP) has had increasing success and produced extensive industrial applications. Despite being sufficient to enable these applications, current NLP systems often ignore the social part of language, e.g., who says it, in what context, for what goals.  In this talk, we take a closer look at social factors in language via a new theory taxonomy and its interplay with computational methods via two lines of work.  The first one studies hate speech and racial bias by introducing a benchmark corpus on implicit hate speech and computational models on detecting and explaining latent hatred in language.  The second part demonstrates how more structures of conversations can be utilized to generate better summaries for everyday interaction.  We conclude by discussing several open-ended questions about how to build socially aware language technologies.
-
 
 
