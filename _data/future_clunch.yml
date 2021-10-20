@@ -11,6 +11,15 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Daphne Ippolito
+  url: https://www.seas.upenn.edu/~daphnei/me/
+  affiliation: University of Pennsylvania
+  date: November 1, 2021
+  title: Language Models Memorize their Training Data; Dataset Deduplication Helps
+  abstract: |
+    Large neural language models are capable of memorizing their training data. First, I will discuss why this memorization is bad and the subtleties involved in studying harmful memorization tendencies. Then, I will go over some early results on the circumstances under which GPT-Neo, a popular public language model, exhibits memorization. Finally, I will describe our recent paper on deduplicating training data and discuss how models trained on deduplicated data memorize less, are more efficient to train, and possibly generalize better. I will also examine the problem of train-test leakage in existing popular datasets.
+
+
 - speaker: Samuel Bowman
   url: https://cims.nyu.edu/~sbowman/
   affiliation: NYU
