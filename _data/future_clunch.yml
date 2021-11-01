@@ -11,22 +11,10 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
-- speaker: Daphne Ippolito
-  url: https://www.seas.upenn.edu/~daphnei/me/
-  affiliation: University of Pennsylvania
-  date: November 1, 2021
-  title: Language Models Memorize their Training Data; Dataset Deduplication Helps
+- speaker: Marjorie McShane
+  url: https://homepages.hass.rpi.edu/mcsham2/index.html
+  affiliation: Rensselaer Polytechnic Institute
+  date: November 15, 2021
+  title: Toward Broad and Deep Language Understanding for Intelligent Systems
   abstract: |
-    Large neural language models are capable of memorizing their training data. First, I will discuss why this memorization is bad and the subtleties involved in studying harmful memorization tendencies. Then, I will go over some early results on the circumstances under which GPT-Neo, a popular public language model, exhibits memorization. Finally, I will describe our recent paper on deduplicating training data and discuss how models trained on deduplicated data memorize less, are more efficient to train, and possibly generalize better. I will also examine the problem of train-test leakage in existing popular datasets.
-
-
-- speaker: Samuel Bowman
-  url: https://cims.nyu.edu/~sbowman/
-  affiliation: NYU
-  date: October 25, 2021
-  title: Overclaiming in NLP Is a Serious Problem. Underclaiming May Be Worse.
-  abstract: |
-    In an effort to avoid reinforcing widespread hype about the capabilities of state-of-the-art language technology systems, researchers have developed practices in framing and citation that serve to deemphasize the field's successes, even at the cost of making misleadingly strong claims about the limits of our best systems. This is a problem, though, and it may be more serious than it looks: It limits our ability to mitigate short-term harms from NLP deployments and it limits our ability to prepare for the potentially-enormous impacts of more distant future systems. This paper urges researchers to be careful about these claims, and suggests some research directions that will make it easier to avoid or rebut them.
-
-
-
+    The early vision of AI included the goal of endowing intelligent systems with human-like language processing capabilities. This proved harder than expected, leading the vast majority of natural language processing practitioners to pursue less ambitious, shorter-term goals. Whereas the utility of human-like language processing is unquestionable, its feasibility is quite justifiably questioned. In this talk, I will not only argue that some approximation of human-like language processing is possible, I will present a program of R&D that is working on making it a reality. This vision, as well as progress to date, is described in the book Linguistics for the Age of AI (MIT Press, 2021).
