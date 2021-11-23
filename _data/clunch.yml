@@ -14,7 +14,7 @@
 - speaker: Yue Yang
   url: https://nlp.cis.upenn.edu/
   affiliation: University of Pennsylvania
-  date: November 15, 2021
+  date: November 22, 2021
   title: Investigate Procedural Events in a Multimodal Fashion
   abstract: |
     Recently, there has been growing attention to studying procedural events while most of them focus on the text. We utilize multimodal as a tool to probe the procedure knowledge. This talk will introduce two projects: 1) Visual Goal-Step Inference using wikiHow -- Understanding what sequence of steps are needed to complete a goal can help artificial intelligence systems reason about human activities. We propose the Visual Goal-Step Inference (VGSI) task, where a model is given a textual goal and must choose which of four images represents a plausible step towards that goal. 2) Induce, Edit, Retrieve: Language Grounded Multimodal Schema for Instructional Video Retrieval -- Schemas are structure representations of complex tasks that can aid artificial intelligence by allowing models to break down complex tasks into intermediate steps. We propose a novel system that induces schemas from web videos and generalizes schemas for unseen tasks to improve video retrieval performance. 
