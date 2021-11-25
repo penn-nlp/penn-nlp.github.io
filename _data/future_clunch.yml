@@ -11,10 +11,18 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Joe Berant
+  url: http://www.cs.tau.ac.il/~joberant/
+  affiliation: Tel Aviv University
+  date: December 6, 2021
+  title: Zero-shot learning and out-of-distribution generalization: two sides of the same coin
+  abstract: |
+    Recent advances in large pre-trained language models have shifted the NLP community’s attention to new challenges: (a) training models with zero, or very few, examples, and (b) generalizing to out-of-distribution examples. In this talk, I will argue that the two are intimately related, and describe ongoing (read, new!) work in those directions. First, I will describe a new pre-training scheme for open-domain question answering that is based on the notion of “recurring spans” across different paragraphs. We show this training scheme leads to a zero-shot retriever that is competitive with DPR (which trains on thousands of examples), and is more robust w.r.t the test distribution. Second, I will focus on compositional generalization, a particular type of out-of-distribution generalization setup where models need to generalize to structures that are unobserved at training time. I will show that the view that seq2seq models categorically do not generalize to new compositions is false, and present a more nuanced analysis, which elucidates what are the conditions under which models struggle to compositionally generalize.
+
 - speaker: He He
   url: https://hhexiy.github.io/
   affiliation: New York University
   date: November 30, 2021
   title: Out-of-distribution generalization in NLP
   abstract: |
-    Real-world NLP models must work well when the test distribution differs from the training distribution. While we have made great progress in natural language understanding thanks to large-scale pre-training, current models still take shortcuts and rely on spurious correlations in specific datasets. In this talk, I will discuss the role of pre-training and data in model robustness to distribution shifts. In particular, I will describe how pre-trained models avoid learning spurious correlations, when data augmentation helps and hurts, and how large language models can be leveraged to improve few-shot learning.
+  Real-world NLP models must work well when the test distribution differs from the training distribution. While we have made great progress in natural language understanding thanks to large-scale pre-training, current models still take shortcuts and rely on spurious correlations in specific datasets. In this talk, I will discuss the role of pre-training and data in model robustness to distribution shifts. In particular, I will describe how pre-trained models avoid learning spurious correlations, when data augmentation helps and hurts, and how large language models can be leveraged to improve few-shot learning.
