@@ -11,6 +11,15 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+
+- speaker: He He
+  url: https://hhexiy.github.io/
+  affiliation: New York University
+  date: November 30, 2021
+  title: Out-of-distribution generalization in NLP
+  abstract: |
+    Real-world NLP models must work well when the test distribution differs from the training distribution. While we have made great progress in natural language understanding thanks to large-scale pre-training, current models still take shortcuts and rely on spurious correlations in specific datasets. In this talk, I will discuss the role of pre-training and data in model robustness to distribution shifts. In particular, I will describe how pre-trained models avoid learning spurious correlations, when data augmentation helps and hurts, and how large language models can be leveraged to improve few-shot learning.
+    
 - speaker: Yue Yang
   url: https://nlp.cis.upenn.edu/
   affiliation: University of Pennsylvania
