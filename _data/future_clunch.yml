@@ -11,3 +11,20 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Sihao Chen, Liam Dugan, Xingyu Fu
+  img: assets/img/clunch/sihao_liam_xingyu.jpg
+  url: https://nlp.cis.upenn.edu/
+  affiliation: University of Pennsylvania
+  date: January 31, 2022
+  title: Mini Talks
+  abstract: |
+    TBD
+
+- speaker: Peter Clark
+  img: assets/img/clunch/peter_clark.jpeg
+  url: https://allenai.org/team/peterc
+  affiliation: Allen Institute for AI (AI2)
+  date: February 7, 2022
+  title: TBD
+  abstract: |
+    TBD

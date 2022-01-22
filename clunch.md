@@ -15,7 +15,7 @@ Interested in attending CLunch? Sign up for our mailing list [here](http://lists
   <h2>Upcoming Talks</h2>
 
   {% for talk in site.data.future_clunch %}
-    {% include talk.html speaker=talk.speaker url=talk.url title=talk.title abstract=talk.abstract date=talk.date affiliation=talk.affiliation %}
+    {% include talk.html speaker=talk.speaker img=talk.img url=talk.url title=talk.title abstract=talk.abstract date=talk.date affiliation=talk.affiliation %}
   {% endfor %}
   </p>
 {% endif %}
@@ -26,7 +26,7 @@ Interested in attending CLunch? Sign up for our mailing list [here](http://lists
   <h2>Past Talks</h2>
 
   {% for talk in site.data.clunch %}
-    {% include talk.html speaker=talk.speaker url=talk.url title=talk.title abstract=talk.abstract date=talk.date affiliation=talk.affiliation %}
+    {% include talk.html speaker=talk.speaker img=talk.img url=talk.url title=talk.title abstract=talk.abstract date=talk.date affiliation=talk.affiliation %}
   {% endfor %}
   </p>
 {% endif %}
