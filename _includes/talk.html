@@ -1,7 +1,7 @@
 <div>
   {% if include.title == "Mini Talks" %}
     <img src="{{ include.img }}" width="510" height="170" />
-  {% else if include.img != null %}
+  {% elsif include.img != null %}
     <img src="{{ include.img }}" width="170" height="170" />
   {% endif %}
   <p style="margin-bottom: 0px; font-size: 15pt">
@@ -16,7 +16,7 @@
   {% endif %}
   <p style="margin-bottom: 10px">{{ include.date }}</p>
   <p style="margin-bottom: 0px; font-size: 13pt; font-weight: 600">{{ include.title }}</p>
-  <p>{{include.abstract }}</p>
+  <p>{{ include.abstract }}</p>
   <hr />
   <p></p>
 </div>
