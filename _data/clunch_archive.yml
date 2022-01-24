@@ -1,0 +1,355 @@
+# This file contains all speakers 2 semesters or earlier before the current semester.
+#
+# Here is the template for an entry:
+#
+# - speaker: Name of the Speaker
+#   url: http://speakers-website.com
+#   affiliation: University Name
+#   date: June 26, 2019
+#   title: The talk of the title goes here.
+#   abstract: The abstract of the talk will go here.
+
+- speaker: Danqi Chen
+  url: https://www.cs.princeton.edu/~danqic/
+  affiliation: Princeton University
+  date: May 3, 2021
+  title: Learning Representations for Dense Retrieval
+  abstract: |
+    Dense retrieval has become a new paradigm to retrieve relevant text information in open-domain question answering and other knowledge-intensive NLP tasks. Compared to sparse, non-trainable vector space models, dense retrieval holds great promise in better capturing semantic relationships (e.g., synonyms and paraphrases) between the query and retrieved text units. However, training dense vector models from limited labeled data and scale them to a large text corpus remains challenging. In this talk, I will discuss two recent studies: (1) Dense Passage Retriever (DPR), a simple and effective method that allows learning a dense retriever from a small number of question-answer pairs. It greatly outperforms BM25 and can be used with an extractive or generative reader model for QA and other tasks. (2) DensePhrases, which builds an index of dense representations of all the phrases at the Wikipedia scale. We can directly run retrieval at phrase level and obtain extreme runtime efficiency and competitive performance. DensePhrases can also be used as a dense knowledge base.
+
+- speaker: Veronica Perez-Rosas
+  url: https://sites.google.com/site/perezrosasveronica/home
+  affiliation: University of Michigan
+  date: April 26, 2021
+  title: Natural Language Processing for Enhanced Mental Healthcare
+  abstract: |
+    In recent years, there has been an increasing need for psychotherapy to address a wide variety of behavioral and mental health issues. This need has become even more prominent during the ongoing pandemic as COVID-19 related concerns have increased mental distress. Developing computational methods that gain a better understanding of mental health conversations can help practitioners to improve the quality of care. In this talk, I will first describe work on  identifying conversational behaviors that lead to successful counseling interactions. Next, I will present ongoing work on developing a counseling dialog generation system that can assist counselors while acquiring and improving counseling skills. In particular,  I will describe a counseling dialog system that provides language feedback to counseling trainees using the pretrained transformer architecture and context augmentation techniques inspired by traditional strategies used during counseling training.
+
+
+- speaker: Nate Chambers
+  url: https://www.usna.edu/Users/cs/nchamber/
+  affiliation: United States Naval Academy
+  date: April 19, 2021
+  title: "Extracting from Adversarial Text with a Visual Character-Based Model: extracting phone numbers from human trafficking ads"
+  abstract: |
+     Adversarial text is written with obfuscated words and characters for the purpose of fooling machine learned extractors. Illicit domains like human trafficking often employ such techniques. This talk will address the challenge of extracting phone numbers from this noisy text, such as "3w?n7_callme28tree(?nE)_573", but more broadly the talk will discuss the NLP challenge of dealing with unicode characters in any domain. With very little available training data for human trafficking, how can today's neural models learn to generalize to the diversity of noise available to an adversarial writer? This talk will present a couple solutions to this challenge, focusing on character-based neural models that use NLP architectures like LSTMs and CRFs, but also that draw inspiration from the vision community to perform image recognition of the characters with CNNs. I'll first present results from our Best Paper Award at the Workshop for Noisy User-Generated text, exploring extraction from short text snippets, and then show simple steps to expand it to full document extraction.
+
+- speaker: Ivan Vulic
+  url: https://sites.google.com/site/ivanvulic/
+  affiliation: Cambridge University
+  date: April 12, 2021
+  title: "Cross-Lingual Transfer in Low-Data Regimes: On Some Achievements, Trends, and Challenges"
+  abstract: |
+    A key challenge in cross-lingual NLP is developing general language-independent architectures that will be equally applicable to any language. However, this ambition is hindered by the large variation in 1) structural and semantic properties of the world’s languages, as well as 2) raw and task data scarcity for many different languages, tasks, and domains. As a consequence, existing language technology is still largely limited to a handful of resource-rich languages. In this talk, we introduce and discuss a range of recent techniques and breakthroughs that aim to deal with such large cross-language variations and low-data regimes efficiently. We cover a range of cutting-edge approaches including adapter-based models for cross-lingual transfer, contextual parameter generation and hypernetworks, learning in few-shot and zero-shot scenarios, and typologically driven learning and source selection. Finally, this talk demonstrates that low-resource languages, despite very positive research trends and results achieved in recent years, still lag behind major languages, and outline several key challenges for future research in this area.
+
+- speaker: Lillian Lee
+  url: https://www.cs.cornell.edu/home/llee/
+  affiliation: Cornell University
+  date: April 5, 2021
+  title: "Discussion Dynamics: Early prediction of controversy; content removal as a moderation strategy"
+
+- speaker: Elizabeth Clark
+  url: https://homes.cs.washington.edu/~eaclark7/
+  affiliation: University of Washington
+  date: March 29, 2021
+  title: "Where NLG Meets People: Text Generation Models and Evaluation for Human-Machine Collaboration"
+  abstract: |
+    Natural language generation (NLG) models' ability to generate long, fluent texts has enabled progress and new applications across many NLG subfields, but it also poses challenges for model evaluation. In this talk, I will discuss how we can use NLG models in a collaborative setting to offer suggestions to people as they perform a creative writing task. I will present a "machine-in-the-loop" framework for machine-writer collaboration and show how it can be used to improve NLG models. I will also discuss the challenge of evaluating long, fluent passages of generated text and introduce Sentence Mover's Similarity, a metric for automatically evaluating multi-sentence text. Finally, I will discuss the role of human evaluations in NLG and propose directions for collecting better human evaluations for current NLG models.
+
+- speaker: Abigail See
+  url: https://cs.stanford.edu/people/abisee/
+  affiliation: Stanford University
+  date: March 22, 2021
+  title: "Neural Generation Meets Real People: Towards Emotionally Engaging Mixed-Initiative Conversations"
+  abstract: |
+    In this talk I will present Chirpy Cardinal, an open-domain dialogue agent built by the Stanford NLP team in the 2019-2020 Alexa Prize competition. Building an open-domain socialbot that talks to real people is challenging – such a system must meet multiple user expectations such as broad world knowledge, conversational style, and emotional connection. Our socialbot engages users on their terms – prioritizing their interests, feelings and autonomy. As a result, our socialbot provides a responsive, personalized user experience, capable of talking knowledgeably about a wide variety of topics, as well as chatting empathetically about ordinary life. Neural generation plays a key role in achieving these goals, providing the backbone for our conversational and emotional tone. Chirpy Cardinal ultimately won 2nd place in the competition, with a 3.6/5.0 average customer rating. In this talk I will cover the technical details of the bot, analysis of its strengths and weaknesses, unexpected findings during the competition, and future work.
+
+- speaker: Kellie Webster
+  url: https://research.google/people/KellieWebster/
+  affiliation: Google
+  date: March 15, 2021
+  title: "Best Practices for using Natural Language Models: A Case Study from Gendered Correlations"
+  abstract: |
+    Natural language processing has seen significant progress over the past several years, with pre-trained models like BERT, ALBERT, ELECTRA, and XLNet achieving remarkable accuracy across a variety of tasks. In pre-training, representations are learned from a large text corpus, using masked language modeling. The resulting representations encode rich information about language and correlations between concepts, such as surgeons and scalpels. Given the broad adoption of these representations in many NLP tasks, it is crucial to understand the information encoded in them and how any learned correlations affect performance downstream. I will present two works in this direction, “Measuring and Reducing Gendered Correlations in Pre-trained Models” and "Scalable Cross Lingual Pivots to Model Pronoun Gender for Translation". In the first, we perform a case study on BERT and its low-memory counterpart ALBERT, looking at correlations related to gender, and formulate a series of best practices for using pre-trained language models: (i) It is important to measure for unintended correlations; (ii) Be careful even when making seemingly innocuous configuration changes; and (iii) There are opportunities for general mitigations. In the second, we explore how to leverage the rich representations in BERT to improve gendered pronoun accuracy in machine translation.
+
+- speaker: David Bamman
+  url: https://people.ischool.berkeley.edu/~dbamman/
+  affiliation: University of California, Berkeley
+  date: March 8, 2021
+  title: Modeling the Spread of Information within Novels
+  abstract: |
+    Understanding the ways in which information flows through social networks is important for questions of influence--including tracking the spread of cultural trends and disinformation and measuring shifts in public opinion.  Much work in this space has focused on networks where nodes, edges and information are all directly observed (such as Twitter accounts with explicit friend/follower edges and retweets as instances of propagation); in this talk, I will focus on the comparatively overlooked case of information propagation in *implicit* networks--where we seek to discover single instances of a message passing from person A to person B to person C, only given a depiction of their activity in text.
+
+    Literature in many ways presents an ideal domain for modeling information propagation described in text, since it depicts a largely closed universe in which characters interact and speak to each other.  At the same time, it poses several wholly distinct challenges--in particular, both the length of literary texts and the subtleties involved in extracting information from fictional works pose difficulties for NLP systems optimized for other domains.  In this talk, I will describe our work in measuring information propagation in these implicit networks, and detail an NLP pipeline for discovering it, focusing in detail on new datasets we have created for tagging characters and their coreference in text.  This is joint work with Matt Sims, Olivia Lewke, Anya Mansoor, Sejal Popat and Sheng Shen.
+
+- speaker: Greg Durrett
+  url: https://www.cs.utexas.edu/~gdurrett/
+  affiliation: UT Austin
+  date: March 1, 2021
+  title: Addressing the Paradox of Flexible but Reliable Text Generation
+  abstract: "Text generation is a paradox. We want our generation models to imitate patterns in training data, but also have the flexibility to work in new settings and behave in new ways. We want our models to say creative things, but also be reliable and factual with respect to their inputs. How can we achieve these dual goals with a single system? Our work focuses on generation systems that are controlled and assessed in fine-grained ways: control mechanisms can help enumerate diverse inputs, which are then assessed according to our desired criteria. I will describe work in paraphrasing and summarization where intermediate syntactic control mechanisms can make our models more expressive. I will then describe how to assess these models' outputs from the standpoint of factuality and grammaticality in a fine-grained way, localizing errors to individual words and dependency arcs. By achieving diversity and then enforcing quality, we can build systems that are simultaneously flexible and reliable enough to handle a range of generation settings."
+
+- speaker: Ankur Parikh
+  url: https://www.cs.cmu.edu/~apparikh/
+  affiliation: Google
+  date: February 22, 2021
+  title: Towards High Precision Text Generation
+  abstract: "Despite large advances in neural text generation in terms of fluency, existing generation techniques are prone to hallucination and often produce output that is unfaithful or irrelevant to the source text. In this talk, we take a multi-faceted approach to this problem from 3 aspects: data, evaluation, and modeling. From the data standpoint, we propose ToTTo, a tables-to-text-dataset with high quality annotator revised references that we hope can serve as a benchmark for high precision text generation task.  While the dataset is challenging, existing n-gram based evaluation metrics are often insufficient to detect hallucinations. To this end, we propose BLEURT, a fully learnt end-to-end metric based on transfer learning that can quickly adapt to measure specific evaluation criteria and a model based on confidence decoding to mitigate hallucinations. Finally, I will discuss GEM, a living benchmark for generation that is the result of a large collaboration among many institutions, and will be an ACL 2021 workshop this year"
+
+- speaker: Barlas Oguz
+  affiliation: Facebook AI
+  date: February 15, 2021
+  title: Dense Retrieval for Question Answering
+  abstract: Open-domain question answering relies on efficient passage retrieval to select candidate contexts, where traditional sparse vector space models, such as TF-IDF or BM25, are the de facto method.  In this talk, we discuss recent work which shows that retrieval can be practically implemented using dense representations alone, where embeddings are learned from a small number of questions and passages by a simple dual-encoder framework. When evaluated on a wide range of open-domain QA datasets, our dense retriever outperforms a strong Lucene-BM25 system largely by 9%-19% absolute in terms of top-20 passage retrieval accuracy, and helps our end-to-end QA system establish new state-of-the-art on multiple open-domain QA benchmarks.  We also discuss extensions to the multi-hop setting, where we can outperform competing approaches with 10x less computation.
+
+- speaker: Liang Huang
+  url: http://web.engr.oregonstate.edu/~huanlian/
+  affiliation: Oregon State University/Baidu Research USA
+  date: February 8, 2021
+  title: "Fighting COVID-19 using Parsing Algorithms and Grammar Formalisms"
+  abstract: |
+    To defeat the current COVID-19 pandemic, a messenger RNA (mRNA) vaccine has emerged as a promising approach thanks to its rapid and scalable production and non-infectious and non-integrating properties. However, designing an mRNA sequence to achieve high stability and protein yield remains a challenging problem due to the exponentially large search space (e.g., there are 2.4 x 10^632 possible mRNA sequence candidates for the spike protein of SARS-CoV-2). We describe two on-going efforts for this problem, both using linear-time algorithms inspired by my earlier work in natural language parsing. On one hand, the Eterna OpenVaccine project from Stanford Medical School takes a crowd-sourcing approach to let game players all over the world design stable sequences. To evaluate sequence stability (in terms of free energy), they use LinearFold from my group (2019) since it’s the only linear-time RNA folding algorithm available (which makes it the only one fast enough for COVID-scale genomes). On the other hand, we take a computational approach to directly search for the optimal sequence in this exponentially large space via dynamic programming. It turns out this problem can be reduced to a classical problem in formal language theory and computational linguistics (intersection between CFG and DFA), which can be solved in O(n^3) time, just like lattice parsing for speech. In the end, we can design the optimal mRNA vaccine candidate for SARS-CoV-2 spike protein in just about 10 minutes.
+
+    This talk is dedicated to the memory of my PhD advisor Aravind Joshi who taught me that linguistics and biology share the same mathematical foundations.
+
+- speaker: Lara Martin
+  url: https://laramartin.net/
+  affiliation: University of Pennsylvania
+  date: January 25, 2021
+  title: "Dungeons and Discourse: Using Computational Storytelling & Speech to Look at Natural Language Use"
+  abstract: "Although we are currently riding a technological wave of personal assistants, many of these agents still struggle to communicate appropriately. In particular, these systems lack coherence, the ability to adapt to novel situations, creativity, emotional understanding, and collaboration. My work focuses on creating open-world storytelling systems and developing agents that leverage speech understanding to communicate with humans more effectively. In this talk, I look at how tabletop roleplaying games such as Dungeons & Dragons can be used as motivation for how to improve conversational systems and understand how people communicate."
+
+- speaker: Rotem Dror
+  url: https://rtmdrr.github.io/
+  affiliation: University of Pennsylvania
+  date: December 7, 2020
+  title: Statistical Significance Testing for Natural Language Processing
+  abstract: |
+    Data-driven experimental analysis has become the main evaluation tool of Natural Language Processing (NLP) algorithms. In fact, in the last decade, it has become rare to see an NLP paper, particularly one that proposes a new algorithm, that does not include extensive experimental analysis, and the number of involved tasks, datasets, domains, and languages is constantly growing. This emphasis on empirical results highlights the role of statistical significance testing in NLP research: If we, as a community, rely on empirical evaluation to validate our hypotheses and reveal the correct language processing mechanisms, we better be sure that our results are not coincidental.
+
+    In this talk, I will go through the main chapters of the book in the title (https://www.morganclaypool.com/doi/abs/10.2200/S00994ED1V01Y202002HLT045) and answer the following questions: How to choose a valid statistical test for your experiments? How to perform statistical analysis when experimenting with multiple datasets? How to compare deep neural models in a statistically valid manner? And some more surprises...
+
+- speaker: Dragomir R. Radev
+  url: http://www.cs.yale.edu/homes/radev/
+  affiliation: Yale University
+  date: November 30, 2020
+  title: "Closing the Loop in Natural Language Interfaces to Relational Databases: Parsing, Dialogue, and Generation"
+  abstract: |
+    Natural Language is a very efficient method of communication among humans. However, when users want to talk to their computers, translating this NL to computer actions is a very challenging task. One possible way for such human-computer interaction is to translate NL sentences to database queries and then to convert the output of these queries back to NL. In order for such an approach to work, one needs to address several challenges: the lack of annotated question-query pairs, the discourse issues present in multi-turn questions, and the issues that arise in a dialogue context.
+
+    In this presentation, I will talk about recent work on natural language interfaces to databases. As part of the Yale Spider project, we have developed three new datasets and launched three matching shared tasks. Spider is a collection of 10,181 manually created natural language questions on databases from 138 domains, and the 5,693 database queries that correspond to them. SParC (Semantic Parsing in Context) consists of 4,298 coherent sequences of questions and the matching queries. Finally, CoSQL consists of WoZ 3k dialogues and a total of 30k turns, and their translations to SQL.
+
+    I will then introduce GraPPa, a pre-training approach for table semantic parsing that learns a compositional inductive bias in the joint representations of textual and tabular data. We used GraPPa to obtain SOTA performance on four popular fully supervised and weakly supervised table semantic parsing benchmarks.
+
+    Joint work with Tao Yu, Rui Zhang, Victoria Lin, Caiming Xiong, and many others.
+
+- speaker: Ellie Pavlick
+  url: https://cs.brown.edu/people/epavlick/
+  affiliation: Brown University/Google AI
+  date: November 9, 2020
+  title: "You can lead a horse to water...: Representing vs. Using Features in Neural NLP"
+  abstract: "A wave of recent work has sought to understand how pretrained language models work. Such analyses have resulted in two seemingly contradictory sets of results. On one hand, work based on \"probing classifiers\" generally suggests that SOTA language models contain rich information about linguistic structure (e.g., parts of speech, syntax, semantic roles). On the other hand, work which measures performance on linguistic \"challenge sets\" shows that models consistently fail to use this information when making predictions. In this talk, I will present a series of results that attempt to bridge this gap. Our recent experiments suggest that the disconnect is not due to catastrophic forgetting nor is it (entirely) explained by insufficient training data. Rather, it is best explained in terms of how \"accessible\" features are to the model following pretraining, where \"accessibility\" can be quantified using an information-theoretic interpretation of probing classifiers."
+
+- speaker: Vivek Srikumar
+  url: https://svivek.com/
+  affiliation: University of Utah
+  date: November 2, 2020
+  title: "Where Neural Networks Fail: The Case for a Little Help from Knowledge"
+  abstract: "Today's dominant paradigm for modeling complex linguistic tasks calls for training neural networks by minimizing loss on massive datasets.  While the agenda is undeniably successful, we may not have the luxury of annotated data for every task or domain of interest.  Reducing dependence on labeled examples may require us to rethink how we supervise models. In this talk, I will discuss some failures of today's end-to-end trained neural networks. In particular, I will focus on two phenomena---societal stereotypes implicitly present in their decisions, and their inability to perform complex reasoning---both due to the models inability to internalize knowledge about the world. Following this, I will describe our work on using knowledge to inform neural networks without introducing additional parameters. Declarative rules stated in logic can be systematically compiled into computation graphs that augment the structure of neural models, and also into regularizers that can use labeled or unlabeled examples.  I will present experiments involving text understanding and semantic role labeling, which show that such declaratively constrained neural networks can successfully internalize the information in the rules, providing an easy-to-use mechanism for supervising neural networks that does not involve data annotation."
+
+- speaker: Liang Huang
+  url: http://web.engr.oregonstate.edu/~huanlian/
+  affiliation: Oregon State University/Baidu Research USA
+  date: October 26, 2020
+  title: "Simultaneous Translation: Breakthrough and Recent Progress"
+  abstract: "Simultaneous interpretation (i.e., translating concurrently with the source language speech) is widely used in many scenarios including multilateral organizations (UN/EU), international summits (APEC/G-20), legal proceedings, and press conferences. However, it is well known to be one of the most challenging tasks for humans due to the simultaneous perception and production in two languages. As a result, there are only a few thousand professional simultaneous interpreters world-wide, and each of them can only sustain for 15-30 minutes in each turn. On the other hand, simultaneous translation (either speech-to-text or speech-to-speech) is also notoriously difficult for machines and has remained one of the holy grails of AI. A key challenge here is the word order difference between the source and target languages. For example, if you simultaneously translate German (an SOV language) to English (an SVO language), you often have to wait for the sentence-final German verb. Therefore, most existing \"real-time\" translation systems resort to conventional full-sentence translation, causing an undesirable latency of at least one sentence, rendering the audience largely out of sync with the speaker. There have been efforts towards genuine simultaneous translation, but with limited success. Recently, we discovered a much simpler and surprisingly effective approach to simultaneous (speech-to-text) translation by designing a \"prefix-to-prefix\" framework tailed to simultaneity requirements. This is in contrast with the \"sequence-to-sequence\" framework which assumes the availability of the full input sentence. Our approach results in the first simultaneous translation system that achieves reasonable translation quality with controllable latency and was successfully deployed in many commercial products. Since 2019, our work has attracted renewed interest in this long-standing problem which was once thought to be out of reach. I will also discuss our efforts towards the ultimate goal of simultaneous speech-to-speech translation, and conclude with a list of remaining challenges. (Part of this talk was given as an ACL 2019 Keynote, but this Clunch talk will cover more recent progress.)"
+
+- speaker: Rui Zhang
+  url: https://ryanzhumich.github.io/
+  affiliation: Penn State University
+  date: October 19, 2020
+  title: Building Robust Conversational Question Answering Systems Over Databases of Tabular Data
+  abstract: A vast amount of information is stored in relational databases consisting of tables. These databases provide fundamental frameworks of data systems for business in various domains. In real-world applications, users would like to interact with databases for information requests just like talking to a human. However, querying databases requires proficiency in the SQL query language syntax and the knowledge of underlying table structures. Consequently, despite the enormous popularity of relational databases, the ability to retrieve information from these databases is still limited for many ordinary users. In this talk, I will describe some completed and ongoing efforts to build conversational question answering systems over databases of tabular data that is (1) robust to user queries by handling different types of user inputs, (2) conversational and interactive by conversing with users in a dialog setting with its reasoning ability over multi-turn contexts of interaction history, (3) explainable and verifiable by generating natural language explanations of system predicted SQL queries and execution results for user verification and feedback, (4) transferable and adaptable by quickly adapting to different domains and scenarios of databases.
+
+- speaker: Daniel Deutsch
+  url: https://danieldeutsch.github.io/
+  affiliation: University of Pennsylvania
+  date: October 12, 2020
+  title: Ongoing Work on Summarization Evaluation Metrics
+  abstract: In this talk, I will provide an overview of two ongoing works on summarization evaluation metrics. The first work analyzes the extent to which ROUGE and BERTScore actually measure the information overlap between two summaries. I show that they largely do not and propose an alternative method of comparing summarization systems which does and is interpretable. The second work focuses on using QA to evaluate summaries. After proposing a new QA-based metric, I benchmark its performance on current datasets, identify performance bottlenecks, and estimate its upper-bound performance, concluding QA is a promising future research direction.
+
+- speaker: Mike Lewis
+  url: https://research.fb.com/people/lewis-mike/
+  affiliation: Facebook AI Research
+  date: October 5, 2020
+  title: Modelling Language and the World
+  abstract: Much recent progress in NLP has been driven by training language models on large unlabelled datasets. I will argue that language modelling requires both linguistic and world knowledge, but that these can be disentangled and modelled separately. First, I will describe kNN-LM, which shows how converting a language model into a nearest neighbor classifier can give large gains in performance, by giving the model access to facts in the training set during inference. I will then introduce MARGE, a new approach to pre-training sequence-to-sequence models with an unsupervised paraphrasing objective. This objective emphasises learning to paraphrase over memorizing facts. MARGE performs well on classification, generation and retrieval tasks in many languages, without supervision in some cases, making it arguably the most broadly applicable pre-trained model to date.
+
+- speaker: Dan Hopkins
+  url: http://web.sas.upenn.edu/danhop/
+  affiliation: University of Pennsylvania
+  date: September 21, 2020
+  title: The Polarization and Nationalization of American State Party Platforms, 1918-2017
+  abstract: The role of U.S. state political parties has changed substantially in recent decades. One common supposition is that contemporary state parties are increasingly polarized and nationalized, meaning that the Democratic and Republican parties adopt similar positions nationwide. Yet, the relationship between these shifts, the mechanisms underpinning them, and the extent to which they have unfolded similarly across states and issue areas remain open questions. We introduce a data set of 2,041 state party platforms to measure nationalization and polarization between 1918 and 2018. Applying tools from automated and manual content analysis, we find that there is a dramatic divergence in the topics covered in Democratic and Republican platforms starting in the early 1990s, at virtually the same time as federal-level rhetorical polarization. During this same period, the differences across states in platforms decreased and social issues became more prominent, suggesting a tight connection between polarization, nationalization, and social issues such as abortion.
+
+- speaker: Mohit Iyyer
+  url: https://people.cs.umass.edu/~miyyer/
+  affiliation: University of Massachusetts Amherst
+  date: September 14, 2020
+  title: Towards interactive story generation
+  abstract: "Story generation is difficult to computationally formalize and evaluate, and there are many important questions to ask when tackling the problem. What should we consider as the base unit of a story (e.g., a sentence? a paragraph? a chapter?) What kind of data should we use to train these models (novels? short stories? overly simplistic mechanically-turked paragraphs?) Is any model architecture currently capable of producing long-form narratives that have some semblance of coherent discourse structure, such as plot arcs and character development? When evaluating the outputs of our models, can we do better than just asking people to rate the text based on vaguely defined properties such as \"enjoyability\"? In this talk, I'll discuss my lab's ongoing work on story generation by introducing a new dataset and evaluation method that we hope will spur progress in this area. I'll then describe practical challenges (slow inference, unsecure models) that we face when deploying our models in real-world author-facing settings, along with some solutions we have developed to combat these challenges."
+
+- speaker: Matt Gardner
+  url: https://matt-gardner.github.io/
+  affiliation: Allen Institute for Artificial Intelligence
+  date: March 5, 2020
+  title: NLP Evaluations That We Believe In
+  abstract: "With all of the modeling advancements in recent years, NLP benchmarks have been falling over left and right: \"human performance\" has been reached on SQuAD 1 and 2, GLUE and SuperGLUE, and many commonsense datasets.  Yet no serious researcher actually believes that these systems understand language, or even really solve the underlying tasks behind these datasets.  To get benchmarks that we actually believe in, we need to both think more deeply about the language phenomena that our benchmarks are targeting, and make our evaluation sets more rigorous.  I will first present ORB, an Open Reading Benchmark that collects many reading comprehension datasets that we (and others) have recently built, targeting various aspects of what it means to read.  I will then present contrast sets, a way of creating non-iid test sets that more thoroughly evaluate a model's abilities on some task, decoupling training data artifacts from test labels."
+
+- speaker: Mohammad Sadegh Rasooli
+  url: https://rasoolims.github.io/about/
+  affiliation: University of Pennsylvania
+  date: February 27, 2020
+  title: Cross-Lingual Transfer of Natural Language Processing Systems
+  abstract: "Accurate natural language processing systems rely heavily on annotated datasets. In the absence of such datasets, transfer methods can help to develop a model by transferring annotations from one or more rich-resource languages to the target language of interest. These methods are generally divided into two approaches: 1) annotation projection from translation data, aka parallel data, using supervised models in rich-resource languages, and 2) direct model transfer from annotated datasets in rich-resource languages. In this talk, we present different methods for transfer of syntactic and semantic dependency parsers. We propose an annotation projection method that performs well in scenarios for which a large amount of in-domain parallel data is available. We also propose a method which is a combination of annotation projection and direct model transfer that can leverage a minimal amount of information from a small out-of-domain parallel dataset to develop highly accurate transfer models. Furthermore, we present an unsupervised syntactic reordering model to improve the accuracy of dependency parser transfer for non-European languages. We also propose a method for cross-lingual transfer of dependency parsing based on multi-task learning by leveraging supervised syntactic information in the target language of interest. Finally, we introduce our current efforts for learning cross-lingual representations using information from different modalities especially from images in the massively multilingual image dataset (MMID)."
+
+- speaker: Zhiting Hu
+  url: http://www.cs.cmu.edu/~zhitingh/
+  affiliation: Carnegie Mellon University
+  date: February 20, 2020
+  title: Connecting the Dots between Learning Paradigms
+  abstract: Continued research has created a diverse set of learning algorithms for ingesting distinct forms of experience (e.g. data, cost, knowledge constraints). However, it is often challenging for practitioners to choose or adapt solutions from such a bewildering marketplace of algorithms, as it could demand deep ML expertise and bespoke innovations. This talk will present an attempt to systematize several paradigms of algorithms for both a unifying understanding and new systematic methodologies of creating ML solutions. I will show that some of the popular algorithms in supervised learning, constraint-driven learning, reinforcement learning, etc, indeed share a common succinct formulation, showing that different forms of experience can be used for learning in the same way. The unifying representation of algorithms allows us to methodically exchange solutions between paradigms, and learn from combinations of experience jointly, for complex problems such as text and image generation.
+
+- speaker: Nitish Gupta
+  url: https://nitishgupta.github.io/
+  affiliation: University of Pennsylvania
+  date: February 13, 2020
+  title: Neural Module Networks for Reasoning over Text
+  abstract: Answering compositional questions that require multiple steps of reasoning against text is challenging, especially when they involve discrete, symbolic operations. Neural module networks (NMNs) learn to parse such questions as executable programs composed of learnable modules, performing well on synthetic visual QA domains. In this talk, I will outline the challenges in learning these models for non-synthetic questions on open-domain text, where a model needs to deal with the diversity of natural language and perform a broader range of reasoning. Then, I will present how we extend NMNs by (a) introducing modules that reason over a paragraph of text, performing symbolic reasoning (such as arithmetic, sorting, counting) over numbers and dates in a probabilistic and differentiable manner; and (b) proposing an unsupervised auxiliary loss to help extract arguments associated with the events in text. Additionally, we show that a limited amount of heuristically-obtained question program and intermediate module output supervision provides sufficient inductive bias for accurate learning. In conclusion, I will present methods for achieving interpretability in such compositional neural models and challenges for future research.
+
+- speaker: Noam Slonim
+  url: https://researcher.watson.ibm.com/researcher/view.php?person=il-NOAMS
+  affiliation: IBM
+  date: February 6, 2020
+  title: Project Debater – How Persuasive can a Computer be?
+  abstract: Project Debater is the first AI system that can meaningfully debate a human opponent. The system, an IBM Grand Challenge, is designed to build coherent, convincing speeches on its own, as well as provide rebuttals to the opponent’s main arguments. In 2019, Project Debater competed against Harish Natarajan, who holds the world record for most debate victories, in an event held in San Francisco that was broadcasted live world-wide. In this talk I will tell the story of Project Debater, from conception to a climatic final event, describe its underlying technology, and discuss how it can be leveraged for advancing decision making and critical thinking.
+
+- speaker: Jay-Yoon Lee
+  url: https://www.andrew.cmu.edu/user/jaylee/
+  affiliation: Carnegie Mellon University
+  date: January 30, 2020
+  title: Injecting output constraints into neural NLP models in a model agnostic way
+  abstract: |+
+    The talk discusses a particular method of injecting constraints into neural models, primarily for natural language processing (NLP) tasks. While neural models have set the new state of the art performance in many tasks from vision to NLP, they often fail to learn simple rules necessary for well-formed structures unless there is an immense amount of training data. The talk claims that not all the aspects of the model have to be learned from the data itself and injecting simple knowledge/constraints into the neural models can help low-resource tasks as well as improving state-of-the-art models.
+
+    The talk focuses on the structural knowledge of the output space and injects knowledge of correct or preferred structures as an objective to the model in a model-agnostic way, i.e. without modification to the model structure. The first benefit of focusing on the knowledge of output space is that it is intuitive as we can directly enforce outputs to satisfy logical/linguistic constraints. Another advantage of structural knowledge is that it often does not require a labeled dataset.
+
+    Focusing on the example of Semantic Role Labeling and its constraints related to the syntactic parse tree, the talk showcases the efficacy of the proposed inference algorithm and the proposed semi-supervised learning.
+
+- speaker: Nick Montfort
+  url: http://nickm.com/
+  affiliation: Massachusetts Institute of Technology
+  date: January 23, 2020
+  title: Lean Computer-Generated Poetry as Exploration of Language, Culture, and Computation
+  abstract: "Computational poetics is a compelling area of NLP. Poetry has helped to constitute cultures for millennia and its composition is considered one of the most human activities. On the generation side, computational poetics involves the production of poetic language, potentially with meter, rhyme and other forms of musicality, metaphors and their cousins, narrative aspects, and intertextual references. Essentially, the main objective of computationally generated poetry is being culturally and individually resonant for at least some readers or listeners in some cultures. There are a wide variety of approaches, some of which seek to model human creativity, as in the computational creativity community. Work in the area is undertaken by academic researchers, poets and artists, and programmers seeking amusement and diversion during events such as NaNoGenMo (National Novel Generation Month), which accommodates the generation of all sorts of large-scale literature, including poetry. In my talk, I will introduce my own practice as a computational poet, which does not involve developing general models of human creativity. My practice is often considered experimental and sometimes conceptual; it is not, in any case, expressive, that is, mainly concerned with my experiences or with conveying my emotions. Rather, I consider myself a situated and embodied explorer of language, culture, and computation. My means of exploration is the development of computational poetry. My practice involves writing programs that are usually small and simple, based on specific unusual lexicons and combinatorial techniques. As part of inquiring about computation, my work connects with platform studies and deals with specifics of particular computers and programming languages. As I share and discuss some of my specific computational poems, I will describe how this type of NLG work touches on questions of language and thought as studied in, for instance, linguistics, cognitive science, and conventional poetics."
+
+- speaker: Adam Poliak
+  url: https://www.cs.jhu.edu/~apoliak1/
+  affiliation: Johns Hopkins University
+  date: December 10, 2019
+  title: "Sentence-level Semantic Inference: From Diverse Phenomena to Applications"
+  abstract: Many NLP tasks involve understanding meaning at the sentence-level. In order to analyze such models, we should decompose sentence-level semantic understanding into a diverse array of smaller, more-focused, fine-grained types of reasoning. This will help improve our understanding of the sentence-level reasoning capabilities of our NLP systems. In this talk, we will focus on Natural Language Inference (NLI), the task of determining if one sentence (hypothesis) can likely be inferred from another (context/premise). NLI has traditionally be used to evaluate how well different models understand language and the relationship between texts. We investigate whether 10 recent NLI datasets require models to reason about both texts, or if the datasets contain biases or statistical irregularities that allow a model to correctly label a context-hypothesis pair by only looking at a hypothesis. In the most popular dataset that we consider, a hypothesis-only model outperforms the majority baseline by over 2x. We will also discuss our recently released dataset, the Diverse NLI Collection (DNC), that can be used to shed light on a model’s ability to capture or understand a diverse array of semantic phenomena that are important to Natural Language Understanding. We will demonstrate how a variant of the DNC has been used to evaluate whether a Neural Machine Translation encoder captures semantic phenomena related to translation. With the remaining time, we will discuss how lessons from these studies can be applied real-world uses cases of sentence-level semantic inference. This talk is based on work that has appeared at NAACL, ACL, StarSem, and EMNLP.
+
+- speaker: Yoav Artzi
+  url: https://yoavartzi.com/
+  affiliation: Cornell University
+  date: December 3, 2019
+  title: Robot Control and Collaboration in Situated Instruction Following
+  abstract: I will present two projects studying the problem of learning to follow natural language instructions. I will present new datasets, a class of interpretable models for instruction following, learning methods that combine the benefits of supervised and reinforcement learning, and new evaluation protocols. In the first part, I will discuss the task of executing natural language instructions with a robotic agent. In contrast to existing work, we do not engineer formal representations of language meaning or the robot environment. Instead, we learn to directly map raw observations and language to low-level continuous control of a quadcopter drone. In the second part, I will propose the task of learning to follow sequences of instructions in a collaborative scenario, where both the user and the system execute actions in the environment and the user controls the system using natural language. To study this problem, we build CerealBar, a multi-player 3D game where a leader instructs a follower, and both act in the environment together to accomplish complex goals. The two projects were led by Valts Blukis, Alane Suhr, and collaborators.
+
+- speaker: Hangfeng He
+  url: https://hornhehhf.github.io/hangfenghe/
+  affiliation: University of Pennsylvania
+  date: November 19, 2019
+  title: Distributed Semantic Representations from Question-Answering Signals
+  abstract: Human annotations, especially those from experts, are costly for many natural language processing (NLP) tasks. One emerging approach is to use natural language to annotate natural language, but it is challenging to get supervision effectively from annotations that are very different from the target task. This paper studies the case where the annotations are in the format of question answering (QA). We propose a novel approach to retrieve two types of semantic representations from QA, using which we can consistently improve on a suite of tasks. This work may have pointed out an alternative way to supervise NLP tasks.
+
+- speaker: Shuai Tang
+  url: https://shuaitang.github.io/
+  affiliation: University of California, San Diego
+  date: November 12, 2019
+  title: Revisiting post-processing for word embeddings
+  abstract: Word embeddings learnt from large corpora have been adopted in various applications in natural language processing and served as the general input representations to learning systems. Recently, a series of post-processing methods have been proposed to boost the performance of word embeddings on similarity comparison and analogy retrieval tasks, and some have been adapted to compose sentence representations. The general hypothesis behind these methods is that by enforcing the embedding space to be more isotropic, the similarity between words can be better expressed. We view these methods as an approach to shrink the covariance/gram matrix, which is estimated by learning word vectors, towards a scaled identity matrix. By optimising an objective in the semi-Riemannian manifold with Centralised Kernel Alignment (CKA), we are able to search for the optimal shrinkage parameter, and provide a post-processing method to smooth the spectrum of learnt word vectors which yields improved performance on downstream tasks.
+
+- speaker: Daniel Deutsch
+  url: https://danieldeutsch.github.io/
+  affiliation: University of Pennsylvania
+  date: October 29, 2019
+  title: A General-Purpose Algorithm for Constrained Sequential Inference
+  abstract: Inference in structured prediction involves finding the best output structure for an input, subject to certain constraints. Many current approaches use sequential inference, which constructs the output in a left-to-right manner. However, there is no general framework to specify constraints in these approaches. We present a principled approach for incorporating constraints into sequential inference algorithms. Our approach expresses constraints using an automaton, which is traversed in lock-step during inference, guiding the search to valid outputs. We show that automata can express commonly used constraints and are easily incorporated into sequential inference. When it is more natural to represent constraints as a set of automata, our algorithm uses an active set method for demonstrably fast and efficient inference. We experimentally show the benefits of our algorithm on constituency parsing and semantic role labeling. For parsing, unlike unconstrained approaches, our algorithm always generates valid output, incurring only a small drop in performance. For semantic role labeling, imposing constraints using our algorithm corrects common errors, improving F1 by 1.5 points. These benefits increase in low-resource settings. Our active set method achieves a 5.2x relative speed-up over a naive approach.
+
+- speaker: Daniel Deutsch
+  url: https://danieldeutsch.github.io/
+  affiliation: University of Pennsylvania
+  date: October 29, 2019
+  title: "Summary Cloze: A New Task for Content Selection in Topic-Focused Summarization"
+  abstract: A key challenge in topic-focused summarization is determining what information should be included in the summary, a problem known as content selection. In this work, we propose a new method for studying content selection in topic-focused summarization called the summary cloze task. The goal of the summary cloze task is to generate the next sentence of a summary conditioned on the beginning of the summary, a topic, and a reference document(s). The main challenge is deciding what information in the references is relevant to the topic and partial summary and should be included in the summary. Although the cloze task does not address all aspects of the traditional summarization problem, the more narrow scope of the task allows us to collect a large-scale datset of nearly 500k summary cloze instances from Wikipedia. We report experimental results on this new dataset using various extractive models and a two-step abstractive model that first extractively selects a small number of sentences and then abstractively summarizes them. Our results show that the topic and partial summary help the models identify relevant content, but the task remains a significant challenge.
+
+- speaker: Ben Zhou
+  url: http://xuanyu.me/
+  affiliation: University of Pennsylvania
+  date: October 29, 2019
+  title: "\"Going on a vacation\" takes longer than \"Going for a walk\": A Study of Temporal Commonsense Understanding"
+  abstract: Understanding time is crucial for understanding events expressed in natural language. Because people rarely say the obvious, it is often necessary to have commonsense knowledge about various temporal aspects of events, such as duration, frequency, and temporal order. However, this important problem has so far received limited attention. This paper systematically studies this temporal commonsense problem. Specifically, we define five classes of temporal commonsense, and use crowdsourcing to develop a new dataset, MCTACO, that serves as a test set for this task. We find that the best current methods used on MCTACO are still far behind human performance, by about 20%, and discuss several directions for improvement. We hope that the new dataset and our study here can foster more future research on this topic.
+
+- speaker: Katharina Kann
+  url: https://cs.nyu.edu/~kann/
+  affiliation: New York University
+  date: October 22, 2019
+  title: Neural Networks for Morphological Generation in the Minimal-Resource Setting
+  abstract: As languages other than English are moving more and more into the focus of natural language processing, accurate handling of morphology is increasing in importance. This talk presents neural network-based approaches to morphological generation, casting the problem as a character-based sequence-to-sequence task. First, we will generally discuss how to successfully train neural sequence-to-sequence models for this. Then, since many morphologically rich languages only have limited resources, the main part of the talk will focus on how to overcome the challenges that limited amounts of annotated training data pose to neural models. The approaches covered in this talk include multi-task learning, cross-lingual transfer learning, and meta-learning.
+
+- speaker: Jithin Pradeep
+  affiliation: The Vanguard Group
+  date: October 15, 2019
+  title: ArSI - Artificial Speech Intelligence - An end to end automatic speech recognition using Attention plus CTC
+
+- speaker: Shi Yu
+  affiliation: The Vanguard Group
+  date: October 15, 2019
+  title: A Financial Service Chatbot based on Deep Bidirectional Transformers
+
+- speaker: Christopher Lynn
+  url: https://web.sas.upenn.edu/chlynn/
+  affiliation: University of Pennsylvania
+  date: October 8, 2019
+  title: Human information processing in complex networks
+  abstract: Humans communicate using systems of interconnected stimuli or concepts -- from language and music to literature and science -- yet it remains unclear how, if at all, the structure of these networks supports the communication of information. Although information theory provides tools to quantify the information produced by a system, traditional metrics do not account for the inefficient and biased ways that humans process this information. Here we develop an analytical framework to study the information generated by a system as perceived by a human observer. We demonstrate experimentally that this perceived information depends critically on a system's network topology. Applying our framework to several real networks, we find that they communicate a large amount of information (having high entropy) and do so efficiently (maintaining low divergence from human expectations). Moreover, we show that such efficient communication arises in networks that are simultaneously heterogeneous, with high-degree hubs, and clustered, with tightly-connected modules -- the two defining features of hierarchical organization. Together, these results suggest that many real networks are constrained by the pressures of information transmission, and that these pressures select for specific structural features.
+
+- speaker: Dan Goldwasser
+  url: https://www.cs.purdue.edu/homes/dgoldwas/
+  affiliation: Purdue University
+  date: October 1, 2019
+  title: Joint Models for Social, Behavioral and Textual Information
+  abstract: Understanding natural language communication often requires context, such as the speakers' backgrounds and social conventions, however, when it comes to computationally modeling these interactions, we typically ignore their broader context and analyze the text in isolation. In this talk, I will review on-going work demonstrating the importance of holistically modeling behavioral, social and textual information. I will focus on several NLP problems, including political discourse analysis on Twitter, partisan news detection and open-domain debate stance prediction, and discuss how jointly modeling text and social behavior can help reduce the supervision effort and provide a better representation for language understanding tasks.
+
+- speaker: Robert Shaffer
+  url: https://global.upenn.edu/perryworldhouse/person/robert-shaffer
+  affiliation: University of Pennsylvania
+  date: September 24, 2019
+  title: Similarity Inference for Legal Texts
+  abstract: Quantifying similarity between pairs of documents is a ubiquitous task. Both researchers and members of the public frequently use document-level pairwise similarity measures to describe or explore unfamiliar corpora, or to test hypotheses regarding diffusion of ideas between authors. High-level similarity measures are particularly useful when dealing with legal or political corpora, which often contain long, thematically diverse, and specialized language that is difficult for non-experts to interpret. Unfortunately, though similarity estimation is a well-studied problem in the context of short documents and document excerpts, less attention has been paid to the problem of similarity inference for long documents.
+
+- speaker: Reno Kriz
+  url: https://rekriz11.github.io/
+  affiliation: University of Pennsylvania
+  date: September 17, 2019
+  title: Comparison of Diverse Decoding Methods from Conditional Language Models
+  abstract: While conditional language models have greatly improved in their ability to output high-quality natural language, many NLP applications benefit from being able to generate a diverse set of candidate sequences. Diverse decoding strategies aim to, within a given-sized candidate list, cover as much of the space of high-quality outputs as possible, leading to improvements for tasks that re-rank and combine candidate outputs. Standard decoding methods, such as beam search, optimize for generating high likelihood sequences rather than diverse ones, though recent work has focused on increasing diversity in these methods. We conduct an extensive survey of decoding-time strategies for generating diverse outputs from conditional language models. We also show how diversity can be improved without sacrificing quality by over-sampling additional candidates, then filtering to the desired number.
+
+- speaker: Daphne Ippolito
+  url: http://www.seas.upenn.edu/~daphnei/
+  affiliation: University of Pennsylvania
+  date: September 17, 2019
+  title: Detecting whether Text is Human- or Machine-Generated
+  abstract: With the advent of generative models with a billion parameters or more, it is now possible to automatically generate vast amounts of human-sounding text. But just how human-like is this machine-generated text? Intuitively, shorter amounts of machine-generated text are harder to detect, but exactly how many words can a machine generate and still fool both humans and trained discriminators? We investigate how the choices of sampling strategy and text sequence length impact discriminability from human-written text, using both automatic detection methods and human judgement.

@@ -23,7 +23,7 @@
             <!-- https://stackoverflow.com/questions/13266369/how-to-change-the-default-order-pages-in-jekyll -->
             {% assign sorted_pages = site.pages | sort:"order" %}
             {% for node in sorted_pages %}
-              {%- if node.title -%}
+              {%- if node.title and node.title != "CLunch Archive" -%}
                 <a class="page-link" href="{{ node.url | relative_url }}">{{ node.title | escape }}</a>
               {%- endif -%}
             {%- endfor -%}
