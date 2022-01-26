@@ -27,7 +27,7 @@ View older talks at the [CLunch archive](/clunch_archive).
 {% if talks_size > 0 %}
   <p>
   <h2>Past Talks</h2>
-  <h3>Spring 2022, Fall 2021</h3>
+  <h3>Fall 2021</h3>
   <p markdown="1">
   Past talks from the current and previous semesters are shown below. View older talks at the [CLunch archive](/clunch_archive).
   </p>
