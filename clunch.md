@@ -7,7 +7,7 @@ order: 3
 CLunch is the weekly <b>C</b>omputational <b>L</b>inguistics l<b>unch</b> run by the NLP group.
 We invite external and internal speakers to come and present their research on natural language processing, computational linguistics, and machine learning.
 
-Interested in attending CLunch? Sign up for our mailing list [here](http://lists.seas.upenn.edu/mailman/listinfo/clunch).
+Interested in attending CLunch? Sign up for our mailing list [here](https://groups.google.com/a/seas.upenn.edu/g/clunch/about).
 
 View older talks at the [CLunch archive](/clunch_archive).
 
