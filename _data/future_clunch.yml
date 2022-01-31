@@ -31,6 +31,15 @@
   abstract: |
     Recent work has shown that transformers can be trained to reason *systematically* with natural language (NL) statements, answering questions with answers implied by a set of provided facts and rules, and even generating proofs for those conclusions. However, these systems required all the knowledge to be provided explicitly as input. In this talk, I will describe our current work on generalizing this to real NL problems, where the system produces faithful, entailment-based proofs for its answers, including materializing its own latent knowledge as needed for those proofs. The resulting reasoning-supported answers can then be inspected, debugged, and corrected by the user, offering new opportunities for interactive problem-solving dialogs, and taking a step towards "teachable systems" that can learn from such dialogs over time.
 
+- speaker: Spencer Caplan
+  img: assets/img/clunch/spencer_caplan.jpeg
+  url: https://spencercaplan.org/
+  affiliation: Swarthmore College
+  date: February 14, 2022
+  title: TBD
+  abstract: |
+    TBD
+
 - speaker: Maria Ryskina
   img: assets/img/clunch/maria_ryskina.jpeg
   url: https://www.cs.cmu.edu/~mryskina/
