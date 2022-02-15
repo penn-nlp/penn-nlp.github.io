@@ -54,9 +54,9 @@
   url: https://tallinzen.net/
   affiliation: New York University
   date: February 28, 2022
-  title: TBD
+  title: Causal analysis of the syntactic representations used by Transformers
   abstract: |
-    TBD
+    The success of artificial neural networks in language processing tasks has underscored the need to understand how they accomplish their behavior, and, in particular, how their internal vector representations support that behavior. The probing paradigm, which has often been invoked to address this question, relies on the (typically implicit) assumption that if a classifier can decode a particular piece of information from the model's intermediate representation, then that information plays a role in shaping the model's behavior. This assumption is not necessarily justified. Using the test case of everyone's favorite syntactic phenomenon - English subject-verb number agreement - I will present an approach that provides much stronger evidence for the *causal* role of the encoding of a particular linguistic feature in the model's behavior. This approach, which we refer to as AlterRep, modifies the internal representation in question such that it encodes the opposite value of that feature; e.g., if BERT originally encoded a particular word as occurring inside a relative clause, we modify the representation to encode that it is not inside the relative clause. I will show that the conclusions of this method diverge from those of the probing method. Finally, if time permits, I will present a method based on causal mediation analysis that makes it possible to draw causal conclusions by applying counterfactual interventions to the *inputs*, contrasting with AlterRep which intervenes on the model's internal representations.
 
 - speaker: Jordan Boyd-Graber
   img: assets/img/clunch/jordan_boyd_graber.png
