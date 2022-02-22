@@ -63,9 +63,9 @@
   url: http://users.umiacs.umd.edu/~jbg/
   affiliation: University of Maryland
   date: March 14, 2022
-  title: TBD
+  title: "Manchester vs. Cranfield: Why do we have computers answering questions from web search data and how can we do it better?"
   abstract: |
-    TBD
+    In this talk, I'll argue that the intellectual nexus of computers searching through the web to answer questions comes from research undertaken in two mid-century English university towns: Manchester and Cranfield. After reviewing the seminal work of Cyril Cleverdon and Alan Turing and explaining how that shaped today the information and AI age, I'll argue that these represent two competing visions for how computers should answer questions: either exploration of intelligence (Manchester) or serving the user (Cranfield). However, regardless of which paradigm you adhere to, I argue that the ideals for those visions are not fulfilled in modern question answering implementations: the human (Ken Jennings) vs. computer (Watson) competition on Jeopardy! was rigged, other evaluations don't show which system knows more about a topic, the training and evaluation data don't reflect the background of users, and the annotation scheme for training data is incomplete. After outlining our short-term solutions to these issues, I'll then discuss a longer-term plan to achieve the goals of both the Manchester and Cranfield paradigms.
 
 - speaker: Omer Levy
   img: assets/img/clunch/omer_levy.jpeg
