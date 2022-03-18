@@ -31,7 +31,7 @@
 - name: "Soham Dan"
   status: "phd"
   img: assets/img/soham_dan.jpg
-  url: https://scholar.google.com/citations?user=nOsmu8UAAAAJ&hl=en&oi=ao
+  url: https://sdan2.github.io/
 
 - name: "Daniel Deutsch"
   status: "phd"
@@ -180,12 +180,12 @@
 - name: Yue Yang
   status: phd
   img: assets/img/yue_yang.png
-  url: http://www.yueyang.host
+  url: https://yueyang1996.github.io/
 
 - name: Mark Yatskar
   status: faculty
   img: assets/img/mark_yatskar.jpg
-  url: http://markyatskar.com/
+  url: https://www.cis.upenn.edu/~myatskar/
 
 - name: Weiqiu You
   status: phd
