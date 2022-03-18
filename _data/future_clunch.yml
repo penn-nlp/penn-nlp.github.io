@@ -72,18 +72,18 @@
   url: https://www.cs.tau.ac.il/~levyomer/
   affiliation: Tel Aviv University
   date: March 21, 2022
-  title: TBD
+  title: SCROLLS: Standard CompaRison Over Long Language Sequences
   abstract: |
-    TBD
+    NLP benchmarks have largely focused on short texts, such as sentences and paragraphs, even though long texts comprise a considerable amount of natural language in the wild. We introduce SCROLLS, a suite of tasks that require reasoning over long texts. We examine existing long-text datasets, and handpick ones where the text is naturally long, while prioritizing tasks that involve synthesizing information across the input. SCROLLS contains summarization, question answering, and natural language inference tasks, covering multiple domains, including literature, science, business, and entertainment. Initial baselines, including Longformer Encoder-Decoder, indicate that there is ample room for improvement on SCROLLS. We make all datasets available in a unified text-to-text format and host a live leaderboard to facilitate research on model architecture and pretraining methods.
 
 - speaker: Heng Ji
   img: assets/img/clunch/heng_ji.png
   url: https://blender.cs.illinois.edu/hengji.html
   affiliation: University of Illinois at Urbana-Champaign
   date: March 28, 2022
-  title: TBD
+  title: Information Surgery: Faking Multimedia Fake News for Real Fake News Detection
   abstract: |
-    TBD
+    We are living in an era of information pollution. The dissemination of falsified information can cause chaos, hatred, and trust issues among humans, and can eventually hinder the development of society. In particular, human-written disinformation, which is often used to manipulate certain populations, had catastrophic impact on multiple events, such as the 2016 US Presidential Election, Brexit, the COVID-19 pandemic, and the recent Russia’s assault on Ukraine. Hence, we are in urgent need of a defending mechanism against human-written disinformation. While there has been a lot of research and many recent advances in neural fake news detection, there are many challenges remaining. In particular, the accuracy of existing techniques at detecting human-written fake news is barely above random. In this talk I will present our recent attempts at tackling four unique challenges in the frontline of combating fake news written by both machines and humans: (1) Define a new task on knowledge element level misinformation detection based on cross-media knowledge extraction and reasoning to make the detector more accurate and explainable; (2) Generate training data for the detector based on knowledge graph manipulation and knowledge graph guided natural language generation; (3) Use Natural Language Inference to ensure the fake information cannot be inferred from the rest of the real document; (4) Propose the first work to generate propaganda for more robust detection of human-written fake news. 
 
 - speaker: Allyson Ettinger
   img: assets/img/clunch/allyson_ettinger.jpeg
