@@ -1,3 +1,9 @@
+- name: Mohammad Sadegh Rasooli
+  degree: Postdoc
+  year: 2021
+  current: Applied Scientist, Microsoft Research
+  url: https://rasoolims.github.io/about/
+
 - name: "Spencer Caplan"
   degree: Ph.D.
   year: 2021
@@ -322,6 +328,12 @@
   year: 2004
   current: NIST
   url:
+
+- name: Eleni Miltsakaki
+  degree: Ph.D.
+  year: 2003
+  current: Senior Researcher, Department of Computer & Information Science, University of Pennsylvania
+  url: https://www.miltsakaki.com/
 
 - name: Carlos Prolo
   degree: Ph.D.

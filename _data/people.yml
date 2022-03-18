@@ -58,11 +58,6 @@
   img: assets/img/xingyu_fu.jpeg
   url: https://zeyofu.github.io/
 
-- name: "Jie Gao"
-  status: "phd"
-  img: assets/img/jie_gao.jpg
-  url: https://jiegaopoc.me/
-
 - name: "Salvatore Giorgi"
   status: "phd"
   img: assets/img/salvatore_giorgi.jpeg
@@ -87,10 +82,6 @@
   status: phd
   img: assets/img/alyssa_hwang.jpg
   url: http://alyssahwang.com/
-
-- name: "Rebecca Iglesias-Flores"
-  status: "phd"
-  img: assets/img/rebecca_iglesias-flores.jpg
 
 - name: "Daphne Ippolito"
   status: "phd"
@@ -156,11 +147,6 @@
   status: phd
   img: assets/img/artemis_panagopoulou.jpeg
   url: https://artemisp.github.io/
-
-- name: Mohammad Sadegh Rasooli
-  status: postdoc
-  img: assets/img/mohammad_sadegh_rasooli.jpg
-  url: https://rasoolims.github.io/about/
 
 - name: "Dan Roth"
   status: "faculty"
