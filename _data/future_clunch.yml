@@ -90,9 +90,9 @@
   url: https://aetting.github.io/
   affiliation: University of Chicago
   date: April 4, 2022
-  title: TBD
+  title: '"Understanding" and prediction: Controlled examinations of meaning sensitivity in pre-trained models'
   abstract: |
-    TBD
+    In recent years, NLP has made what appears to be incredible progress, with performance even surpassing human performance on some benchmarks. How should we interpret these advances? Have these models achieved language "understanding"? Operating on the premise that "understanding" will necessarily involve the capacity to extract and deploy meaning information, in this talk I will discuss a series of projects leveraging targeted tests to examine NLP models' ability to capture meaning in a systematic fashion. I will first discuss work probing model representations for compositional meaning, with a particular focus on disentangling compositional information from encoding of lexical properties. I'll then explore models' ability to extract and deploy meaning information during word prediction, applying tests inspired by psycholinguistics to examine what types of information models encode and access for anticipating words in context. In all cases, these investigations apply tests that prioritize control of unwanted cues, so as to target the desired meaning capabilities with greater precision. The results of these studies suggest that although models show a good deal of sensitivity to word-level information, and to a number of semantic and syntactic distinctions, they show little sign of capturing higher-level compositional meaning, of capturing logical impacts of meaning components like negation, or of retaining access to robust representations of meaning information conveyed in prior context. I will discuss potential implications of these findings with respect to the goals of achieving "understanding" with currently dominant pre-training paradigms.
 
 - speaker: Maarten Sap
   img: assets/img/clunch/maarten_sap.jpeg
