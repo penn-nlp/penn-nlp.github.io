@@ -99,9 +99,13 @@
   url: https://homes.cs.washington.edu/~msap/
   affiliation: Allen Institute for AI (AI2)
   date: April 11, 2022
-  title: TBD
+  title: Detecting and Rewriting Socially Biased Language
   abstract: |
-    TBD
+    Language has the power to reinforce stereotypes and project social biases onto others, either through overt hate or subtle biases. Accounting for this toxicity and social bias in language is crucial for natural language processing (NLP) systems to be safely and ethically deployed in the world. 
+In this talk, I will first discuss subjectivity challenges in binary hate speech detection, by examining perceptions of offensiveness of text depending on reader attitudes and identities. Through an online study, we find several correlates between over- or under-detecting text as toxic based on political leaning, attitudes about racism and free speech.
+Then, as an alternative to binary hate speech detection, I will present Social Bias Frames, a new structured formalism for distilling biased implications of language. Using a new corpus of 150k structured annotations, we show that models can learn to reason about high-level offensiveness of statements, but struggle to explain why a statement might be harmful.
+Finally, I will introduce PowerTransformer, an unsupervised model for controllable debiasing of text through the lens of connotation frames of power and agency. With this model, we show that subtle gender biases in how characters are portrayed in stories and movies can be mitigated through automatic rewriting. I will conclude with future directions for better reasoning about toxicity and social biases in language.
+
 
 - speaker: Esin Durmus
   img: assets/img/clunch/esin_durmus.jpeg
