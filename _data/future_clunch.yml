@@ -108,9 +108,9 @@
   url: https://esdurmus.github.io/
   affiliation: Stanford University
   date: April 18, 2022
-  title: TBD
+  title: On the Evaluation and Mitigation of Faithfulness Errors in Abstractive Summarization
   abstract: |
-    TBD
+    Despite recent progress in abstractive summarization, systems still generate unfaithful summaries, i.e. summaries that contain information that is not supported by the input. There has been a lot of effort to develop methods to measure and improve faithfulness errors. In this talk, I will first introduce some of the proposed methods to measure faithfulness of summarization systems. Then, I will present a spurious correlate: i.e., extractiveness of the summary, that potentially influences how we should evaluate the faithfulness of these systems. In particular, I will describe our work that proposes a method to measure and improve faithfulness by accounting for the extractiveness of summarization systems. Furthermore, I will discuss the importance of accounting for spurious correlations (such as extractiveness, perplexity, and length) in designing effective evaluation frameworks for text generation.
 
 - speaker: Su Lin Blodgett
   img: assets/img/clunch/su_lin_blodgett.jpeg
