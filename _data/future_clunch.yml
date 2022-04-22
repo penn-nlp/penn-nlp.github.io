@@ -117,6 +117,6 @@
   url: https://sblodgett.github.io/
   affiliation: Microsoft Research Montréal
   date: April 25, 2022
-  title: TBD
+  title: Towards Equitable Language Technologies
   abstract: |
-    TBD
+    Language technologies are now ubiquitous. Yet the benefits of these technologies do not accrue evenly to all people, and they can be harmful; they can reproduce stereotypes, prevent speakers of “non-standard” language varieties from participating fully in public discourse, and reinscribe historical patterns of linguistic discrimination. In this talk, I will take a tour through the rapidly emerging body of research examining bias and harm in language technologies and offer some perspective on the many challenges of this work. I will discuss some recent efforts to understand language-related harms in their sociohistorical contexts, and to investigate NLP resources developed for one such harm—stereotyping—touching on the complexities of deciding what these resources ought to measure, and how they ought to measure it.
