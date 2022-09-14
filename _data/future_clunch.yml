@@ -13,17 +13,7 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
-- speaker: Michael Strube
-  img: assets/img/clunch/michael_strube.jpg
-  url: https://www.h-its.org/people/prof-dr-michael-strube/
-  affiliation: HITS & Heidelberg University
-  date: September 12, 2022
-  title: Generalizability and Robustness in Coreference Resolution
-  abstract: |
-    In the last ten years we have seen considerable improvements in the performance of coreference resolvers, from about 60 points F1-measure to more than 80 since the CoNLL shared tasks 2011 and 2012. These improvements are mostly due to new machine learning techniques, in particular neural coreference resolvers. However, while these improvements have been reported on the CoNLL data, it is not clear whether these improvements hold on datasets in other genres, domains, and languages. In this talk I report on a series of experiments -- done by PhD. students in my research group -- testing the generalizability and robustness of coreference resolvers. Our experiments indicate that the results reported by modern machine learning based systems are not stable across genres and domains. However, the rule-based system by Lee et al. (2013), which won the CoNLL shared task 2011, is still competitive in these setups. A possible conclusion is that neural coreference resolvers should be equipped with more linguistic knowledge to make them more robust. To test the generalizability the field should not only evaluate on the CoNLL/OntoNotes data but on different domains, genres, languages and in downstream tasks.
-  
 - speaker: Smaranda Muresan
-#   img: http://www.cs.columbia.edu/~smara/smara601.jpg
   url: http://www.cs.columbia.edu/~smara/
   affiliation: Columbia University
   date: September 19, 2022
