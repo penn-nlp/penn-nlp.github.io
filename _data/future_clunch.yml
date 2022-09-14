@@ -15,9 +15,9 @@
 
 - speaker: Smaranda Muresan
   url: http://www.cs.columbia.edu/~smara/
-  img: assets/img/clunch/smara.jepg
+  img: /assets/img/clunch/smara.jpeg
   affiliation: Columbia University
   date: September 19, 2022
-  title: Text Generation The Curious Case of Figurative Language and Argumentation
+  title: "Text Generation: The Curious Case of Figurative Language and Argumentation"
   abstract: |
      Large-scale language models based on transformer architectures, such as GPT-3 or BERT, have advanced the state of the art in Natural Language Understanding and Generation. However, even though these models have shown impressive performance for a variety of tasks, they often struggle to model implicit and/or non-compositional meaning, such as figurative language and argumentative text. In this talk, I will present some of our work on text generation models for figurative language and argumentation. There are two main challenges we have to address to make progress in this space: 1) the need to model common sense and/or connotative knowledge required for these tasks; and 2) the lack of large training datasets. I will discuss our proposed theoretically-grounded knowledge-enhanced text generation models for figurative language such as metaphor and for argument reframing. If time permits I will share our recent efforts of using a model-in-the-loop approach for building datasets for figurative language understanding modeled as an entailment task with explanation generation.
