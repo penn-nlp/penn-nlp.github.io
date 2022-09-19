@@ -13,11 +13,20 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: William Wang (UCSB)
+  url: https://sites.cs.ucsb.edu/~william/
+  img: /assets/img/clunch/william_wang.png
+  affiliation: UC Santa Barbara
+  date: September 26, 2022
+  title: "Self-Supervised Language-and-Vision Reasoning"
+  abstract: |
+     A key challenge for Artificial Intelligence research is to go beyond static observational data and consider more challenging settings that involve dynamic actions and incremental decision-making. In this talk, I will introduce our work on visually-grounded language reasoning via the studies of vision-and-language navigation. In particular, I will emphasize three benefits of self-supervised learning: (1) improves generalization in unseen environments; (2) creates adversarial counterfactuals to augment observational data; (3) enables transfer learning for challenging settings. I will briefly introduce other reasoning problems my groups have been working on recently.
+
 - speaker: Smaranda Muresan
   url: http://www.cs.columbia.edu/~smara/
   img: /assets/img/clunch/smara.jpeg
   affiliation: Columbia University
-  date: September 19, 2022
+  date: TBD
   title: "Text Generation: The Curious Case of Figurative Language and Argumentation"
   abstract: |
      Large-scale language models based on transformer architectures, such as GPT-3 or BERT, have advanced the state of the art in Natural Language Understanding and Generation. However, even though these models have shown impressive performance for a variety of tasks, they often struggle to model implicit and/or non-compositional meaning, such as figurative language and argumentative text. In this talk, I will present some of our work on text generation models for figurative language and argumentation. There are two main challenges we have to address to make progress in this space: 1) the need to model common sense and/or connotative knowledge required for these tasks; and 2) the lack of large training datasets. I will discuss our proposed theoretically-grounded knowledge-enhanced text generation models for figurative language such as metaphor and for argument reframing. If time permits I will share our recent efforts of using a model-in-the-loop approach for building datasets for figurative language understanding modeled as an entailment task with explanation generation.
