@@ -13,14 +13,14 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
-- speaker: William Wang (UCSB)
-  url: https://sites.cs.ucsb.edu/~william/
-  img: /assets/img/clunch/william_wang.png
-  affiliation: UC Santa Barbara
-  date: September 26, 2022
-  title: "Self-Supervised Language-and-Vision Reasoning"
+- speaker: Chenhao Tan
+  url: https://chenhaot.com/
+  img: /assets/img/clunch/chenhao_tan.jpeg
+  affiliation: University of Chicago
+  date: October 3, 2022
+  title: "Towards Human-Centered Explanations of AI Predictions"
   abstract: |
-     A key challenge for Artificial Intelligence research is to go beyond static observational data and consider more challenging settings that involve dynamic actions and incremental decision-making. In this talk, I will introduce our work on visually-grounded language reasoning via the studies of vision-and-language navigation. In particular, I will emphasize three benefits of self-supervised learning: (1) improves generalization in unseen environments; (2) creates adversarial counterfactuals to augment observational data; (3) enables transfer learning for challenging settings. I will briefly introduce other reasoning problems my groups have been working on recently.
+     Explanations of AI predictions are considered crucial for human-AI interactions such as model debugging and model-assisted decision making, but it remains an open question what makes effective AI explanations. In this talk, I will highlight the distinction between emulation and discovery tasks, which shapes the answers to this question. In emulation tasks, humans provide groundtruth labels and the goal of AI is to emulate human intelligence. Although it is intuitive to think that humans can provide valid explanations in this case, I argue that humans may not be able to provide "good" explanations. Despite the growing efforts in building datasets of human explanations, caution is required to use such human explanations for evaluation or as supervision signals. In contrast, in discovery tasks, humans may not necessarily know the groundtruth label. While human-subject experiments are increasingly used to evaluate whether explanations improve human decisions, human+AI rarely outperforms AI alone. I will discuss the importance of identifying human strengths and AI strengths, and present our initial efforts in decision-focused summarization. I will conclude with future directions for developing effective human-centered explanations.
 
 - speaker: Smaranda Muresan
   url: http://www.cs.columbia.edu/~smara/
