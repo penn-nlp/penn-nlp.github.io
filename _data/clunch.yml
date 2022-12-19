@@ -53,20 +53,9 @@
      Deep learning is typically associated with an abundance of data. But there are scenarios when pre-collected data will never be enough. For example, language on social media is constantly evolving and pretrained language models cannot adapt to rapid language change, dialects, and sociolects, no matter how large pretraining/annotated datasets are. Other examples of constantly evolving and therefore always-low-resource language domains include scientific articles, expert notes, and even news.
      In this talk, I will advocate for using model interpretability methods to dynamically procure data annotations in such low resource scenarios.  In the first part, I will show how instance attribution approaches to model interpretability can identify critical training examples to improve the robustness and adaptability of hate speech classifiers. In the second part, I'll show how self-explaining models can be used for entity and keyphrase extraction in scientific articles. I'll conclude with more ideas for this new paradigm of using approaches to interpreting neural networks as an intrinsic component in low-resource NLP systems and not only as a tool to present explanations to humans.
 
-
-- speaker: Yulia Tsvetkov
-  url: https://homes.cs.washington.edu/~yuliats/
-  img: /assets/img/clunch/yulia_tsvetkov.jpeg
-  affiliation: University of Washington
-  date: November 21, 2022
-  title: "Interpretation as Weak Supervision for Data-Efficient NLP"
-  abstract: |
-     Deep learning is typically associated with an abundance of data. But there are scenarios when pre-collected data will never be enough. For example, language on social media is constantly evolving and pretrained language models cannot adapt to rapid language change, dialects, and sociolects, no matter how large pretraining/annotated datasets are. Other examples of constantly evolving and therefore always-low-resource language domains include scientific articles, expert notes, and even news.
-     In this talk, I will advocate for using model interpretability methods to dynamically procure data annotations in such low resource scenarios.  In the first part, I will show how instance attribution approaches to model interpretability can identify critical training examples to improve the robustness and adaptability of hate speech classifiers. In the second part, I'll show how self-explaining models can be used for entity and keyphrase extraction in scientific articles. I'll conclude with more ideas for this new paradigm of using approaches to interpreting neural networks as an intrinsic component in low-resource NLP systems and not only as a tool to present explanations to humans.
-
 - speaker: Rotem Dror
-  url: https://rtmdrr.github.io/https://rtmdrr.github.io/
-  img: /assets/img/clunch/rotem_dror.jpeg
+  url: https://rtmdrr.github.io/
+  img: /assets/img/rotem_dror.jpeg
   affiliation: University of Pennsylvania
   date: November 14, 2022
   title: "Standards for Experiment Design and Evaluation in Natural Language Processing"
