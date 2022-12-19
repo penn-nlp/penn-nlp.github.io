@@ -12,21 +12,3 @@
 #   date: June 26, 2019
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
-
-- speaker: Chenhao Tan
-  url: https://chenhaot.com/
-  img: /assets/img/clunch/chenhao_tan.jpeg
-  affiliation: University of Chicago
-  date: October 3, 2022
-  title: "Towards Human-Centered Explanations of AI Predictions"
-  abstract: |
-     Explanations of AI predictions are considered crucial for human-AI interactions such as model debugging and model-assisted decision making, but it remains an open question what makes effective AI explanations. In this talk, I will highlight the distinction between emulation and discovery tasks, which shapes the answers to this question. In emulation tasks, humans provide groundtruth labels and the goal of AI is to emulate human intelligence. Although it is intuitive to think that humans can provide valid explanations in this case, I argue that humans may not be able to provide "good" explanations. Despite the growing efforts in building datasets of human explanations, caution is required to use such human explanations for evaluation or as supervision signals. In contrast, in discovery tasks, humans may not necessarily know the groundtruth label. While human-subject experiments are increasingly used to evaluate whether explanations improve human decisions, human+AI rarely outperforms AI alone. I will discuss the importance of identifying human strengths and AI strengths, and present our initial efforts in decision-focused summarization. I will conclude with future directions for developing effective human-centered explanations.
-
-- speaker: Smaranda Muresan
-  url: http://www.cs.columbia.edu/~smara/
-  img: /assets/img/clunch/smara.jpeg
-  affiliation: Columbia University
-  date: TBD
-  title: "Text Generation: The Curious Case of Figurative Language and Argumentation"
-  abstract: |
-     Large-scale language models based on transformer architectures, such as GPT-3 or BERT, have advanced the state of the art in Natural Language Understanding and Generation. However, even though these models have shown impressive performance for a variety of tasks, they often struggle to model implicit and/or non-compositional meaning, such as figurative language and argumentative text. In this talk, I will present some of our work on text generation models for figurative language and argumentation. There are two main challenges we have to address to make progress in this space: 1) the need to model common sense and/or connotative knowledge required for these tasks; and 2) the lack of large training datasets. I will discuss our proposed theoretically-grounded knowledge-enhanced text generation models for figurative language such as metaphor and for argument reframing. If time permits I will share our recent efforts of using a model-in-the-loop approach for building datasets for figurative language understanding modeled as an entailment task with explanation generation.
