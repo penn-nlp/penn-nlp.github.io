@@ -13,110 +13,20 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
-- speaker: Sihao Chen, Liam Dugan, Xingyu Fu
-  img: assets/img/clunch/sihao_liam_xingyu.jpg
-  url: https://nlp.cis.upenn.edu/
-  affiliation: University of Pennsylvania
-  date: January 31, 2022
-  title: Mini Talks
-  abstract: |
-    The three talks this week include "Characterizing Media Presentation Biases and Polarization with Unsupervised Open Entity Relation Learning" (Sihao Chen), "Are humans able to detect boundaries between human-written and machine-generated text?" (Liam Dugan) and "There’s a Time and Place for Reasoning Beyond the Image" (Xingyu Fu).
-
-- speaker: Peter Clark
-  img: assets/img/clunch/peter_clark.jpeg
-  url: https://allenai.org/team/peterc
-  affiliation: Allen Institute for AI (AI2)
-  date: February 7, 2022
-  title: Systematic Reasoning and Explanation over Natural Language
-  abstract: |
-    Recent work has shown that transformers can be trained to reason *systematically* with natural language (NL) statements, answering questions with answers implied by a set of provided facts and rules, and even generating proofs for those conclusions. However, these systems required all the knowledge to be provided explicitly as input. In this talk, I will describe our current work on generalizing this to real NL problems, where the system produces faithful, entailment-based proofs for its answers, including materializing its own latent knowledge as needed for those proofs. The resulting reasoning-supported answers can then be inspected, debugged, and corrected by the user, offering new opportunities for interactive problem-solving dialogs, and taking a step towards "teachable systems" that can learn from such dialogs over time.
-
-- speaker: Spencer Caplan
-  img: assets/img/clunch/spencer_caplan.jpeg
-  url: https://spencercaplan.org/
-  affiliation: Swarthmore College
-  date: February 14, 2022
-  title: "On the importance of baselines: Communicative efficiency and the statistics of words in natural language"
-  abstract: |
-    Is language designed for communicative and functional efficiency? G. K. Zipf (1949) famously argued that shorter words are more frequent because they are easier to use, thereby resulting in the statistical law that bears his name. Yet, G. A. Miller (1957) showed that even a monkey randomly typing at a keyboard, and intermittently striking the space bar, would generate “words” with similar statistical properties. Recent quantitative analyses of human language lexicons (Piantadosi et al., 2012) have revived Zipf's functionalist hypothesis. Ambiguous words tend to be short, frequent, and easy to articulate in language production. Such statistical findings are commonly interpreted as evidence for pressure for efficiency, as the context of language use often provides cues to overcome lexical ambiguity. In this talk, I update Miller's monkey thought experiment to incorporate empirically motivated phonological and semantic constraints on the creation of words. I claim that the appearance of communicative efficiency is a spandrel (in the sense of Gould & Lewontin, 1979), as lexicons formed without the context of language use or reference to communication or efficiency exhibit comparable statistical properties. Furthermore, the updated monkey model provides a good fit for the growth trajectory of English as recorded in the Oxford English Dictionary. Focusing on the history of English words since 1900, I show that lexicons resulting from the monkey model provide a better embodiment of communicative efficiency than the actual lexicon of English. I conclude by arguing that the kind of faulty logic underlying the study of communicative efficiency crops up quite commonly within NLP -- evaluation metrics, and appropriate baselines, need to be carefully considered before any claims (cognitive or otherwise) can safely be made on their basis.
-
-- speaker: Maria Ryskina
-  img: assets/img/clunch/maria_ryskina.jpeg
-  url: https://www.cs.cmu.edu/~mryskina/
-  affiliation: Carnegie Mellon University
-  date: February 21, 2022
-  title: Learning Computational Models of Non-Standard Language
-  abstract: |
-    Non-standard linguistic items, such as novel words or creative spellings, are common in domains like social media and pose challenges for automatically processing text from these domains. To build models capable of processing such innovative items, we need to not only understand how humans reason about non-standard language, but also be able to operationalize this knowledge to create useful inductive biases. In this talk, I will present empirical studies of several phenomena under the umbrella of non-standard language, modeled at the levels of granularity ranging from individual users to entire dialects. First, I will show how idiosyncratic spelling preferences reveal information about the user, with an application to the bibliographic task of identifying typesetters of historical printed documents. Second, I will discuss the common patterns in user-specific orthographies and demonstrate that incorporating these patterns helps with unsupervised conversion of idiosyncratically romanized text into the native orthography of the language. In the final part of the talk, I will focus on word emergence in a dialect as a whole and present a diachronic corpus study modeling the language-internal and language-external factors that drive neology.
-
-- speaker: Tal Linzen
-  img: assets/img/clunch/tal_linzen.png
-  url: https://tallinzen.net/
-  affiliation: New York University
-  date: February 28, 2022
-  title: Causal analysis of the syntactic representations used by Transformers
-  abstract: |
-    The success of artificial neural networks in language processing tasks has underscored the need to understand how they accomplish their behavior, and, in particular, how their internal vector representations support that behavior. The probing paradigm, which has often been invoked to address this question, relies on the (typically implicit) assumption that if a classifier can decode a particular piece of information from the model's intermediate representation, then that information plays a role in shaping the model's behavior. This assumption is not necessarily justified. Using the test case of everyone's favorite syntactic phenomenon - English subject-verb number agreement - I will present an approach that provides much stronger evidence for the *causal* role of the encoding of a particular linguistic feature in the model's behavior. This approach, which we refer to as AlterRep, modifies the internal representation in question such that it encodes the opposite value of that feature; e.g., if BERT originally encoded a particular word as occurring inside a relative clause, we modify the representation to encode that it is not inside the relative clause. I will show that the conclusions of this method diverge from those of the probing method. Finally, if time permits, I will present a method based on causal mediation analysis that makes it possible to draw causal conclusions by applying counterfactual interventions to the *inputs*, contrasting with AlterRep which intervenes on the model's internal representations.
-
-- speaker: Jordan Boyd-Graber
-  img: assets/img/clunch/jordan_boyd_graber.png
-  url: http://users.umiacs.umd.edu/~jbg/
-  affiliation: University of Maryland
-  date: March 14, 2022
-  title: "Manchester vs. Cranfield: Why do we have computers answering questions from web search data and how can we do it better?"
-  abstract: |
-    In this talk, I'll argue that the intellectual nexus of computers searching through the web to answer questions comes from research undertaken in two mid-century English university towns: Manchester and Cranfield. After reviewing the seminal work of Cyril Cleverdon and Alan Turing and explaining how that shaped today the information and AI age, I'll argue that these represent two competing visions for how computers should answer questions: either exploration of intelligence (Manchester) or serving the user (Cranfield). However, regardless of which paradigm you adhere to, I argue that the ideals for those visions are not fulfilled in modern question answering implementations: the human (Ken Jennings) vs. computer (Watson) competition on Jeopardy! was rigged, other evaluations don't show which system knows more about a topic, the training and evaluation data don't reflect the background of users, and the annotation scheme for training data is incomplete. After outlining our short-term solutions to these issues, I'll then discuss a longer-term plan to achieve the goals of both the Manchester and Cranfield paradigms.
-
-- speaker: Omer Levy
-  img: assets/img/clunch/omer_levy.jpeg
-  url: https://www.cs.tau.ac.il/~levyomer/
-  affiliation: Tel Aviv University
-  date: March 21, 2022
-  title: "SCROLLS: Standard CompaRison Over Long Language Sequences"
-  abstract: |
-    NLP benchmarks have largely focused on short texts, such as sentences and paragraphs, even though long texts comprise a considerable amount of natural language in the wild. We introduce SCROLLS, a suite of tasks that require reasoning over long texts. We examine existing long-text datasets, and handpick ones where the text is naturally long, while prioritizing tasks that involve synthesizing information across the input. SCROLLS contains summarization, question answering, and natural language inference tasks, covering multiple domains, including literature, science, business, and entertainment. Initial baselines, including Longformer Encoder-Decoder, indicate that there is ample room for improvement on SCROLLS. We make all datasets available in a unified text-to-text format and host a live leaderboard to facilitate research on model architecture and pretraining methods.
-
-- speaker: Heng Ji
-  img: assets/img/clunch/heng_ji.png
-  url: https://blender.cs.illinois.edu/hengji.html
-  affiliation: University of Illinois at Urbana-Champaign
-  date: March 28, 2022
-  title: "Information Surgery: Faking Multimedia Fake News for Real Fake News Detection"
-  abstract: |
-    We are living in an era of information pollution. The dissemination of falsified information can cause chaos, hatred, and trust issues among humans, and can eventually hinder the development of society. In particular, human-written disinformation, which is often used to manipulate certain populations, had catastrophic impact on multiple events, such as the 2016 US Presidential Election, Brexit, the COVID-19 pandemic, and the recent Russia’s assault on Ukraine. Hence, we are in urgent need of a defending mechanism against human-written disinformation. While there has been a lot of research and many recent advances in neural fake news detection, there are many challenges remaining. In particular, the accuracy of existing techniques at detecting human-written fake news is barely above random. In this talk I will present our recent attempts at tackling four unique challenges in the frontline of combating fake news written by both machines and humans: (1) Define a new task on knowledge element level misinformation detection based on cross-media knowledge extraction and reasoning to make the detector more accurate and explainable; (2) Generate training data for the detector based on knowledge graph manipulation and knowledge graph guided natural language generation; (3) Use Natural Language Inference to ensure the fake information cannot be inferred from the rest of the real document; (4) Propose the first work to generate propaganda for more robust detection of human-written fake news. 
-
-- speaker: Allyson Ettinger
-  img: assets/img/clunch/allyson_ettinger.jpeg
-  url: https://aetting.github.io/
+- speaker: Chenhao Tan
+  url: https://chenhaot.com/
+  img: /assets/img/clunch/chenhao_tan.jpeg
   affiliation: University of Chicago
-  date: April 4, 2022
-  title: '"Understanding" and prediction: Controlled examinations of meaning sensitivity in pre-trained models'
+  date: October 3, 2022
+  title: "Towards Human-Centered Explanations of AI Predictions"
   abstract: |
-    In recent years, NLP has made what appears to be incredible progress, with performance even surpassing human performance on some benchmarks. How should we interpret these advances? Have these models achieved language "understanding"? Operating on the premise that "understanding" will necessarily involve the capacity to extract and deploy meaning information, in this talk I will discuss a series of projects leveraging targeted tests to examine NLP models' ability to capture meaning in a systematic fashion. I will first discuss work probing model representations for compositional meaning, with a particular focus on disentangling compositional information from encoding of lexical properties. I'll then explore models' ability to extract and deploy meaning information during word prediction, applying tests inspired by psycholinguistics to examine what types of information models encode and access for anticipating words in context. In all cases, these investigations apply tests that prioritize control of unwanted cues, so as to target the desired meaning capabilities with greater precision. The results of these studies suggest that although models show a good deal of sensitivity to word-level information, and to a number of semantic and syntactic distinctions, they show little sign of capturing higher-level compositional meaning, of capturing logical impacts of meaning components like negation, or of retaining access to robust representations of meaning information conveyed in prior context. I will discuss potential implications of these findings with respect to the goals of achieving "understanding" with currently dominant pre-training paradigms.
+     Explanations of AI predictions are considered crucial for human-AI interactions such as model debugging and model-assisted decision making, but it remains an open question what makes effective AI explanations. In this talk, I will highlight the distinction between emulation and discovery tasks, which shapes the answers to this question. In emulation tasks, humans provide groundtruth labels and the goal of AI is to emulate human intelligence. Although it is intuitive to think that humans can provide valid explanations in this case, I argue that humans may not be able to provide "good" explanations. Despite the growing efforts in building datasets of human explanations, caution is required to use such human explanations for evaluation or as supervision signals. In contrast, in discovery tasks, humans may not necessarily know the groundtruth label. While human-subject experiments are increasingly used to evaluate whether explanations improve human decisions, human+AI rarely outperforms AI alone. I will discuss the importance of identifying human strengths and AI strengths, and present our initial efforts in decision-focused summarization. I will conclude with future directions for developing effective human-centered explanations.
 
-- speaker: Maarten Sap
-  img: assets/img/clunch/maarten_sap.jpeg
-  url: https://homes.cs.washington.edu/~msap/
-  affiliation: Allen Institute for AI (AI2)
-  date: April 11, 2022
-  title: 'Detecting and Rewriting Socially Biased Language'
+- speaker: Smaranda Muresan
+  url: http://www.cs.columbia.edu/~smara/
+  img: /assets/img/clunch/smara.jpeg
+  affiliation: Columbia University
+  date: TBD
+  title: "Text Generation: The Curious Case of Figurative Language and Argumentation"
   abstract: |
-    Language has the power to reinforce stereotypes and project social biases onto others, either through overt hate or subtle biases. Accounting for this toxicity and social bias in language is crucial for natural language processing (NLP) systems to be safely and ethically deployed in the world. In this talk, I will first discuss subjectivity challenges in binary hate speech detection, by examining perceptions of offensiveness of text depending on reader attitudes and identities. Through an online study, we find several correlates between over- or under-detecting text as toxic based on political leaning, attitudes about racism and free speech. Then, as an alternative to binary hate speech detection, I will present Social Bias Frames, a new structured formalism for distilling biased implications of language. Using a new corpus of 150k structured annotations, we show that models can learn to reason about high-level offensiveness of statements, but struggle to explain why a statement might be harmful. Finally, I will introduce PowerTransformer, an unsupervised model for controllable debiasing of text through the lens of connotation frames of power and agency. With this model, we show that subtle gender biases in how characters are portrayed in stories and movies can be mitigated through automatic rewriting. I will conclude with future directions for better reasoning about toxicity and social biases in language.
-
-- speaker: Esin Durmus
-  img: assets/img/clunch/esin_durmus.jpeg
-  url: https://esdurmus.github.io/
-  affiliation: Stanford University
-  date: April 18, 2022
-  title: On the Evaluation and Mitigation of Faithfulness Errors in Abstractive Summarization
-  abstract: |
-    Despite recent progress in abstractive summarization, systems still generate unfaithful summaries, i.e. summaries that contain information that is not supported by the input. There has been a lot of effort to develop methods to measure and improve faithfulness errors. In this talk, I will first introduce some of the proposed methods to measure faithfulness of summarization systems. Then, I will present a spurious correlate: i.e., extractiveness of the summary, that potentially influences how we should evaluate the faithfulness of these systems. In particular, I will describe our work that proposes a method to measure and improve faithfulness by accounting for the extractiveness of summarization systems. Furthermore, I will discuss the importance of accounting for spurious correlations (such as extractiveness, perplexity, and length) in designing effective evaluation frameworks for text generation.
-
-- speaker: Su Lin Blodgett
-  img: assets/img/clunch/su_lin_blodgett.jpeg
-  url: https://sblodgett.github.io/
-  affiliation: Microsoft Research Montréal
-  date: April 25, 2022
-  title: Towards Equitable Language Technologies
-  abstract: |
-    Language technologies are now ubiquitous. Yet the benefits of these technologies do not accrue evenly to all people, and they can be harmful; they can reproduce stereotypes, prevent speakers of “non-standard” language varieties from participating fully in public discourse, and reinscribe historical patterns of linguistic discrimination. In this talk, I will take a tour through the rapidly emerging body of research examining bias and harm in language technologies and offer some perspective on the many challenges of this work. I will discuss some recent efforts to understand language-related harms in their sociohistorical contexts, and to investigate NLP resources developed for one such harm—stereotyping—touching on the complexities of deciding what these resources ought to measure, and how they ought to measure it.
+     Large-scale language models based on transformer architectures, such as GPT-3 or BERT, have advanced the state of the art in Natural Language Understanding and Generation. However, even though these models have shown impressive performance for a variety of tasks, they often struggle to model implicit and/or non-compositional meaning, such as figurative language and argumentative text. In this talk, I will present some of our work on text generation models for figurative language and argumentation. There are two main challenges we have to address to make progress in this space: 1) the need to model common sense and/or connotative knowledge required for these tasks; and 2) the lack of large training datasets. I will discuss our proposed theoretically-grounded knowledge-enhanced text generation models for figurative language such as metaphor and for argument reframing. If time permits I will share our recent efforts of using a model-in-the-loop approach for building datasets for figurative language understanding modeled as an entailment task with explanation generation.

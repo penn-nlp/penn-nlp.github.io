@@ -1,3 +1,9 @@
+- name: Daniel Deutsch
+  degree: Ph.D.
+  year: 2022
+  current: Research Scientist, Google
+  url: https://danieldeutsch.github.io/
+
 - name: Mohammad Sadegh Rasooli
   degree: Postdoc
   year: 2021
@@ -7,7 +13,7 @@
 - name: "Spencer Caplan"
   degree: Ph.D.
   year: 2021
-  current: Visiting Assistant Professor, Swarthmore College
+  current: Postdoc, The University of Texas at Austin
   url: http://www.spencercaplan.org/
 
 - name: "Reno Kriz"

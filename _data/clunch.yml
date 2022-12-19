@@ -14,92 +14,129 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
-- speaker: Jonathan Berant
-  img: assets/img/clunch/jonathan_berant.jpeg
-  url: http://www.cs.tau.ac.il/~joberant/
+- speaker: William Wang (UCSB)
+  url: https://sites.cs.ucsb.edu/~william/
+  img: /assets/img/clunch/william_wang.png
+  affiliation: UC Santa Barbara
+  date: September 26, 2022
+  title: "Self-Supervised Language-and-Vision Reasoning"
+  abstract: |
+     A key challenge for Artificial Intelligence research is to go beyond static observational data and consider more challenging settings that involve dynamic actions and incremental decision-making. In this talk, I will introduce our work on visually-grounded language reasoning via the studies of vision-and-language navigation. In particular, I will emphasize three benefits of self-supervised learning: (1) improves generalization in unseen environments; (2) creates adversarial counterfactuals to augment observational data; (3) enables transfer learning for challenging settings. I will briefly introduce other reasoning problems my groups have been working on recently.
+
+- speaker: Michael Strube
+  img: assets/img/clunch/michael_strube.jpg
+  url: https://www.h-its.org/people/prof-dr-michael-strube/
+  affiliation: HITS & Heidelberg University
+  date: September 12, 2022
+  title: Generalizability and Robustness in Coreference Resolution
+  abstract: |
+    In the last ten years we have seen considerable improvements in the performance of coreference resolvers, from about 60 points F1-measure to more than 80 since the CoNLL shared tasks 2011 and 2012. These improvements are mostly due to new machine learning techniques, in particular neural coreference resolvers. However, while these improvements have been reported on the CoNLL data, it is not clear whether these improvements hold on datasets in other genres, domains, and languages. In this talk I report on a series of experiments -- done by PhD. students in my research group -- testing the generalizability and robustness of coreference resolvers. Our experiments indicate that the results reported by modern machine learning based systems are not stable across genres and domains. However, the rule-based system by Lee et al. (2013), which won the CoNLL shared task 2011, is still competitive in these setups. A possible conclusion is that neural coreference resolvers should be equipped with more linguistic knowledge to make them more robust. To test the generalizability the field should not only evaluate on the CoNLL/OntoNotes data but on different domains, genres, languages and in downstream tasks.
+  
+- speaker: Su Lin Blodgett
+  img: assets/img/clunch/su_lin_blodgett.jpeg
+  url: https://sblodgett.github.io/
+  affiliation: Microsoft Research Montréal
+  date: April 25, 2022
+  title: Towards Equitable Language Technologies
+  abstract: |
+    Language technologies are now ubiquitous. Yet the benefits of these technologies do not accrue evenly to all people, and they can be harmful; they can reproduce stereotypes, prevent speakers of “non-standard” language varieties from participating fully in public discourse, and reinscribe historical patterns of linguistic discrimination. In this talk, I will take a tour through the rapidly emerging body of research examining bias and harm in language technologies and offer some perspective on the many challenges of this work. I will discuss some recent efforts to understand language-related harms in their sociohistorical contexts, and to investigate NLP resources developed for one such harm—stereotyping—touching on the complexities of deciding what these resources ought to measure, and how they ought to measure it.
+
+- speaker: Esin Durmus
+  img: assets/img/clunch/esin_durmus.jpeg
+  url: https://esdurmus.github.io/
+  affiliation: Stanford University
+  date: April 18, 2022
+  title: On the Evaluation and Mitigation of Faithfulness Errors in Abstractive Summarization
+  abstract: |
+    Despite recent progress in abstractive summarization, systems still generate unfaithful summaries, i.e. summaries that contain information that is not supported by the input. There has been a lot of effort to develop methods to measure and improve faithfulness errors. In this talk, I will first introduce some of the proposed methods to measure faithfulness of summarization systems. Then, I will present a spurious correlate: i.e., extractiveness of the summary, that potentially influences how we should evaluate the faithfulness of these systems. In particular, I will describe our work that proposes a method to measure and improve faithfulness by accounting for the extractiveness of summarization systems. Furthermore, I will discuss the importance of accounting for spurious correlations (such as extractiveness, perplexity, and length) in designing effective evaluation frameworks for text generation.
+
+- speaker: Maarten Sap
+  img: assets/img/clunch/maarten_sap.jpeg
+  url: https://homes.cs.washington.edu/~msap/
+  affiliation: Allen Institute for AI (AI2)
+  date: April 11, 2022
+  title: 'Detecting and Rewriting Socially Biased Language'
+  abstract: |
+    Language has the power to reinforce stereotypes and project social biases onto others, either through overt hate or subtle biases. Accounting for this toxicity and social bias in language is crucial for natural language processing (NLP) systems to be safely and ethically deployed in the world. In this talk, I will first discuss subjectivity challenges in binary hate speech detection, by examining perceptions of offensiveness of text depending on reader attitudes and identities. Through an online study, we find several correlates between over- or under-detecting text as toxic based on political leaning, attitudes about racism and free speech. Then, as an alternative to binary hate speech detection, I will present Social Bias Frames, a new structured formalism for distilling biased implications of language. Using a new corpus of 150k structured annotations, we show that models can learn to reason about high-level offensiveness of statements, but struggle to explain why a statement might be harmful. Finally, I will introduce PowerTransformer, an unsupervised model for controllable debiasing of text through the lens of connotation frames of power and agency. With this model, we show that subtle gender biases in how characters are portrayed in stories and movies can be mitigated through automatic rewriting. I will conclude with future directions for better reasoning about toxicity and social biases in language.
+
+- speaker: Allyson Ettinger
+  img: assets/img/clunch/allyson_ettinger.jpeg
+  url: https://aetting.github.io/
+  affiliation: University of Chicago
+  date: April 4, 2022
+  title: '"Understanding" and prediction: Controlled examinations of meaning sensitivity in pre-trained models'
+  abstract: |
+    In recent years, NLP has made what appears to be incredible progress, with performance even surpassing human performance on some benchmarks. How should we interpret these advances? Have these models achieved language "understanding"? Operating on the premise that "understanding" will necessarily involve the capacity to extract and deploy meaning information, in this talk I will discuss a series of projects leveraging targeted tests to examine NLP models' ability to capture meaning in a systematic fashion. I will first discuss work probing model representations for compositional meaning, with a particular focus on disentangling compositional information from encoding of lexical properties. I'll then explore models' ability to extract and deploy meaning information during word prediction, applying tests inspired by psycholinguistics to examine what types of information models encode and access for anticipating words in context. In all cases, these investigations apply tests that prioritize control of unwanted cues, so as to target the desired meaning capabilities with greater precision. The results of these studies suggest that although models show a good deal of sensitivity to word-level information, and to a number of semantic and syntactic distinctions, they show little sign of capturing higher-level compositional meaning, of capturing logical impacts of meaning components like negation, or of retaining access to robust representations of meaning information conveyed in prior context. I will discuss potential implications of these findings with respect to the goals of achieving "understanding" with currently dominant pre-training paradigms.
+
+- speaker: Heng Ji
+  img: assets/img/clunch/heng_ji.png
+  url: https://blender.cs.illinois.edu/hengji.html
+  affiliation: University of Illinois at Urbana-Champaign
+  date: March 28, 2022
+  title: "Information Surgery: Faking Multimedia Fake News for Real Fake News Detection"
+  abstract: |
+    We are living in an era of information pollution. The dissemination of falsified information can cause chaos, hatred, and trust issues among humans, and can eventually hinder the development of society. In particular, human-written disinformation, which is often used to manipulate certain populations, had catastrophic impact on multiple events, such as the 2016 US Presidential Election, Brexit, the COVID-19 pandemic, and the recent Russia’s assault on Ukraine. Hence, we are in urgent need of a defending mechanism against human-written disinformation. While there has been a lot of research and many recent advances in neural fake news detection, there are many challenges remaining. In particular, the accuracy of existing techniques at detecting human-written fake news is barely above random. In this talk I will present our recent attempts at tackling four unique challenges in the frontline of combating fake news written by both machines and humans: (1) Define a new task on knowledge element level misinformation detection based on cross-media knowledge extraction and reasoning to make the detector more accurate and explainable; (2) Generate training data for the detector based on knowledge graph manipulation and knowledge graph guided natural language generation; (3) Use Natural Language Inference to ensure the fake information cannot be inferred from the rest of the real document; (4) Propose the first work to generate propaganda for more robust detection of human-written fake news. 
+
+
+- speaker: Omer Levy
+  img: assets/img/clunch/omer_levy.jpeg
+  url: https://www.cs.tau.ac.il/~levyomer/
   affiliation: Tel Aviv University
-  date: December 6, 2021
-  title: "Zero-shot learning and out-of-distribution generalization: two sides of the same coin"
+  date: March 21, 2022
+  title: "SCROLLS: Standard CompaRison Over Long Language Sequences"
   abstract: |
-    Recent advances in large pre-trained language models have shifted the NLP community’s attention to new challenges: (a) training models with zero, or very few, examples, and (b) generalizing to out-of-distribution examples. In this talk, I will argue that the two are intimately related, and describe ongoing (read, new!) work in those directions. First, I will describe a new pre-training scheme for open-domain question answering that is based on the notion of “recurring spans” across different paragraphs. We show this training scheme leads to a zero-shot retriever that is competitive with DPR (which trains on thousands of examples), and is more robust w.r.t the test distribution. Second, I will focus on compositional generalization, a particular type of out-of-distribution generalization setup where models need to generalize to structures that are unobserved at training time. I will show that the view that seq2seq models categorically do not generalize to new compositions is false, and present a more nuanced analysis, which elucidates what are the conditions under which models struggle to compositionally generalize.
+    NLP benchmarks have largely focused on short texts, such as sentences and paragraphs, even though long texts comprise a considerable amount of natural language in the wild. We introduce SCROLLS, a suite of tasks that require reasoning over long texts. We examine existing long-text datasets, and handpick ones where the text is naturally long, while prioritizing tasks that involve synthesizing information across the input. SCROLLS contains summarization, question answering, and natural language inference tasks, covering multiple domains, including literature, science, business, and entertainment. Initial baselines, including Longformer Encoder-Decoder, indicate that there is ample room for improvement on SCROLLS. We make all datasets available in a unified text-to-text format and host a live leaderboard to facilitate research on model architecture and pretraining methods.
 
-- speaker: He He
-  img: assets/img/clunch/he_he.jpeg
-  url: https://hhexiy.github.io/
+- speaker: Jordan Boyd-Graber
+  img: assets/img/clunch/jordan_boyd_graber.png
+  url: http://users.umiacs.umd.edu/~jbg/
+  affiliation: University of Maryland
+  date: March 14, 2022
+  title: "Manchester vs. Cranfield: Why do we have computers answering questions from web search data and how can we do it better?"
+  abstract: |
+    In this talk, I'll argue that the intellectual nexus of computers searching through the web to answer questions comes from research undertaken in two mid-century English university towns: Manchester and Cranfield. After reviewing the seminal work of Cyril Cleverdon and Alan Turing and explaining how that shaped today the information and AI age, I'll argue that these represent two competing visions for how computers should answer questions: either exploration of intelligence (Manchester) or serving the user (Cranfield). However, regardless of which paradigm you adhere to, I argue that the ideals for those visions are not fulfilled in modern question answering implementations: the human (Ken Jennings) vs. computer (Watson) competition on Jeopardy! was rigged, other evaluations don't show which system knows more about a topic, the training and evaluation data don't reflect the background of users, and the annotation scheme for training data is incomplete. After outlining our short-term solutions to these issues, I'll then discuss a longer-term plan to achieve the goals of both the Manchester and Cranfield paradigms.
+
+- speaker: Tal Linzen
+  img: assets/img/clunch/tal_linzen.png
+  url: https://tallinzen.net/
   affiliation: New York University
-  date: November 30, 2021
-  title: Out-of-distribution generalization in NLP
+  date: February 28, 2022
+  title: Causal analysis of the syntactic representations used by Transformers
   abstract: |
-    Real-world NLP models must work well when the test distribution differs from the training distribution. While we have made great progress in natural language understanding thanks to large-scale pre-training, current models still take shortcuts and rely on spurious correlations in specific datasets. In this talk, I will discuss the role of pre-training and data in model robustness to distribution shifts. In particular, I will describe how pre-trained models avoid learning spurious correlations, when data augmentation helps and hurts, and how large language models can be leveraged to improve few-shot learning.
+    The success of artificial neural networks in language processing tasks has underscored the need to understand how they accomplish their behavior, and, in particular, how their internal vector representations support that behavior. The probing paradigm, which has often been invoked to address this question, relies on the (typically implicit) assumption that if a classifier can decode a particular piece of information from the model's intermediate representation, then that information plays a role in shaping the model's behavior. This assumption is not necessarily justified. Using the test case of everyone's favorite syntactic phenomenon - English subject-verb number agreement - I will present an approach that provides much stronger evidence for the *causal* role of the encoding of a particular linguistic feature in the model's behavior. This approach, which we refer to as AlterRep, modifies the internal representation in question such that it encodes the opposite value of that feature; e.g., if BERT originally encoded a particular word as occurring inside a relative clause, we modify the representation to encode that it is not inside the relative clause. I will show that the conclusions of this method diverge from those of the probing method. Finally, if time permits, I will present a method based on causal mediation analysis that makes it possible to draw causal conclusions by applying counterfactual interventions to the *inputs*, contrasting with AlterRep which intervenes on the model's internal representations.
 
-- speaker: Yue Yang
-  img: assets/img/yue_yang.png
+- speaker: Maria Ryskina
+  img: assets/img/clunch/maria_ryskina.jpeg
+  url: https://www.cs.cmu.edu/~mryskina/
+  affiliation: Carnegie Mellon University
+  date: February 21, 2022
+  title: Learning Computational Models of Non-Standard Language
+  abstract: |
+    Non-standard linguistic items, such as novel words or creative spellings, are common in domains like social media and pose challenges for automatically processing text from these domains. To build models capable of processing such innovative items, we need to not only understand how humans reason about non-standard language, but also be able to operationalize this knowledge to create useful inductive biases. In this talk, I will present empirical studies of several phenomena under the umbrella of non-standard language, modeled at the levels of granularity ranging from individual users to entire dialects. First, I will show how idiosyncratic spelling preferences reveal information about the user, with an application to the bibliographic task of identifying typesetters of historical printed documents. Second, I will discuss the common patterns in user-specific orthographies and demonstrate that incorporating these patterns helps with unsupervised conversion of idiosyncratically romanized text into the native orthography of the language. In the final part of the talk, I will focus on word emergence in a dialect as a whole and present a diachronic corpus study modeling the language-internal and language-external factors that drive neology.
+
+- speaker: Spencer Caplan
+  img: assets/img/clunch/spencer_caplan.jpeg
+  url: https://spencercaplan.org/
+  affiliation: Swarthmore College
+  date: February 14, 2022
+  title: "On the importance of baselines: Communicative efficiency and the statistics of words in natural language"
+  abstract: |
+    Is language designed for communicative and functional efficiency? G. K. Zipf (1949) famously argued that shorter words are more frequent because they are easier to use, thereby resulting in the statistical law that bears his name. Yet, G. A. Miller (1957) showed that even a monkey randomly typing at a keyboard, and intermittently striking the space bar, would generate “words” with similar statistical properties. Recent quantitative analyses of human language lexicons (Piantadosi et al., 2012) have revived Zipf's functionalist hypothesis. Ambiguous words tend to be short, frequent, and easy to articulate in language production. Such statistical findings are commonly interpreted as evidence for pressure for efficiency, as the context of language use often provides cues to overcome lexical ambiguity. In this talk, I update Miller's monkey thought experiment to incorporate empirically motivated phonological and semantic constraints on the creation of words. I claim that the appearance of communicative efficiency is a spandrel (in the sense of Gould & Lewontin, 1979), as lexicons formed without the context of language use or reference to communication or efficiency exhibit comparable statistical properties. Furthermore, the updated monkey model provides a good fit for the growth trajectory of English as recorded in the Oxford English Dictionary. Focusing on the history of English words since 1900, I show that lexicons resulting from the monkey model provide a better embodiment of communicative efficiency than the actual lexicon of English. I conclude by arguing that the kind of faulty logic underlying the study of communicative efficiency crops up quite commonly within NLP -- evaluation metrics, and appropriate baselines, need to be carefully considered before any claims (cognitive or otherwise) can safely be made on their basis.
+
+- speaker: Peter Clark
+  img: assets/img/clunch/peter_clark.jpeg
+  url: https://allenai.org/team/peterc
+  affiliation: Allen Institute for AI (AI2)
+  date: February 7, 2022
+  title: Systematic Reasoning and Explanation over Natural Language
+  abstract: |
+    Recent work has shown that transformers can be trained to reason *systematically* with natural language (NL) statements, answering questions with answers implied by a set of provided facts and rules, and even generating proofs for those conclusions. However, these systems required all the knowledge to be provided explicitly as input. In this talk, I will describe our current work on generalizing this to real NL problems, where the system produces faithful, entailment-based proofs for its answers, including materializing its own latent knowledge as needed for those proofs. The resulting reasoning-supported answers can then be inspected, debugged, and corrected by the user, offering new opportunities for interactive problem-solving dialogs, and taking a step towards "teachable systems" that can learn from such dialogs over time.
+
+- speaker: Sihao Chen, Liam Dugan, Xingyu Fu
+  img: assets/img/clunch/sihao_liam_xingyu.jpg
   url: https://nlp.cis.upenn.edu/
   affiliation: University of Pennsylvania
-  date: November 22, 2021
-  title: Investigate Procedural Events in a Multimodal Fashion
-  abstract: |
-    Recently, there has been growing attention to studying procedural events while most of them focus on the text. We utilize multimodal as a tool to probe the procedure knowledge. This talk will introduce two projects: 1) Visual Goal-Step Inference using wikiHow -- Understanding what sequence of steps are needed to complete a goal can help artificial intelligence systems reason about human activities. We propose the Visual Goal-Step Inference (VGSI) task, where a model is given a textual goal and must choose which of four images represents a plausible step towards that goal. 2) Induce, Edit, Retrieve: Language Grounded Multimodal Schema for Instructional Video Retrieval -- Schemas are structure representations of complex tasks that can aid artificial intelligence by allowing models to break down complex tasks into intermediate steps. We propose a novel system that induces schemas from web videos and generalizes schemas for unseen tasks to improve video retrieval performance.
-
-- speaker: Marjorie McShane
-  img: assets/img/clunch/marjorie_mcshane.jpeg
-  url: https://homepages.hass.rpi.edu/mcsham2/index.html
-  affiliation: Rensselaer Polytechnic Institute
-  date: November 15, 2021
-  title: Toward Broad and Deep Language Understanding for Intelligent Systems
-  abstract: |
-    The early vision of AI included the goal of endowing intelligent systems with human-like language processing capabilities. This proved harder than expected, leading the vast majority of natural language processing practitioners to pursue less ambitious, shorter-term goals. Whereas the utility of human-like language processing is unquestionable, its feasibility is quite justifiably questioned. In this talk, I will not only argue that some approximation of human-like language processing is possible, I will present a program of R&D that is working on making it a reality. This vision, as well as progress to date, is described in the book Linguistics for the Age of AI (MIT Press, 2021).
-
-- speaker: Daphne Ippolito
-  img: assets/img/daphne_ippolito.jpg
-  url: https://www.seas.upenn.edu/~daphnei/me/
-  affiliation: University of Pennsylvania
-  date: November 1, 2021
-  title: Language Models Memorize their Training Data; Dataset Deduplication Helps
-  abstract: |
-    Large neural language models are capable of memorizing their training data. First, I will discuss why this memorization is bad and the subtleties involved in studying harmful memorization tendencies. Then, I will go over some early results on the circumstances under which GPT-Neo, a popular public language model, exhibits memorization. Finally, I will describe our recent paper on deduplicating training data and discuss how models trained on deduplicated data memorize less, are more efficient to train, and possibly generalize better. I will also examine the problem of train-test leakage in existing popular datasets.
-
-- speaker: Samuel Bowman
-  img: assets/img/clunch/sam_bowman.jpeg
-  url: https://cims.nyu.edu/~sbowman/
-  affiliation: NYU
-  date: October 25, 2021
-  title: Overclaiming in NLP Is a Serious Problem. Underclaiming May Be Worse.
-  abstract: |
-    In an effort to avoid reinforcing widespread hype about the capabilities of state-of-the-art language technology systems, researchers have developed practices in framing and citation that serve to deemphasize the field's successes, even at the cost of making misleadingly strong claims about the limits of our best systems. This is a problem, though, and it may be more serious than it looks: It limits our ability to mitigate short-term harms from NLP deployments and it limits our ability to prepare for the potentially-enormous impacts of more distant future systems. This paper urges researchers to be careful about these claims, and suggests some research directions that will make it easier to avoid or rebut them.
-
-- speaker: Diyi Yang
-  img: assets/img/clunch/diyi_yang.jpeg
-  url: https://www.cc.gatech.edu/~dyang888/
-  affiliation: Georgia Tech
-  date: October 18, 2021
-  title: "Socially Aware Language Technologies: Theory, Method, and Practice"
-  abstract: |
-    Natural language processing (NLP) has had increasing success and produced extensive industrial applications. Despite being sufficient to enable these applications, current NLP systems often ignore the social part of language, e.g., who says it, in what context, for what goals.  In this talk, we take a closer look at social factors in language via a new theory taxonomy and its interplay with computational methods via two lines of work.  The first one studies hate speech and racial bias by introducing a benchmark corpus on implicit hate speech and computational models on detecting and explaining latent hatred in language.  The second part demonstrates how more structures of conversations can be utilized to generate better summaries for everyday interaction.  We conclude by discussing several open-ended questions about how to build socially aware language technologies.
-
-- speaker: Hangfeng He
-  img: assets/img/hangfeng_he.jpg
-  url: https://nlp.cis.upenn.edu/
-  affiliation: University of Pennsylvania
-  date: October 4, 2021
-  title: Incidental Supervision for Natural Language Understanding
-  abstract: |
-    It is labor-intensive to acquire human annotations for natural language understanding (NLU) tasks because annotation can be complex and often requires significant linguistic expertise. Therefore, it is important to investigate how to get supervision from indirect signals and improve one's target task. In this topic, we focus on improving NLU by exploiting incidental supervision signals. Specifically, our goal is to first provide a better understanding of incidental signals, and then design more efficient algorithms to collect, select, and use incidental signals for NLU tasks. This problem is challenging because of the intrinsic differences between incidental supervision signals and target tasks. In addition, the complicated properties of natural language, such as variability and ambiguity, make the problem more challenging. Our contribution to this line of work so far is in three directions. First, we show how to exploit information from cheap signals to help other tasks. Specifically, we retrieve distributed representations from question-answering (QA) pairs to help various downstream tasks. Second, in order to facilitate selecting appropriate incidental signals for a given target task, we propose a unified informativeness measure to quantify the benefits of various incidental signals. Finally, we design efficient algorithms to exploit specific types of incidental signals, where we design a new weighted training algorithm to improve the sample efficiency of learning from cross-task signals. In the future, we plan to further investigate the usage of incidental signals for NLU tasks by better understanding the properties of natural language. Specifically, we propose to work on reasoning in natural language, and study the benefit of the structure in NLU tasks.
-
-- speaker: Tom Hope
-  img: assets/img/clunch/tom_hope.jpeg
-  url: https://allenai.org/team
-  affiliation: Allen Institute for AI
-  date: September 27, 2021
-  title: Harnessing Scientific Literature for Boosting Discovery and Innovation
-  abstract: |
-    In the year 1665, the first academic journal was published. Fast forward to today, there are millions of scientific papers coming out every year. This explosion of knowledge represents an opportunity to accelerate innovation with automated systems that scour the literature for solutions and inspirations. However, it also creates information overload and isolated “research bubbles” that limit discovery and sharing, slowing down scientific progress and cross-fertilization. In this talk, I will present our work toward addressing these large-scale challenges for the future of science. In the first part of the talk, I will overview our core approach which consists of identifying key “building blocks” of scientific thought, formalizing and structuring them into computational representations that power creative innovation systems we construct. These include systems that surface inspirations, recommend novel authors, enable search for challenges, hypotheses and causal relations, and tools for exploration and visualization of collaboration networks. The second part of the talk will consist of a dive into our new work -- SciCo: Hierarchical Cross-Document Coreference for Scientific Concepts (AKBC 2021) -- motivated by some of the applications above.  We present a new task of cross-document coreference with a referential hierarchy over mention clusters, including a new challenging dataset and models. Finally, if time permits, I will discuss our recent paper --- Scientific Language Models for Biomedical Knowledge Base Completion: An Empirical Study (AKBC 2021), where we integrate language models and graph embeddings to boost biomedical link prediction with applications in drug discovery.
-
-- speaker: Bryan Li, Weiqiu You, Qing Lyu (Veronica)
-  img: assets/img/clunch/bryan_weiqiu_qing.jpg
-  url: https://nlp.cis.upenn.edu/
-  affiliation: University of Pennsylvania
-  date: September 20, 2021
+  date: January 31, 2022
   title: Mini Talks
   abstract: |
-    Our mini talks include "Careful with Context: A Critique of Methods for Commonsense Inference" presented by Bryan Li, "Zero-shot Image Classification with Text using Pretrained Embedding" presented by Weiqiu You, and "Is 'my favorite new movie' 'my favorite movie;? Probing the Understanding of Recursive Noun Phrases" presented by Qing Lyu (Veronica).
+    The three talks this week include "Characterizing Media Presentation Biases and Polarization with Unsupervised Open Entity Relation Learning" (Sihao Chen), "Are humans able to detect boundaries between human-written and machine-generated text?" (Liam Dugan) and "There’s a Time and Place for Reasoning Beyond the Image" (Xingyu Fu).

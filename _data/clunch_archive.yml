@@ -9,6 +9,96 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Jonathan Berant
+  img: assets/img/clunch/jonathan_berant.jpeg
+  url: http://www.cs.tau.ac.il/~joberant/
+  affiliation: Tel Aviv University
+  date: December 6, 2021
+  title: "Zero-shot learning and out-of-distribution generalization: two sides of the same coin"
+  abstract: |
+    Recent advances in large pre-trained language models have shifted the NLP community’s attention to new challenges: (a) training models with zero, or very few, examples, and (b) generalizing to out-of-distribution examples. In this talk, I will argue that the two are intimately related, and describe ongoing (read, new!) work in those directions. First, I will describe a new pre-training scheme for open-domain question answering that is based on the notion of “recurring spans” across different paragraphs. We show this training scheme leads to a zero-shot retriever that is competitive with DPR (which trains on thousands of examples), and is more robust w.r.t the test distribution. Second, I will focus on compositional generalization, a particular type of out-of-distribution generalization setup where models need to generalize to structures that are unobserved at training time. I will show that the view that seq2seq models categorically do not generalize to new compositions is false, and present a more nuanced analysis, which elucidates what are the conditions under which models struggle to compositionally generalize.
+
+- speaker: He He
+  img: assets/img/clunch/he_he.jpeg
+  url: https://hhexiy.github.io/
+  affiliation: New York University
+  date: November 30, 2021
+  title: Out-of-distribution generalization in NLP
+  abstract: |
+    Real-world NLP models must work well when the test distribution differs from the training distribution. While we have made great progress in natural language understanding thanks to large-scale pre-training, current models still take shortcuts and rely on spurious correlations in specific datasets. In this talk, I will discuss the role of pre-training and data in model robustness to distribution shifts. In particular, I will describe how pre-trained models avoid learning spurious correlations, when data augmentation helps and hurts, and how large language models can be leveraged to improve few-shot learning.
+
+- speaker: Yue Yang
+  img: assets/img/yue_yang.png
+  url: https://nlp.cis.upenn.edu/
+  affiliation: University of Pennsylvania
+  date: November 22, 2021
+  title: Investigate Procedural Events in a Multimodal Fashion
+  abstract: |
+    Recently, there has been growing attention to studying procedural events while most of them focus on the text. We utilize multimodal as a tool to probe the procedure knowledge. This talk will introduce two projects: 1) Visual Goal-Step Inference using wikiHow -- Understanding what sequence of steps are needed to complete a goal can help artificial intelligence systems reason about human activities. We propose the Visual Goal-Step Inference (VGSI) task, where a model is given a textual goal and must choose which of four images represents a plausible step towards that goal. 2) Induce, Edit, Retrieve: Language Grounded Multimodal Schema for Instructional Video Retrieval -- Schemas are structure representations of complex tasks that can aid artificial intelligence by allowing models to break down complex tasks into intermediate steps. We propose a novel system that induces schemas from web videos and generalizes schemas for unseen tasks to improve video retrieval performance.
+
+- speaker: Marjorie McShane
+  img: assets/img/clunch/marjorie_mcshane.jpeg
+  url: https://homepages.hass.rpi.edu/mcsham2/index.html
+  affiliation: Rensselaer Polytechnic Institute
+  date: November 15, 2021
+  title: Toward Broad and Deep Language Understanding for Intelligent Systems
+  abstract: |
+    The early vision of AI included the goal of endowing intelligent systems with human-like language processing capabilities. This proved harder than expected, leading the vast majority of natural language processing practitioners to pursue less ambitious, shorter-term goals. Whereas the utility of human-like language processing is unquestionable, its feasibility is quite justifiably questioned. In this talk, I will not only argue that some approximation of human-like language processing is possible, I will present a program of R&D that is working on making it a reality. This vision, as well as progress to date, is described in the book Linguistics for the Age of AI (MIT Press, 2021).
+
+- speaker: Daphne Ippolito
+  img: assets/img/daphne_ippolito.jpg
+  url: https://www.seas.upenn.edu/~daphnei/me/
+  affiliation: University of Pennsylvania
+  date: November 1, 2021
+  title: Language Models Memorize their Training Data; Dataset Deduplication Helps
+  abstract: |
+    Large neural language models are capable of memorizing their training data. First, I will discuss why this memorization is bad and the subtleties involved in studying harmful memorization tendencies. Then, I will go over some early results on the circumstances under which GPT-Neo, a popular public language model, exhibits memorization. Finally, I will describe our recent paper on deduplicating training data and discuss how models trained on deduplicated data memorize less, are more efficient to train, and possibly generalize better. I will also examine the problem of train-test leakage in existing popular datasets.
+
+- speaker: Samuel Bowman
+  img: assets/img/clunch/sam_bowman.jpeg
+  url: https://cims.nyu.edu/~sbowman/
+  affiliation: NYU
+  date: October 25, 2021
+  title: Overclaiming in NLP Is a Serious Problem. Underclaiming May Be Worse.
+  abstract: |
+    In an effort to avoid reinforcing widespread hype about the capabilities of state-of-the-art language technology systems, researchers have developed practices in framing and citation that serve to deemphasize the field's successes, even at the cost of making misleadingly strong claims about the limits of our best systems. This is a problem, though, and it may be more serious than it looks: It limits our ability to mitigate short-term harms from NLP deployments and it limits our ability to prepare for the potentially-enormous impacts of more distant future systems. This paper urges researchers to be careful about these claims, and suggests some research directions that will make it easier to avoid or rebut them.
+
+- speaker: Diyi Yang
+  img: assets/img/clunch/diyi_yang.jpeg
+  url: https://www.cc.gatech.edu/~dyang888/
+  affiliation: Georgia Tech
+  date: October 18, 2021
+  title: "Socially Aware Language Technologies: Theory, Method, and Practice"
+  abstract: |
+    Natural language processing (NLP) has had increasing success and produced extensive industrial applications. Despite being sufficient to enable these applications, current NLP systems often ignore the social part of language, e.g., who says it, in what context, for what goals.  In this talk, we take a closer look at social factors in language via a new theory taxonomy and its interplay with computational methods via two lines of work.  The first one studies hate speech and racial bias by introducing a benchmark corpus on implicit hate speech and computational models on detecting and explaining latent hatred in language.  The second part demonstrates how more structures of conversations can be utilized to generate better summaries for everyday interaction.  We conclude by discussing several open-ended questions about how to build socially aware language technologies.
+
+- speaker: Hangfeng He
+  img: assets/img/hangfeng_he.jpg
+  url: https://nlp.cis.upenn.edu/
+  affiliation: University of Pennsylvania
+  date: October 4, 2021
+  title: Incidental Supervision for Natural Language Understanding
+  abstract: |
+    It is labor-intensive to acquire human annotations for natural language understanding (NLU) tasks because annotation can be complex and often requires significant linguistic expertise. Therefore, it is important to investigate how to get supervision from indirect signals and improve one's target task. In this topic, we focus on improving NLU by exploiting incidental supervision signals. Specifically, our goal is to first provide a better understanding of incidental signals, and then design more efficient algorithms to collect, select, and use incidental signals for NLU tasks. This problem is challenging because of the intrinsic differences between incidental supervision signals and target tasks. In addition, the complicated properties of natural language, such as variability and ambiguity, make the problem more challenging. Our contribution to this line of work so far is in three directions. First, we show how to exploit information from cheap signals to help other tasks. Specifically, we retrieve distributed representations from question-answering (QA) pairs to help various downstream tasks. Second, in order to facilitate selecting appropriate incidental signals for a given target task, we propose a unified informativeness measure to quantify the benefits of various incidental signals. Finally, we design efficient algorithms to exploit specific types of incidental signals, where we design a new weighted training algorithm to improve the sample efficiency of learning from cross-task signals. In the future, we plan to further investigate the usage of incidental signals for NLU tasks by better understanding the properties of natural language. Specifically, we propose to work on reasoning in natural language, and study the benefit of the structure in NLU tasks.
+
+- speaker: Tom Hope
+  img: assets/img/clunch/tom_hope.jpeg
+  url: https://allenai.org/team
+  affiliation: Allen Institute for AI
+  date: September 27, 2021
+  title: Harnessing Scientific Literature for Boosting Discovery and Innovation
+  abstract: |
+    In the year 1665, the first academic journal was published. Fast forward to today, there are millions of scientific papers coming out every year. This explosion of knowledge represents an opportunity to accelerate innovation with automated systems that scour the literature for solutions and inspirations. However, it also creates information overload and isolated “research bubbles” that limit discovery and sharing, slowing down scientific progress and cross-fertilization. In this talk, I will present our work toward addressing these large-scale challenges for the future of science. In the first part of the talk, I will overview our core approach which consists of identifying key “building blocks” of scientific thought, formalizing and structuring them into computational representations that power creative innovation systems we construct. These include systems that surface inspirations, recommend novel authors, enable search for challenges, hypotheses and causal relations, and tools for exploration and visualization of collaboration networks. The second part of the talk will consist of a dive into our new work -- SciCo: Hierarchical Cross-Document Coreference for Scientific Concepts (AKBC 2021) -- motivated by some of the applications above.  We present a new task of cross-document coreference with a referential hierarchy over mention clusters, including a new challenging dataset and models. Finally, if time permits, I will discuss our recent paper --- Scientific Language Models for Biomedical Knowledge Base Completion: An Empirical Study (AKBC 2021), where we integrate language models and graph embeddings to boost biomedical link prediction with applications in drug discovery.
+
+- speaker: Bryan Li, Weiqiu You, Qing Lyu (Veronica)
+  img: assets/img/clunch/bryan_weiqiu_qing.jpg
+  url: https://nlp.cis.upenn.edu/
+  affiliation: University of Pennsylvania
+  date: September 20, 2021
+  title: Mini Talks
+  abstract: |
+    Our mini talks include "Careful with Context: A Critique of Methods for Commonsense Inference" presented by Bryan Li, "Zero-shot Image Classification with Text using Pretrained Embedding" presented by Weiqiu You, and "Is 'my favorite new movie' 'my favorite movie;? Probing the Understanding of Recursive Noun Phrases" presented by Qing Lyu (Veronica).
+
 - speaker: Danqi Chen
   url: https://www.cs.princeton.edu/~danqic/
   affiliation: Princeton University
