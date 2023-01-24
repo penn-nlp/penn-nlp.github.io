@@ -22,3 +22,11 @@
   title: "Thinking Like Transformers"
   abstract: Transformers - the purely attention based NN architecture - have emerged as a powerful tool in sequence processing. But how does a transformer think? When we discuss the computational power of RNNs, or consider a problem that they have solved, it is easy for us to think in terms of automata and their variants (such as counter machines and pushdown automata). But when it comes to transformers, no such intuitive model is available.
     In this talk I will present a programming language, RASP (Restricted Access Sequence Processing), which we hope will serve the same purpose for transformers as finite state machines do for RNNs. In particular, we will identify the base computations of a transformer and abstract them into a small number of primitives, which are composed into a small programming language. We will go through some example programs in the language, and discuss how a given RASP program relates to the transformer architecture.
+
+- speaker: Karl Stratos
+  url: https://karlstratos.com
+  img: assets/img/clunch/karl_stratos.png
+  affiliation: Rutgers CS
+  date: February 1st, 2023
+  title: "Retrieval-Augmented Models for Natural Language Processing"
+  abstract: 'Prompting large pretrained language models has been enormously successful in solving a wide class of natural language tasks. In this approach, a task is formatted in some natural language template to "prompt" the model to generate the correct answer (e.g., "Q: Why is the sky blue? A: "). While surprisingly effective, it often generates false and unverifiable claims, limiting real-world applications. In this talk, I will advocate an alternative approach based on retrieval. Instead of naively generating answers, the model must first retrieve a piece of evidence from a knowledge base (e.g., Wikipedia). By having an explicit knowledge retrieval step, the model is forced to return factually accurate and verifiable claims. It can also use a new knowledge base at test time, thus is capable of zero-shot learning. I will focus on the task of entity retrieval and linking. I will first present a technique based on hard negative mining to make entity retrieval more robust (NAACL 2021). I will then build on the retrieval framework to present a novel paradigm for entity linking (ICLR 2022).'
