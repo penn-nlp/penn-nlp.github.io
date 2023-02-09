@@ -88,7 +88,7 @@
   img: assets/img/mark_liberman.jpg
   url: http://www.ling.upenn.edu/~myl/
 
-- name: Qing Lyu
+- name: Veronica Qing Lyu
   status: phd
   img: assets/img/qing_lyu.jpg
   url: https://veronica320.github.io/
@@ -131,12 +131,12 @@
 - name: Sunny Rai
   status: postdoc
   img: assets/img/sunny_rai.png
-  url: www.raisunny.com
+  url: https://www.raisunny.com
 
 - name: Delip Rao
   status: staff
   img: assets/img/delip_rao.jpg
-  url: deliprao.com
+  url: https://deliprao.com
   
 - name: "Dan Roth"
   status: "faculty"
