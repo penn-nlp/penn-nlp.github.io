@@ -142,6 +142,11 @@
   status: phd
   img: assets/img/artemis_panagopoulou.jpeg
   url: https://artemisp.github.io/
+  
+- name: Sunny Rai
+  status: postdoc
+  img: assets/img/sunny_rai.png
+  url: www.raisunny.com
 
 - name: "Dan Roth"
   status: "faculty"
