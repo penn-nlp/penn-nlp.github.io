@@ -13,6 +13,15 @@
 #   date: June 26, 2019
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
+
+- speaker: Karl Stratos
+  url: https://karlstratos.com
+  img: assets/img/clunch/karl_stratos.png
+  affiliation: Rutgers CS
+  date: February 1st, 2023
+  title: "Retrieval-Augmented Models for Natural Language Processing"
+  abstract: 'Prompting large pretrained language models has been enormously successful in solving a wide class of natural language tasks. In this approach, a task is formatted in some natural language template to "prompt" the model to generate the correct answer (e.g., "Q: Why is the sky blue? A: "). While surprisingly effective, it often generates false and unverifiable claims, limiting real-world applications. In this talk, I will advocate an alternative approach based on retrieval. Instead of naively generating answers, the model must first retrieve a piece of evidence from a knowledge base (e.g., Wikipedia). By having an explicit knowledge retrieval step, the model is forced to return factually accurate and verifiable claims. It can also use a new knowledge base at test time, thus is capable of zero-shot learning. I will focus on the task of entity retrieval and linking. I will first present a technique based on hard negative mining to make entity retrieval more robust (NAACL 2021). I will then build on the retrieval framework to present a novel paradigm for entity linking (ICLR 2022).'
+  
 - speaker: Gail Weiss
   url: https://gailweiss.github.io
   img: assets/img/clunch/gail_weiss.jpeg

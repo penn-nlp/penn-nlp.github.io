@@ -12,10 +12,12 @@
 #   date: June 26, 2019
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
-- speaker: Karl Stratos
-  url: https://karlstratos.com
-  img: assets/img/clunch/karl_stratos.png
-  affiliation: Rutgers CS
-  date: February 1st, 2023
-  title: "Retrieval-Augmented Models for Natural Language Processing"
-  abstract: 'Prompting large pretrained language models has been enormously successful in solving a wide class of natural language tasks. In this approach, a task is formatted in some natural language template to "prompt" the model to generate the correct answer (e.g., "Q: Why is the sky blue? A: "). While surprisingly effective, it often generates false and unverifiable claims, limiting real-world applications. In this talk, I will advocate an alternative approach based on retrieval. Instead of naively generating answers, the model must first retrieve a piece of evidence from a knowledge base (e.g., Wikipedia). By having an explicit knowledge retrieval step, the model is forced to return factually accurate and verifiable claims. It can also use a new knowledge base at test time, thus is capable of zero-shot learning. I will focus on the task of entity retrieval and linking. I will first present a technique based on hard negative mining to make entity retrieval more robust (NAACL 2021). I will then build on the retrieval framework to present a novel paradigm for entity linking (ICLR 2022).'
+- speaker: Julian Michael
+  url: https://julianmichael.org
+  img: assets/img/clunch/julian_michael.jpg
+  affiliation: NYU
+  date: February 15th, 2023
+  title: "What Do NLP Researchers Believe? Results of the NLP Community Metasurvey"
+  abstract: "I will present the results of the NLP Community Metasurvey (https://nlpsurvey.net). This was a questionnaire that we ran from May to June 2022 which elicited the opinions of NLP researchers on controversial issues, including industry influence in the field, concerns about AGI, and ethics. Our results put concrete numbers to several controversies. For example, respondents are split almost exactly in half on questions about: the importance of artificial general intelligence, 
+  whether language models understand language, and the necessity of linguistic structure and inductive bias for solving NLP problems. In addition, the survey posed "meta-questions," asking respondents to predict the distribution of survey responses. This allows us not only to gain insight on the spectrum of beliefs held by NLP researchers, but also to uncover false sociological beliefs where the community’s predictions don’t match reality. We find such mismatches on a wide range of issues. Among other results, the community greatly overestimates its own belief in the usefulness of benchmarks and the potential for scaling to solve real-world problems, while underestimating its own belief in the importance of linguistic structure, inductive bias, and interdisciplinary science.
+  Our hope is that this can provide context for the NLP research community to have more informed and self-aware discussions of these complex issues. In this talk, I will walk through our results and open the floor for such a discussion."
