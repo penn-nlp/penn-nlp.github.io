@@ -1,3 +1,15 @@
+- name: "Elior Sulem"
+  degree: postdoc
+  year: 2022
+  current: Lecturer, Ben-Gurion University of the Negev
+  url: https://www.cis.upenn.edu/~eliors/
+  
+- name: Daphne Ippolito
+  degree: Ph.D.
+  year: 2022
+  current: Assistant Professor, Carnegie Mellon University
+  url: https://daphnei.com/
+
 - name: Daniel Deutsch
   degree: Ph.D.
   year: 2022
