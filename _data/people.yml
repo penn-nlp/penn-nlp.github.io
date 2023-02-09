@@ -58,6 +58,11 @@
   img: assets/img/salvatore_giorgi.jpeg
   url: http://www.salvatoregiorgi.com/
 
+- name: Sharath Chandra Guntuku
+  status: faculty
+  img: assets/img/sharath_chandra_guntuku.jpeg
+  url: https://sharathg.cis.upenn.edu/
+  
 - name: Samar Haider
   status: phd
   img: assets/img/samar_haider.jpg
@@ -142,7 +147,17 @@
   status: phd
   img: assets/img/artemis_panagopoulou.jpeg
   url: https://artemisp.github.io/
+  
+- name: Sunny Rai
+  status: postdoc
+  img: assets/img/sunny_rai.png
+  url: www.raisunny.com
 
+- name: Delip Rao
+  status: staff
+  img: assets/img/delip_rao.jpg
+  url: deliprao.com
+  
 - name: "Dan Roth"
   status: "faculty"
   img: assets/img/dan_roth.jpg
@@ -166,6 +181,11 @@
   status: "faculty"
   img: assets/img/lyle_ungar.jpg
   url: http://www.seas.upenn.edu/~ungar/
+  
+- name: Haoyu Wang
+  status: phd
+  img: assets/img/haoyu_wang.jpg
+  url: https://why2011btv.github.io/  
 
 - name: "Charles Yang"
   status: "faculty"
@@ -179,7 +199,7 @@
 
 - name: Mark Yatskar
   status: faculty
-  img: assets/img/mark_yatskar.jpg
+  img: assets/img/mark_yatskar.png
   url: https://www.cis.upenn.edu/~myatskar/
 
 - name: Weiqiu You
@@ -201,3 +221,8 @@
   status: "phd"
   img: assets/img/ben_zhou.jpg
   url: http://xuanyu.me/
+
+- name: Andrew Zhu
+  status: "phd"
+  img: assets/img/andrew_zhu.png
+  url: https://zhu.codes
