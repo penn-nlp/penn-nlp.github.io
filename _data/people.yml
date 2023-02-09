@@ -28,11 +28,6 @@
   img: assets/img/christopher_cieri.png
   url: https://www.ldc.upenn.edu/staff/christopher-cieri
 
-- name: "Soham Dan"
-  status: "phd"
-  img: assets/img/soham_dan.jpg
-  url: https://sdan2.github.io/
-
 - name: Rotem Dror
   status: "postdoc"
   img: assets/img/rotem_dror.jpeg
@@ -67,11 +62,6 @@
   status: phd
   img: assets/img/shreya_havaldar.JPG
   url: https://www.linkedin.com/in/shreya-havaldar-0a2664155/
-
-- name: "Hangfeng He"
-  status: "phd"
-  img: assets/img/hangfeng_he.jpg
-  url: https://hornhehhf.github.io/
 
 - name: Alyssa Hwang
   status: phd
