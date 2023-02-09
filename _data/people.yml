@@ -43,11 +43,6 @@
   img: assets/img/liam_dugan.jpeg
   url: http://liamdugan.com/
 
-- name: Ashley Francisco
-  status: "phd"
-  img: assets/img/ashley_francisco.jpg
-  url: https://www.linkedin.com/in/ashley-francisco-8625001b7/
-
 - name: Xingyu Fu
   status: phd
   img: assets/img/xingyu_fu.jpeg
@@ -82,11 +77,6 @@
   status: phd
   img: assets/img/alyssa_hwang.jpg
   url: http://alyssahwang.com/
-
-- name: "Daphne Ippolito"
-  status: "phd"
-  img: assets/img/daphne_ippolito.jpg
-  url: http://www.seas.upenn.edu/~daphnei/
 
 - name: Helen Jin
   status: phd
@@ -171,11 +161,6 @@
 - name: Jennifer Sheffield
   status: staff
   img: assets/img/jennifer_sheffield.jpg
-
-- name: "Elior Sulem"
-  status: postdoc
-  img: assets/img/elior_sulem.jpg
-  url: http://www.cs.huji.ac.il/~eliors/
 
 - name: "Lyle Ungar"
   status: "faculty"
