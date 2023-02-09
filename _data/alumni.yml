@@ -1,5 +1,5 @@
-- name: "Elior Sulem"
-  degree: postdoc
+- name: Elior Sulem
+  degree: Postdoc
   year: 2022
   current: Lecturer, Ben-Gurion University of the Negev
   url: https://www.cis.upenn.edu/~eliors/
@@ -9,12 +9,30 @@
   year: 2022
   current: Assistant Professor, Carnegie Mellon University
   url: https://daphnei.com/
+  
+- name: Yi Zhang
+  degree: Ph.D.
+  year: 2022
+  current: Applied Scientist, Amazon Web Services (AWS) AI Labs
+  url: https://yizhang.io/    
+  
+- name: Soham Dan
+  degree: Ph.D.
+  year: 2022
+  current: Research Scientist, IBM
+  url: https://sdan2.github.io/  
 
 - name: Daniel Deutsch
   degree: Ph.D.
   year: 2022
   current: Research Scientist, Google
   url: https://danieldeutsch.github.io/
+
+- name: Hangfeng He
+  status: Ph.D.
+  year: 2022  
+  current: Assistant Professor, University of Rochester
+  url: https://hornhehhf.github.io/
 
 - name: Mohammad Sadegh Rasooli
   degree: Postdoc
