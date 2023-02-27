@@ -12,10 +12,10 @@
 #   date: June 26, 2019
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
-- speaker: Alan Ritter
-  url: http://aritter.github.io
-  img: assets/img/clunch/alan_ritter.JPG
-  affiliation: Georgia Tech
-  date: February 24th, 2023
-  title: "Towards Cost Efficient Use of Pre-Trained Language Models"
-  abstract: 'Large language models are leading to breakthroughs in a variety of applications, from information extraction systems that are accurate and robust, to human-like conversational assistants.  In this talk I will analyze when the benefits of training a new model outweigh the computational costs, in the context of domain adaptation.  Conventional wisdom holds that data annotation is expensive, so computational methods that leverage freely available unlabeled data can present an economical alternative when adapting to a new domain.  The talk will examine this assumption in the context of pretraining-based domain adaptation, which requires significant GPU/TPU resources for each new domain.  We frame domain adaptation as a consumer choice problem: given a fixed budget, what combination of annotation and pre-training lead to maximum utility?  In the second part of the talk, I will discuss recent work on in-context learning for anaphora resolution.  I will show that resolving anaphora in scientific protocols is a challenging task for in-context learning, then present a new method, MICE (Mixtures of In-Context Experts) and demonstrate how it can accurately resolve multiple-antecedent anaphora in paragraphs describing chemical synthesis procedures.  MICE enables accurate few-shot anaphora resolution by ensembling hundreds of prompts that are created from only a handful of training examples.  Finally, I will discuss applications of NLP on chemical synthesis protocols and show a demo of a system that can help chemists more efficiently find experimental details described in the literature.'
+- speaker: Graham Neubig
+  url: http://www.phontron.com/
+  img: assets/img/clunch/graham_neubig.jpeg
+  affiliation: Carnegie Mellon University (Language Technology Institute)
+  date: March 1st, 2023
+  title: "Is My NLP Model Working? The Answer is Harder Than You Think"
+  abstract: 'As natural language processing now permeates many different applications, its practical use is unquestionable. However, at the same time NLP is still imperfect, and errors cause everything from minor inconveniences to major PR disasters. Better understanding when our NLP models work and when they fail is critical to the efficient and reliable use of NLP in real-world scenarios. So how can we do so? In this talk I will discuss two issues: automatic evaluation of generated text, and automatic fine-grained analysis of NLP system results, which are some first steps towards a science of NLP model evaluation.'
