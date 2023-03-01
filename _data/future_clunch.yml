@@ -12,10 +12,10 @@
 #   date: June 26, 2019
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
-- speaker: Graham Neubig
-  url: http://www.phontron.com/
-  img: assets/img/clunch/graham_neubig.jpeg
-  affiliation: Carnegie Mellon University (Language Technology Institute)
-  date: March 1st, 2023
-  title: "Is My NLP Model Working? The Answer is Harder Than You Think"
-  abstract: 'As natural language processing now permeates many different applications, its practical use is unquestionable. However, at the same time NLP is still imperfect, and errors cause everything from minor inconveniences to major PR disasters. Better understanding when our NLP models work and when they fail is critical to the efficient and reliable use of NLP in real-world scenarios. So how can we do so? In this talk I will discuss two issues: automatic evaluation of generated text, and automatic fine-grained analysis of NLP system results, which are some first steps towards a science of NLP model evaluation.'
+- speaker: Niranjan Balasubramanian
+  url: https://www3.cs.stonybrook.edu/~niranjan/
+  img: assets/img/clunch/niranjan-2015.jpg
+  affiliation: Stony Brook University
+  date: March 6th, 2023
+  title: "TBA"
+  abstract: 'TBA'
