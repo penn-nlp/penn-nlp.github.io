@@ -172,10 +172,6 @@
   img: assets/img/yue_yang.png
   url: https://yueyang1996.github.io/
 
-- name: Mark Yatskar
-  status: faculty
-  img: assets/img/mark_yatskar.png
-  url: https://www.cis.upenn.edu/~myatskar/
 
 - name: Weiqiu You
   status: phd
