@@ -14,8 +14,8 @@
 #   abstract: The abstract of the talk will go here.
 - speaker: Daniel Fried
   url: https://dpfried.github.io
-  img: assets/img/clunch/niranjan-2015.jpg
-  affiliation: Stony Brook University
-  date: March 6th, 2023
+  img: assets/img/clunch/daniel_fried.jpg
+  affiliation: Carnegie Mellon University (Language Technologies Institute)
+  date: March 15th, 2023
   title: "Using Language Strategically in Context"
   abstract: "As NLP systems interact with people in a widening range of world contexts, it is increasingly important to model pragmatic aspects of language: the goals that underlie language use, and the effects that language has on people. Across a diverse range of task-oriented settings, we've found that reasoning about language as a strategic action allows NLP models to interact more successfully with human partners. First, I'll describe a procedure for pragmatically generating and interpreting instructions. We train listener and speaker models that imitate how people interpret and produce language in grounded contexts. We use these models to (1) predict how a person might interpret language from the system and (2) resolve ambiguity by reasoning about what goal might have made a person say what they did. These procedures make interaction with human partners more successful in settings including visually-grounded instruction following and interactive preference learning. I'll also give an overview of work with the FAIR Diplomacy team on CICERO, an agent that achieves human-level performance in the dialogue and strategy board game Diplomacy. CICERO integrates LLMs with a strategic planner: choosing mutually beneficial plans for itself and its partners, and generating dialogue in pursuit of these plans. When deployed in an anonymous online Diplomacy league with human partners, CICERO ranked in the top 10% of participants who played more than one game."
