@@ -12,10 +12,10 @@
 #   date: June 26, 2019
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
-- speaker: Daniel Fried
-  url: https://dpfried.github.io
-  img: assets/img/clunch/daniel_fried.jpg
-  affiliation: Carnegie Mellon University (Language Technologies Institute)
-  date: March 15th, 2023
-  title: "Using Language Strategically in Context"
-  abstract: "As NLP systems interact with people in a widening range of world contexts, it is increasingly important to model pragmatic aspects of language: the goals that underlie language use, and the effects that language has on people. Across a diverse range of task-oriented settings, we've found that reasoning about language as a strategic action allows NLP models to interact more successfully with human partners. First, I'll describe a procedure for pragmatically generating and interpreting instructions. We train listener and speaker models that imitate how people interpret and produce language in grounded contexts. We use these models to (1) predict how a person might interpret language from the system and (2) resolve ambiguity by reasoning about what goal might have made a person say what they did. These procedures make interaction with human partners more successful in settings including visually-grounded instruction following and interactive preference learning. I'll also give an overview of work with the FAIR Diplomacy team on CICERO, an agent that achieves human-level performance in the dialogue and strategy board game Diplomacy. CICERO integrates LLMs with a strategic planner: choosing mutually beneficial plans for itself and its partners, and generating dialogue in pursuit of these plans. When deployed in an anonymous online Diplomacy league with human partners, CICERO ranked in the top 10% of participants who played more than one game."
+- speaker: Yoav Artzi
+  url: https://yoavartzi.com
+  img: assets/img/clunch/yoav_artzi.jpg
+  affiliation: Cornell University (Cornell Tech)
+  date: March 22nd, 2023
+  title: "Learning and Reasoning in Natural Language Interaction"
+  abstract: "Natural language is first and foremost an instrument of interaction, where interlocutors produce and comprehend language to relay information to accomplish their intents. This talk focuses on challenges and opportunities that arise from this interactive nature of language. The response of participants to the language they comprehend can form a strong learning signal for the party that produced the language. Did I achieve my intent? In the first part, I will show how to use this signal to learn to produce natural language instructions. I will then discuss the problem of language-conditioned reinforcement learning, where benchmark development has been hindered because computing rewards requires resolving language semantics. I will describe a new approach to address this challenge. Finally, core to linguistic interaction is the use of abstraction to communicate concepts in a generalizable way. I will describe a new resource to study this phenomena, and show how it sheds light on the generalization abilities of language-and-vision pre-trained models."
