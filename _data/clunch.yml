@@ -13,6 +13,14 @@
 #   date: June 26, 2019
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
+- speaker: Yoav Artzi
+  url: https://yoavartzi.com
+  img: assets/img/clunch/yoav_artzi.jpg
+  affiliation: Cornell University (Cornell Tech)
+  date: March 22nd, 2023
+  title: "Learning and Reasoning in Natural Language Interaction"
+  abstract: "Natural language is first and foremost an instrument of interaction, where interlocutors produce and comprehend language to relay information to accomplish their intents. This talk focuses on challenges and opportunities that arise from this interactive nature of language. The response of participants to the language they comprehend can form a strong learning signal for the party that produced the language. Did I achieve my intent? In the first part, I will show how to use this signal to learn to produce natural language instructions. I will then discuss the problem of language-conditioned reinforcement learning, where benchmark development has been hindered because computing rewards requires resolving language semantics. I will describe a new approach to address this challenge. Finally, core to linguistic interaction is the use of abstraction to communicate concepts in a generalizable way. I will describe a new resource to study this phenomena, and show how it sheds light on the generalization abilities of language-and-vision pre-trained models."
+
 - speaker: Daniel Fried
   url: https://dpfried.github.io
   img: assets/img/clunch/daniel_fried.jpg
