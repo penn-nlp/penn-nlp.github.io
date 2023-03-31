@@ -12,10 +12,10 @@
 #   date: June 26, 2019
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
-- speaker: Roy Schwartz
-  url: https://schwartz-lab-huji.github.io
-  img: assets/img/clunch/roy_schwartz.jpg
-  affiliation: Hebrew University of Jerusalem 
-  date: March 29th, 2023
-  title: "Spurious Correlations: Challenges, Solutions, and Opportunities"
-  abstract: "Recent work has shown that deep learning models in NLP are highly sensitive to low-level correlations between simple features and specific output labels, leading to overfitting and lack of generalization. To mitigate this problem, a common practice is to balance datasets by adding new instances or by filtering out \"easy'' instances, culminating in a recent proposal to eliminate single-word correlations altogether. In this talk, I will identify that despite these efforts, increasingly-powerful models keep exploiting ever-smaller spurious correlations, and as a result even balancing all single-word features is insufficient for mitigating all of these correlations. In parallel, a truly balanced dataset may be bound to \"throw the baby out with the bathwater'' and miss important signals encoding common sense and world knowledge. I will highlight several alternatives to dataset balancing, focusing on a surprising proposal: in order to mitigate biases in models, one needs to amplify them in our training sets."
+- speaker: Nanyun (Violet) Peng
+  url: https://vnpeng.net
+  img: assets/img/clunch/nanyun_peng.png
+  affiliation: University of California, Los Angeles
+  date: April 7th, 2023
+  title: "Controllable Text Generation For Open-World Creativity"
+  abstract: "Recent advances in large auto-regressive language models have demonstrated strong results in generating natural languages and significantly improved the performances for applications such as machine translation and summarization. However, when the generation tasks are open-ended and the content is under-specified, or there are format or cross-modal association constraints, existing techniques struggle to generate long-term coherent and creative contents that follow format constraints. This happens because autoregressive language models are only trained to predict the next word, and it is hard to impose structural or content control/contraints to the model. In this talk, I will present our recent works on creative generation including poetry and melogy-to-lyrics generation, which highlight the importance of controllable text generation beyond the prevalent auto-regressive formulation. We propose a novel insertion-based generation model and a controllable decoding-time algorithm to steer models to better conform to constraints."

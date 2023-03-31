@@ -13,6 +13,14 @@
 #   date: June 26, 2019
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
+- speaker: Roy Schwartz
+  url: https://schwartz-lab-huji.github.io
+  img: assets/img/clunch/roy_schwartz.jpg
+  affiliation: Hebrew University of Jerusalem 
+  date: March 29th, 2023
+  title: "Spurious Correlations: Challenges, Solutions, and Opportunities"
+  abstract: "Recent work has shown that deep learning models in NLP are highly sensitive to low-level correlations between simple features and specific output labels, leading to overfitting and lack of generalization. To mitigate this problem, a common practice is to balance datasets by adding new instances or by filtering out \"easy'' instances, culminating in a recent proposal to eliminate single-word correlations altogether. In this talk, I will identify that despite these efforts, increasingly-powerful models keep exploiting ever-smaller spurious correlations, and as a result even balancing all single-word features is insufficient for mitigating all of these correlations. In parallel, a truly balanced dataset may be bound to \"throw the baby out with the bathwater'' and miss important signals encoding common sense and world knowledge. I will highlight several alternatives to dataset balancing, focusing on a surprising proposal: in order to mitigate biases in models, one needs to amplify them in our training sets."
+  
 - speaker: Yoav Artzi
   url: https://yoavartzi.com
   img: assets/img/clunch/yoav_artzi.jpg
