@@ -13,6 +13,15 @@
 #   date: June 26, 2019
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
+
+- speaker: Nanyun (Violet) Peng
+  url: https://vnpeng.net
+  img: assets/img/clunch/nanyun_peng.jpg
+  affiliation: University of California, Los Angeles
+  date: April 7th, 2023
+  title: "Controllable Text Generation For Open-World Creativity"
+  abstract: "Recent advances in large auto-regressive language models have demonstrated strong results in generating natural languages and significantly improved the performances for applications such as machine translation and summarization. However, when the generation tasks are open-ended and the content is under-specified, or there are format or cross-modal association constraints, existing techniques struggle to generate long-term coherent and creative contents that follow format constraints. This happens because autoregressive language models are only trained to predict the next word, and it is hard to impose structural or content control/contraints to the model. In this talk, I will present our recent works on creative generation including poetry and melogy-to-lyrics generation, which highlight the importance of controllable text generation beyond the prevalent auto-regressive formulation. We propose a novel insertion-based generation model and a controllable decoding-time algorithm to steer models to better conform to constraints."
+  
 - speaker: Roy Schwartz
   url: https://schwartz-lab-huji.github.io
   img: assets/img/clunch/roy_schwartz.jpg
