@@ -13,6 +13,14 @@
 #   date: June 26, 2019
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
+- speaker: Sunny Rai
+  url: https://raisunny.com
+  img: assets/img/clunch/sunny_rai.png
+  affiliation: University of Pennsylvania
+  date: April 12th, 2023
+  title: "Investigating Racial Heterogeneity in Language Markers of Depression"
+  abstract: "The racial and ethnic differences in the manifestation of depression are well documented. However, the effect of these differences on computational models for mental disorders trained on online language is relatively unexplored. This work analyzes the interaction between race and linguistic features correlated with PHQ-9 score. Our experiments reveal that the pronoun I, widely used as an indicator of depression, has significant interaction with race correlating with PHQ-9 scores for White but not for Black individuals. Various open vocabulary topics correlated with PHQ-9 demonstrate a contradictory trend for their usage by White and Black individuals when depressed. A linear regression machine learning model trained on White individuals predicts depression in White individuals with a Pearson r of 0.39(p < 0.05) but returns an insignificant correlation for depression scores in Black individuals indicating its inefficacy in diagnosing depression for the Black population. Interestingly, a model trained on Black individuals predicts depression in both racial groups albeit with different performances (r = 0.355 for Black and r = 0.338 for White). The results advocate the urgent need to validate computational mental health models on minority populations before deployment."
+
 
 - speaker: Nanyun (Violet) Peng
   url: https://vnpeng.net
