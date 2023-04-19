@@ -13,6 +13,14 @@
 #   date: June 26, 2019
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
+- speaker: Hao Wang
+  url: http://www.wanghao.in
+  img: assets/img/clunch/hao_wang.jpg
+  affiliation: Rutgers University
+  date: April 19th, 2023
+  title: "Bayesian Deep Learning: From Single-Domain Reasoning to Infinite-Domain Adaptation"
+  abstract: "While perception tasks such as visual object recognition and text understanding play an important role in human intelligence, the subsequent tasks that involve inference, reasoning, and planning require an even higher level of intelligence.  The past few years have seen major advances in many perception tasks using deep learning models. In terms of higher-level inference, however, probabilistic graphical models, with their ability to expressively describe properties of variables and various probabilistic relations among variables, are still more powerful and flexible. To achieve integrated intelligence that involves both perception and inference, we have been exploring along a research direction, which we call Bayesian deep learning, to tightly integrate deep learning and Bayesian models within a principled probabilistic framework. In this talk, I will present the proposed unified framework and some of our recent work on Bayesian deep learning with various applications including recommendation, social network analysis, interpretable healthcare, domain adaptation, and representation learning."
+  
 - speaker: Sunny Rai
   url: https://raisunny.com
   img: assets/img/clunch/sunny_rai.png
