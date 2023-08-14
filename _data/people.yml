@@ -52,6 +52,11 @@
   status: faculty
   img: assets/img/sharath_chandra_guntuku.jpeg
   url: https://sharathg.cis.upenn.edu/
+
+- name: Vivek Gupta
+  status: "postdoc"
+  img: assets/img/Vivek_Gupta.jpeg
+  url: https://vgupta123.github.io
   
 - name: Samar Haider
   status: phd
