@@ -23,6 +23,11 @@
   img: assets/img/sunghye_cho.png
   url: http://www.sunghyecho.com/
 
+- name: Jeffrey (Young-Min) Cho
+  status: "phd"
+  img: assets/img/young_min_cho.jpg
+  url: https://jeffreych0.github.io/ 
+
 - name: Christopher Cieri
   status: staff
   img: assets/img/christopher_cieri.png
