@@ -153,6 +153,11 @@
   img: assets/img/default_male.jpg
   url: https://www.ldc.upenn.edu/staff/neville-ryant
 
+- name: Neil Sehgal
+  status: phd
+  img: assets/img/neil_sehgal.jpg
+  url: https://sehgal-neil.github.io/
+
 - name: Jennifer Sheffield
   status: staff
   img: assets/img/jennifer_sheffield.jpg
