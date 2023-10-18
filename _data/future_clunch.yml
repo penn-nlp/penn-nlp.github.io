@@ -14,7 +14,7 @@
 #   abstract: The abstract of the talk will go here.
 - speaker: Najoung Kim
   url: https://najoung.kim/
-  img: najoung_kim.png
+  img: assets/img/clunch/najoung_kim.png
   affiliation: Boston University
   date: October 23
   title: Entity Tracking in Language Models
