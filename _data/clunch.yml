@@ -45,7 +45,7 @@
   title: Concept Bottleneck Models for Text Classification
   abstract: In this work, we apply the concept bottleneck framework to text classification. Traditional explainability methods for text classification often focus on local interpretability, highlighting which tokens are relevant but failing to explain their role in the decision-making process. Our system addresses this by offering concept-level explanations. For example, it can break down a restaurant review rating into individual measurements of concepts such as "ambiance" and "food quality," which linearly combine to yield the final prediction. We utilize large language models to generate and measure these concepts in a zero-shot manner, requiring no external guidance or information beyond the original task dataset. Our system is evaluated on twelve diverse text datasets, ranging from hate speech classification to movie review sentiment, and shows generally positive results. This includes an 89.3% accuracy in measuring machine defined concepts when evaluating using human annotations as a gold standard. Overall, this work presents a promising direction for creating interpretable text classification systems.
 
-  - speaker: Alyssa Hwang
+- speaker: Alyssa Hwang
   url: https://alyssahwang.com/
   img: assets/img/alyssa_hwang.jpg
   affiliation: University of Pennsylvania
