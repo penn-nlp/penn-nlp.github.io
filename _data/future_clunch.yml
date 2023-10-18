@@ -12,9 +12,10 @@
 #   date: June 26, 2019
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
-- speaker: TBA
-  url: TBA
-  affiliation: TBA
-  date: TBA
-  title: TBA
-  abstract: TBA
+- speaker: Najoung Kim
+  url: https://najoung.kim/
+  img: najoung_kim.png
+  affiliation: Boston University
+  date: October 23
+  title: Entity Tracking in Language Models
+  abstract: Keeping track of how states of entities change as a text or dialog unfolds is a key prerequisite to discourse understanding. We propose a behavioral task testing to what extent a language model can infer the final state of an entity given a natural language description of the initial state and a series of state-changing operations, following a set of desiderata we lay out for measuring nontrivial entity tracking capacity. Our evaluations of several language models reveal that only (1) in-context learning with models trained on large amounts of code, or (2) finetuning a model directly on the entity tracking task lead to nontrivial entity tracking behavior. This suggests that language models can learn to track entities but pretraining on text corpora alone does not make this capacity surface. In light of these results, I will end with brief discussions of ongoing work regarding the role of code pretraining and probing for latent representations of entity states.
