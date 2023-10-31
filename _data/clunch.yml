@@ -13,6 +13,14 @@
 #   date: June 26, 2019
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
+- speaker: Vivek Gupta
+  url: https://vgupta123.github.io/
+  img: assets/img/Vivek_Gupta.jpeg
+  affiliation: University of Pennsylvania
+  date: October 30
+  title: Inference and Reasoning for Semi-structured Tables
+  abstract: Understanding semi-structured tabular data, which is ubiquitous in the real world, requires an understanding of the meaning of text fragments and the implicit connections between them. We believe such data could be used to investigate how individuals and machines reason about semi-structured data. First, we present the InfoTabS dataset, which consists of human-written textual predictions based on tables collected from Wikipedia’s infoboxes. Our research demonstrates that the semi-structured, multi-domain, and heterogeneous nature of the premises prompts complicated, multi-faceted reasoning, offering a modeling challenge for traditional modeling techniques. Second, we analyzed these challenges in-depth and developed simple, effective preprocessing strategies to overcome them. Thirdly, despite accurate NLI predictions, we demonstrate through rigorous probing that the existing model does not reason with the provided tabular facts. To address this, we suggest a two-stage evidence extraction and tabular inference technique for enhancing model reasoning and interpretability. We also investigate efficient methods for enhancing tabular inference datasets with semi-automatic data augmentation and pattern-based pre-training. Lastly, to ensure that tabular reasoning models work in more than one language, we introduce XInfoTabS, a cost-effective pipeline for translating tables. In the near future, we plan to test the tabular reasoning model for temporal changes, especially for dynamic tables where information changes over time.
+
 - speaker: Najoung Kim
   url: https://najoung.kim/
   img: assets/img/clunch/najoung_kim.png
