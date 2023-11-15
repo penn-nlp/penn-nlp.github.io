@@ -12,10 +12,10 @@
 #   date: June 26, 2019
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
-- speaker: Greg Durrett
-  url: https://www.cs.utexas.edu/~gdurrett/
-  img: assets/img/clunch/greg_durrett.png
-  affiliation: UT Austin
-  date: November 13
-  title: Making LLMs Right
-  abstract: "Large language models (LLMs) like ChatGPT have been criticized for their propensity to 'hallucinate' and state incorrect information. However, the errors these systems make are not random: there are certain capabilities, like summarization, that they can do quite reliably, and others, like arithmetic, that are fundamentally unreliable. In this talk, I argue that paying attention to this divide in capabilities allows us to make LLMs more correct. First, I will discuss how we use LLMs as building blocks in systems that can do sound reasoning over natural language. For instance, we can use them to translate a natural language problem definition into a formal specification; alternatively, we can break a reasoning problem down into steps that are easily checkable. I will present our new dataset, MuSR, consisting of tasks like murder mysteries that feature challenging reasoning embedded in narratives. Second, I will discuss how we can figure out post-hoc whether LLMs' generations are right. Our approach is inspired by human fact-checking: first, dissect an LLM's 'claim' into pieces, then explain whether those pieces are right or wrong. Finally, I will discuss ongoing work on how to integrate this error detection capability into LLMs to improve the state of the art."
+- speaker: Alexander Rush
+  url: https://rush-nlp.com/
+  img: assets/img/clunch/sasha_rush.jpeg
+  affiliation: Cornell Tech
+  date: November 20
+  title: Inverting Language Models
+  abstract: As language models enter production environments, their intermediate states are used for a myriad of downstream applications such as search, prompting, and document comparison. In this talk, I discuss the feasibility of language model inversion. Specifically, we are interested in how much information language models contain about their inputs? We investigate the problem in two scenarios, recovering text inputs from the outputs of embeddings from sentence embedders and next-token probability outputs from language models. In many cases, our methods are able to fully recover exact textual inputs given just intermediate states. I'll discuss the security implications of these findings, as well as what this tells us about compression embedding and language modeling applications.
