@@ -13,6 +13,14 @@
 #   date: June 26, 2019
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
+- speaker: Alexander Rush
+  url: https://rush-nlp.com/
+  img: assets/img/clunch/sasha_rush.jpeg
+  affiliation: Cornell Tech
+  date: November 20
+  title: Inverting Language Models
+  abstract: As language models enter production environments, their intermediate states are used for a myriad of downstream applications such as search, prompting, and document comparison. In this talk, I discuss the feasibility of language model inversion. Specifically, we are interested in how much information language models contain about their inputs? We investigate the problem in two scenarios, recovering text inputs from the outputs of embeddings from sentence embedders and next-token probability outputs from language models. In many cases, our methods are able to fully recover exact textual inputs given just intermediate states. I'll discuss the security implications of these findings, as well as what this tells us about compression embedding and language modeling applications.
+  
 - speaker: Greg Durrett
   url: https://www.cs.utexas.edu/~gdurrett/
   img: assets/img/clunch/greg_durrett.png
