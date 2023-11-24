@@ -86,7 +86,12 @@
 - name: Bryan Li
   status: phd
   img: assets/img/bryan_li.jpg
-  url: https://manestay.github.io/
+  url: https://manestay.github.io/  
+
+- name: Yifei Li
+  status: phd
+  img: assets/img/yifei_li.jpg
+  url: https://realliyifei.github.io/  
 
 - name: "Mark Liberman"
   status: "faculty"
