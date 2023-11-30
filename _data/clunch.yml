@@ -13,6 +13,14 @@
 #   date: June 26, 2019
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
+- speaker: Fei Wang
+  url: https://feiwang96.github.io/
+  img: assets/img/clunch/fei_wang.jpeg
+  affiliation: University of Southern California
+  date: November 27
+  title: Robust and Context-Faithful Language Understanding with (Large) Language Models
+  abstract: Large language models (LLMs) have achieved remarkable success in various language understanding tasks. However, their deployment in real-world scenarios raises significant accountability concerns. In this presentation, I will introduce our recent work on enhancing contextual faithfulness and robustness of LLMs. First, LLMs often make unfaithful predictions based on entity mentions or parametric knowledge, ignoring the context. I will present causality-driven approaches, including training-time and in-context causal intervention, to mitigate entity bias for both black-box and white-box LLMs. Second, LLMs may capture various unreliable prediction shortcuts, some of which could be unknown. I will demonstrate how to address this issue by proactively mitigating biases in the attention module without needing to identify the specific cause of the bias. Finally, I will outline future directions for advancing accountable and responsible LLMs.
+  
 - speaker: Alexander Rush
   url: https://rush-nlp.com/
   img: assets/img/clunch/sasha_rush.jpeg
