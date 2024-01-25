@@ -13,6 +13,14 @@
 #   date: June 26, 2019
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
+- speaker: Hongming Zhang
+  url: https://panda0881.github.io/Hongming_Homepage/
+  img: assets/img/clunch/hongming.png
+  affiliation:  Tencent AI Lab, Bellevue
+  date: December 11
+  title: Advancing Information Retrieval in the Age of Large Language Models
+  abstract: This presentation delves into the evolving landscape of information retrieval (IR) in the context of Large Language Models (LLMs). LLMs have showcased remarkable language comprehension abilities, yet they face challenges in rapidly assimilating private or real-time data, crucial for applications like virtual assistants. This talk will start with an overview of conventional IR techniques, including dense retrieval. Building upon this, I will present our recent work in proposition-level information retrieval, which enhances the granularity and precision of existing IR systems. In the end, I will discuss how to broaden the scope of IR to create a virtual assistant system.
+
 - speaker: Fei Wang
   url: https://feiwang96.github.io/
   img: assets/img/clunch/fei_wang.jpeg
