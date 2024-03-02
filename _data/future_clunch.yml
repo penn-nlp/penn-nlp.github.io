@@ -12,10 +12,130 @@
 #   date: June 26, 2019
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
-- speaker: Hongming Zhang
-  url: https://panda0881.github.io/Hongming_Homepage/
-  img: assets/img/clunch/hongming.png
-  affiliation:  Tencent AI Lab, Bellevue
-  date: December 11
-  title: Advancing Information Retrieval in the Age of Large Language Models
-  abstract: This presentation delves into the evolving landscape of information retrieval (IR) in the context of Large Language Models (LLMs). LLMs have showcased remarkable language comprehension abilities, yet they face challenges in rapidly assimilating private or real-time data, crucial for applications like virtual assistants. This talk will start with an overview of conventional IR techniques, including dense retrieval. Building upon this, I will present our recent work in proposition-level information retrieval, which enhances the granularity and precision of existing IR systems. In the end, I will discuss how to broaden the scope of IR to create a virtual assistant system.
+- speaker: Andrew Zhu
+  url: https://zhu.codes/
+  img: assets/img/andrew_zhu.png
+  affiliation:  University of Pennsylvania
+  date: January 29, 2024
+  title: "Kani: A Lightweight and Highly Hackable Framework for Building Language Model Applications"
+  abstract: "Language model applications are becoming increasingly popular and complex, often including features like tool usage and retrieval augmentation. However, existing frameworks for such applications are often opinionated, deciding for developers how their prompts ought to be formatted and imposing limitations on customizability and reproducibility. To solve this we present Kani: a lightweight, flexible, and model-agnostic open-source framework for building language model applications. Kani helps developers implement a variety of complex features by supporting the core building blocks of chat interaction: model interfacing, chat management, and robust function calling. All Kani core functions are easily overridable and well documented to empower developers to customize functionality for their own needs. Kani thus serves as a useful tool for researchers, hobbyists, and industry professionals alike to accelerate their development while retaining interoperability and fine-grained control."
+
+- speaker: Bryan Li
+  url: https://manestay.github.io/
+  img: assets/img/bryan_li.jpg
+  affiliation:  University of Pennsylvania
+  date: January 29 2024
+  title: "This Land is {Your, My} Land: Evaluating Geopolitical Biases in Language Models"
+  abstract: "Do the Spratly Islands belong to China, the Philippines, or Vietnam? A pretrained large language model (LLM) may answer differently if asked in the languages of each claimant country: Chinese, Tagalog, or Vietnamese. In this paper, we show that LLMs recall certain geographical knowledge inconsistently when queried in different languages—a phenomenon we term geopolitical bias. As a targeted case study, we consider territorial disputes, an inherently controversial and multilingual task. We introduce BorderLines, a dataset of territorial disputes which covers 251 territories, each associated with a set of multiple-choice questions in the languages of each claimant country (49 languages in total). We also propose a suite of evaluation metrics to precisely quantify bias and consistency in responses across different languages. We then evaluate various multilingual LLMs on our dataset and metrics to probe their internal knowledge and use the proposed metrics to discover numerous inconsistencies in how these models respond in different languages. Finally, we explore several prompt modification strategies, aiming to either amplify or mitigate geopolitical bias, which highlights how brittle LLMs are and how they tailor their responses depending on cues from the interaction context."
+
+- speaker: Alyssa Hwang
+  url: https://alyssahwang.com/
+  img: assets/img/alyssa_hwang.jpg
+  affiliation: University of Pennsylvania
+  date: January 29, 2024
+  title: Developing Grounded Intuition of Large Language Models
+  abstract: Large language models in the current era of natural language processing have shown unprecedented performance on increasingly complex tasks, leading to challenges in evaluating models and understanding their limits. Recent studies have turned to example-driven qualitative analysis to gain a better "intuition" of how LLMs respond to intricate, inventive requests. In this work, I propose a new methodology to systematize and substantiate this style of qualitative evaluation in techniques from the social sciences. Using GPT-Vision and scientific images as a case study, I will walk through the qualitative evaluation method, theoretical social science background, and resulting insights---intuition of the model's capabilities grounded in empirical evidence---to show how this method can be used for any generative model. I welcome feedback on adapting the preprint for a conference submission.
+
+- speaker: Sebastian Gehrmann
+  url: https://sebastiangehrmann.github.io/
+  img: assets/img/sebastian_gehrmann.jpg
+  affiliation: Bloomberg
+  date: February 5, 2024
+  title: 
+  abstract: 
+
+- speaker: William Wang
+  url: https://sites.cs.ucsb.edu/~william/
+  img: assets/img/william_wang.png
+  affiliation: UCSB
+  date: February 12, 2024
+  title: "Principles of Reasoning: Compositional and Collaborative Generative AI"
+  abstract: A majority of existing research in large language models and generative AI systems focus on scaling and engineering. In this talk, I argue that we need principled understanding of the science of generative AI, in particular, to understand the emergent ability of large language models. I present a Bayesian latent variable approach to enhancing in-context learning in large language models (LLMs) through optimal demonstration selection, demonstrating substantial improvements across various text classification tasks. Second, I argue that modern generative AI systems must be modular and collaborative, to solve complex reasoning problems. We introduce Logic-LM, an in-context framework that synergizes LLMs with symbolic solvers, significantly boosting logical problem-solving abilities. We will also elaborate how to build in-context neuro-symbolic solutions to improve the compositionality in text-to-image systems. Our observations indicate that the future of generative AI is compositional and collaborative, as opposed to a single-model system.
+
+- speaker: TBD
+  url: 
+  img:
+  affiliation:
+  date: February 19, 2024
+  title: 
+  abstract: 
+
+- speaker: TBD
+  url: 
+  img:
+  affiliation:
+  date: February 26, 2024
+  title: 
+  abstract: 
+
+- speaker: Hyunwoo Kim
+  url: https://hyunw.kim/
+  img: assets/img/Hyunwoo_Kim.jpg
+  affiliation: AI2
+  date: March 4, 2024
+  title: 
+  abstract: 
+
+- speaker: Eunsol Choi
+  url: https://eunsol.github.io/
+  img: assets/img/Eunsol_Choi.png
+  affiliation: University of Texas at Austin
+  date: March 11, 2024
+  title: 
+  abstract: 
+
+- speaker: Koustuv Saha
+  url: https://koustuv.com/
+  img: assets/img/Koustuv_Saha.jpg
+  affiliation: UIUC
+  date: March 18, 2024
+  title: 
+  abstract: 
+
+- speaker: TBD
+  url: 
+  img:
+  affiliation:
+  date: March 25, 2024
+  title: 
+  abstract: 
+
+- speaker: Zhou Yu
+  url: https://www.cs.columbia.edu/~zhouyu/
+  img: assets/img/Zhou_Yu.jpg
+  affiliation: Columbia University
+  date: April 1, 2024
+  title: 
+  abstract: 
+
+- speaker: Diyi Yang
+  url: https://cs.stanford.edu/~diyiy/
+  img: assets/img/Diyi_Yang.jpg
+  affiliation: Stanford University
+  date: April 8, 2024
+  title: 
+  abstract:
+
+- speaker: TBD
+  url: 
+  img: 
+  affiliation:
+  date: April 15, 2024
+  title: 
+  abstract:  
+
+- speaker: Leonie Weissweiler
+  url: https://www.cis.uni-muenchen.de/~weissweiler/
+  img: assets/img/Leonie_Weissweiler.jpg
+  affiliation: LMU Munich
+  date: April 22, 2024
+  title: 
+  abstract: 
+
+- speaker: Arman Cohan
+  url: https://armancohan.com
+  img: assets/img/arman_cohan.jpg
+  affiliation: Yale
+  date: April 29, 2024
+  title: 
+  abstract: 
