@@ -68,14 +68,6 @@
   title: 
   abstract: 
 
-- speaker: Hyunwoo Kim
-  url: https://hyunw.kim/
-  img: assets/img/Hyunwoo_Kim.jpg
-  affiliation: AI2
-  date: March 4, 2024
-  title: 
-  abstract: 
-
 - speaker: Eunsol Choi
   url: https://eunsol.github.io/
   img: assets/img/Eunsol_Choi.png
@@ -89,16 +81,17 @@
   img: assets/img/Koustuv_Saha.jpg
   affiliation: UIUC
   date: March 18, 2024
-  title: 
-  abstract: 
+  title: "Measuring Wellbeing in Situated Contexts with Social Media and Multimodal Sensing: Promises and Perils"
+  abstract: "A core aspect of our social lives is often embedded in the communities we are situated in. Our shared experiences and social ties intertwine our situated context with our wellbeing. A better understanding of wellbeing can help devise timely support provisions. However, traditional forms of wellbeing measurements have limitations, motivating an increasing interest in supporting wellbeing through passive sensing technologies. Parallelly, social media platforms enable us to connect and express our personal and social lives with others. Given its ubiquity, social media can be considered a “passive sensor” to obtain naturalistic data, which can also be combined with various multimodal sensing to comprehensively measure wellbeing. However, wellbeing sensing technologies can lead to unintended outcomes and cause harms. Therefore, despite the potential, are we ready to deploy these wellbeing sensing technologies in the real world yet? In this talk, Koustuv Saha will present theory-driven computational and causal methods for leveraging social media in concert with complementary multisensor data to examine wellbeing, particularly in situated communities such as college campuses and workplaces. He will also interrogate the meaningfulness of the data and inferences and reflect on how these approaches can potentially be misinterpreted or misused without additional considerations. To bridge the gap between the theoretical promise and practical utility, he will present the importance of evaluating the needs, benefits, and harms of wellbeing sensing technologies in practice. This talk will propel the vision toward questioning the underlying assumptions and in responsible design and deployment of wellbeing sensing technologies (if at all) for situated communities and the future of work. "
 
-- speaker: TBD
-  url: 
-  img:
-  affiliation:
+- speaker: Hyunwoo Kim
+  url: https://hyunw.kim/
+  img: assets/img/Hyunwoo_Kim.jpg
+  affiliation: AI2
   date: March 25, 2024
   title: 
   abstract: 
+
 
 - speaker: Zhou Yu
   url: https://www.cs.columbia.edu/~zhouyu/
@@ -116,10 +109,10 @@
   title: 
   abstract:
 
-- speaker: TBD
-  url: 
-  img: 
-  affiliation:
+- speaker: Ana Marasović
+  url: https://www.anamarasovic.com/
+  img: assets/img/anamarasovic.jpg
+  affiliation: University of Utah
   date: April 15, 2024
   title: 
   abstract:  
