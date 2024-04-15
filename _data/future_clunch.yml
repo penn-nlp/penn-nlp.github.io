@@ -41,8 +41,8 @@
   img: assets/img/sebastian_gehrmann.jpg
   affiliation: Bloomberg
   date: February 5, 2024
-  title: 
-  abstract: 
+  title: Evaluation in the age of Large Language Models
+  abstract: "New language models are being developed at a rapid pace. While these models have incredible new abilities, we still mostly follow the same old paradigms when it comes to evaluating the language that these models produce. As a result, claims about their performance rely either on anecdotal evidence or on experiments on anglo-centric corpora with flawed metrics. We thus can’t systematically answer the question that lies at the core of natural language generation research: how good is a system that produces natural language and where does it fail? I will discuss the deliberations of languages, datasets, metrics, and human evaluations that are required to address this problem. I will also connect these insights to broader trends in the industry and how they affect development of new products."
 
 - speaker: William Wang
   url: https://sites.cs.ucsb.edu/~william/
@@ -52,29 +52,55 @@
   title: "Principles of Reasoning: Compositional and Collaborative Generative AI"
   abstract: A majority of existing research in large language models and generative AI systems focus on scaling and engineering. In this talk, I argue that we need principled understanding of the science of generative AI, in particular, to understand the emergent ability of large language models. I present a Bayesian latent variable approach to enhancing in-context learning in large language models (LLMs) through optimal demonstration selection, demonstrating substantial improvements across various text classification tasks. Second, I argue that modern generative AI systems must be modular and collaborative, to solve complex reasoning problems. We introduce Logic-LM, an in-context framework that synergizes LLMs with symbolic solvers, significantly boosting logical problem-solving abilities. We will also elaborate how to build in-context neuro-symbolic solutions to improve the compositionality in text-to-image systems. Our observations indicate that the future of generative AI is compositional and collaborative, as opposed to a single-model system.
 
-- speaker: TBD
-  url: 
-  img:
-  affiliation:
+- speaker: Sihao Chen
+  url: https://www.seas.upenn.edu/~sihaoc/
+  img: assets/img/sihao.jpeg
+  affiliation: University of Pennsylvania
   date: February 19, 2024
-  title: 
-  abstract: 
+  title: Propositional Text Representation Learning in the era of LLMs
+  abstract: In an era where most NLP problems are solved in a text-in-text-out, end-to-end fashion, do meaning representations of text still matter? The answer is yes, and the benefit it brings might surprise you! I will introduce our recent line of work, where we rethink and redefine the use of propositions in modern NLP.  I will discuss the benefit of propositional text representation learning in LLM-related applications such as hallucination detection, attribution for generated text, and retrieval-augmented generation.
 
-- speaker: TBD
-  url: 
-  img:
-  affiliation:
+- speaker: Ben Zhou
+  url: benzhou
+  img: assets/img/benzhou.jpeg
+  affiliation: University of Pennsylvania
+  date: February 19, 2024
+  title: Towards Generalizable and Controllable Reasoning in NLP and AI Systems
+  abstract: Advancements in natural language processing (NLP) have spurred a wave of innovation. Still, the reliability and generalizability of language models (LMs) remain areas of concern, blocking them from complex reasoning scenarios or sensitive topics. This talk presents works on augmenting models with experiential knowledge and symbolic reasoning to refine controllable reasoning, improve abduction skills, and bolster model generalizability. We will also examine the limitations of current semantic-based reasoning methods and highlight the integration of symbolic techniques to construct more transparent and explainable decision-making processes. Through synthesizing empirical evidence and theoretical insights, we propose pragmatic pathways toward responsible and trustworthy NLP applications in mission-critical environments.
+
+
+- speaker: Sunny Rai
+  url: https://www.seas.upenn.edu/~sunnyrai/
+  img: assets/img/srai.png
+  affiliation: University of Pennsylvania
   date: February 26, 2024
-  title: 
-  abstract: 
+  title: Extracting Cross-Cultural Social Norms using Moral Emotions
+  abstract: In this talk, I will present a culture-agnostic approach to norm discovery, using moral emotions, shame and  pride, to identify examples of normative expectations and extract corresponding social norms. These norms can be used for designing culturally aware NLP systems and achieving pluralistic values in LLMs.
+
+- speaker: Shreya Havaldar
+  url: https://shreyahavaldar.com/
+  img: assets/img/shavaldar.jpeg
+  affiliation: University of Pennsylvania
+  date: February 26, 2024
+  title: Evaluating Multicultural Behavior of LLMs
+  abstract: Multilingual LLMs like GPT-4 and Gemini are linguistically fluent (i.e. they generate fluent non-English text), but not necessarily culturally fluent (i.e. they appropriately reflect the social norms, emotions, and behaviors of users from different cultures). While it is important for us to make these LLMs better at cultural adaptation, we lack proper methods to evaluate the multicultural behavior of these models. Focusing on emotion, I present techniques grounded in cultural psychology to evaluate how well LLMs understand emotional subjectivity across cultures. Despite the fact that emotions are experienced and expressed differently across the world, we find that embeddings obtained from LMs (e.g., XLM-RoBERTa) are Anglocentric, and generative LMs (e.g., ChatGPT) reflect Western norms, even when responding to prompts in other languages. Our results show that multilingual LMs struggle with cultural adaptation and developing proper techniques to evaluate this is an important problem for the NLP community.
+
+
+- speaker: Jeffrey (Young-Min) Cho
+  url: https://jeffreych0.github.io/
+  img: assets/img/jcho.jpeg
+  affiliation: University of Pennsylvania
+  date: February 26, 2024
+  title: Impact of Response Length on LLM-Generated Dialogue Quality and User Perception
+  abstract: Large Language Models are often used as conversational agents, even though they are not predominantly trained on dialogue datasets. Consequently, their responses often diverge from those in natural human conversation, tending towards verbosity or, less frequently, brevity. In this paper, we study the impact of optimizing response length on the quality of a dialogue system. Our findings reveal that GPT produces responses that are longer than those of humans, and these are unexpectedly favored, even over human-generated responses, due to their richer informational content and perceived greater empathy. However, for applications such as voicebots, shorter responses could be preferred. To generate responses that match those from humans in length, we introduce RULER, a supervised model that leverages historical conversational data to guide the generation of appropriately lengthed responses. We find that RULER responses are judged to be of higher quality than those from humans, in spite of being comparable in length.
 
 - speaker: Eunsol Choi
   url: https://eunsol.github.io/
   img: assets/img/Eunsol_Choi.png
   affiliation: University of Texas at Austin
   date: March 11, 2024
-  title: 
-  abstract: 
+  title: Knowledge-Rich Language Systems in a Dynamic World
+  abstract: "Natural language provides an intuitive and powerful interface to access knowledge at scale. Modern language systems draw information from two rich knowledge sources: (1) information stored in their parameters during massive pretraining and (2) documents retrieved at inference time. Yet, we are far from building systems that can reliably provide information from such knowledge sources. In this talk, I will discuss paths for more robust systems. In the first part of the talk, I will present a module for scaling retrieval-based knowledge augmentation. We learn a compressor that maps retrieved documents into textual summaries prior to in-context integration. This not only reduces the computational costs but also filters irrelevant or incorrect information. In the second half of the talk, I will discuss the challenges of updating knowledge stored in model parameters and propose a method to prevent models from reciting outdated information by identifying facts that are prone to rapid change. I will conclude my talk by proposing an interactive system that can elicit information from users when needed. "
 
 - speaker: Koustuv Saha
   url: https://koustuv.com/
@@ -89,8 +115,8 @@
   img: assets/img/Hyunwoo_Kim.jpg
   affiliation: AI2
   date: March 25, 2024
-  title: 
-  abstract: 
+  title: "Theory of Mind and LLMs: What it is and Why it is important"
+  abstract: '"Last year, debates about whether large language models (LLMs) demonstrate theory of mind capabilities have sparked considerable interest in the AI field. Theory of mind refers to the ability to attribute mental states to others, a key aspect of human social reasoning. This includes understanding others beliefs, desires, intentions, and thoughts, all of which play a significant role in social interactions. In this talk, I will delve deeper into the following questions: ""Do LLMs have a theory of mind?"", ""What are essential criteria for evaluating theory of mind in LLMs?"", and “Why is theory of mind important in AI systems?” More concretely, this talk will discuss important theoretical foundations from psychology and examine why theory of mind can be critical in addressing privacy concerns in LLMs."'
 
 
 - speaker: Zhou Yu
@@ -98,32 +124,32 @@
   img: assets/img/Zhou_Yu.jpg
   affiliation: Columbia University
   date: April 1, 2024
-  title: 
-  abstract: 
+  title: Conversational AI beyond chatGPT
+  abstract: chatGPT amazed the general public with its ability to follow novel instructions. However, there is still a gap between chatGPT and fundamental human conversation abilities. This talk describes two works toward filling this gap through better conversational planning and strategies. The first work, LLM-Augmenter, proposes a general framework that aligns LLM capabilities with user task intents through reinforcement learning planning.  The second work demonstrates that a chatbot with advanced self-disclosure conversational strategies is likelier and more convincing. 
 
 - speaker: Diyi Yang
   url: https://cs.stanford.edu/~diyiy/
   img: assets/img/Diyi_Yang.jpg
   affiliation: Stanford University
   date: April 8, 2024
-  title: 
-  abstract:
+  title: Human-AI Interaction in the Age of Large Language Models
+  abstract: "Large language models have revolutionized the way humans interact with AI systems, transforming a wide range of fields and disciplines. In this talk, we discuss several approaches to enhancing human-AI interaction using LLMs. The first one looks at training people with conflict resolution skills via LLMs-based simulation and feedback. The second part develops parameter efficient learning techniques for adapting LLMs to low-resource languages and dialects towards accessible human-AI interaction.These different works demonstrate how human-AI interaction via LLMs can empower individuals and foster positive change."
 
 - speaker: Ana Marasović
   url: https://www.anamarasovic.com/
   img: assets/img/anamarasovic.jpg
   affiliation: University of Utah
   date: April 15, 2024
-  title: 
-  abstract:  
+  title: Challenges in Fostering (Dis)Trust in AI       
+  abstract: "What factors enable people to trust trustworthy models and distrust untrustworthy models? Broadly, (dis)trust can be derived from two sources: (1) intrinsic, which stems from understanding a model's inner workings or reasoning, and (2) extrinsic, which is based on observing a model's external behaviors. Evaluation benchmarks created by AI researchers can foster extrinsic (dis)trust in a given contract, but they must be properly constructed. Only then can they ensure that a model, to pass the test, must truly uphold the intended contract. I will overview the challenges of constructing valid evaluations. On the other hand, explainable AI (XAI) aims to provide insights into a model’s reasoning, thus fostering intrinsic (dis)trust. XAI is not without its challenges, which I will discuss towards the end of my talk."
 
 - speaker: Leonie Weissweiler
   url: https://www.cis.uni-muenchen.de/~weissweiler/
   img: assets/img/Leonie_Weissweiler.jpg
   affiliation: LMU Munich
   date: April 22, 2024
-  title: 
-  abstract: 
+  title: Could we be overestimating the linguistic capabilities of LLMs?
+  abstract: The evaluation of the linguistic capabilities of LLMs requires not only a target phenomenon, but also labelled natural data at scale or the means to create it artificially, which should be uncontaminated, ideally include languages other than English, and rely on implicit, rather than explicit, knowledge of language. These conditions are especially challenging to satisfy for the rare and complex phenomena that remain as challenges for state-of-the-art models. In this talk, I will present several evaluations of the morphological, syntactic, and semantic capabilities of LLMs,  demonstrate strategies for gathering or creating data and setups to push the boundaries of current evaluation strategies, and show how these can be used to identify remaining LLM linguistic weaknesses.
 
 - speaker: Arman Cohan
   url: https://armancohan.com
@@ -132,3 +158,4 @@
   date: April 29, 2024
   title: 
   abstract: 
+
