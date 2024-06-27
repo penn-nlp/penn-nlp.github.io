@@ -1,3 +1,8 @@
+- name: Ankit Aich
+  status: postdoc
+  img: assets/img/ankit_aich.png
+  url: https://ankitaich.com/
+
 - name: Marianna Apidianaki
   status: staff
   img: assets/img/marianna_apidianaki.jpg
@@ -42,11 +47,6 @@
   status: phd
   img: assets/img/xingyu_fu.jpeg
   url: https://zeyofu.github.io/
-
-- name: "Salvatore Giorgi"
-  status: "phd"
-  img: assets/img/salvatore_giorgi.jpeg
-  url: http://www.salvatoregiorgi.com/
 
 - name: Sharath Chandra Guntuku
   status: faculty
