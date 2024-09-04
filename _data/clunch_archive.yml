@@ -8,6 +8,102 @@
 #   date: June 26, 2019
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
+- speaker: Hongming Zhang
+  url: https://panda0881.github.io/Hongming_Homepage/
+  img: assets/img/clunch/hongming.png
+  affiliation:  Tencent AI Lab, Bellevue
+  date: December 11, 2023
+  title: Advancing Information Retrieval in the Age of Large Language Models
+  abstract: This presentation delves into the evolving landscape of information retrieval (IR) in the context of Large Language Models (LLMs). LLMs have showcased remarkable language comprehension abilities, yet they face challenges in rapidly assimilating private or real-time data, crucial for applications like virtual assistants. This talk will start with an overview of conventional IR techniques, including dense retrieval. Building upon this, I will present our recent work in proposition-level information retrieval, which enhances the granularity and precision of existing IR systems. In the end, I will discuss how to broaden the scope of IR to create a virtual assistant system.
+
+- speaker: Fei Wang
+  url: https://feiwang96.github.io/
+  img: assets/img/clunch/fei_wang.jpeg
+  affiliation: University of Southern California
+  date: November 27, 2023
+  title: Robust and Context-Faithful Language Understanding with (Large) Language Models
+  abstract: Large language models (LLMs) have achieved remarkable success in various language understanding tasks. However, their deployment in real-world scenarios raises significant accountability concerns. In this presentation, I will introduce our recent work on enhancing contextual faithfulness and robustness of LLMs. First, LLMs often make unfaithful predictions based on entity mentions or parametric knowledge, ignoring the context. I will present causality-driven approaches, including training-time and in-context causal intervention, to mitigate entity bias for both black-box and white-box LLMs. Second, LLMs may capture various unreliable prediction shortcuts, some of which could be unknown. I will demonstrate how to address this issue by proactively mitigating biases in the attention module without needing to identify the specific cause of the bias. Finally, I will outline future directions for advancing accountable and responsible LLMs.
+
+- speaker: Alexander Rush
+  url: https://rush-nlp.com/
+  img: assets/img/clunch/sasha_rush.jpeg
+  affiliation: Cornell Tech
+  date: November 20, 2023
+  title: Inverting Language Models
+  abstract: As language models enter production environments, their intermediate states are used for a myriad of downstream applications such as search, prompting, and document comparison. In this talk, I discuss the feasibility of language model inversion. Specifically, we are interested in how much information language models contain about their inputs? We investigate the problem in two scenarios, recovering text inputs from the outputs of embeddings from sentence embedders and next-token probability outputs from language models. In many cases, our methods are able to fully recover exact textual inputs given just intermediate states. I'll discuss the security implications of these findings, as well as what this tells us about compression embedding and language modeling applications.
+
+- speaker: Greg Durrett
+  url: https://www.cs.utexas.edu/~gdurrett/
+  img: assets/img/clunch/greg_durrett.png
+  affiliation: UT Austin
+  date: November 13, 2023
+  title: Making LLMs Right
+  abstract: "Large language models (LLMs) like ChatGPT have been criticized for their propensity to 'hallucinate' and state incorrect information. However, the errors these systems make are not random: there are certain capabilities, like summarization, that they can do quite reliably, and others, like arithmetic, that are fundamentally unreliable. In this talk, I argue that paying attention to this divide in capabilities allows us to make LLMs more correct. First, I will discuss how we use LLMs as building blocks in systems that can do sound reasoning over natural language. For instance, we can use them to translate a natural language problem definition into a formal specification; alternatively, we can break a reasoning problem down into steps that are easily checkable. I will present our new dataset, MuSR, consisting of tasks like murder mysteries that feature challenging reasoning embedded in narratives. Second, I will discuss how we can figure out post-hoc whether LLMs' generations are right. Our approach is inspired by human fact-checking: first, dissect an LLM's 'claim' into pieces, then explain whether those pieces are right or wrong. Finally, I will discuss ongoing work on how to integrate this error detection capability into LLMs to improve the state of the art."
+
+- speaker: Mohit Iyyer
+  url: https://people.cs.umass.edu/~miyyer/
+  img: assets/img/clunch/mohit_iyyer.jpeg
+  affiliation: University of Massachusetts Amherst
+  date: November 6, 2023
+  title: Evaluating and detecting long-form LLM-generated text
+  abstract: "Progress in NLP methodology over the last thirty years has been driven by benchmarks, from the Penn Treebank to GLUE. Benchmarks are useful because they provide a standard task, dataset, and means of evaluation that any researcher can use to quickly and easily demonstrate the value of their method. However, in the current age of LLMs, I argue that benchmarking is becoming increasingly obsolete. Beyond challenges such as data contamination, the dubious scientific validity of prompt engineering, and usage of closed-source APIs, each of which is critical in its own right, there exist fundamental issues with how to formulate real-world tasks into benchmarks that can rank LLMs based on the much-desired 'single score'. I highlight these issues using some of my lab's recent work on tasks such as long-form question answering, book-length summarization, and literary translation. Next, I'll pivot to a different problem that plagues not only evaluation but also society as a whole: the rapid proliferation of LLM-generated text. Detecting such text is not only important for combating malicious use cases such as academic plagiarism, but also to ensure that LLMs of the future are not just pretrained on text generated by their inferior predecessors. I outline several attacks against existing LLM-generated text detectors such as watermarking (e.g., paraphrasing, translation, cropping) and describe a retrieval-based approach that is more robust to these attacks but comes with issues of its own."
+
+- speaker: Vivek Gupta
+  url: https://vgupta123.github.io/
+  img: assets/img/Vivek_Gupta.jpeg
+  affiliation: University of Pennsylvania
+  date: October 30, 2023
+  title: Inference and Reasoning for Semi-structured Tables
+  abstract: Understanding semi-structured tabular data, which is ubiquitous in the real world, requires an understanding of the meaning of text fragments and the implicit connections between them. We believe such data could be used to investigate how individuals and machines reason about semi-structured data. First, we present the InfoTabS dataset, which consists of human-written textual predictions based on tables collected from Wikipedia’s infoboxes. Our research demonstrates that the semi-structured, multi-domain, and heterogeneous nature of the premises prompts complicated, multi-faceted reasoning, offering a modeling challenge for traditional modeling techniques. Second, we analyzed these challenges in-depth and developed simple, effective preprocessing strategies to overcome them. Thirdly, despite accurate NLI predictions, we demonstrate through rigorous probing that the existing model does not reason with the provided tabular facts. To address this, we suggest a two-stage evidence extraction and tabular inference technique for enhancing model reasoning and interpretability. We also investigate efficient methods for enhancing tabular inference datasets with semi-automatic data augmentation and pattern-based pre-training. Lastly, to ensure that tabular reasoning models work in more than one language, we introduce XInfoTabS, a cost-effective pipeline for translating tables. In the near future, we plan to test the tabular reasoning model for temporal changes, especially for dynamic tables where information changes over time.
+
+- speaker: Najoung Kim
+  url: https://najoung.kim/
+  img: assets/img/clunch/najoung_kim.png
+  affiliation: Boston University
+  date: October 23, 2023
+  title: Entity Tracking in Language Models
+  abstract: Keeping track of how states of entities change as a text or dialog unfolds is a key prerequisite to discourse understanding. We propose a behavioral task testing to what extent a language model can infer the final state of an entity given a natural language description of the initial state and a series of state-changing operations, following a set of desiderata we lay out for measuring nontrivial entity tracking capacity. Our evaluations of several language models reveal that only (1) in-context learning with models trained on large amounts of code, or (2) finetuning a model directly on the entity tracking task lead to nontrivial entity tracking behavior. This suggests that language models can learn to track entities but pretraining on text corpora alone does not make this capacity surface. In light of these results, I will end with brief discussions of ongoing work regarding the role of code pretraining and probing for latent representations of entity states.
+
+- speaker: Yoon Kim
+  url: https://people.csail.mit.edu/yoonkim/
+  img: assets/img/clunch/yoon_kim.jpeg
+  affiliation: MIT
+  date: October 16th, 2023
+  title: Large Language Models & Symbolic Structures
+  abstract: Over the past decade the field of NLP has shifted from a pipelined approach (wherein intermediate symbolic structures such as parse trees are explicitly predicted and utilized for downstream tasks) to an end-to-end approach wherein pretrained large language models (LLMs) are adapted to various downstream tasks via finetuning or prompting. What role (if any) can symbolic structures play in the era of LLMs? In the first part of the talk, we will see how latent symbolic structures can be used to guide LLM-based neural machine translation systems to improve translation of low resource language, and also enable the use of new translation rules during inference. In the second part, we will see how expert-derived grammars can be used to control LLMs via prompting for tasks such as semantic parsing where the output structure must obey strict domain-specific constraints.
+
+- speaker: Martha Palmer
+  url: https://www.colorado.edu/faculty/palmer-martha/
+  img: assets/img/clunch/martha.webp
+  affiliation: University of Colorado
+  date: October 9th, 2023
+  title: Uniform Meaning Representations
+  abstract: This talk will discuss symbolic representations of sentences in context, focusing on abstract meaning representations (AMR), examining their capability for capturing certain aspects of meaning. A focus will be how AMR’s can be expanded to encompass figurative language, the recovery of implicit arguments and relations between events. These examples will be in English, and indeed some features of AMR are English-centric. Uniform Meaning Representations, a multi-sentence annotation scheme that is revising AMRs to make them more suitable for other languages, especially low resource languages will be introduced. UMRs include more formal logical scope, number, tense, aspect and modality as well as temporal relations. The talk will conclude with a discussion of ways in which these meaning representations can be enriched even more, by mapping to Wikidata Qnodes, and their potential for improving the explainability of large language models
+
+- speaker: Frank Ferraro
+  url: https://redirect.cs.umbc.edu/~ferraro/
+  img: assets/img/clunch/frank_ferraro.png
+  affiliation: University of Maryland, Baltimore County
+  date: October 2nd, 2023
+  title: Deconstructing Complex Events through Modeling Uncertainty, States, and Outcomes
+  abstract: Situations that people experience or describe---from global, macro-level events like "financial instability" to everyday, micro-level ones like "going to dinner"---can be complex, with uncertainty in what might happen next, participant's actions affecting one another, and overlapping events contributing to an outcome. Developing a computational understanding of these situations is not straightforward. In this talk, I will present methods for learning how to encode richer information about those descriptions. These approaches are a fruitful way of improving modeling performance, the ability to predict what events might happen next, or identify how the different participants in that situation are affected. In the first way, I will examine how event descriptions can be augmented with structural and semantic hierarchy, while accounting for uncertainty in both. In the second, I will look at how we can get models to reason about implicit states of participants in events, and reason about changes to these states as they relate to the broader situation. Finally, I will consider how we can characterize complex events by looking at participant-specific, state-based outcomes.
+
+- speaker: Josh Ludan
+  url: https://www.jmrludan.com/
+  img: assets/img/clunch/josh_ludan.jpeg
+  affiliation: University of Pennsylvania
+  date: September 18th, 2023
+  title: Concept Bottleneck Models for Text Classification
+  abstract: In this work, we apply the concept bottleneck framework to text classification. Traditional explainability methods for text classification often focus on local interpretability, highlighting which tokens are relevant but failing to explain their role in the decision-making process. Our system addresses this by offering concept-level explanations. For example, it can break down a restaurant review rating into individual measurements of concepts such as "ambiance" and "food quality," which linearly combine to yield the final prediction. We utilize large language models to generate and measure these concepts in a zero-shot manner, requiring no external guidance or information beyond the original task dataset. Our system is evaluated on twelve diverse text datasets, ranging from hate speech classification to movie review sentiment, and shows generally positive results. This includes an 89.3% accuracy in measuring machine defined concepts when evaluating using human annotations as a gold standard. Overall, this work presents a promising direction for creating interpretable text classification systems.
+
+- speaker: Alyssa Hwang
+  url: https://alyssahwang.com/
+  img: assets/img/alyssa_hwang.jpg
+  affiliation: University of Pennsylvania
+  date: September 18th, 2023
+  title: "Rewriting the Script: Adapting Text Instructions for Voice Interaction"
+  abstract: "Voice assistants have sharply risen in popularity in recent years, but their use has been limited mostly to simple applications like music, hands-free search, or control of internet-of-things devices. What would it take for voice assistants to guide people through more complex tasks? In our work, we study the limitations of the dominant approach voice assistants take to complex task guidance: reading aloud written instructions. Using recipes as an example, we observe twelve participants cook at home with a state-of-the-art voice assistant. We learn that the current approach leads to nine challenges, including obscuring the bigger picture, overwhelming users with too much information, and failing to communicate affordances. Instructions delivered by a voice assistant are especially difficult because they cannot be skimmed as easily as written instructions. Alexa in particular did not surface crucial details to the user or answer questions well. We draw on our observations to propose eight ways in which voice assistants can “rewrite the script”—summarizing, signposting, splitting, elaborating, volunteering, reordering, redistributing, and visualizing—to transform written sources into forms that are readily communicated through spoken conversation. We conclude with a vision of how modern advancements in natural language processing can be leveraged for intelligent agents to guide users effectively through complex tasks."
+
 - speaker: Hao Wang
   url: http://www.wanghao.in
   img: assets/img/clunch/hao_wang.jpg
