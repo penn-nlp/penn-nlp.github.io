@@ -13,6 +13,11 @@
   img: assets/img/chris_callison_burch.jpg
   url: http://www.cis.upenn.edu/~ccb/
 
+- name: Allen Chang
+  status: phd
+  img: assets/img/allen_chang.jpg
+  url: https://www.cylumn.com/
+
 - name: Sunghye Cho
   status: postdoc
   img: assets/img/sunghye_cho.png
