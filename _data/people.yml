@@ -13,11 +13,6 @@
   img: assets/img/chris_callison_burch.jpg
   url: http://www.cis.upenn.edu/~ccb/
 
-- name: "Sihao Chen"
-  status: "phd"
-  img: assets/img/sihao_chen.jpg
-  url: https://www.seas.upenn.edu/~sihaoc/
-
 - name: Sunghye Cho
   status: postdoc
   img: assets/img/sunghye_cho.png
@@ -27,16 +22,6 @@
   status: "phd"
   img: assets/img/young_min_cho.jpg
   url: https://jeffreych0.github.io/ 
-
-- name: Christopher Cieri
-  status: staff
-  img: assets/img/christopher_cieri.png
-  url: https://www.ldc.upenn.edu/staff/christopher-cieri
-
-- name: Rotem Dror
-  status: "postdoc"
-  img: assets/img/rotem_dror.jpeg
-  url: https://rtmdrr.github.io/
 
 - name: "Liam Dugan"
   status: "phd"
@@ -53,11 +38,6 @@
   img: assets/img/sharath_chandra_guntuku.jpeg
   url: https://sharathg.cis.upenn.edu/
 
-- name: Vivek Gupta
-  status: "postdoc"
-  img: assets/img/Vivek_Gupta.jpeg
-  url: https://vgupta123.github.io
-  
 - name: Samar Haider
   status: phd
   img: assets/img/samar_haider.jpg
@@ -98,11 +78,6 @@
   img: assets/img/mark_liberman.jpg
   url: http://www.ling.upenn.edu/~myl/
 
-- name: Veronica Qing Lyu
-  status: phd
-  img: assets/img/qing_lyu.jpg
-  url: https://veronica320.github.io/
-
 - name: "Danni Ma"
   status: "phd"
   img: assets/img/danni_ma.jpg
@@ -113,30 +88,20 @@
   img: assets/img/chaitanya_malaviya.jpg
   url: https://chaitanyamalaviya.github.io/
 
-- name: "Mitch Marcus"
-  status: "faculty"
-  img: assets/img/mitch_marcus.jpg
-  url: http://www.cis.upenn.edu/~mitch/
-
-- name: Lara Martin
-  status: postdoc
-  img: assets/img/lara_martin.jpg
-  url: http://laramartin.net/
-
 - name: Eleni Miltsakaki
   status: staff
   img: assets/img/eleni_miltsakaki.jpg
   url: https://www.miltsakaki.com/
 
-- name: "Ani Nenkova"
-  status: "faculty"
-  img: assets/img/ani_nenkova.jpg
-  url: http://www.cis.upenn.edu/~nenkova/
-
 - name: Artemis Panagopoulou
   status: phd
   img: assets/img/artemis_panagopoulou.jpeg
   url: https://artemisp.github.io/
+
+- name: Ajay Patel
+  status: phd
+  img: assets/img/ajay_patel.jpg
+  url: https://ajayp.app/
   
 - name: Sunny Rai
   status: postdoc
@@ -144,7 +109,7 @@
   url: https://www.raisunny.com
 
 - name: Delip Rao
-  status: staff
+  status: phd
   img: assets/img/delip_rao.jpg
   url: https://deliprao.com
   
@@ -155,7 +120,7 @@
 
 - name: Neville Ryant
   status: staff
-  img: assets/img/default_male.jpg
+  img: assets/img/neville_ryant.png
   url: https://www.ldc.upenn.edu/staff/neville-ryant
 
 - name: Neil Sehgal
@@ -176,6 +141,11 @@
   status: phd
   img: assets/img/haoyu_wang.jpg
   url: https://why2011btv.github.io/  
+
+- name: Tomer Wolfson
+  status: postdoc
+  img: assets/img/tomer_wolfson.jpg
+  url: https://tomerwolgithub.github.io/
 
 - name: "Charles Yang"
   status: "faculty"
@@ -201,16 +171,6 @@
   status: "phd"
   img: assets/img/xiaodong_yu.jpg
   url: https://www.xiaodongyu.me/
-
-- name: Harry Zhang
-  status: phd
-  img: assets/img/harry_zhang.jpg
-  url: http://zharry.com/
-
-- name: Ben Zhou
-  status: "phd"
-  img: assets/img/ben_zhou.jpg
-  url: http://xuanyu.me/
 
 - name: Andrew Zhu
   status: "phd"

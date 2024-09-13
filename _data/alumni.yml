@@ -1,3 +1,51 @@
+#- name:
+#  degree:
+#  year:
+#  current:
+#  url:
+
+- name: Veronica Qing Lyu
+  degree: Ph.D.
+  year: 2024
+  current: Research Scientist, Databricks
+  url: https://veronica320.github.io/
+
+- name: Harry Zhang
+  degree: Ph.D.
+  year: 2024
+  current: Assistant Professor, Drexel University
+  url: http://zharry.com/
+
+- name: Ben Zhou
+  degree: Ph.D.
+  year: 2024
+  current: Assistant Professor, Arizona State University
+  url: http://xuanyu.me/
+
+- name: "Sihao Chen"
+  degree: "Ph.D."
+  year: 2024
+  current:
+  url: https://www.seas.upenn.edu/~sihaoc/
+
+- name: Vivek Gupta
+  degree: "Postdoc"
+  year: 2024
+  current: Assistant Professor, Arizona State University
+  url: https://vgupta123.github.io
+
+- name: Rotem Dror
+  degree: "Postdoc"
+  year: 2023
+  current: Assistant Professor (Senior Lecturer), University of Haifa
+  url: https://rtmdrr.github.io/
+
+- name: Lara Martin
+  degree: Postdoc
+  year: 2023
+  current: Assistant Professor, University of Maryland, Baltimore County
+  url: http://laramartin.net/
+
 - name: "Salvatore Giorgi"
   degree: Ph.D.
   year: 2023

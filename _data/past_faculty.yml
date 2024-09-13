@@ -1,0 +1,21 @@
+# Right now this is just for archival purposes, not displayed anywhere
+- name: Christopher Cieri
+  status: staff
+  start: 1998
+  end: 2023
+  img: assets/img/christopher_cieri.png
+  url: https://www.ldc.upenn.edu/staff/christopher-cieri
+
+- name: "Mitch Marcus"
+  status: "faculty"
+  start: 0
+  end: 2024
+  img: assets/img/mitch_marcus.jpg
+  url: http://www.cis.upenn.edu/~mitch/
+
+- name: "Ani Nenkova"
+  status: "faculty"
+  start: 0
+  end: 2024
+  img: assets/img/ani_nenkova.jpg
+  url: http://www.cis.upenn.edu/~nenkova/
