@@ -13,6 +13,27 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Ajay Patel
+  url: https://ajayp.app/
+  affiliation: University of Pennsylvania
+  date: September 16, 2024
+  title: "DataDreamer: Synthetic Data Generation and Reproducible LLM Workflows"
+  abstract: "Large language models (LLMs) have become an essential tool for NLP researchers in a wide range of tasks. Many now rely on LLMs for synthetic data generation, task evaluation, fine-tuning, and other model-in-the-loop workflows. However, challenges arise due to their scale, closed-source nature, and the lack of standardized tooling, which can hinder open science and reproducibility. In this talk, we present DataDreamer, an open-source Python library designed to help researchers implement LLM workflows more easily. DataDreamer also promotes best practices that support open science and improve reproducibility in research."
+
+- speaker: Artemis Panagopoulou
+  url: https://artemisp.github.io/
+  affiliation: University of Pennsylvania
+  date: September 16, 2024
+  title: "Advancing Multimodal AI: Integrating Modalities, Tackling Complex Challenges, and Enhancing Interpretability"
+  abstract: "Advancing AI systems that understand and integrate multiple modalities—such as images, language, audio, video, and 3D—has significant implications for real-world applications. A major challenge lies in developing AI models that can efficiently process diverse modalities while providing transparent and interpretable decision-making. This talk will highlight recent contributions, including X-InstructBLIP, a framework for aligning multimodal representations with language models for cross-modal reasoning; studies on bistable images that reveal how AI models interpret visual ambiguity; and ongoing work on visual unit testing to ensure robust, and interpretable multimodal reasoning."
+
+- speaker: Xingyu Fu
+  url: https://zeyofu.github.io/
+  affiliation: University of Pennsylvania
+  date: September 16, 2024
+  title: "Better Evaluations for Multimodal Generative Models"
+  abstract: "Multimodal generative models such as GPT-4o and DALL-E 3 are being developed at a rapid pace. While these models have incredible new abilities, we still mostly follow the same old paradigms when it comes to evaluating the language or images that these models produce. Consequently, these models' potential is constrained by outdated evaluation criteria. In this talk, we will introduce two new benchmarks: (1) BLINK, designed to assess core visual perception abilities that are not addressed by existing benchmarks for multimodal large language models; and (2) Commonsense-T2I, which tests whether the generated images align with real-life commonsense. Our findings show that current multimodal generative models perform significantly worse than humans on both benchmarks, highlighting potential pathways for future improvements."
+
 - speaker: Subbarao Kambhampati
   url: https://rakaposhi.eas.asu.edu/
   affiliation: Arizona State University
