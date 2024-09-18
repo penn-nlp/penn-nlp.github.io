@@ -13,6 +13,76 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Emma Strubell
+  url: https://strubell.github.io/
+  affiliation: Carnegie Mellon University
+  date: December 09, 2024
+  title: TBD
+  abstract: TBD
+
+- speaker: Colin Raffel
+  url: https://colinraffel.com/
+  affiliation: University of Toronto
+  date: December 02, 2024
+  title: TBD
+  abstract: TBD
+
+- speaker: Julia Mendelsohn
+  url: https://juliamendelsohn.github.io/
+  affiliation: University of Michigan
+  date: November 25, 2024
+  title: TBD
+  abstract: TBD
+
+- speaker: Luca Soldaini
+  url: https://soldaini.net/
+  affiliation: Allen Institute for AI
+  date: November 11, 2024
+  title: TBD
+  abstract: TBD
+
+- speaker: Tomer Wolfson
+  url: https://tomerwolgithub.github.io/
+  affiliation: University of Pennsylvania
+  date: November 04, 2024
+  title: TBD
+  abstract: TBD
+
+- speaker: Valerie Chen
+  url: https://valeriechen.github.io/
+  affiliation: Carnegie Mellon University
+  date: October 28, 2024
+  title: TBD
+  abstract: TBD
+
+- speaker: Tanya Goyal
+  url: https://tagoyal.github.io/
+  affiliation: Cornell University
+  date: October 21, 2024
+  title: TBD
+  abstract: TBD
+
+- speaker: John Hewitt
+  url: https://nlp.stanford.edu/~johnhew/
+  affiliation: Stanford University
+  date: October 14, 2024
+  title: TBD
+  abstract: TBD
+
+- speaker: Yejin Choi
+  url: https://homes.cs.washington.edu/~yejin/
+  affiliation: University of Washington
+  date: October 07, 2024
+  title: TBD
+  abstract: TBD
+
+- speaker: Harsh Trivedi
+  url: https://harshtrivedi.me/
+  affiliation: Stony Brook University
+  date: September 30, 2024
+  title: TBD
+  abstract: TBD
+
 - speaker: Ajay Patel
   url: https://ajayp.app/
   affiliation: University of Pennsylvania
