@@ -80,8 +80,9 @@
   url: https://harshtrivedi.me/
   affiliation: Stony Brook University
   date: September 30, 2024
-  title: TBD
-  abstract: TBD
+  title: "AppWorld: Reliable Evaluation of Interactive Agents in a World of Apps and People"
+  abstract: "We envision a world where AI agents (assistants) are widely used for complex tasks in our digital and physical worlds and are broadly integrated into our society. To move towards such a future, we need an environment for a robust evaluation of agents' capability, reliability, and trustworthiness. In this talk, I’ll introduce AppWorld, which is a step towards this goal in the context of day-to-day digital tasks. AppWorld is a high-fidelity simulated world of people and their digital activities on nine apps like Amazon, Gmail, and Venmo. On top of this fully controllable world, we build a benchmark of complex day-to-day tasks such as splitting Venmo bills with roommates, which agents have to solve via interactive coding and API calls. One of the fundamental challenges with complex tasks lies in accounting for different ways in which the tasks can be completed. I will describe how we address this challenge using a reliable and programmatic evaluation framework. Our benchmarking evaluations show that even the best LLMs, like GPT-4o, can only solve ~30% of such tasks, highlighting the challenging nature of the AppWorld benchmark. I will conclude by laying out exciting future research that can be conducted on the foundation of AppWorld, such as benchmarks and playground for developing multimodal, collaborative, safe, socially intelligent, resourceful, and fail-tolerant agents."
+  img: assets/img/clunch/harsh-trivedi.jpg
 
 - speaker: Reno Kriz
   url: https://hltcoe.jhu.edu/researcher/reno-kriz/
