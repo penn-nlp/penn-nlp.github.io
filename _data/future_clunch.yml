@@ -73,8 +73,8 @@
   url: https://homes.cs.washington.edu/~yejin/
   affiliation: University of Washington
   date: October 07, 2024
-  title: TBD
-  abstract: TBD
+  title: "The Enigma of LLMs: on Creativity, Compositionality, and Paradoxes"
+  abstract: "That we can create LLMs doesn’t mean that we know LLMs. In this talk, I will discuss the puzzling questions and paradoxes we face with LLMs, from creativity to compositionality."
 
 - speaker: Harsh Trivedi
   url: https://harshtrivedi.me/
