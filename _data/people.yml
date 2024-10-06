@@ -33,6 +33,11 @@
   img: assets/img/liam_dugan.jpeg
   url: http://liamdugan.com/
 
+- name: Yu Feng
+  status: phd
+  img: assets/img/yu_feng.jpeg
+  url: https://annieyufeng.github.io/
+
 - name: Xingyu Fu
   status: phd
   img: assets/img/xingyu_fu.jpeg
