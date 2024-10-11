@@ -66,8 +66,8 @@
   url: https://nlp.stanford.edu/~johnhew/
   affiliation: Stanford University
   date: October 14, 2024
-  title: TBD
-  abstract: TBD
+  title: "Instruction Following without Instruction Tuning"
+  abstract: "This talk is about a few curious results on what makes language models follow instructions. When we want a language model to follow instructions, we often finetune it on instruction-response pairs and hope it generalizes -- this is (explicit) instruction tuning. I'll discuss _implicit instruction tuning_ -- we discovered that sometimes, when we finetune a language model on an objective that seems deficient compared to instruction tuning, the resulting finetuned model follows instructions anyway. This happens when we train a model to predict responses without conditioning on instructions (response tuning), and when we train only on a single task (like generating only poetry, or only recipes.) To dig into why implicit instruction tuning seems so common, I'll make concrete how simple it is to make a language model follow instructions by showing how to with a rule-based helper. As a takeaway: when you adapt a language model for a specific task, it's possible that it might (surprisingly?) act as a general-purpose chatbot for highly dissimilar inputs."
 
 - speaker: Yejin Choi
   url: https://homes.cs.washington.edu/~yejin/
