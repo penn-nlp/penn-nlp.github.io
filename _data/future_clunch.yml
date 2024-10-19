@@ -59,8 +59,8 @@
   url: https://tagoyal.github.io/
   affiliation: Cornell University
   date: October 21, 2024
-  title: TBD
-  abstract: TBD
+  title: "Collecting and Learning from Human Feedback"
+  abstract: "Human Feedback has emerged as an important ingredient to align large language models. However, it is challenging to both collect high quality human feedback, and ensure that reward models trained on this feedback capture the right axes of preferences. In this talk, I will present our work on developing a robust pipeline for data collection that improves agreement. I will further describe a thrust of our work that investigates a peculiar phenomenon that occurs when training language models with human feedback: model outputs are substantially longer. Our work shows that performance improvements after RLHF are largely due to increased length, instead of other important features. We test a comprehensive set of length-countering interventions, and identify reward models as the dominance source of this bias."
 
 - speaker: John Hewitt
   url: https://nlp.stanford.edu/~johnhew/
