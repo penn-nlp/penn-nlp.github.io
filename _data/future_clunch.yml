@@ -52,8 +52,8 @@
   url: https://valeriechen.github.io/
   affiliation: Carnegie Mellon University
   date: October 28, 2024
-  title: TBD
-  abstract: TBD
+  title: "Towards a science of human-AI teams"
+  abstract: "AI models have the potential to support and complement human decision-makers and users. And yet, the deployment of human-AI teams still faces practical challenges. I’m interested in developing a more principled workflow for building human-AI teams. In particular, this talk will focus on answering two questions: (1) what the right evaluation paradigms are to measure team performance and (2) what are interaction mechanisms that can facilitate the appropriate usage of AI support. I will discuss how existing ML/NLP literature has attempted to answer each of these questions, their limitations, and promising alternatives."
 
 - speaker: Tanya Goyal
   url: https://tagoyal.github.io/
