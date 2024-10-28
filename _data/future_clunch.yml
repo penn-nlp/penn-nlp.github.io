@@ -45,8 +45,8 @@
   url: https://tomerwolgithub.github.io/
   affiliation: University of Pennsylvania
   date: November 04, 2024
-  title: TBD
-  abstract: TBD
+  title: "A More Natural and Complex Question Answering Benchmark"
+  abstract: "An important and highly useful application of large language models is answering information-seeking questions. Ideally, an evaluation benchmark for this task should include natural questions that reflect real-world users' goals. However, existing QA benchmarks contain questions that are either natural but simple (answer lies in a single sentence) or complex questions that are machine generated and are often contrived. To address this gap we introduce MONACO, a new benchmark of More Natural and Complex QA. The questions in MONACO are all manually written and express a diverse set of user goals. In terms of complexity, MONACO questions require aggregating information from 34 documents on average -- more than double that of previous list QA tasks. Overall, we collected over 1,800 multi-step, 8,000 list and 110,000 single step natural questions complete with answers and document attributions. We use MONACO to benchmark the performance of the top performing LLMs and explore the strengths and pitfalls of popular prompting techniques like chain-of-thought and decomposed prompting."
 
 - speaker: Valerie Chen
   url: https://valeriechen.github.io/
