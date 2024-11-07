@@ -38,8 +38,8 @@
   url: https://soldaini.net/
   affiliation: Allen Institute for AI
   date: November 11, 2024
-  title: TBD
-  abstract: TBD
+  title: "OLMo: Accelerating the Science of Open Language Models"
+  abstract: "Recently, we have seen tremendous progress in the field of language models (LMs), with the release of numerous open models and closed API systems. However, fewer and fewer disclose how they are created: Which corpora do they use? How are they trained? How much energy do they consume? In this talk, I will provide an overview of OLMo (https://allenai.org/olmo), an initiative at Ai2 aimed at creating transparent artifacts and tools that advance the science of LMs. I will discuss current and upcoming releases, such as Tulu, Dolma, OLMo, OLMoE, as well as the goals and ethical/legal considerations of this initiative."
 
 - speaker: Tomer Wolfson
   url: https://tomerwolgithub.github.io/
