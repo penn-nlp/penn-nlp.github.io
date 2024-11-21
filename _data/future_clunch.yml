@@ -31,8 +31,8 @@
   url: https://juliamendelsohn.github.io/
   affiliation: University of Michigan
   date: November 25, 2024
-  title: TBD
-  abstract: TBD
+  title: Detecting implicitly harmful language in political discourse
+  abstract: "When discussing politics, people often use subtle linguistic strategies to influence how their audience thinks about issues, which can then impact public opinion and policy. For example, anti-immigration activists may frame immigration as a threat to native born citizens’ jobs, describe immigrants with dehumanizing vermin-related metaphors, or even use coded expressions to covertly connect immigration with antisemitic conspiracy theories. This talk will focus on my recent and ongoing work in developing computational approaches to analyze (1) dogwhistle communication and (2) the framing of immigration via dehumanizing metaphors. I will discuss how I draw from multiple social science disciplines to develop typologies and curate data resources, as well as how I build and evaluate natural language processing models for detecting these strategies. I further analyze the use of these strategies in political discourse across several domains, and assess the implications of such nuanced rhetoric for both society and technology."
 
 - speaker: Luca Soldaini
   url: https://soldaini.net/
