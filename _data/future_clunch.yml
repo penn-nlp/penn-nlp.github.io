@@ -17,15 +17,15 @@
   url: https://strubell.github.io/
   affiliation: Carnegie Mellon University
   date: December 09, 2024
-  title: TBD
-  abstract: TBD
+  title: "Environmentally Sustainable AI: Challenges and Solutions"
+  abstract: "Modern machine learning powered by deep learning and large language models has the potential to help humans tackle big challenges such as climate change. At the same time, training and deploying these models comes at an increasingly high computational cost, with corresponding costs to the environment. The relationship between ML and climate change is complex, with great potential for ML to have either positive or negative impacts on the environment. In this talk I’ll discuss what we know about the environmental impact of LLMs and ML more broadly, where there are currently gaps in our knowledge, and what we can do to shape a future where the benefits of AI outweigh the costs."
 
 - speaker: Colin Raffel
   url: https://colinraffel.com/
   affiliation: University of Toronto
   date: December 02, 2024
-  title: TBD
-  abstract: TBD
+  title: "Progress on a permissively licensed text dataset"
+  abstract: "Large language models (LLMs) are typically pre-trained on huge quantities of copyrighted text. In the face of raising concerns and lawsuits from rights holders, companies developing LLMs claim that training on copyrighted data is fair use (which can and will only be settled in court), and in any case, further claim it would be “... it would be impossible to train today’s leading AI models without using copyrighted materials.” However, this claim has not been sufficiently tested. I will present our ongoing work (in collaboration with EleutherAI, AI2, and pleIAs) on developing a large collection of permissively licensed text data, amounting to many terabytes of text from an unusually diverse range of more than 25 sources, including governmental texts, historical books, research papers, educational video transcripts, and more. If the pieces fall into place in time, I'll also be able to present some preliminary evaluations of a language model trained on our dataset."
 
 - speaker: Julia Mendelsohn
   url: https://juliamendelsohn.github.io/
