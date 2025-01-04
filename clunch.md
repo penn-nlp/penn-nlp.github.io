@@ -15,7 +15,7 @@ View older talks at the [CLunch archive](/clunch_archive).
 {% if future_talks_size > 0 %}
   <p>
   <h2>Upcoming Talks</h2>
-  <h3>Fall 2024</h3>
+  <h3>Spring 2025</h3>
 
   {% for talk in site.data.future_clunch %}
     {% include talk.html speaker=talk.speaker img=talk.img url=talk.url title=talk.title abstract=talk.abstract date=talk.date affiliation=talk.affiliation %}
