@@ -13,3 +13,64 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Alexander Spangher
+  url: https://www.alexander-spangher.com/
+  affiliation: University of Southern California
+  date: January 27, 2025
+  img: assets/img/clunch/alexander_spangher.jpg
+  title: Planning in Creative Contexts
+  abstract: Recent modeling innovations incorporate planning — or reasoning about actions and future states, exhibited by models like GPT-o1 and Deepseek's R1 — and have demonstrated impressive performance gains in areas like mathematical problem-solving and computer coding. However, such domains are characterized by well-defined goals (or rewards); for many human-centered creative tasks, rewards are not as clearly defined and it is thus not clear how current planning approaches can transfer. In this talk, I will outline a research agenda that can enable us to make progress in these areas. I focus on tasks related to journalism, with specific focus on retrieving a set of sources relevant to a news story. I will show how we can make inferences about human actions based on limited state-observations (a process known to cognitive psychologists as "emulation", but as yet unexplored in machine learning) and how these inferences can help us learn human values and rewards.
+
+- speaker: Ben Zhou
+  url: http://xuanyu.me/
+  affiliation: Arizona State University
+  date: February 03, 2025
+  img: assets/img/clunch/ben_zhou.jpg
+
+- speaker: Taylor Sorensen
+  url: https://tsor13.github.io/
+  affiliation: University of Washington
+  date: February 10, 2025
+  img: assets/img/clunch/taylor_sorensen.jpg
+
+- speaker: Li "Harry" Zhang
+  url: https://zharry29.github.io/
+  affiliation: Drexel University
+  date: February 17, 2025
+  img: assets/img/clunch/harry_zhang.jpg
+
+- speaker: Parisa Kordjamshidi
+  url: https://www.cse.msu.edu/~kordjams/
+  affiliation: Michigan State University
+  date: March 03, 2025
+  img: assets/img/clunch/parisa_kordjamshidi.jpg
+
+- speaker: Sachin Kumar
+  url: https://sites.google.com/view/sachinkumar
+  affiliation: Ohio State University
+  date: March 17, 2025
+  img: assets/img/clunch/sachin_kumar.jpg
+
+- speaker: Wei Xu
+  url: https://cocoxu.github.io/
+  affiliation: Georgia Institute of Technology
+  date: March 24, 2025
+  img: assets/img/clunch/wei_xu.jpg
+
+- speaker: Leena Mathur
+  url: https://l-mathur.github.io/
+  affiliation: Carnegie Mellon University
+  date: April 07, 2025
+  img: assets/img/clunch/leena_mathur.jpg
+
+- speaker: Yoav Artzi
+  url: https://yoavartzi.com/
+  affiliation: Cornell University
+  date: April 14, 2025
+  img: assets/img/clunch/yoav_artzi.jpg
+
+- speaker: Daniel Khashabi
+  url: https://danielkhashabi.com/
+  affiliation: Johns Hopkins University
+  date: April 21, 2025
+  img: assets/img/clunch/daniel_khashabi.jpg

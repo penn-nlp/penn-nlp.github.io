@@ -17,6 +17,8 @@
   <p style="margin-bottom: 10px">{{ include.date }}</p>
   <p style="margin-bottom: 0px; font-size: 13pt; font-weight: 600">{{ include.title }}</p>
   <p>{{ include.abstract }}</p>
+  {% if include.abstract %}
   <hr />
+  {% endif %}
   <p></p>
 </div>
