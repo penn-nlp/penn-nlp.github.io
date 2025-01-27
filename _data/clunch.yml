@@ -13,6 +13,16 @@
 #   date: June 26, 2019
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
+
+
+- speaker: Alexander Spangher
+  url: https://www.alexander-spangher.com/
+  affiliation: University of Southern California
+  date: January 27, 2025
+  img: assets/img/clunch/alexander_spangher.jpg
+  title: Planning in Creative Contexts
+  abstract: Recent modeling innovations incorporate planning — or reasoning about actions and future states, exhibited by models like GPT-o1 and Deepseek's R1 — and have demonstrated impressive performance gains in areas like mathematical problem-solving and computer coding. However, such domains are characterized by well-defined goals (or rewards); for many human-centered creative tasks, rewards are not as clearly defined and it is thus not clear how current planning approaches can transfer. In this talk, I will outline a research agenda that can enable us to make progress in these areas. I focus on tasks related to journalism, with specific focus on retrieving a set of sources relevant to a news story. I will show how we can make inferences about human actions based on limited state-observations (a process known to cognitive psychologists as "emulation", but as yet unexplored in machine learning) and how these inferences can help us learn human values and rewards.
+
 - speaker: Emma Strubell
   url: https://strubell.github.io/
   affiliation: Carnegie Mellon University
