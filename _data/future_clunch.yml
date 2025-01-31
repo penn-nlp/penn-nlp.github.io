@@ -26,12 +26,20 @@
   affiliation: University of Washington
   date: February 10, 2025
   img: assets/img/clunch/taylor_sorensen.jpg
+  title: "Pluralistic Alignment: A Roadmap, Recent Work, and Open Problems"
+  abstract: Much alignment work assumes that there is a single set of human preferences or values that AI systems should align to. Pluralistic alignment, on the other hand, is concerned with integrating diverse human values and perspectives into alignment algorithms and evaluations. In this talk, I will start by presenting our roadmap to pluralistic alignment, offering definitions and scaffolding for research in the area. I will present one proposed algorithmic framework to support pluralism through modular specialist systems, along with a dataset and system to improve computational value-modeling. I will conclude with future research directions and open questions in the area.
 
 - speaker: Li "Harry" Zhang
   url: https://zharry29.github.io/
   affiliation: Drexel University
   date: February 17, 2025
   img: assets/img/clunch/harry_zhang.jpg
+
+- speaker: Joel Tetreault
+  url: https://www.cs.rochester.edu/~tetreaul/
+  affiliation: Dataminr
+  date: February 24, 2025
+  img: assets/img/clunch/joel_tetreault.jpg
 
 - speaker: Parisa Kordjamshidi
   url: https://www.cse.msu.edu/~kordjams/
@@ -50,6 +58,12 @@
   affiliation: Georgia Institute of Technology
   date: March 24, 2025
   img: assets/img/clunch/wei_xu.jpg
+
+- speaker: Jesse Thomason
+  url: https://jessethomason.com/
+  affiliation: University of Southern California
+  date: March 31, 2025
+  img: assets/img/clunch/jesse_thomason.jpg
 
 - speaker: Leena Mathur
   url: https://l-mathur.github.io/
