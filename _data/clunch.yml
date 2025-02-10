@@ -15,6 +15,22 @@
 #   abstract: The abstract of the talk will go here.
 
 
+- speaker: Taylor Sorensen
+  url: https://tsor13.github.io/
+  affiliation: University of Washington
+  date: February 10, 2025
+  img: assets/img/clunch/taylor_sorensen.jpg
+  title: "Pluralistic Alignment: A Roadmap, Recent Work, and Open Problems"
+  abstract: Much alignment work assumes that there is a single set of human preferences or values that AI systems should align to. Pluralistic alignment, on the other hand, is concerned with integrating diverse human values and perspectives into alignment algorithms and evaluations. In this talk, I will start by presenting our roadmap to pluralistic alignment, offering definitions and scaffolding for research in the area. I will present one proposed algorithmic framework to support pluralism through modular specialist systems, along with a dataset and system to improve computational value-modeling. I will conclude with future research directions and open questions in the area.
+
+- speaker: Ben Zhou
+  url: http://xuanyu.me/
+  affiliation: Arizona State University
+  date: February 03, 2025
+  img: assets/img/clunch/ben_zhou.jpg
+  title: Enforcing Abstraction with Artificial Bottlenecks for Complex Machine Reasoning
+  abstract: "Human reasoning comes from trial and error on an abstract level: we learn from past experiences, conceptualize atomic operations and notions, and recompose them in new situations and scenarios. Such abstraction and conceptualization are the key sources of generalization. On the other hand, recent successes in machine reasoning are primarily from end-to-end training (e.g., next-word prediction and task-specific supervision), where models tend to rely more on memorization than generalization. Such observations motivate us to encourage models to perform high-level abstractions when learning. In this talk, I will discuss my recent works and methods that force model abstractions with artificial bottlenecks, where we deliberately remove essential information from the reasoning process so that models have to reason abstractively, similar to how computer programs conceptualize input values with variables and operations. These works show promising future research directions of model generalization and trustworthiness."
+
 - speaker: Alexander Spangher
   url: https://www.alexander-spangher.com/
   affiliation: University of Southern California
