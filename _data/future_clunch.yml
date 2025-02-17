@@ -13,19 +13,13 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
-- speaker: Li "Harry" Zhang
-  url: https://zharry29.github.io/
-  affiliation: Drexel University
-  date: February 17, 2025
-  img: assets/img/clunch/harry_zhang.jpg
-  title: Executable and Trustworthy Planning with Large Language Models
-  abstract: While large language models (LLM) can provide decent instructions, they are far from able to come up an executable and trustworthy plan for a particular user or agent, grounding to their specific situation and needs. To address this, I advocate for the methodology of using LLM as a code generator to create a formal representation of the planning environment. In conjunction with tools in classical AI planning, a plan can be found deterministically and faithfully. In this talk, I will discuss two strands of efforts. The first tackles fully-observed planning domains, where the model is given complete information and must propose a complete plan that satisfies given constraints. The second tackles partially-observed planning domains, where the model makes partial observations about the environment, propose partial plans, and iteratively acquire knowledge to complete a task. In both settings, we show that state-of-the-art models like DeepSeek-R1 and gpt-4o are heavily challenged by even the simplest tasks like rearranging or looking for objects. When prompted to generate the planning domain definition language (PDDL) input into a solver, LLMs outperform generating the plans directly. Even so, both syntactic and semantic errors point to LLMs' weakened ability to generate formal representations, especially when the language or domain is underrepresented in their pre-training.
-
 - speaker: Joel Tetreault
   url: https://www.cs.rochester.edu/~tetreaul/
   affiliation: Dataminr
   date: February 24, 2025
   img: assets/img/clunch/joel_tetreault.jpg
+  title: A Brief History of Natural Language Processing
+  abstract: The title says it all! As the field of Natural Language Processing (NLP) continues to make incredible strides and advancements, it's important to take a step back and use the past to understand the current transformations. Drawing from literature and interviews, we'll dive into the early years of NLP and explore some of the major themes, trends, and personalities that paved the way for the cutting-edge technology we have today.
 
 - speaker: Parisa Kordjamshidi
   url: https://www.cse.msu.edu/~kordjams/
