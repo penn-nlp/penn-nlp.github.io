@@ -13,19 +13,13 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
-- speaker: Joel Tetreault
-  url: https://www.cs.rochester.edu/~tetreaul/
-  affiliation: Dataminr
-  date: February 24, 2025
-  img: assets/img/clunch/joel_tetreault.jpg
-  title: A Brief History of Natural Language Processing
-  abstract: The title says it all! As the field of Natural Language Processing (NLP) continues to make incredible strides and advancements, it's important to take a step back and use the past to understand the current transformations. Drawing from literature and interviews, we'll dive into the early years of NLP and explore some of the major themes, trends, and personalities that paved the way for the cutting-edge technology we have today.
-
 - speaker: Parisa Kordjamshidi
   url: https://www.cse.msu.edu/~kordjams/
   affiliation: Michigan State University
   date: March 03, 2025
   img: assets/img/clunch/parisa_kordjamshidi.jpg
+  title: Compositional Reasoning for Natural Language Comprehension and Grounding Leveraging Neuro-Symbolic AI
+  abstract: Recent research indicates that large language models lack consistent reliability in tasks requiring complex reasoning. While they may impress us with fluently written articles prompted by user input, they can easily disappoint by displaying shortcomings in basic reasoning skills, such as the functional understanding of 'left is the opposite of right', let alone grounding such concepts in diverse real-world situations involving perception and action.  To address real-world problems, computational models often need to involve multiple interdependent learners, along with significant levels of composition and reasoning. In this talk, I will present our findings regarding reasoning challenges of LLMs and discuss how symbolic representations can leverage the capacity of neural models for compositional reasoning over complex linguistic structures, grounding language in visual perception, combining multiple modalities of information and handling uncertainty. I will highlight our efforts in Neurosymbolic modeling and introduce DomiKnowS, our developed library that facilitates such modeling. The DomiKnowS framework exploits both symbolic and sub-symbolic representations to solve complex, AI-complete problems and seamlessly integrates symbolic and logical knowledge into deep models through various underlying algorithms.
 
 - speaker: Sachin Kumar
   url: https://sites.google.com/view/sachinkumar

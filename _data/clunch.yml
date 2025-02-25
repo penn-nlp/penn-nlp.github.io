@@ -14,6 +14,14 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Joel Tetreault
+  url: https://www.cs.rochester.edu/~tetreaul/
+  affiliation: Dataminr
+  date: February 24, 2025
+  img: assets/img/clunch/joel_tetreault.jpg
+  title: A Brief History of Natural Language Processing
+  abstract: The title says it all! As the field of Natural Language Processing (NLP) continues to make incredible strides and advancements, it's important to take a step back and use the past to understand the current transformations. Drawing from literature and interviews, we'll dive into the early years of NLP and explore some of the major themes, trends, and personalities that paved the way for the cutting-edge technology we have today.
+
 - speaker: Li "Harry" Zhang
   url: https://zharry29.github.io/
   affiliation: Drexel University
