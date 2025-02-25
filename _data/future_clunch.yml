@@ -33,12 +33,6 @@
   date: March 24, 2025
   img: assets/img/clunch/wei_xu.jpg
 
-- speaker: Jesse Thomason
-  url: https://jessethomason.com/
-  affiliation: University of Southern California
-  date: March 31, 2025
-  img: assets/img/clunch/jesse_thomason.jpg
-
 - speaker: Leena Mathur
   url: https://l-mathur.github.io/
   affiliation: Carnegie Mellon University
@@ -62,3 +56,9 @@
   affiliation: University of Pennsylvania
   date: April 28, 2025
   img: assets/img/clunch/deen_freelon.jpg
+
+- speaker: Jesse Thomason
+  url: https://jessethomason.com/
+  affiliation: University of Southern California
+  date: May 05, 2025
+  img: assets/img/clunch/jesse_thomason.jpg
