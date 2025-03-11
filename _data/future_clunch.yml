@@ -13,25 +13,25 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
-- speaker: Parisa Kordjamshidi
-  url: https://www.cse.msu.edu/~kordjams/
-  affiliation: Michigan State University
-  date: March 03, 2025
-  img: assets/img/clunch/parisa_kordjamshidi.jpg
-  title: Compositional Reasoning for Natural Language Comprehension and Grounding Leveraging Neuro-Symbolic AI
-  abstract: Recent research indicates that large language models lack consistent reliability in tasks requiring complex reasoning. While they may impress us with fluently written articles prompted by user input, they can easily disappoint by displaying shortcomings in basic reasoning skills, such as the functional understanding of 'left is the opposite of right', let alone grounding such concepts in diverse real-world situations involving perception and action.  To address real-world problems, computational models often need to involve multiple interdependent learners, along with significant levels of composition and reasoning. In this talk, I will present our findings regarding reasoning challenges of LLMs and discuss how symbolic representations can leverage the capacity of neural models for compositional reasoning over complex linguistic structures, grounding language in visual perception, combining multiple modalities of information and handling uncertainty. I will highlight our efforts in Neurosymbolic modeling and introduce DomiKnowS, our developed library that facilitates such modeling. The DomiKnowS framework exploits both symbolic and sub-symbolic representations to solve complex, AI-complete problems and seamlessly integrates symbolic and logical knowledge into deep models through various underlying algorithms.
-
 - speaker: Sachin Kumar
   url: https://sites.google.com/view/sachinkumar
-  affiliation: Ohio State University
+  affiliation: The Ohio State University
   date: March 17, 2025
   img: assets/img/clunch/sachin_kumar.jpg
+  title: Towards Continually Adaptable Multilingual Language Models
+  abstract: Subword tokenization in multilingual models presents significant challenges, particularly for non-Latin scripts and low-resource languages. Existing methods not only perform worse in these settings but also lead to higher costs in LLM APIs due to inefficiencies in token representation. Furthermore, incorporating emerging languages into pre-trained models remains difficult, with prior work often relying on heuristics like vocabulary expansion. To address these issues, I will first present MAGNET, a multilingual adaptive gradient-based tokenization algorithm that is jointly trained with a language model. Unlike standard tokenization approaches, MAGNET operates at the byte level and learns to predict segment boundaries dynamically via a tokenizer sub-module. A simple hyperparameter allows controlling over segmentation granularity, ensuring equitable treatment across languages. Its end-to-end training enables seamless adaptation of language models when fine-tuned on new languages. In the second part, I will introduce ongoing work on continually adapting multilingual language models to new languages. This work investigates how effectively models can be extended to languages with varying levels of resources and linguistic relatedness while preserving performance on previously supported languages. We study the trade-offs between adaptation efficiency, catastrophic forgetting, and cross-lingual generalization, providing insights into practical strategies for real-world multilingual NLP.
 
 - speaker: Wei Xu
   url: https://cocoxu.github.io/
   affiliation: Georgia Institute of Technology
   date: March 24, 2025
   img: assets/img/clunch/wei_xu.jpg
+
+- speaker: Vivek Gupta
+  url: https://vgupta123.github.io/
+  affiliation: Arizona State University
+  date: March 31, 2025
+  img: assets/img/clunch/vivek_gupta.jpg
 
 - speaker: Leena Mathur
   url: https://l-mathur.github.io/
