@@ -26,6 +26,13 @@
   affiliation: Georgia Institute of Technology
   date: March 24, 2025
   img: assets/img/clunch/wei_xu.jpg
+  title: Cultural Bias and Privacy Protection in Large Language Models
+  abstract: |
+    In this talk, I will explore two key aspects of large language models (LLMs) and their pre-training data: cultural bias and privacy preservation. First, I will present a systematic study on LLMs' favoritism toward Western culture. Our approach involves curating a dataset of over 20,000 cultural items, including food, clothing, individuals, religious sites, and more, to contrast Arabic and Western cultures. We assess cultural biases across multilingual LLMs (e.g., GPT-4, Aya) through natural prompts, story generation, sentiment analysis, and named entity recognition (NER) tasks. A key finding suggests heavy reliance on Wikipedia data during pre-training may have contributed to the bias toward Western concepts in non-Western languages. 
+    <br><br>
+    Next, I will showcase PrivacyMirror, an LLM-powered tool designed to help users safeguard their personal information. Leveraging insights from an HCI study with real Reddit users, PrivacyMirror reveals challenges and opportunities which shape ongoing efforts to enhance user-centric privacy protection. 
+    <br><br>
+    To conclude, I will briefly discuss recent research on the temporal robustness of LLMs, particularly their ability to handle neologisms, and advances in human-AI interactive evaluation.
 
 - speaker: Vivek Gupta
   url: https://vgupta123.github.io/
