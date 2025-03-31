@@ -14,6 +14,21 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Vivek Gupta
+  url: https://vgupta123.github.io/
+  affiliation: Arizona State University
+  date: March 31, 2025
+  img: assets/img/clunch/vivek_gupta.jpg
+  title: Reasoning for Multimodal Semi-structured Tables
+  abstract: |
+    In this talk, I'll walk through some of the latest AI advancements that address the challenges of working with complex data, with a focus on improving reasoning for both tabular and multimodal data.
+    <br><br>
+    I'll begin by introducing H-STAR, a hybrid algorithm that combines symbolic and semantic reasoning to enhance question answering for tabular data. By leveraging multi-view table extraction and adaptive reasoning, H-STAR has shown great potential in improving reasoning across tabular datasets.
+    <br><br>
+    Then, I'll introduce MMTabQA, a dataset we developed to evaluate how AI systems manage multimodal tables that integrate structured text and images. Our research reveals where current models struggle to process these diverse data types, highlighting key areas for improvement.
+    <br><br>
+    To wrap up, I'll discuss open challenges and future directions, including expanding reasoning capabilities to other complex data types—such as charts, maps, and flowcharts—and enhancing AI systems' robustness in handling numerical, temporal, and visual reasoning, particularly with large (vision) language models.
+    
 - speaker: Wei Xu
   url: https://cocoxu.github.io/
   affiliation: Georgia Institute of Technology
