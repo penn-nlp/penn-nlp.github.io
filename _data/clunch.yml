@@ -14,6 +14,15 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Leena Mathur
+  url: https://l-mathur.github.io/
+  affiliation: Carnegie Mellon University
+  date: April 07, 2025
+  img: assets/img/clunch/leena_mathur.jpg
+  title: "Towards Artificial Social Intelligence: Grounded Social Reasoning in Multimodal Models"
+  abstract: |
+    Advancing social intelligence in AI systems is important for these systems to effectively navigate human social interactions and work <em>with</em> and <em>around</em> humans. This talk will focus on grounded social reasoning abilities of multimodal models. I will discuss Social Genome, a modeling challenge that tests the abilities of multimodal models to reason about human social interactions, by interpreting and integrating embodied multimodal communicative behaviors and external social knowledge. I will also discuss core technical challenges and opportunities to advance artificial social intelligence, with perspectives anchored in social intelligence concepts and prior research from several computing communities. 
+    
 - speaker: Vivek Gupta
   url: https://vgupta123.github.io/
   affiliation: Arizona State University
