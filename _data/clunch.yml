@@ -14,6 +14,15 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Yoav Artzi
+  url: https://yoavartzi.com/
+  affiliation: Cornell University
+  date: April 14, 2025
+  img: assets/img/clunch/yoav_artzi.jpg
+  title: "Post-training via Interaction"
+  abstract: |
+    Post-training language models is key to exposing and refining their abilities. This process often relies on costly, annotated data, even when RL is used. However, deployment interactions are rich with learning signals, and hold the potential for on-policy, low-cost post-training. I will describe three projects that demonstrate this, and show under-utilized learning behaviors: (a) LLMs can inspect their own interactions to continually improve, with no annotation effort; (b) jointly reasoning about comprehension and generation of language in LLMs dramatically improves learning and reduces sample complexity; and (c) LLMs have the ability for RL in context, thereby learning from rewards with no parameter updates. Across the three projects, we show robust behaviors over many interactions, often through live deployments. Taken together, our work shows the rich learning landscape model interactions expose. 
+    
 - speaker: Leena Mathur
   url: https://l-mathur.github.io/
   affiliation: Carnegie Mellon University

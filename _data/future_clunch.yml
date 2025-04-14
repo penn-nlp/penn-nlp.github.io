@@ -13,20 +13,18 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
-- speaker: Yoav Artzi
-  url: https://yoavartzi.com/
-  affiliation: Cornell University
-  date: April 14, 2025
-  img: assets/img/clunch/yoav_artzi.jpg
-  title: "Post-training via Interaction"
-  abstract: |
-    Post-training language models is key to exposing and refining their abilities. This process often relies on costly, annotated data, even when RL is used. However, deployment interactions are rich with learning signals, and hold the potential for on-policy, low-cost post-training. I will describe three projects that demonstrate this, and show under-utilized learning behaviors: (a) LLMs can inspect their own interactions to continually improve, with no annotation effort; (b) jointly reasoning about comprehension and generation of language in LLMs dramatically improves learning and reduces sample complexity; and (c) LLMs have the ability for RL in context, thereby learning from rewards with no parameter updates. Across the three projects, we show robust behaviors over many interactions, often through live deployments. Taken together, our work shows the rich learning landscape model interactions expose. 
-
 - speaker: Daniel Khashabi
   url: https://danielkhashabi.com/
   affiliation: Johns Hopkins University
   date: April 21, 2025
   img: assets/img/clunch/daniel_khashabi.jpg
+  title: "AI for Science and Science of AI"
+  abstract: |
+    AI has seen remarkable advancements, driven largely by the increasing capabilities of LLMs and have sparked excitement around their transformative potential across applications—particularly their role in accelerating scientific discovery.
+    <br><br>
+    In the first part of this talk, I will focus on our work in AI for science, emphasizing the importance of addressing "aggregative questions" in scientific inquiry. While traditional scientific questions often are “information seeking” queries, (looking for specific information from individual papers), many critical scientific challenges require synthesizing abstractions of evidence across diverse sources. I will highlight our approaches to enabling LLMs to effectively tackle such aggregative tasks.
+    <br><br>
+    In the second part, I will turn to the science of AI, exploring foundational challenges in training and deploying LLMs. This includes issues related to data quality (such as temporal degradation of knowledge after the model’s training cutoff) and the difficulties posed by imbalanced datasets during pretraining. Our work aims to better understand and address these limitations to improve the reliability of LLMs in scientific contexts.
 
 - speaker: Deen Freelon
   url: https://dfreelon.org/
