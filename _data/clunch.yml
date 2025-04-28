@@ -14,6 +14,17 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Deen Freelon
+  url: https://dfreelon.org/
+  affiliation: University of Pennsylvania
+  date: April 28, 2025
+  img: assets/img/clunch/deen_freelon.jpg
+  title: "The Post-API Age: Past, Present, and Future"
+  abstract: |
+    NLP and machine learning research has long relied on readily available, high-quality data from large social media platforms, but obtaining such data has not always been easy. In a brief 2018 essay titled “Computational Research in the Post-API Age” (published in the journal Political Communication), I warned researchers that the days of free and easily accessible digital communication data were coming to an end. The essay was initially inspired by the prohibition of automated data collection from Facebook’s Graph API, which occurred in March 2018 in the wake of the Cambridge Analytica scandal. This corporate decision effectively eliminated most authorized means of collecting Facebook data (except those in direct collaboration with Meta researchers) until the Crowdtangle service was opened to academic researchers in the summer of 2020. Meta shelved Crowdtangle in August 2024, replacing it with yet another data access regime, the Meta Content Library. Other social platforms, including Twitter/X, Reddit, and TikTok, have also substantially modified their data access policies over the years.
+    <br><br>
+    Some of the issues I raised in my Political Communication essay are still relevant today, while others are less so. This presentation, which is based on an invited journal article, will build on my earlier piece in three ways: first, it will recount a concise history of social media data access informed by official documentation and my own professional observations as one of the first Communication researchers to analyze social media data computationally. Second, it will sketch the present state of digital communication data access in context with past such “ages,” making practical recommendations and generally characterizing the moment for posterity. The third section will be devoted to the future, but instead of making predictions, it will adopt a normative approach, advocating for corporate and governmental data access policies that balance the researcher’s interest in data usability, the public’s interests in privacy and impactful research, and business interests in transparency and good corporate citizenship.
+
 - speaker: Daniel Khashabi
   url: https://danielkhashabi.com/
   affiliation: Johns Hopkins University
