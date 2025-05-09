@@ -14,6 +14,16 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+
+- speaker: Jesse Thomason
+  url: https://jessethomason.com/
+  affiliation: University of Southern California
+  date: May 05, 2025
+  img: assets/img/clunch/jesse_thomason.jpg
+  title: "Embracing Language as Grounded Communication"
+  abstract: |
+    Language is not text data, it is a human medium for communication. The larger part of the natural language processing (NLP) community has doubled down on treating digital text as a sufficient approximation of language, scaling datasets and corresponding models to fit that text. I have argued that experience in the world grounds language, tying it to objects, actions, and concepts. In fact, I believe that language carries meaning only when considered alongside that world, and that the zeitgeist in NLP research currently misses the mark on truly interesting questions at the intersection of human language and machine computation. In this talk, I’ll highlight some of the ways my lab enables agents and robots to better understand and respond to human communication by considering the grounded context in which that communication occurs, including neurosymbolic multimodal reasoning, natural language dialogue and interaction for lifelong learning, and utilizing NLP technologies on non-text communication.
+
 - speaker: Deen Freelon
   url: https://dfreelon.org/
   affiliation: University of Pennsylvania
