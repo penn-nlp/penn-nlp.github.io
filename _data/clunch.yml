@@ -14,6 +14,39 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Yuval Pinter
+  url: https://www.yuvalpinter.com/
+  affiliation: Ben-Gurion University of the Negev
+  date: February 23, 2026
+  img: assets/img/clunch/yuval_pinter.png
+  title: "Building Character: Tokenization in Theory and in Practice"
+  abstract: |
+    The end-to-end nature of recent NLP models, most prominently large language models (LLMs), makes it hard for us to figure out how their individual processing steps are affected by properties of text and language, for example how they represent words in relation to their low-level composition or in alignment with how humans perceive them. We can find instances where models struggle with lexical changes in register, domain, or innovation, but the underlying mechanisms still mostly elude us.
+    In this talk, I will focus on the lexical and sub-lexical levels of LLM representations, challenging models with recognition of words and the processes they are formed through, looking at subword tokenization algorithms from the point of view of their downstream performance requirements and the challenges posed by different languages. I will talk about SaGe/MINT, a subword tokenizer that incorporates context into the vocabulary creation objective; BoundlessBPE, which allows breaking past the limits of regex pretokenization; Splinter, a pre-tokenization algorithm that relinearizes Hebrew text to conform the concatenative tokenization pipeline with Semitic templatic morphology; and CharBench, an evaluation dataset for surface-form tasks such as character counting.
+
+- speaker: Akari Asai
+  url: https://akariasai.github.io/
+  affiliation: Carnegie Mellon University (Incoming Assistant Professor), Allen Institute for AI
+  date: February 16, 2026
+  img: assets/img/clunch/akari_asai.jpg
+  title: "Deep Research Agents: From Evaluation to Training and Open Challenges"
+  abstract: |
+    Deep research agents that plan, search, and synthesize evidence into long-form, well-attributed reports are gaining rapid traction, yet most research still focuses on short-form, easily verifiable tasks. In this talk, I will present our recent work on evaluation, model development, and open challenges for deep research agents.
+    First, I will briefly discuss the evaluation framework developed for OpenScholar (Nature, 2026), designed to assess long-form, citation-grounded scientific synthesis. I will describe our new multi-faced approach which combines rubric-based automated metrics, fine-grained citation accuracy verification, and expert preference judgments, and share key findings. 
+    Next, I will present DR Tulu, the first open model trained end-to-end for long-form deep research via Reinforcement Learning with Evolving Rubrics (RLER), where evaluation rubrics co-evolve with the policy to provide increasingly discriminative, on-policy feedback. DR Tulu-8B matches or outperforms proprietary systems like OpenAI Deep Research or Gemini 3 Pro across science, healthcare, and general-domain benchmarks while remaining significantly smaller and cheaper.
+    Finally, I will draw on insights from our NeurIPS 2025 MMU-RAGent competition, which evaluates deep research systems through both static benchmarks and live user-facing arena comparisons. Key takeaways include limitations of current inflexible deep research agent designs as well as evaluation protocols. I will conclude with a roadmap toward more reliable deep research evaluation and training.
+
+- speaker: Shauli Ravfogel
+  url: https://shauli-ravfogel.netlify.app/
+  affiliation: New York University
+  date: February 09, 2026
+  img: assets/img/clunch/shauli_ravfogel.jpg
+  title: "Linear Truth Encoding in LLMs: Emergence and Generalization"
+  abstract: |
+    Large language models often exhibit surprisingly simple linear structure: directions and subspaces in their hidden states align with human-interpretable concepts. In this talk, I'll introduce the linear representations hypothesis and zoom in on a particularly striking case: linear "truth" encoding. Using a transparent one-layer transformer toy model with a deliberately simple, well-defined notion of truth, we trace the end-to-end mechanism by which a subspace emerges that linearly separates true from false statements. This analysis is based on a simple generative story in which true statements tend to co-occur with other true statements, and likewise for false ones. It turns out that this structure alone suffices to produce a fully characterizable truth subspace.
+    
+    In modern LLMs trained on natural data, however, the picture is messier. Recent results suggest that any apparent "truth direction" can be brittle: it may shift under distribution change, conflate truth with surface cues, or fragment across domains. I'll use these challenges to motivate ongoing work that moves from controlled setups to realistic regimes, probing real models under distribution shift and disentangling different notions of truth. The emerging picture is more complex than previously assumed: what looks like a single "truth subspace" is often a superposition of directions, some spurious and domain-specific, others more abstract and transferable.
+
 
 - speaker: Jesse Thomason
   url: https://jessethomason.com/
