@@ -13,6 +13,15 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Sherry Tongshuang Wu
+  url: https://www.cs.cmu.edu/~sherryw/
+  affiliation: Carnegie Mellon University
+  date: March 30, 2026
+  img: assets/img/clunch/sherry_tongshuang_wu.png
+  title: TBD
+  abstract: |
+    TBD
+
 - speaker: Yu Su
   url: https://ysu1989.github.io/
   affiliation: Ohio State University
