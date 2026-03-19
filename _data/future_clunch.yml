@@ -13,6 +13,15 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Elias Stengel-Eskin
+  url: https://esteng.github.io/
+  affiliation: University of Texas at Austin
+  date: April 6, 2026
+  img: assets/img/clunch/elias_stengel-eskin.jpg
+  title: TBD
+  abstract: |
+    TBD
+
 - speaker: Sherry Tongshuang Wu
   url: https://www.cs.cmu.edu/~sherryw/
   affiliation: Carnegie Mellon University
@@ -27,26 +36,6 @@
   affiliation: Ohio State University
   date: March 23, 2026
   img: assets/img/clunch/yu_su.jpeg
-  title: TBD
+  title: "Computer Use: Modern Moravec’s Paradox"
   abstract: |
-    TBD
-
-- speaker: Weiyan Shi
-  url: https://wyshi.github.io/
-  affiliation: Northeastern University
-  date: March 16, 2026
-  img: assets/img/clunch/weiyan_shi.jpeg
-  title: TBD
-  abstract: |
-    TBD
-
-- speaker: Anna Rumshisky
-  url: https://www.cs.uml.edu/~arum/
-  affiliation: University of Massachusetts Lowell
-  date: March 02, 2026
-  img: assets/img/clunch/anna_rumshisky.jpg
-  title: "AI at Two Levels: From Efficient Pre-Training to Co-Creative Science"
-  abstract: |
-    This talk addresses AI research at two levels: efficient methods for training large language models, and the emerging practice of using those models as collaborative partners in scientific discovery.
-    Over the past few years, scaling large language models (LLMs) has become the go-to AI solution for solving progressively more complicated tasks. However, as the models scaled towards hundreds of billions of parameters, not just training them from scratch, but even fine-tuning to adapt to specific tasks has become computationally expensive and unmanageable for most practitioners. This has led to a crisis, in which only a few well-funded industry labs have the resources to develop high-quality LLMs. In response to these developments, numerous parameter-efficient techniques revolutionized the accessibility of fine-tuning LLMs. However, until recently, such methods were not available for pre-training. In the first part of the talk, I will present our work on ReLoRA (ICLR 2024), the first parameter-efficient method for training models from scratch, which utilizes low-rank updates to train high-rank networks, with demonstrated results for models with up to 1.3 billion parameters and throughput improvements of up to 40%. Since its publication, this line of work has grown into an active subfield, with dozens of new low-rank pre-training methods building on these ideas.
-    In the second part, I will turn to the question of how the practice of science itself is changing as human researchers begin to collaborate with AI models. Today's models are trained on virtually all of codified human knowledge. But how can we teach them to do science with us, rather than merely for us? I will describe the Human–AI Co-Creativity Consortium (HAI3C), a cross-disciplinary effort across multiple universities with the goal of building the infrastructure, datasets, and evaluation frameworks needed to support genuine human-AI scientific collaboration. I will discuss our first pilot in mathematics, in which domain experts and multiple AI agents work together on open problems, and how this process generates annotated reasoning traces that can inform the next generation of models.
+    Computer-use agents reveal a modern form of Moravec’s Paradox: today’s AI excels at symbolic tasks like math and coding yet struggles with the everyday cognitive work humans perform effortlessly on computers. We will discuss the inherent challenges of computer use such as idiosyncratic environments and contextual understanding. We also argue that computer use is not only one of the hardest frontiers for AI but may also be the most important, because it can potentially offer the next Internet-scale learning opportunity and the most immediate path toward general, practical, goal-directed machine intelligence.
