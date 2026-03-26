@@ -13,6 +13,16 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Daniel Fried
+  url: https://dpfried.github.io/
+  affiliation: Carnegie Mellon University
+  date: April 13, 2026
+  img: assets/img/clunch/daniel_fried.jpg
+  title: TBD
+  abstract: |
+    TBD
+
+
 - speaker: Elias Stengel-Eskin
   url: https://esteng.github.io/
   affiliation: University of Texas at Austin
@@ -27,15 +37,6 @@
   affiliation: Carnegie Mellon University
   date: March 30, 2026
   img: assets/img/clunch/sherry_tongshuang_wu.png
-  title: TBD
+  title: Making AI Systems Work for Imperfect Humans
   abstract: |
-    TBD
-
-- speaker: Yu Su
-  url: https://ysu1989.github.io/
-  affiliation: Ohio State University
-  date: March 23, 2026
-  img: assets/img/clunch/yu_su.jpeg
-  title: "Computer Use: Modern Moravec’s Paradox"
-  abstract: |
-    Computer-use agents reveal a modern form of Moravec’s Paradox: today’s AI excels at symbolic tasks like math and coding yet struggles with the everyday cognitive work humans perform effortlessly on computers. We will discuss the inherent challenges of computer use such as idiosyncratic environments and contextual understanding. We also argue that computer use is not only one of the hardest frontiers for AI but may also be the most important, because it can potentially offer the next Internet-scale learning opportunity and the most immediate path toward general, practical, goal-directed machine intelligence.
+    General-purpose AI systems are increasingly envisioned to support users on any tasks. However, a prerequisite for this vision is that the user need is clearly “communicated” to the AI, which is in itself a nontrivial step: users often begin with vague or unformed goals, and even when they have a clear idea of what they want, their instructions may be ambiguous or misaligned with how the AI interprets them. Simply put, humans are not perfect oracles of their own intentions. How can we design AI systems that better support imperfect users? In this talk, I will share some of our recent work aimed at making AI more practically useful. This involves reflections on the right representations and metrics to capture user needs and task utility, and methods for improving the goal capturing, either by training the model to better guess the user need, or training the human to better express themselves.

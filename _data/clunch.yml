@@ -14,6 +14,15 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Yu Su
+  url: https://ysu1989.github.io/
+  affiliation: Ohio State University
+  date: March 23, 2026
+  img: assets/img/clunch/yu_su.jpeg
+  title: "Computer Use: Modern Moravec’s Paradox"
+  abstract: |
+    Computer-use agents reveal a modern form of Moravec’s Paradox: today’s AI excels at symbolic tasks like math and coding yet struggles with the everyday cognitive work humans perform effortlessly on computers. We will discuss the inherent challenges of computer use such as idiosyncratic environments and contextual understanding. We also argue that computer use is not only one of the hardest frontiers for AI but may also be the most important, because it can potentially offer the next Internet-scale learning opportunity and the most immediate path toward general, practical, goal-directed machine intelligence.
+
 - speaker: Weiyan Shi
   url: https://wyshi.github.io/
   affiliation: Northeastern University
