@@ -14,6 +14,15 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Sherry Tongshuang Wu
+  url: https://www.cs.cmu.edu/~sherryw/
+  affiliation: Carnegie Mellon University
+  date: March 30, 2026
+  img: assets/img/clunch/sherry_tongshuang_wu.png
+  title: Making AI Systems Work for Imperfect Humans
+  abstract: |
+    General-purpose AI systems are increasingly envisioned to support users on any tasks. However, a prerequisite for this vision is that the user need is clearly “communicated” to the AI, which is in itself a nontrivial step: users often begin with vague or unformed goals, and even when they have a clear idea of what they want, their instructions may be ambiguous or misaligned with how the AI interprets them. Simply put, humans are not perfect oracles of their own intentions. How can we design AI systems that better support imperfect users? In this talk, I will share some of our recent work aimed at making AI more practically useful. This involves reflections on the right representations and metrics to capture user needs and task utility, and methods for improving the goal capturing, either by training the model to better guess the user need, or training the human to better express themselves.
+    
 - speaker: Yu Su
   url: https://ysu1989.github.io/
   affiliation: Ohio State University
