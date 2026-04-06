@@ -14,6 +14,15 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Elias Stengel-Eskin
+  url: https://esteng.github.io/
+  affiliation: University of Texas at Austin
+  date: April 6, 2026
+  img: assets/img/clunch/elias_stengel-eskin.jpg
+  title: Multi-Model Training for Multi-Agent Communication Skills
+  abstract: |
+    As we scale from individual agents to teams of agents, inter-agent communication will become increasingly important. In this talk, I will describe a general paradigm for teaching multi-agent communication skills through multi-model reinforcement learning, which I will illustrate via three key collaborative skills: expressing confidence in a calibrated way, responding robustly to positive and negative persuasion, and expressing reasoning faithfully. I will show how these problems can be framed in terms of speaker-listener games, and how this framing allows us to teach models collaborative skills, often using games simulated on smaller models to train larger models. Time permitting, I will also touch on how we can infer skills to combine multiple agents more productively. 
+    
 - speaker: Sherry Tongshuang Wu
   url: https://www.cs.cmu.edu/~sherryw/
   affiliation: Carnegie Mellon University
