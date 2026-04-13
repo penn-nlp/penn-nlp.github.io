@@ -14,6 +14,15 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Daniel Fried
+  url: https://dpfried.github.io/
+  affiliation: Carnegie Mellon University
+  date: April 13, 2026
+  img: assets/img/clunch/daniel_fried.jpg
+  title: Inducing Functions to Improve LLM Agents
+  abstract: |
+    Programs provide a structured, reusable, and verifiable means for people to carry out digital tasks. We show that LLM-based agents also benefit from generating code, executing that code in an environment, and abstracting functions from correct code. We present tool induction methods that build libraries of reusable functions online as the agent interacts with the environment. Our methods allow agents to carry out tasks more accurately and efficiently in grounded environments including performing tasks on the web and answering questions about structured data and images. We also find that induced tools make agent trajectories easier to verify for people and generalize well to complex tasks with shared sub-structure.
+
 - speaker: Elias Stengel-Eskin
   url: https://esteng.github.io/
   affiliation: University of Texas at Austin

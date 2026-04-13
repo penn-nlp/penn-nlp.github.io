@@ -18,15 +18,7 @@
   affiliation: Massachusetts Institute of Technology
   date: April 20, 2026
   img: assets/img/clunch/paul_liang.jpg
-  title: TBD
+  title: New Advances in Multimodal and Agentic Reasoning
   abstract: |
-    TBD
+    Today's language models are increasingly capable of reasoning over multiple steps with verification and backtracking to solve challenging problems. However, multimodal reasoning agents that can reason and act over an integrated set of modalities such as text, images, audio, video, and physical sensors are sorely lacking, and can pave the way for a next frontier of AI. I will describe our group's work on advancing the frontiers of multimodal and agentic reasoning, from new multimodal reasoning benchmarks and foundation models, to long-horizon and self-evolving agents, with applications to science and engineering.
 
-- speaker: Daniel Fried
-  url: https://dpfried.github.io/
-  affiliation: Carnegie Mellon University
-  date: April 13, 2026
-  img: assets/img/clunch/daniel_fried.jpg
-  title: Inducing Functions to Improve LLM Agents
-  abstract: |
-    Programs provide a structured, reusable, and verifiable means for people to carry out digital tasks. We show that LLM-based agents also benefit from generating code, executing that code in an environment, and abstracting functions from correct code. We present tool induction methods that build libraries of reusable functions online as the agent interacts with the environment. Our methods allow agents to carry out tasks more accurately and efficiently in grounded environments including performing tasks on the web and answering questions about structured data and images. We also find that induced tools make agent trajectories easier to verify for people and generalize well to complex tasks with shared sub-structure.
