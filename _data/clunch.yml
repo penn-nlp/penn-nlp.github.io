@@ -14,6 +14,15 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Paul Liang
+  url: https://pliang279.github.io/
+  affiliation: Massachusetts Institute of Technology
+  date: April 20, 2026
+  img: assets/img/clunch/paul_liang.jpg
+  title: New Advances in Multimodal and Agentic Reasoning
+  abstract: |
+    Today's language models are increasingly capable of reasoning over multiple steps with verification and backtracking to solve challenging problems. However, multimodal reasoning agents that can reason and act over an integrated set of modalities such as text, images, audio, video, and physical sensors are sorely lacking, and can pave the way for a next frontier of AI. I will describe our group's work on advancing the frontiers of multimodal and agentic reasoning, from new multimodal reasoning benchmarks and foundation models, to long-horizon and self-evolving agents, with applications to science and engineering.
+
 - speaker: Daniel Fried
   url: https://dpfried.github.io/
   affiliation: Carnegie Mellon University
@@ -103,244 +112,104 @@
     
     In modern LLMs trained on natural data, however, the picture is messier. Recent results suggest that any apparent "truth direction" can be brittle: it may shift under distribution change, conflate truth with surface cues, or fragment across domains. I'll use these challenges to motivate ongoing work that moves from controlled setups to realistic regimes, probing real models under distribution shift and disentangling different notions of truth. The emerging picture is more complex than previously assumed: what looks like a single "truth subspace" is often a superposition of directions, some spurious and domain-specific, others more abstract and transferable.
 
+- speaker: Jacob Andreas
+  url: https://www.mit.edu/~jda/
+  affiliation: Massachusetts Institute of Technology (MIT)
+  date: December 08, 2025
+  img: assets/img/clunch/jacob_andreas.jpg
+  title: "Just Asking Questions"
+  abstract: |
+    In the age of deep networks, "learning" almost invariably means "learning from examples". We train language models with human-generated text and labeled preference pairs, image classifiers with large datasets of images, and robot policies with rollouts or demonstrations. When human learners acquire new concepts and skills, we often do so with richer supervision, especially in the form of language---we learn new concepts from examples accompanied by descriptions or definitions, and new skills from demonstrations accompanied by instructions. Crucially, language-based supervision involves not only instructions but *questions*---students ask questions to elicit the most useful pieces of supervision, and teachers ask questions to probe student knowledge and encourage them to acquire new skills or aspects of understanding on their own. This talk will focus on a few recent projects focused on building computational models that can ask good questions for both learning and teaching, with applications spanning LM alignment, policy learning, and education. This is joint work with Belinda Li, Alex Tamkin, Noah Goodman, Andi Peng, Ilia Sucholutsky, Nishanth Kumar, Julie A Shah, Andreea Bobu, Alexis Ross, Gabe Grand, Valerio Pepe and Josh Tenenbaum.
+    
+- speaker: Jason Weston
+  url: https://scholar.google.com/citations?user=lMkTx0EAAAAJ&hl=en
+  affiliation: Meta Fundamental AI Research (FAIR)
+  date: November 21, 2025
+  img: assets/img/clunch/jason_weston.jpg
+  title: "Self-Improvement of LLMs"
+  abstract: |
+    Classically, learning algorithms were designed to improve their performance by updating their parameters (weights), while keeping other components, such as the training data, loss function, and algorithm, fixed. We argue that fully intelligent systems will be able to self-improve across all aspects of their makeup. We describe recent methods that enable large language models (LLMs) to self-improve in various ways, increasing their performance on tasks relevant to human users. In particular, we describe methods whereby models are able to create their own training data (self-challenging), train on this data using themselves as their own reward model (self-rewarding), and train themselves to better provide their own rewards (meta-rewarding). We then discuss the future of self-improvement for AI and key challenges that remain unresolved.
 
-- speaker: Jesse Thomason
-  url: https://jessethomason.com/
+- speaker: Robin Jia
+  url: https://robinjia.github.io/
   affiliation: University of Southern California
-  date: May 05, 2025
-  img: assets/img/clunch/jesse_thomason.jpg
-  title: "Embracing Language as Grounded Communication"
+  date: November 10, 2025
+  img: assets/img/clunch/robin_jia.jpg
+  title: "Understanding Model Nature of LLMs"
   abstract: |
-    Language is not text data, it is a human medium for communication. The larger part of the natural language processing (NLP) community has doubled down on treating digital text as a sufficient approximation of language, scaling datasets and corresponding models to fit that text. I have argued that experience in the world grounds language, tying it to objects, actions, and concepts. In fact, I believe that language carries meaning only when considered alongside that world, and that the zeitgeist in NLP research currently misses the mark on truly interesting questions at the intersection of human language and machine computation. In this talk, I’ll highlight some of the ways my lab enables agents and robots to better understand and respond to human communication by considering the grounded context in which that communication occurs, including neurosymbolic multimodal reasoning, natural language dialogue and interaction for lifelong learning, and utilizing NLP technologies on non-text communication.
+    The widespread adoption of large language models (LLMs) places a responsibility on the AI research community to understand them and develop abstractions that encapsulate their behavioral tendencies. In this talk, I will describe my group’s attempts to make sense of LLMs at three levels: their memorization of pre-training data, their internal mechanisms, and their advice-giving behavior. First, I will introduce the Hubble project, in which we have pre-trained LLMs (up to 8B parameters) on controlled pre-training corpora to understand when and how they memorize sensitive data related to copyright risks, privacy leakage, and test set contamination; we envision these models as a valuable open-source resource for scientific inquiry into LLM memorization. Next, I will describe my group’s work on understanding how language models work internally and how we can make these insights actionable. Finally, I will highlight a recent collaboration with USC oncologists in which we uncover LLM sycophancy issues that arise when patients ask these models for medical advice.
 
-- speaker: Deen Freelon
-  url: https://dfreelon.org/
-  affiliation: University of Pennsylvania
-  date: April 28, 2025
-  img: assets/img/clunch/deen_freelon.jpg
-  title: "The Post-API Age: Past, Present, and Future"
+- speaker: Arman Cohan
+  url: https://armancohan.com/
+  affiliation: Yale University
+  date: November 03, 2025
+  img: assets/img/clunch/arman_cohan.jpg
+  title: "Evaluating and Understanding LLMs: From Scientific Reasoning to Alignment as Judges"
   abstract: |
-    NLP and machine learning research has long relied on readily available, high-quality data from large social media platforms, but obtaining such data has not always been easy. In a brief 2018 essay titled “Computational Research in the Post-API Age” (published in the journal Political Communication), I warned researchers that the days of free and easily accessible digital communication data were coming to an end. The essay was initially inspired by the prohibition of automated data collection from Facebook’s Graph API, which occurred in March 2018 in the wake of the Cambridge Analytica scandal. This corporate decision effectively eliminated most authorized means of collecting Facebook data (except those in direct collaboration with Meta researchers) until the Crowdtangle service was opened to academic researchers in the summer of 2020. Meta shelved Crowdtangle in August 2024, replacing it with yet another data access regime, the Meta Content Library. Other social platforms, including Twitter/X, Reddit, and TikTok, have also substantially modified their data access policies over the years.
-    <br><br>
-    Some of the issues I raised in my Political Communication essay are still relevant today, while others are less so. This presentation, which is based on an invited journal article, will build on my earlier piece in three ways: first, it will recount a concise history of social media data access informed by official documentation and my own professional observations as one of the first Communication researchers to analyze social media data computationally. Second, it will sketch the present state of digital communication data access in context with past such “ages,” making practical recommendations and generally characterizing the moment for posterity. The third section will be devoted to the future, but instead of making predictions, it will adopt a normative approach, advocating for corporate and governmental data access policies that balance the researcher’s interest in data usability, the public’s interests in privacy and impactful research, and business interests in transparency and good corporate citizenship.
+    We present our recent work on evaluating and understanding large language models in scientific contexts and understanding them in context of evaluation-generation capabilities.
 
-- speaker: Daniel Khashabi
-  url: https://danielkhashabi.com/
-  affiliation: Johns Hopkins University
-  date: April 21, 2025
-  img: assets/img/clunch/daniel_khashabi.jpg
-  title: "AI for Science and Science of AI"
+    First, we'll introduce SciArena, an open evaluation platform for literature-grounded scientific tasks that uses expert preferences to rank models on long-form, literature-grounded responses. The platform currently supports a broad set of open and proprietary models and has already accumulated a large pool of high-quality preferences. Using these data, we release SciArena-Eval, a meta-evaluation benchmark for training and stress-testing automated judges on science tasks.
+
+    We will then turn to scientific problem solving. We discuss a holistic suite of scientific reasoning tasks, and a new framework for studying the role of knowledge in scientific problem solving and its interaction with reasoning.  Our analysis shows that retrieving task-relevant knowledge from model parameters is the primary bottleneck for science reasoning; in-context external knowledge systematically helps even strong reasoning models; and improved verbalized reasoning increases a model’s ability to surface the right knowledge.
+
+    Finally, if there is time, we will present a work on generation–evaluation consistency and show that models that judge well also tend to generate outputs that align with human preferences. This enables alignment benchmarking that evaluates models in their role as judges without scoring their generations directly.
+
+- speaker: Nicholas Tomlin
+  url: https://nickatomlin.github.io/
+  affiliation: Toyota Technological Institute at Chicago (TTIC)
+  date: October 27, 2025
+  img: assets/img/clunch/nicholas_tomlin.png
+  title: "Language Models as User Models"
   abstract: |
-    AI has seen remarkable advancements, driven largely by the increasing capabilities of LLMs and have sparked excitement around their transformative potential across applications—particularly their role in accelerating scientific discovery.
-    <br><br>
-    In the first part of this talk, I will focus on our work in AI for science, emphasizing the importance of addressing "aggregative questions" in scientific inquiry. While traditional scientific questions often are “information seeking” queries, (looking for specific information from individual papers), many critical scientific challenges require synthesizing abstractions of evidence across diverse sources. I will highlight our approaches to enabling LLMs to effectively tackle such aggregative tasks.
-    <br><br>
-    In the second part, I will turn to the science of AI, exploring foundational challenges in training and deploying LLMs. This includes issues related to data quality (such as temporal degradation of knowledge after the model’s training cutoff) and the difficulties posed by imbalanced datasets during pretraining. Our work aims to better understand and address these limitations to improve the reliability of LLMs in scientific contexts.
+    If we want to build collaborative language models, we'll need to find the right training objective. One promising direction involves simulating human users at scale and using these simulations as a training signal to develop models that better understand and interact with people. In this talk, I’ll discuss key challenges in simulating human behavior, ranging from hallucinations and coherence to knowledge consistency and memory. Then, I’ll discuss some ongoing work and outline future directions for building more human-like user simulators and training more useful, collaborative models.
 
-- speaker: Yoav Artzi
-  url: https://yoavartzi.com/
-  affiliation: Cornell University
-  date: April 14, 2025
-  img: assets/img/clunch/yoav_artzi.jpg
-  title: "Post-training via Interaction"
-  abstract: |
-    Post-training language models is key to exposing and refining their abilities. This process often relies on costly, annotated data, even when RL is used. However, deployment interactions are rich with learning signals, and hold the potential for on-policy, low-cost post-training. I will describe three projects that demonstrate this, and show under-utilized learning behaviors: (a) LLMs can inspect their own interactions to continually improve, with no annotation effort; (b) jointly reasoning about comprehension and generation of language in LLMs dramatically improves learning and reduces sample complexity; and (c) LLMs have the ability for RL in context, thereby learning from rewards with no parameter updates. Across the three projects, we show robust behaviors over many interactions, often through live deployments. Taken together, our work shows the rich learning landscape model interactions expose. 
-    
-- speaker: Leena Mathur
-  url: https://l-mathur.github.io/
-  affiliation: Carnegie Mellon University
-  date: April 07, 2025
-  img: assets/img/clunch/leena_mathur.jpg
-  title: "Towards Artificial Social Intelligence: Grounded Social Reasoning in Multimodal Models"
-  abstract: |
-    Advancing social intelligence in AI systems is important for these systems to effectively navigate human social interactions and work <em>with</em> and <em>around</em> humans. This talk will focus on grounded social reasoning abilities of multimodal models. I will discuss Social Genome, a modeling challenge that tests the abilities of multimodal models to reason about human social interactions, by interpreting and integrating embodied multimodal communicative behaviors and external social knowledge. I will also discuss core technical challenges and opportunities to advance artificial social intelligence, with perspectives anchored in social intelligence concepts and prior research from several computing communities. 
-    
-- speaker: Vivek Gupta
-  url: https://vgupta123.github.io/
-  affiliation: Arizona State University
-  date: March 31, 2025
-  img: assets/img/clunch/vivek_gupta.jpg
-  title: Reasoning for Multimodal Semi-structured Tables
-  abstract: |
-    In this talk, I'll walk through some of the latest AI advancements that address the challenges of working with complex data, with a focus on improving reasoning for both tabular and multimodal data.
-    <br><br>
-    I'll begin by introducing H-STAR, a hybrid algorithm that combines symbolic and semantic reasoning to enhance question answering for tabular data. By leveraging multi-view table extraction and adaptive reasoning, H-STAR has shown great potential in improving reasoning across tabular datasets.
-    <br><br>
-    Then, I'll introduce MMTabQA, a dataset we developed to evaluate how AI systems manage multimodal tables that integrate structured text and images. Our research reveals where current models struggle to process these diverse data types, highlighting key areas for improvement.
-    <br><br>
-    To wrap up, I'll discuss open challenges and future directions, including expanding reasoning capabilities to other complex data types—such as charts, maps, and flowcharts—and enhancing AI systems' robustness in handling numerical, temporal, and visual reasoning, particularly with large (vision) language models.
-    
-- speaker: Wei Xu
-  url: https://cocoxu.github.io/
-  affiliation: Georgia Institute of Technology
-  date: March 24, 2025
-  img: assets/img/clunch/wei_xu.jpg
-  title: Cultural Bias and Privacy Protection in Large Language Models
-  abstract: |
-    In this talk, I will explore two key aspects of large language models (LLMs) and their pre-training data: cultural bias and privacy preservation. First, I will present a systematic study on LLMs' favoritism toward Western culture. Our approach involves curating a dataset of over 20,000 cultural items, including food, clothing, individuals, religious sites, and more, to contrast Arabic and Western cultures. We assess cultural biases across multilingual LLMs (e.g., GPT-4, Aya) through natural prompts, story generation, sentiment analysis, and named entity recognition (NER) tasks. A key finding suggests heavy reliance on Wikipedia data during pre-training may have contributed to the bias toward Western concepts in non-Western languages. 
-    <br><br>
-    Next, I will showcase PrivacyMirror, an LLM-powered tool designed to help users safeguard their personal information. Leveraging insights from an HCI study with real Reddit users, PrivacyMirror reveals challenges and opportunities which shape ongoing efforts to enhance user-centric privacy protection. 
-    <br><br>
-    To conclude, I will briefly discuss recent research on the temporal robustness of LLMs, particularly their ability to handle neologisms, and advances in human-AI interactive evaluation.
-    
-- speaker: Sachin Kumar
-  url: https://sites.google.com/view/sachinkumar
-  affiliation: The Ohio State University
-  date: March 17, 2025
-  img: assets/img/clunch/sachin_kumar.jpg
-  title: Towards Continually Adaptable Multilingual Language Models
-  abstract: Subword tokenization in multilingual models presents significant challenges, particularly for non-Latin scripts and low-resource languages. Existing methods not only perform worse in these settings but also lead to higher costs in LLM APIs due to inefficiencies in token representation. Furthermore, incorporating emerging languages into pre-trained models remains difficult, with prior work often relying on heuristics like vocabulary expansion. To address these issues, I will first present MAGNET, a multilingual adaptive gradient-based tokenization algorithm that is jointly trained with a language model. Unlike standard tokenization approaches, MAGNET operates at the byte level and learns to predict segment boundaries dynamically via a tokenizer sub-module. A simple hyperparameter allows controlling over segmentation granularity, ensuring equitable treatment across languages. Its end-to-end training enables seamless adaptation of language models when fine-tuned on new languages. In the second part, I will introduce ongoing work on continually adapting multilingual language models to new languages. This work investigates how effectively models can be extended to languages with varying levels of resources and linguistic relatedness while preserving performance on previously supported languages. We study the trade-offs between adaptation efficiency, catastrophic forgetting, and cross-lingual generalization, providing insights into practical strategies for real-world multilingual NLP.
-
-- speaker: Parisa Kordjamshidi
-  url: https://www.cse.msu.edu/~kordjams/
-  affiliation: Michigan State University
-  date: March 03, 2025
-  img: assets/img/clunch/parisa_kordjamshidi.jpg
-  title: Compositional Reasoning for Natural Language Comprehension and Grounding Leveraging Neuro-Symbolic AI
-  abstract: Recent research indicates that large language models lack consistent reliability in tasks requiring complex reasoning. While they may impress us with fluently written articles prompted by user input, they can easily disappoint by displaying shortcomings in basic reasoning skills, such as the functional understanding of 'left is the opposite of right', let alone grounding such concepts in diverse real-world situations involving perception and action.  To address real-world problems, computational models often need to involve multiple interdependent learners, along with significant levels of composition and reasoning. In this talk, I will present our findings regarding reasoning challenges of LLMs and discuss how symbolic representations can leverage the capacity of neural models for compositional reasoning over complex linguistic structures, grounding language in visual perception, combining multiple modalities of information and handling uncertainty. I will highlight our efforts in Neurosymbolic modeling and introduce DomiKnowS, our developed library that facilitates such modeling. The DomiKnowS framework exploits both symbolic and sub-symbolic representations to solve complex, AI-complete problems and seamlessly integrates symbolic and logical knowledge into deep models through various underlying algorithms.
-
-- speaker: Joel Tetreault
-  url: https://www.cs.rochester.edu/~tetreaul/
-  affiliation: Dataminr
-  date: February 24, 2025
-  img: assets/img/clunch/joel_tetreault.jpg
-  title: A Brief History of Natural Language Processing
-  abstract: The title says it all! As the field of Natural Language Processing (NLP) continues to make incredible strides and advancements, it's important to take a step back and use the past to understand the current transformations. Drawing from literature and interviews, we'll dive into the early years of NLP and explore some of the major themes, trends, and personalities that paved the way for the cutting-edge technology we have today.
-
-- speaker: Li "Harry" Zhang
-  url: https://zharry29.github.io/
-  affiliation: Drexel University
-  date: February 17, 2025
-  img: assets/img/clunch/harry_zhang.jpg
-  title: Executable and Trustworthy Planning with Large Language Models
-  abstract: While large language models (LLM) can provide decent instructions, they are far from able to come up an executable and trustworthy plan for a particular user or agent, grounding to their specific situation and needs. To address this, I advocate for the methodology of using LLM as a code generator to create a formal representation of the planning environment. In conjunction with tools in classical AI planning, a plan can be found deterministically and faithfully. In this talk, I will discuss two strands of efforts. The first tackles fully-observed planning domains, where the model is given complete information and must propose a complete plan that satisfies given constraints. The second tackles partially-observed planning domains, where the model makes partial observations about the environment, propose partial plans, and iteratively acquire knowledge to complete a task. In both settings, we show that state-of-the-art models like DeepSeek-R1 and gpt-4o are heavily challenged by even the simplest tasks like rearranging or looking for objects. When prompted to generate the planning domain definition language (PDDL) input into a solver, LLMs outperform generating the plans directly. Even so, both syntactic and semantic errors point to LLMs' weakened ability to generate formal representations, especially when the language or domain is underrepresented in their pre-training.
-
-- speaker: Taylor Sorensen
-  url: https://tsor13.github.io/
-  affiliation: University of Washington
-  date: February 10, 2025
-  img: assets/img/clunch/taylor_sorensen.jpg
-  title: "Pluralistic Alignment: A Roadmap, Recent Work, and Open Problems"
-  abstract: Much alignment work assumes that there is a single set of human preferences or values that AI systems should align to. Pluralistic alignment, on the other hand, is concerned with integrating diverse human values and perspectives into alignment algorithms and evaluations. In this talk, I will start by presenting our roadmap to pluralistic alignment, offering definitions and scaffolding for research in the area. I will present one proposed algorithmic framework to support pluralism through modular specialist systems, along with a dataset and system to improve computational value-modeling. I will conclude with future research directions and open questions in the area.
-
-- speaker: Ben Zhou
-  url: http://xuanyu.me/
-  affiliation: Arizona State University
-  date: February 03, 2025
-  img: assets/img/clunch/ben_zhou.jpg
-  title: Enforcing Abstraction with Artificial Bottlenecks for Complex Machine Reasoning
-  abstract: "Human reasoning comes from trial and error on an abstract level: we learn from past experiences, conceptualize atomic operations and notions, and recompose them in new situations and scenarios. Such abstraction and conceptualization are the key sources of generalization. On the other hand, recent successes in machine reasoning are primarily from end-to-end training (e.g., next-word prediction and task-specific supervision), where models tend to rely more on memorization than generalization. Such observations motivate us to encourage models to perform high-level abstractions when learning. In this talk, I will discuss my recent works and methods that force model abstractions with artificial bottlenecks, where we deliberately remove essential information from the reasoning process so that models have to reason abstractively, similar to how computer programs conceptualize input values with variables and operations. These works show promising future research directions of model generalization and trustworthiness."
-
-- speaker: Alexander Spangher
-  url: https://www.alexander-spangher.com/
+- speaker: Jieyu Zhao
+  url: https://jyzhao.net/
   affiliation: University of Southern California
-  date: January 27, 2025
-  img: assets/img/clunch/alexander_spangher.jpg
-  title: Planning in Creative Contexts
-  abstract: Recent modeling innovations incorporate planning — or reasoning about actions and future states, exhibited by models like GPT-o1 and Deepseek's R1 — and have demonstrated impressive performance gains in areas like mathematical problem-solving and computer coding. However, such domains are characterized by well-defined goals (or rewards); for many human-centered creative tasks, rewards are not as clearly defined and it is thus not clear how current planning approaches can transfer. In this talk, I will outline a research agenda that can enable us to make progress in these areas. I focus on tasks related to journalism, with specific focus on retrieving a set of sources relevant to a news story. I will show how we can make inferences about human actions based on limited state-observations (a process known to cognitive psychologists as "emulation", but as yet unexplored in machine learning) and how these inferences can help us learn human values and rewards.
+  date: October 20, 2025
+  img: assets/img/clunch/jieyu_zhao.jpg
+  title: "Building Personalized AI Assistants: From Task Execution to Human Alignment"
+  abstract: |
+    Large language models have transformed how we interact with technology, yet most current systems remain reactive, executing tasks without understanding user context or values. This talk explores the path toward personalized, trustworthy AI assistants that can reason, adapt, and align with human preferences. I will introduce Computer-Using Agents (CUAs) that combine GUI operations and code generation to efficiently complete real-world tasks, and present CoAct-1, a multi-agent system that coordinates planning and execution. I will then discuss SEA, an algorithm for uncovering LLM knowledge deficiencies, and WildFeedback, a framework that learns user preferences from natural interactions. Finally, I will highlight ongoing work on human-centered and culturally aware AI, from understanding intention and reasoning consistency to enabling proactive, value-aligned collaboration. Together, these advances move us closer to AI systems that truly understand and assist people.
 
-- speaker: Emma Strubell
-  url: https://strubell.github.io/
-  affiliation: Carnegie Mellon University
-  date: December 09, 2024
-  title: "Environmentally Sustainable AI: Challenges and Solutions"
-  abstract: "Modern machine learning powered by deep learning and large language models has the potential to help humans tackle big challenges such as climate change. At the same time, training and deploying these models comes at an increasingly high computational cost, with corresponding costs to the environment. The relationship between ML and climate change is complex, with great potential for ML to have either positive or negative impacts on the environment. In this talk I’ll discuss what we know about the environmental impact of LLMs and ML more broadly, where there are currently gaps in our knowledge, and what we can do to shape a future where the benefits of AI outweigh the costs."
+- speaker: Manling Li
+  url: https://limanling.github.io/
+  affiliation: Northwestern University
+  date: October 13, 2025
+  img: assets/img/clunch/manling_li.jpg
+  title: "From Large Language Models to Large Agent Models: The Reasoning Interface for World Interaction"
+  abstract: |
+    The leap from Large Language Models to Large Agent Models is to unfold reasoning as multi-turn interactions with the world. We take the first step by formalizing agent training as a Markov Decision Process (MDP), introducing an agent reasoning interface (RAGEN) to avoid “reasoning collapse”, where LLM agents loop into repetitive reasoning and fail to explore. Extending to Partially Observable MDPs (POMDPs), we propose VAGEN, training VLM agents to internalize world models for state estimation (“what is seen”) and transition modeling (“what comes next”). We further reveal shallow exploitation over true exploration, and use self-play to inject world model knowledge to diversify exploration. Finally, we introduce cognitive maps as reasoning interfaces for VLMs to integrate partial observations into coherent world beliefs in the 3D space. In the end, we will lay out how these advances chart a path to agents that simulate, explore, and actively construct internal world models, as a decisive step from LLMs to LAMs.
 
-- speaker: Colin Raffel
-  url: https://colinraffel.com/
-  affiliation: University of Toronto
-  date: December 02, 2024
-  title: "Progress on a permissively licensed text dataset"
-  abstract: "Large language models (LLMs) are typically pre-trained on huge quantities of copyrighted text. In the face of raising concerns and lawsuits from rights holders, companies developing LLMs claim that training on copyrighted data is fair use (which can and will only be settled in court), and in any case, further claim it would be “... it would be impossible to train today’s leading AI models without using copyrighted materials.” However, this claim has not been sufficiently tested. I will present our ongoing work (in collaboration with EleutherAI, AI2, and pleIAs) on developing a large collection of permissively licensed text data, amounting to many terabytes of text from an unusually diverse range of more than 25 sources, including governmental texts, historical books, research papers, educational video transcripts, and more. If the pieces fall into place in time, I'll also be able to present some preliminary evaluations of a language model trained on our dataset."
+- speaker: Byron Wallace
+  url: https://byronwallace.com/
+  affiliation: Northeastern University
+  date: September 22, 2025
+  img: assets/img/clunch/byron_wallace.jpg
+  title: "Some potential uses for and (current) limitations of mechanistic interpretability methods"
+  abstract: |
+    LLMs are increasingly being deployed in high-stakes domains like healthcare and law. But the black box nature of such models brings real risks. Emerging "mechanistic" interpretability methods seek to characterize the inner-workings of generative models, providing insights into how they come to make particular predictions. This may in turn offer transparency and provide levers to improve model outputs in targeted ways.
 
-- speaker: Julia Mendelsohn
-  url: https://juliamendelsohn.github.io/
-  affiliation: University of Michigan
-  date: November 25, 2024
-  title: Detecting implicitly harmful language in political discourse
-  abstract: "When discussing politics, people often use subtle linguistic strategies to influence how their audience thinks about issues, which can then impact public opinion and policy. For example, anti-immigration activists may frame immigration as a threat to native born citizens’ jobs, describe immigrants with dehumanizing vermin-related metaphors, or even use coded expressions to covertly connect immigration with antisemitic conspiracy theories. This talk will focus on my recent and ongoing work in developing computational approaches to analyze (1) dogwhistle communication and (2) the framing of immigration via dehumanizing metaphors. I will discuss how I draw from multiple social science disciplines to develop typologies and curate data resources, as well as how I build and evaluate natural language processing models for detecting these strategies. I further analyze the use of these strategies in political discourse across several domains, and assess the implications of such nuanced rhetoric for both society and technology."
+    But while the science of mechanistic interpretability has progressed, the degree to which such methods might offer actionable insights in realistic and domain-specific tasks remains unclear. In this talk I will discuss some recent and ongoing work on such techniques, highlighting both potential applications (e.g., for transparency in healthcare settings, and for efficient model distillation) and some current limitations.
 
-- speaker: Luca Soldaini
-  url: https://soldaini.net/
-  affiliation: Allen Institute for AI
-  date: November 11, 2024
-  title: "OLMo: Accelerating the Science of Open Language Models"
-  abstract: "Recently, we have seen tremendous progress in the field of language models (LMs), with the release of numerous open models and closed API systems. However, fewer and fewer disclose how they are created: Which corpora do they use? How are they trained? How much energy do they consume? In this talk, I will provide an overview of OLMo (https://allenai.org/olmo), an initiative at Ai2 aimed at creating transparent artifacts and tools that advance the science of LMs. I will discuss current and upcoming releases, such as Tulu, Dolma, OLMo, OLMoE, as well as the goals and ethical/legal considerations of this initiative."
+- speaker: Rachel Rudinger
+  url: https://rudinger.github.io/
+  affiliation: University of Maryland
+  date: September 15, 2025
+  img: assets/img/clunch/rachel_rudinger.jpg
+  title: "Robust, Fair, and Culturally-Adaptive Social Cognition in LLMs"
+  abstract: |
+    Successful communication in natural language is dependent upon interlocutors’ ability to build and maintain common ground, or a mutual understanding of the world. Thus, for LLMs to understand and serve the needs of their human users, they require not only basic knowledge of the world (“common sense”), but also the ability to engage in social cognition: reasoning under uncertainty about peoples’ beliefs, intents, and other mental states. In the first part of the talk, I will discuss my lab’s work on measuring robustness of LLM inference under uncertainty and inherent challenges of establishing ground truth in tasks of plausibility assessment. In the second part of the talk, I will present our findings concerning the fairness of social inference in LLMs, in particular the finding that LLMs demonstrate human-like inter-group empathy gaps. Finally, I will discuss my lab’s work developing evaluations of cross-cultural knowledge based on social theories of cultural consensus.
 
-- speaker: Tomer Wolfson
-  url: https://tomerwolgithub.github.io/
-  affiliation: University of Pennsylvania
-  date: November 04, 2024
-  title: "A More Natural and Complex Question Answering Benchmark"
-  abstract: "An important and highly useful application of large language models is answering information-seeking questions. Ideally, an evaluation benchmark for this task should include natural questions that reflect real-world users' goals. However, existing QA benchmarks contain questions that are either natural but simple (answer lies in a single sentence) or complex questions that are machine generated and are often contrived. To address this gap we introduce MONACO, a new benchmark of More Natural and Complex QA. The questions in MONACO are all manually written and express a diverse set of user goals. In terms of complexity, MONACO questions require aggregating information from 34 documents on average -- more than double that of previous list QA tasks. Overall, we collected over 1,800 multi-step, 8,000 list and 110,000 single step natural questions complete with answers and document attributions. We use MONACO to benchmark the performance of the top performing LLMs and explore the strengths and pitfalls of popular prompting techniques like chain-of-thought and decomposed prompting."
+- speaker: Marine Carpuat
+  url: https://www.cs.umd.edu/~marine/
+  affiliation: University of Maryland
+  date: September 08, 2025
+  img: assets/img/clunch/marine_carpuat.jpg
+  title: "A Human-Centered Approach to Trustworthy Machine Translation"
+  abstract: |
+    Machine Translation (MT) tools are more accessible than ever, but a key challenge remains: how can we help users rely on them appropriately, especially when they don't understand one of the languages involved? This talk will describe how my group has addressed this problem in recent years.
 
-- speaker: Valerie Chen
-  url: https://valeriechen.github.io/
-  affiliation: Carnegie Mellon University
-  date: October 28, 2024
-  title: "Towards a science of human-AI teams"
-  abstract: "AI models have the potential to support and complement human decision-makers and users. And yet, the deployment of human-AI teams still faces practical challenges. I’m interested in developing a more principled workflow for building human-AI teams. In particular, this talk will focus on answering two questions: (1) what the right evaluation paradigms are to measure team performance and (2) what are interaction mechanisms that can facilitate the appropriate usage of AI support. I will discuss how existing ML/NLP literature has attempted to answer each of these questions, their limitations, and promising alternatives."
+    I'll begin by sharing the results of user studies designed to understand how people build trust in and reliance on MT. These findings led us to reframe MT evaluation to provide actionable feedback that helps people assess the impact of translation errors. To achieve this, we introduce techniques based on large language models to ask and answer questions about a translated text, and to detect errors in speech translations with minimal supervision.
 
-- speaker: Tanya Goyal
-  url: https://tagoyal.github.io/
-  affiliation: Cornell University
-  date: October 21, 2024
-  title: "Collecting and Learning from Human Feedback"
-  abstract: "Human Feedback has emerged as an important ingredient to align large language models. However, it is challenging to both collect high quality human feedback, and ensure that reward models trained on this feedback capture the right axes of preferences. In this talk, I will present our work on developing a robust pipeline for data collection that improves agreement. I will further describe a thrust of our work that investigates a peculiar phenomenon that occurs when training language models with human feedback: model outputs are substantially longer. Our work shows that performance improvements after RLHF are largely due to increased length, instead of other important features. We test a comprehensive set of length-countering interventions, and identify reward models as the dominance source of this bias."
-
-- speaker: John Hewitt
-  url: https://nlp.stanford.edu/~johnhew/
-  affiliation: Stanford University
-  date: October 14, 2024
-  title: "Instruction Following without Instruction Tuning"
-  abstract: "This talk is about a few curious results on what makes language models follow instructions. When we want a language model to follow instructions, we often finetune it on instruction-response pairs and hope it generalizes -- this is (explicit) instruction tuning. I'll discuss _implicit instruction tuning_ -- we discovered that sometimes, when we finetune a language model on an objective that seems deficient compared to instruction tuning, the resulting finetuned model follows instructions anyway. This happens when we train a model to predict responses without conditioning on instructions (response tuning), and when we train only on a single task (like generating only poetry, or only recipes.) To dig into why implicit instruction tuning seems so common, I'll make concrete how simple it is to make a language model follow instructions by showing how to with a rule-based helper. As a takeaway: when you adapt a language model for a specific task, it's possible that it might (surprisingly?) act as a general-purpose chatbot for highly dissimilar inputs."
-
-- speaker: Yejin Choi
-  url: https://homes.cs.washington.edu/~yejin/
-  affiliation: University of Washington
-  date: October 07, 2024
-  title: "The Enigma of LLMs: on Creativity, Compositionality, and Paradoxes"
-  abstract: "That we can create LLMs doesn’t mean that we know LLMs. In this talk, I will discuss the puzzling questions and paradoxes we face with LLMs, from creativity to compositionality."
-
-- speaker: Harsh Trivedi
-  url: https://harshtrivedi.me/
-  affiliation: Stony Brook University
-  date: September 30, 2024
-  title: "AppWorld: Reliable Evaluation of Interactive Agents in a World of Apps and People"
-  abstract: "We envision a world where AI agents (assistants) are widely used for complex tasks in our digital and physical worlds and are broadly integrated into our society. To move towards such a future, we need an environment for a robust evaluation of agents' capability, reliability, and trustworthiness. In this talk, I’ll introduce AppWorld, which is a step towards this goal in the context of day-to-day digital tasks. AppWorld is a high-fidelity simulated world of people and their digital activities on nine apps like Amazon, Gmail, and Venmo. On top of this fully controllable world, we build a benchmark of complex day-to-day tasks such as splitting Venmo bills with roommates, which agents have to solve via interactive coding and API calls. One of the fundamental challenges with complex tasks lies in accounting for different ways in which the tasks can be completed. I will describe how we address this challenge using a reliable and programmatic evaluation framework. Our benchmarking evaluations show that even the best LLMs, like GPT-4o, can only solve ~30% of such tasks, highlighting the challenging nature of the AppWorld benchmark. I will conclude by laying out exciting future research that can be conducted on the foundation of AppWorld, such as benchmarks and playground for developing multimodal, collaborative, safe, socially intelligent, resourceful, and fail-tolerant agents."
-  img: assets/img/clunch/harsh-trivedi.jpg
-
-- speaker: Reno Kriz
-  url: https://hltcoe.jhu.edu/researcher/reno-kriz/
-  affiliation: Johns Hopkins University Human Language Technology Center of Excellence (HLTCOE)
-  date: September 23, 2024
-  title: "Takeaways from the SCALE 2024 Workshop on Video-based Event Retrieval"
-  abstract: "Information dissemination for current events has traditionally consisted of professionally collected and produced materials, leading to large collections of well-written news articles and high-quality videos. As a result, most prior work in event analysis and retrieval has focused on leveraging this traditional news content, particularly in English. However, much of the event-centric content today is generated by non-professionals, such as on-the-scene witnesses to events who hastily capture videos and upload them to the internet without further editing; these are challenging to find due to quality variance, as well as a lack of text or speech overlays providing clear descriptions of what is occurring. To address this gap, SCALE 2024, a 10-week research workshop hosted at the Human Language Technology Center of Excellence (HLTCOE), focused on multilingual event-centric video retrieval, or the task of finding relevant videos about specific current events. Around 50 researchers and students participated in this workshop and were split up into five sub-teams. The Infrastructure team focused on developing MultiVENT 2.0, a challenging video retrieval dataset consisting of 20x more videos than prior work and targeted queries about specific world events across six languages. Other teams worked on improving models from specific modalities, specifically Vision, Optical Character Recognition (OCR), Audio, and Text. Overall, we came away with three primary findings: extracting specific text from a video allows us to take better advantage of powerful methods from the text information retrieval community; LLM summarization of initial text outputs from videos is helpful, especially for noisy text coming from OCR; and no one modality is sufficient, with fusing outputs from all modalities resulting in significantly higher performance."
-
-- speaker: Ajay Patel
-  url: https://ajayp.app/
-  affiliation: University of Pennsylvania
-  date: September 16, 2024
-  title: "DataDreamer: Synthetic Data Generation and Reproducible LLM Workflows"
-  abstract: "Large language models (LLMs) have become an essential tool for NLP researchers in a wide range of tasks. Many now rely on LLMs for synthetic data generation, task evaluation, fine-tuning, and other model-in-the-loop workflows. However, challenges arise due to their scale, closed-source nature, and the lack of standardized tooling, which can hinder open science and reproducibility. In this talk, we present DataDreamer, an open-source Python library designed to help researchers implement LLM workflows more easily. DataDreamer also promotes best practices that support open science and improve reproducibility in research."
-
-- speaker: Artemis Panagopoulou
-  url: https://artemisp.github.io/
-  affiliation: University of Pennsylvania
-  date: September 16, 2024
-  title: "Advancing Multimodal AI: Integrating Modalities, Tackling Complex Challenges, and Enhancing Interpretability"
-  abstract: "Advancing AI systems that understand and integrate multiple modalities—such as images, language, audio, video, and 3D—has significant implications for real-world applications. A major challenge lies in developing AI models that can efficiently process diverse modalities while providing transparent and interpretable decision-making. This talk will highlight recent contributions, including X-InstructBLIP, a framework for aligning multimodal representations with language models for cross-modal reasoning; studies on bistable images that reveal how AI models interpret visual ambiguity; and ongoing work on visual unit testing to ensure robust, and interpretable multimodal reasoning."
-
-- speaker: Xingyu Fu
-  url: https://zeyofu.github.io/
-  affiliation: University of Pennsylvania
-  date: September 16, 2024
-  title: "Better Evaluations for Multimodal Generative Models"
-  abstract: "Multimodal generative models such as GPT-4o and DALL-E 3 are being developed at a rapid pace. While these models have incredible new abilities, we still mostly follow the same old paradigms when it comes to evaluating the language or images that these models produce. Consequently, these models' potential is constrained by outdated evaluation criteria. In this talk, we will introduce two new benchmarks: (1) BLINK, designed to assess core visual perception abilities that are not addressed by existing benchmarks for multimodal large language models; and (2) Commonsense-T2I, which tests whether the generated images align with real-life commonsense. Our findings show that current multimodal generative models perform significantly worse than humans on both benchmarks, highlighting potential pathways for future improvements."
-
-- speaker: Subbarao Kambhampati
-  url: https://rakaposhi.eas.asu.edu/
-  affiliation: Arizona State University
-  date: September 9, 2024
-  title: "Can LLMs Reason and Plan?"
-  abstract: "Large Language Models (LLMs) are on track to reverse what seemed like an inexorable shift of AI from explicit to tacit knowledge tasks. Trained as they are on everything ever written on the web, LLMs exhibit “approximate omniscience”–they can provide answers to all sorts of queries, but with nary a guarantee. This could herald a new era for knowledge-based AI systems–with LLMs taking the role of (blowhard?) experts. But first, we have to stop confusing the impressive style/form of the generated knowledge for correct/factual content, and resist the temptation to ascribe reasoning, planning, self-critiquing etc. powers to approximate retrieval by these n-gram models on steroids. We have to focus instead on LLM-Modulo techniques that complement the unfettered idea generation of LLMs with careful vetting by model-based verifiers (the models underlying which themselves can be teased out from LLMs in semi-automated fashion). In this talk, I will reify this vision and attendant caveats in the context of our ongoing work on understanding the role of LLMs in planning tasks."
+    Throughout the talk, I will highlight open questions and research directions for designing language technology that genuinely supports people in communicating across language barriers.

@@ -13,12 +13,3 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
-- speaker: Paul Liang
-  url: https://pliang279.github.io/
-  affiliation: Massachusetts Institute of Technology
-  date: April 20, 2026
-  img: assets/img/clunch/paul_liang.jpg
-  title: New Advances in Multimodal and Agentic Reasoning
-  abstract: |
-    Today's language models are increasingly capable of reasoning over multiple steps with verification and backtracking to solve challenging problems. However, multimodal reasoning agents that can reason and act over an integrated set of modalities such as text, images, audio, video, and physical sensors are sorely lacking, and can pave the way for a next frontier of AI. I will describe our group's work on advancing the frontiers of multimodal and agentic reasoning, from new multimodal reasoning benchmarks and foundation models, to long-horizon and self-evolving agents, with applications to science and engineering.
-
