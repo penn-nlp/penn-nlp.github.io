@@ -63,6 +63,11 @@
   img: assets/img/alyssa_hwang.jpg
   url: http://alyssahwang.com/
 
+- name: Alon Jacoby
+  status: phd
+  img: assets/img/alon_jacoby.jpg
+  url: https://alonj.github.io/
+
 - name: Helen Jin
   status: phd
   img: assets/img/helen_jin.jpg
