@@ -13,6 +13,51 @@
 #   date: June 26, 2019
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
+#
+# - speaker:
+#   url:
+#   affiliation:
+#   date:
+#   img:
+#   title:
+#   abstract:
+#
+
+- speaker: Terra Blevins
+  url: https://blvns.github.io/
+  affiliation: Northeastern University
+  date: October 5th, 2026
+  img: assets/img/clunch/terra-blevins.jpeg
+  title: The Language of Language Models
+  abstract: |
+    As language models have grown nearly as fluent as human writers, the details of how they use language have become far less studied. However, humans absorb linguistic patterns from the language they're exposed to, meaning LLM-generated text will likely have wide-ranging effects on human linguistics. In this talk, I ask what studying LMs as language users reveals about how they actually process and produce natural language, and how that will shape our language use in turn.\n First, I show that LMs exhibit systematic typological biases in language learning for both morphological and syntactic phenomena that often diverge from human linguistic universals, though data effects can override these biases at scale. I will then discuss how LMs' accommodation behavior differs from humans in both synthetic and real human-LLM conversations, with LLMs strongly overfitting to users' linguistic style far beyond human norms. In contrast, humans in dialogue with LLMs accommodate them as they would a human interlocutor. Together, these findings show that LLMs bring artificial learning and pragmatic biases that diverge from human behavior, with significant implications for both long-term linguistic diversity and the trajectory of natural language as LLMs continue to be integrated into everyday life.
+
+- speaker: Shira Wein
+  url: https://shirawein.github.io/
+  affiliation: University of South Florida
+  date: September 28th, 2026
+  img: assets/img/clunch/shira-wein.jpeg
+  title: "Lost in Translation, and Found: Detecting and Interpreting Translation Effects in Large Language Models"
+  abstract: |
+    Large language models are able to generate highly fluent text, in large part because they are trained on massive amounts of data. This data may contain “translationese”: hallmarks which distinguish translated texts from texts originating in the language. Though individual translated texts are often fluent and preserve meaning, at a large scale, the presence of translated texts in training data negatively impacts performance and in test data inflates evaluation scores. In this work, I show that linguistic tools can be used to mitigate the surface-level features (and thus harmful impacts) of translationese. Further, I investigate how accurately texts can be automatically classified as original or translated, and what features encoded within neural classifiers enable them to distinguish original and translated English texts much more accurately than humans.
+
+- speaker: Su Lin Blodgett
+  url: https://sblodgett.github.io/
+  affiliation: Mila - Québec AI Institute
+  date: September 21st, 2026
+  img: assets/img/clunch/blodgett-headshot.jpeg
+  title: "“A natural language interface for everyday life”: Unpacking the social and political functions of AI capabilities discourses"
+  abstract: |
+    Marketing materials position generative AI models as smarter, faster, and more useful than ever, with “with built-in thinking that puts expert-level intelligence in everyone’s hands” (OpenAI). A substantial body of scholarship and journalistic reporting has characterized such discourses as hype. I’ll describe recent work in which, rather than interrogating particular claims for their truth value, we are interested in the form these discourses take: What is required to make statements like “built-in thinking” sayable, “poetry” and “understanding cancer risk” comparable as items that belong in the same list, and all of these components interpretable as features of an advanced technology that is also a desirable consumer product? I'll describe how we analyze a collection of marketing materials from four companies and interpret what we refer to as AI capabilities discourses, which we argue render a wide variety of social activities as interchangeable, where situated, relational, embodied practices are cast as things subject to AI capabilities within a broader landscape of increasingly flexibilized, precarious cognitive work—thus narrowing the terrain for contestation.
+
+- speaker: Nihal V. Nayak
+  url: https://nihalnayak.github.io/
+  affiliation: Harvard University
+  date: September 14th, 2026
+  img: assets/img/clunch/nihal_nayak.webp
+  title: Customizing Foundation Models on a Budget
+  abstract: |
+    The rising cost of frontier models is pushing organizations to adapt existing models rather than train new ones, often under tight compute and data budgets. This raises two practical challenges: tailoring model size to deployment constraints and selecting the most useful data for fine-tuning. In this talk, I will present work addressing each. First, I will introduce boomerang distillation, a surprising phenomenon we identified in which patching teacher layers into a distilled student produces intermediate-sized models without any additional training. I will show that performance interpolates smoothly between the student and teacher as model size increases. Next, I will introduce an efficient patching algorithm that improves these intermediate models under a fixed inference-time compute budget and extend the method to post-trained models. Second, I will examine targeted instruction selection and show that only gradient-based representations reliably predict downstream performance. These representations yield the strongest results at small data budgets, while random sampling becomes competitive as budgets grow. Together, these results offer practical guidance for adapting foundation models under real-world compute and data constraints.
 
 - speaker: Paul Liang
   url: https://pliang279.github.io/
@@ -39,8 +84,8 @@
   img: assets/img/clunch/elias_stengel-eskin.jpg
   title: Multi-Model Training for Multi-Agent Communication Skills
   abstract: |
-    As we scale from individual agents to teams of agents, inter-agent communication will become increasingly important. In this talk, I will describe a general paradigm for teaching multi-agent communication skills through multi-model reinforcement learning, which I will illustrate via three key collaborative skills: expressing confidence in a calibrated way, responding robustly to positive and negative persuasion, and expressing reasoning faithfully. I will show how these problems can be framed in terms of speaker-listener games, and how this framing allows us to teach models collaborative skills, often using games simulated on smaller models to train larger models. Time permitting, I will also touch on how we can infer skills to combine multiple agents more productively. 
-    
+    As we scale from individual agents to teams of agents, inter-agent communication will become increasingly important. In this talk, I will describe a general paradigm for teaching multi-agent communication skills through multi-model reinforcement learning, which I will illustrate via three key collaborative skills: expressing confidence in a calibrated way, responding robustly to positive and negative persuasion, and expressing reasoning faithfully. I will show how these problems can be framed in terms of speaker-listener games, and how this framing allows us to teach models collaborative skills, often using games simulated on smaller models to train larger models. Time permitting, I will also touch on how we can infer skills to combine multiple agents more productively.
+
 - speaker: Sherry Tongshuang Wu
   url: https://www.cs.cmu.edu/~sherryw/
   affiliation: Carnegie Mellon University
@@ -49,7 +94,7 @@
   title: Making AI Systems Work for Imperfect Humans
   abstract: |
     General-purpose AI systems are increasingly envisioned to support users on any tasks. However, a prerequisite for this vision is that the user need is clearly “communicated” to the AI, which is in itself a nontrivial step: users often begin with vague or unformed goals, and even when they have a clear idea of what they want, their instructions may be ambiguous or misaligned with how the AI interprets them. Simply put, humans are not perfect oracles of their own intentions. How can we design AI systems that better support imperfect users? In this talk, I will share some of our recent work aimed at making AI more practically useful. This involves reflections on the right representations and metrics to capture user needs and task utility, and methods for improving the goal capturing, either by training the model to better guess the user need, or training the human to better express themselves.
-    
+
 - speaker: Yu Su
   url: https://ysu1989.github.io/
   affiliation: Ohio State University
@@ -109,7 +154,7 @@
   title: "Linear Truth Encoding in LLMs: Emergence and Generalization"
   abstract: |
     Large language models often exhibit surprisingly simple linear structure: directions and subspaces in their hidden states align with human-interpretable concepts. In this talk, I'll introduce the linear representations hypothesis and zoom in on a particularly striking case: linear "truth" encoding. Using a transparent one-layer transformer toy model with a deliberately simple, well-defined notion of truth, we trace the end-to-end mechanism by which a subspace emerges that linearly separates true from false statements. This analysis is based on a simple generative story in which true statements tend to co-occur with other true statements, and likewise for false ones. It turns out that this structure alone suffices to produce a fully characterizable truth subspace.
-    
+
     In modern LLMs trained on natural data, however, the picture is messier. Recent results suggest that any apparent "truth direction" can be brittle: it may shift under distribution change, conflate truth with surface cues, or fragment across domains. I'll use these challenges to motivate ongoing work that moves from controlled setups to realistic regimes, probing real models under distribution shift and disentangling different notions of truth. The emerging picture is more complex than previously assumed: what looks like a single "truth subspace" is often a superposition of directions, some spurious and domain-specific, others more abstract and transferable.
 
 - speaker: Jacob Andreas
@@ -120,7 +165,7 @@
   title: "Just Asking Questions"
   abstract: |
     In the age of deep networks, "learning" almost invariably means "learning from examples". We train language models with human-generated text and labeled preference pairs, image classifiers with large datasets of images, and robot policies with rollouts or demonstrations. When human learners acquire new concepts and skills, we often do so with richer supervision, especially in the form of language---we learn new concepts from examples accompanied by descriptions or definitions, and new skills from demonstrations accompanied by instructions. Crucially, language-based supervision involves not only instructions but *questions*---students ask questions to elicit the most useful pieces of supervision, and teachers ask questions to probe student knowledge and encourage them to acquire new skills or aspects of understanding on their own. This talk will focus on a few recent projects focused on building computational models that can ask good questions for both learning and teaching, with applications spanning LM alignment, policy learning, and education. This is joint work with Belinda Li, Alex Tamkin, Noah Goodman, Andi Peng, Ilia Sucholutsky, Nishanth Kumar, Julie A Shah, Andreea Bobu, Alexis Ross, Gabe Grand, Valerio Pepe and Josh Tenenbaum.
-    
+
 - speaker: Jason Weston
   url: https://scholar.google.com/citations?user=lMkTx0EAAAAJ&hl=en
   affiliation: Meta Fundamental AI Research (FAIR)

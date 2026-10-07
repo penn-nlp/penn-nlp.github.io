@@ -9,6 +9,108 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Jacob Andreas
+  url: https://www.mit.edu/~jda/
+  affiliation: Massachusetts Institute of Technology (MIT)
+  date: December 08, 2025
+  img: assets/img/clunch/jacob_andreas.jpg
+  title: "Just Asking Questions"
+  abstract: |
+    In the age of deep networks, "learning" almost invariably means "learning from examples". We train language models with human-generated text and labeled preference pairs, image classifiers with large datasets of images, and robot policies with rollouts or demonstrations. When human learners acquire new concepts and skills, we often do so with richer supervision, especially in the form of language---we learn new concepts from examples accompanied by descriptions or definitions, and new skills from demonstrations accompanied by instructions. Crucially, language-based supervision involves not only instructions but *questions*---students ask questions to elicit the most useful pieces of supervision, and teachers ask questions to probe student knowledge and encourage them to acquire new skills or aspects of understanding on their own. This talk will focus on a few recent projects focused on building computational models that can ask good questions for both learning and teaching, with applications spanning LM alignment, policy learning, and education. This is joint work with Belinda Li, Alex Tamkin, Noah Goodman, Andi Peng, Ilia Sucholutsky, Nishanth Kumar, Julie A Shah, Andreea Bobu, Alexis Ross, Gabe Grand, Valerio Pepe and Josh Tenenbaum.
+
+- speaker: Jason Weston
+  url: https://scholar.google.com/citations?user=lMkTx0EAAAAJ&hl=en
+  affiliation: Meta Fundamental AI Research (FAIR)
+  date: November 21, 2025
+  img: assets/img/clunch/jason_weston.jpg
+  title: "Self-Improvement of LLMs"
+  abstract: |
+    Classically, learning algorithms were designed to improve their performance by updating their parameters (weights), while keeping other components, such as the training data, loss function, and algorithm, fixed. We argue that fully intelligent systems will be able to self-improve across all aspects of their makeup. We describe recent methods that enable large language models (LLMs) to self-improve in various ways, increasing their performance on tasks relevant to human users. In particular, we describe methods whereby models are able to create their own training data (self-challenging), train on this data using themselves as their own reward model (self-rewarding), and train themselves to better provide their own rewards (meta-rewarding). We then discuss the future of self-improvement for AI and key challenges that remain unresolved.
+
+- speaker: Robin Jia
+  url: https://robinjia.github.io/
+  affiliation: University of Southern California
+  date: November 10, 2025
+  img: assets/img/clunch/robin_jia.jpg
+  title: "Understanding Model Nature of LLMs"
+  abstract: |
+    The widespread adoption of large language models (LLMs) places a responsibility on the AI research community to understand them and develop abstractions that encapsulate their behavioral tendencies. In this talk, I will describe my group’s attempts to make sense of LLMs at three levels: their memorization of pre-training data, their internal mechanisms, and their advice-giving behavior. First, I will introduce the Hubble project, in which we have pre-trained LLMs (up to 8B parameters) on controlled pre-training corpora to understand when and how they memorize sensitive data related to copyright risks, privacy leakage, and test set contamination; we envision these models as a valuable open-source resource for scientific inquiry into LLM memorization. Next, I will describe my group’s work on understanding how language models work internally and how we can make these insights actionable. Finally, I will highlight a recent collaboration with USC oncologists in which we uncover LLM sycophancy issues that arise when patients ask these models for medical advice.
+
+- speaker: Arman Cohan
+  url: https://armancohan.com/
+  affiliation: Yale University
+  date: November 03, 2025
+  img: assets/img/clunch/arman_cohan.jpg
+  title: "Evaluating and Understanding LLMs: From Scientific Reasoning to Alignment as Judges"
+  abstract: |
+    We present our recent work on evaluating and understanding large language models in scientific contexts and understanding them in context of evaluation-generation capabilities.
+
+    First, we'll introduce SciArena, an open evaluation platform for literature-grounded scientific tasks that uses expert preferences to rank models on long-form, literature-grounded responses. The platform currently supports a broad set of open and proprietary models and has already accumulated a large pool of high-quality preferences. Using these data, we release SciArena-Eval, a meta-evaluation benchmark for training and stress-testing automated judges on science tasks.
+
+    We will then turn to scientific problem solving. We discuss a holistic suite of scientific reasoning tasks, and a new framework for studying the role of knowledge in scientific problem solving and its interaction with reasoning.  Our analysis shows that retrieving task-relevant knowledge from model parameters is the primary bottleneck for science reasoning; in-context external knowledge systematically helps even strong reasoning models; and improved verbalized reasoning increases a model’s ability to surface the right knowledge.
+
+    Finally, if there is time, we will present a work on generation–evaluation consistency and show that models that judge well also tend to generate outputs that align with human preferences. This enables alignment benchmarking that evaluates models in their role as judges without scoring their generations directly.
+
+- speaker: Nicholas Tomlin
+  url: https://nickatomlin.github.io/
+  affiliation: Toyota Technological Institute at Chicago (TTIC)
+  date: October 27, 2025
+  img: assets/img/clunch/nicholas_tomlin.png
+  title: "Language Models as User Models"
+  abstract: |
+    If we want to build collaborative language models, we'll need to find the right training objective. One promising direction involves simulating human users at scale and using these simulations as a training signal to develop models that better understand and interact with people. In this talk, I’ll discuss key challenges in simulating human behavior, ranging from hallucinations and coherence to knowledge consistency and memory. Then, I’ll discuss some ongoing work and outline future directions for building more human-like user simulators and training more useful, collaborative models.
+
+- speaker: Jieyu Zhao
+  url: https://jyzhao.net/
+  affiliation: University of Southern California
+  date: October 20, 2025
+  img: assets/img/clunch/jieyu_zhao.jpg
+  title: "Building Personalized AI Assistants: From Task Execution to Human Alignment"
+  abstract: |
+    Large language models have transformed how we interact with technology, yet most current systems remain reactive, executing tasks without understanding user context or values. This talk explores the path toward personalized, trustworthy AI assistants that can reason, adapt, and align with human preferences. I will introduce Computer-Using Agents (CUAs) that combine GUI operations and code generation to efficiently complete real-world tasks, and present CoAct-1, a multi-agent system that coordinates planning and execution. I will then discuss SEA, an algorithm for uncovering LLM knowledge deficiencies, and WildFeedback, a framework that learns user preferences from natural interactions. Finally, I will highlight ongoing work on human-centered and culturally aware AI, from understanding intention and reasoning consistency to enabling proactive, value-aligned collaboration. Together, these advances move us closer to AI systems that truly understand and assist people.
+
+- speaker: Manling Li
+  url: https://limanling.github.io/
+  affiliation: Northwestern University
+  date: October 13, 2025
+  img: assets/img/clunch/manling_li.jpg
+  title: "From Large Language Models to Large Agent Models: The Reasoning Interface for World Interaction"
+  abstract: |
+    The leap from Large Language Models to Large Agent Models is to unfold reasoning as multi-turn interactions with the world. We take the first step by formalizing agent training as a Markov Decision Process (MDP), introducing an agent reasoning interface (RAGEN) to avoid “reasoning collapse”, where LLM agents loop into repetitive reasoning and fail to explore. Extending to Partially Observable MDPs (POMDPs), we propose VAGEN, training VLM agents to internalize world models for state estimation (“what is seen”) and transition modeling (“what comes next”). We further reveal shallow exploitation over true exploration, and use self-play to inject world model knowledge to diversify exploration. Finally, we introduce cognitive maps as reasoning interfaces for VLMs to integrate partial observations into coherent world beliefs in the 3D space. In the end, we will lay out how these advances chart a path to agents that simulate, explore, and actively construct internal world models, as a decisive step from LLMs to LAMs.
+
+- speaker: Byron Wallace
+  url: https://byronwallace.com/
+  affiliation: Northeastern University
+  date: September 22, 2025
+  img: assets/img/clunch/byron_wallace.jpg
+  title: "Some potential uses for and (current) limitations of mechanistic interpretability methods"
+  abstract: |
+    LLMs are increasingly being deployed in high-stakes domains like healthcare and law. But the black box nature of such models brings real risks. Emerging "mechanistic" interpretability methods seek to characterize the inner-workings of generative models, providing insights into how they come to make particular predictions. This may in turn offer transparency and provide levers to improve model outputs in targeted ways.
+
+    But while the science of mechanistic interpretability has progressed, the degree to which such methods might offer actionable insights in realistic and domain-specific tasks remains unclear. In this talk I will discuss some recent and ongoing work on such techniques, highlighting both potential applications (e.g., for transparency in healthcare settings, and for efficient model distillation) and some current limitations.
+
+- speaker: Rachel Rudinger
+  url: https://rudinger.github.io/
+  affiliation: University of Maryland
+  date: September 15, 2025
+  img: assets/img/clunch/rachel_rudinger.jpg
+  title: "Robust, Fair, and Culturally-Adaptive Social Cognition in LLMs"
+  abstract: |
+    Successful communication in natural language is dependent upon interlocutors’ ability to build and maintain common ground, or a mutual understanding of the world. Thus, for LLMs to understand and serve the needs of their human users, they require not only basic knowledge of the world (“common sense”), but also the ability to engage in social cognition: reasoning under uncertainty about peoples’ beliefs, intents, and other mental states. In the first part of the talk, I will discuss my lab’s work on measuring robustness of LLM inference under uncertainty and inherent challenges of establishing ground truth in tasks of plausibility assessment. In the second part of the talk, I will present our findings concerning the fairness of social inference in LLMs, in particular the finding that LLMs demonstrate human-like inter-group empathy gaps. Finally, I will discuss my lab’s work developing evaluations of cross-cultural knowledge based on social theories of cultural consensus.
+
+- speaker: Marine Carpuat
+  url: https://www.cs.umd.edu/~marine/
+  affiliation: University of Maryland
+  date: September 08, 2025
+  img: assets/img/clunch/marine_carpuat.jpg
+  title: "A Human-Centered Approach to Trustworthy Machine Translation"
+  abstract: |
+    Machine Translation (MT) tools are more accessible than ever, but a key challenge remains: how can we help users rely on them appropriately, especially when they don't understand one of the languages involved? This talk will describe how my group has addressed this problem in recent years.
+
+    I'll begin by sharing the results of user studies designed to understand how people build trust in and reliance on MT. These findings led us to reframe MT evaluation to provide actionable feedback that helps people assess the impact of translation errors. To achieve this, we introduce techniques based on large language models to ask and answer questions about a translated text, and to detect errors in speech translations with minimal supervision.
+
+    Throughout the talk, I will highlight open questions and research directions for designing language technology that genuinely supports people in communicating across language barriers.
+
 - speaker: Jesse Thomason
   url: https://jessethomason.com/
   affiliation: University of Southern California
@@ -49,8 +151,8 @@
   img: assets/img/clunch/yoav_artzi.jpg
   title: "Post-training via Interaction"
   abstract: |
-    Post-training language models is key to exposing and refining their abilities. This process often relies on costly, annotated data, even when RL is used. However, deployment interactions are rich with learning signals, and hold the potential for on-policy, low-cost post-training. I will describe three projects that demonstrate this, and show under-utilized learning behaviors: (a) LLMs can inspect their own interactions to continually improve, with no annotation effort; (b) jointly reasoning about comprehension and generation of language in LLMs dramatically improves learning and reduces sample complexity; and (c) LLMs have the ability for RL in context, thereby learning from rewards with no parameter updates. Across the three projects, we show robust behaviors over many interactions, often through live deployments. Taken together, our work shows the rich learning landscape model interactions expose. 
-    
+    Post-training language models is key to exposing and refining their abilities. This process often relies on costly, annotated data, even when RL is used. However, deployment interactions are rich with learning signals, and hold the potential for on-policy, low-cost post-training. I will describe three projects that demonstrate this, and show under-utilized learning behaviors: (a) LLMs can inspect their own interactions to continually improve, with no annotation effort; (b) jointly reasoning about comprehension and generation of language in LLMs dramatically improves learning and reduces sample complexity; and (c) LLMs have the ability for RL in context, thereby learning from rewards with no parameter updates. Across the three projects, we show robust behaviors over many interactions, often through live deployments. Taken together, our work shows the rich learning landscape model interactions expose.
+
 - speaker: Leena Mathur
   url: https://l-mathur.github.io/
   affiliation: Carnegie Mellon University
@@ -58,8 +160,8 @@
   img: assets/img/clunch/leena_mathur.jpg
   title: "Towards Artificial Social Intelligence: Grounded Social Reasoning in Multimodal Models"
   abstract: |
-    Advancing social intelligence in AI systems is important for these systems to effectively navigate human social interactions and work <em>with</em> and <em>around</em> humans. This talk will focus on grounded social reasoning abilities of multimodal models. I will discuss Social Genome, a modeling challenge that tests the abilities of multimodal models to reason about human social interactions, by interpreting and integrating embodied multimodal communicative behaviors and external social knowledge. I will also discuss core technical challenges and opportunities to advance artificial social intelligence, with perspectives anchored in social intelligence concepts and prior research from several computing communities. 
-    
+    Advancing social intelligence in AI systems is important for these systems to effectively navigate human social interactions and work <em>with</em> and <em>around</em> humans. This talk will focus on grounded social reasoning abilities of multimodal models. I will discuss Social Genome, a modeling challenge that tests the abilities of multimodal models to reason about human social interactions, by interpreting and integrating embodied multimodal communicative behaviors and external social knowledge. I will also discuss core technical challenges and opportunities to advance artificial social intelligence, with perspectives anchored in social intelligence concepts and prior research from several computing communities.
+
 - speaker: Vivek Gupta
   url: https://vgupta123.github.io/
   affiliation: Arizona State University
@@ -74,7 +176,7 @@
     Then, I'll introduce MMTabQA, a dataset we developed to evaluate how AI systems manage multimodal tables that integrate structured text and images. Our research reveals where current models struggle to process these diverse data types, highlighting key areas for improvement.
     <br><br>
     To wrap up, I'll discuss open challenges and future directions, including expanding reasoning capabilities to other complex data types—such as charts, maps, and flowcharts—and enhancing AI systems' robustness in handling numerical, temporal, and visual reasoning, particularly with large (vision) language models.
-    
+
 - speaker: Wei Xu
   url: https://cocoxu.github.io/
   affiliation: Georgia Institute of Technology
@@ -87,7 +189,7 @@
     Next, I will showcase PrivacyMirror, an LLM-powered tool designed to help users safeguard their personal information. Leveraging insights from an HCI study with real Reddit users, PrivacyMirror reveals challenges and opportunities which shape ongoing efforts to enhance user-centric privacy protection. 
     <br><br>
     To conclude, I will briefly discuss recent research on the temporal robustness of LLMs, particularly their ability to handle neologisms, and advances in human-AI interactive evaluation.
-    
+
 - speaker: Sachin Kumar
   url: https://sites.google.com/view/sachinkumar
   affiliation: The Ohio State University
@@ -249,7 +351,7 @@
   date: September 9, 2024
   title: "Can LLMs Reason and Plan?"
   abstract: "Large Language Models (LLMs) are on track to reverse what seemed like an inexorable shift of AI from explicit to tacit knowledge tasks. Trained as they are on everything ever written on the web, LLMs exhibit “approximate omniscience”–they can provide answers to all sorts of queries, but with nary a guarantee. This could herald a new era for knowledge-based AI systems–with LLMs taking the role of (blowhard?) experts. But first, we have to stop confusing the impressive style/form of the generated knowledge for correct/factual content, and resist the temptation to ascribe reasoning, planning, self-critiquing etc. powers to approximate retrieval by these n-gram models on steroids. We have to focus instead on LLM-Modulo techniques that complement the unfettered idea generation of LLMs with careful vetting by model-based verifiers (the models underlying which themselves can be teased out from LLMs in semi-automated fashion). In this talk, I will reify this vision and attendant caveats in the context of our ongoing work on understanding the role of LLMs in planning tasks."
-  
+
 - speaker: Yonatan Bisk
   url: https://talkingtorobots.com/yonatanbisk.html
   img: assets/img/clunch/Yonatan_Bisk.jpg
@@ -373,7 +475,7 @@
 - speaker: Andrew Zhu
   url: https://zhu.codes/
   img: assets/img/andrew_zhu.png
-  affiliation:  University of Pennsylvania
+  affiliation: University of Pennsylvania
   date: January 29, 2024
   title: "Kani: A Lightweight and Highly Hackable Framework for Building Language Model Applications"
   abstract: "Language model applications are becoming increasingly popular and complex, often including features like tool usage and retrieval augmentation. However, existing frameworks for such applications are often opinionated, deciding for developers how their prompts ought to be formatted and imposing limitations on customizability and reproducibility. To solve this we present Kani: a lightweight, flexible, and model-agnostic open-source framework for building language model applications. Kani helps developers implement a variety of complex features by supporting the core building blocks of chat interaction: model interfacing, chat management, and robust function calling. All Kani core functions are easily overridable and well documented to empower developers to customize functionality for their own needs. Kani thus serves as a useful tool for researchers, hobbyists, and industry professionals alike to accelerate their development while retaining interoperability and fine-grained control."
@@ -381,7 +483,7 @@
 - speaker: Bryan Li
   url: https://manestay.github.io/
   img: assets/img/bryan_li.jpg
-  affiliation:  University of Pennsylvania
+  affiliation: University of Pennsylvania
   date: January 29 2024
   title: "This Land is {Your, My} Land: Evaluating Geopolitical Biases in Language Models"
   abstract: "Do the Spratly Islands belong to China, the Philippines, or Vietnam? A pretrained large language model (LLM) may answer differently if asked in the languages of each claimant country: Chinese, Tagalog, or Vietnamese. In this paper, we show that LLMs recall certain geographical knowledge inconsistently when queried in different languages—a phenomenon we term geopolitical bias. As a targeted case study, we consider territorial disputes, an inherently controversial and multilingual task. We introduce BorderLines, a dataset of territorial disputes which covers 251 territories, each associated with a set of multiple-choice questions in the languages of each claimant country (49 languages in total). We also propose a suite of evaluation metrics to precisely quantify bias and consistency in responses across different languages. We then evaluate various multilingual LLMs on our dataset and metrics to probe their internal knowledge and use the proposed metrics to discover numerous inconsistencies in how these models respond in different languages. Finally, we explore several prompt modification strategies, aiming to either amplify or mitigate geopolitical bias, which highlights how brittle LLMs are and how they tailor their responses depending on cues from the interaction context."
@@ -397,7 +499,7 @@
 - speaker: Hongming Zhang
   url: https://panda0881.github.io/Hongming_Homepage/
   img: assets/img/clunch/hongming.png
-  affiliation:  Tencent AI Lab, Bellevue
+  affiliation: Tencent AI Lab, Bellevue
   date: December 11, 2023
   title: Advancing Information Retrieval in the Age of Large Language Models
   abstract: This presentation delves into the evolving landscape of information retrieval (IR) in the context of Large Language Models (LLMs). LLMs have showcased remarkable language comprehension abilities, yet they face challenges in rapidly assimilating private or real-time data, crucial for applications like virtual assistants. This talk will start with an overview of conventional IR techniques, including dense retrieval. Building upon this, I will present our recent work in proposition-level information retrieval, which enhances the granularity and precision of existing IR systems. In the end, I will discuss how to broaden the scope of IR to create a virtual assistant system.
@@ -497,7 +599,7 @@
   date: April 19th, 2023
   title: "Bayesian Deep Learning: From Single-Domain Reasoning to Infinite-Domain Adaptation"
   abstract: "While perception tasks such as visual object recognition and text understanding play an important role in human intelligence, the subsequent tasks that involve inference, reasoning, and planning require an even higher level of intelligence.  The past few years have seen major advances in many perception tasks using deep learning models. In terms of higher-level inference, however, probabilistic graphical models, with their ability to expressively describe properties of variables and various probabilistic relations among variables, are still more powerful and flexible. To achieve integrated intelligence that involves both perception and inference, we have been exploring along a research direction, which we call Bayesian deep learning, to tightly integrate deep learning and Bayesian models within a principled probabilistic framework. In this talk, I will present the proposed unified framework and some of our recent work on Bayesian deep learning with various applications including recommendation, social network analysis, interpretable healthcare, domain adaptation, and representation learning."
-  
+
 - speaker: Sunny Rai
   url: https://raisunny.com
   img: assets/img/clunch/sunny_rai.png
@@ -506,7 +608,6 @@
   title: "Investigating Racial Heterogeneity in Language Markers of Depression"
   abstract: "The racial and ethnic differences in the manifestation of depression are well documented. However, the effect of these differences on computational models for mental disorders trained on online language is relatively unexplored. This work analyzes the interaction between race and linguistic features correlated with PHQ-9 score. Our experiments reveal that the pronoun I, widely used as an indicator of depression, has significant interaction with race correlating with PHQ-9 scores for White but not for Black individuals. Various open vocabulary topics correlated with PHQ-9 demonstrate a contradictory trend for their usage by White and Black individuals when depressed. A linear regression machine learning model trained on White individuals predicts depression in White individuals with a Pearson r of 0.39(p < 0.05) but returns an insignificant correlation for depression scores in Black individuals indicating its inefficacy in diagnosing depression for the Black population. Interestingly, a model trained on Black individuals predicts depression in both racial groups albeit with different performances (r = 0.355 for Black and r = 0.338 for White). The results advocate the urgent need to validate computational mental health models on minority populations before deployment."
 
-
 - speaker: Nanyun (Violet) Peng
   url: https://vnpeng.net
   img: assets/img/clunch/nanyun_peng.jpg
@@ -514,15 +615,15 @@
   date: April 7th, 2023
   title: "Controllable Text Generation For Open-World Creativity"
   abstract: "Recent advances in large auto-regressive language models have demonstrated strong results in generating natural languages and significantly improved the performances for applications such as machine translation and summarization. However, when the generation tasks are open-ended and the content is under-specified, or there are format or cross-modal association constraints, existing techniques struggle to generate long-term coherent and creative contents that follow format constraints. This happens because autoregressive language models are only trained to predict the next word, and it is hard to impose structural or content control/contraints to the model. In this talk, I will present our recent works on creative generation including poetry and melogy-to-lyrics generation, which highlight the importance of controllable text generation beyond the prevalent auto-regressive formulation. We propose a novel insertion-based generation model and a controllable decoding-time algorithm to steer models to better conform to constraints."
-  
+
 - speaker: Roy Schwartz
   url: https://schwartz-lab-huji.github.io
   img: assets/img/clunch/roy_schwartz.jpg
-  affiliation: Hebrew University of Jerusalem 
+  affiliation: Hebrew University of Jerusalem
   date: March 29th, 2023
   title: "Spurious Correlations: Challenges, Solutions, and Opportunities"
-  abstract: "Recent work has shown that deep learning models in NLP are highly sensitive to low-level correlations between simple features and specific output labels, leading to overfitting and lack of generalization. To mitigate this problem, a common practice is to balance datasets by adding new instances or by filtering out \"easy'' instances, culminating in a recent proposal to eliminate single-word correlations altogether. In this talk, I will identify that despite these efforts, increasingly-powerful models keep exploiting ever-smaller spurious correlations, and as a result even balancing all single-word features is insufficient for mitigating all of these correlations. In parallel, a truly balanced dataset may be bound to \"throw the baby out with the bathwater'' and miss important signals encoding common sense and world knowledge. I will highlight several alternatives to dataset balancing, focusing on a surprising proposal: in order to mitigate biases in models, one needs to amplify them in our training sets."
-  
+  abstract: 'Recent work has shown that deep learning models in NLP are highly sensitive to low-level correlations between simple features and specific output labels, leading to overfitting and lack of generalization. To mitigate this problem, a common practice is to balance datasets by adding new instances or by filtering out "easy'''' instances, culminating in a recent proposal to eliminate single-word correlations altogether. In this talk, I will identify that despite these efforts, increasingly-powerful models keep exploiting ever-smaller spurious correlations, and as a result even balancing all single-word features is insufficient for mitigating all of these correlations. In parallel, a truly balanced dataset may be bound to "throw the baby out with the bathwater'''' and miss important signals encoding common sense and world knowledge. I will highlight several alternatives to dataset balancing, focusing on a surprising proposal: in order to mitigate biases in models, one needs to amplify them in our training sets.'
+
 - speaker: Yoav Artzi
   url: https://yoavartzi.com
   img: assets/img/clunch/yoav_artzi.jpg
@@ -538,22 +639,22 @@
   date: March 15th, 2023
   title: "Using Language Strategically in Context"
   abstract: "As NLP systems interact with people in a widening range of world contexts, it is increasingly important to model pragmatic aspects of language: the goals that underlie language use, and the effects that language has on people. Across a diverse range of task-oriented settings, we've found that reasoning about language as a strategic action allows NLP models to interact more successfully with human partners. First, I'll describe a procedure for pragmatically generating and interpreting instructions. We train listener and speaker models that imitate how people interpret and produce language in grounded contexts. We use these models to (1) predict how a person might interpret language from the system and (2) resolve ambiguity by reasoning about what goal might have made a person say what they did. These procedures make interaction with human partners more successful in settings including visually-grounded instruction following and interactive preference learning. I'll also give an overview of work with the FAIR Diplomacy team on CICERO, an agent that achieves human-level performance in the dialogue and strategy board game Diplomacy. CICERO integrates LLMs with a strategic planner: choosing mutually beneficial plans for itself and its partners, and generating dialogue in pursuit of these plans. When deployed in an anonymous online Diplomacy league with human partners, CICERO ranked in the top 10% of participants who played more than one game."
-  
+
 - speaker: Niranjan Balasubramanian
   url: https://www3.cs.stonybrook.edu/~niranjan/
   img: assets/img/clunch/niranjan-2015.jpg
   affiliation: Stony Brook University
   date: March 6th, 2023
   title: "What ails multi-step reasoning and how to fix it."
-  abstract: 'Multi-step reasoning has seen much empirical progress on many datasets recently, especially in Question Answering. However, training and evaluating on typical crowdsourced datasets is problematic because of the potential for shortcut reasoning based on artifacts. What can we do about this? In this three part talk, I will first show how we can formalize and measure disconnected reasoning, a type of bad multihop reasoning. I will then discuss how we can construct new datasets using a bottom-up construction process,  which allows us to better control for desired properties in the resulting dataset. In the third part, I will briefly present how synthetically generated data can be used to teach a broad range of multihop skills in a reliable manner and how to improve reliable multi-step reasoning in open-domain QA settings.'
-  
+  abstract: "Multi-step reasoning has seen much empirical progress on many datasets recently, especially in Question Answering. However, training and evaluating on typical crowdsourced datasets is problematic because of the potential for shortcut reasoning based on artifacts. What can we do about this? In this three part talk, I will first show how we can formalize and measure disconnected reasoning, a type of bad multihop reasoning. I will then discuss how we can construct new datasets using a bottom-up construction process,  which allows us to better control for desired properties in the resulting dataset. In the third part, I will briefly present how synthetically generated data can be used to teach a broad range of multihop skills in a reliable manner and how to improve reliable multi-step reasoning in open-domain QA settings."
+
 - speaker: Graham Neubig
   url: http://www.phontron.com/
   img: assets/img/clunch/graham_neubig.jpeg
   affiliation: Carnegie Mellon University (Language Technology Institute)
   date: March 1st, 2023
   title: "Is My NLP Model Working? The Answer is Harder Than You Think"
-  abstract: 'As natural language processing now permeates many different applications, its practical use is unquestionable. However, at the same time NLP is still imperfect, and errors cause everything from minor inconveniences to major PR disasters. Better understanding when our NLP models work and when they fail is critical to the efficient and reliable use of NLP in real-world scenarios. So how can we do so? In this talk I will discuss two issues: automatic evaluation of generated text, and automatic fine-grained analysis of NLP system results, which are some first steps towards a science of NLP model evaluation.'
+  abstract: "As natural language processing now permeates many different applications, its practical use is unquestionable. However, at the same time NLP is still imperfect, and errors cause everything from minor inconveniences to major PR disasters. Better understanding when our NLP models work and when they fail is critical to the efficient and reliable use of NLP in real-world scenarios. So how can we do so? In this talk I will discuss two issues: automatic evaluation of generated text, and automatic fine-grained analysis of NLP system results, which are some first steps towards a science of NLP model evaluation."
 
 - speaker: Alan Ritter
   url: http://aritter.github.io
@@ -561,8 +662,8 @@
   affiliation: Georgia Tech
   date: February 24th, 2023
   title: "Towards Cost Efficient Use of Pre-Trained Language Models"
-  abstract: 'Large language models are leading to breakthroughs in a variety of applications, from information extraction systems that are accurate and robust, to human-like conversational assistants.  In this talk I will analyze when the benefits of training a new model outweigh the computational costs, in the context of domain adaptation.  Conventional wisdom holds that data annotation is expensive, so computational methods that leverage freely available unlabeled data can present an economical alternative when adapting to a new domain.  The talk will examine this assumption in the context of pretraining-based domain adaptation, which requires significant GPU/TPU resources for each new domain.  We frame domain adaptation as a consumer choice problem: given a fixed budget, what combination of annotation and pre-training lead to maximum utility?  In the second part of the talk, I will discuss recent work on in-context learning for anaphora resolution.  I will show that resolving anaphora in scientific protocols is a challenging task for in-context learning, then present a new method, MICE (Mixtures of In-Context Experts) and demonstrate how it can accurately resolve multiple-antecedent anaphora in paragraphs describing chemical synthesis procedures.  MICE enables accurate few-shot anaphora resolution by ensembling hundreds of prompts that are created from only a handful of training examples.  Finally, I will discuss applications of NLP on chemical synthesis protocols and show a demo of a system that can help chemists more efficiently find experimental details described in the literature.'
-  
+  abstract: "Large language models are leading to breakthroughs in a variety of applications, from information extraction systems that are accurate and robust, to human-like conversational assistants.  In this talk I will analyze when the benefits of training a new model outweigh the computational costs, in the context of domain adaptation.  Conventional wisdom holds that data annotation is expensive, so computational methods that leverage freely available unlabeled data can present an economical alternative when adapting to a new domain.  The talk will examine this assumption in the context of pretraining-based domain adaptation, which requires significant GPU/TPU resources for each new domain.  We frame domain adaptation as a consumer choice problem: given a fixed budget, what combination of annotation and pre-training lead to maximum utility?  In the second part of the talk, I will discuss recent work on in-context learning for anaphora resolution.  I will show that resolving anaphora in scientific protocols is a challenging task for in-context learning, then present a new method, MICE (Mixtures of In-Context Experts) and demonstrate how it can accurately resolve multiple-antecedent anaphora in paragraphs describing chemical synthesis procedures.  MICE enables accurate few-shot anaphora resolution by ensembling hundreds of prompts that are created from only a handful of training examples.  Finally, I will discuss applications of NLP on chemical synthesis protocols and show a demo of a system that can help chemists more efficiently find experimental details described in the literature."
+
 - speaker: Julian Michael
   url: https://julianmichael.org
   img: assets/img/clunch/julian_michael.jpg
@@ -578,14 +679,15 @@
   date: February 1st, 2023
   title: "Retrieval-Augmented Models for Natural Language Processing"
   abstract: 'Prompting large pretrained language models has been enormously successful in solving a wide class of natural language tasks. In this approach, a task is formatted in some natural language template to "prompt" the model to generate the correct answer (e.g., "Q: Why is the sky blue? A: "). While surprisingly effective, it often generates false and unverifiable claims, limiting real-world applications. In this talk, I will advocate an alternative approach based on retrieval. Instead of naively generating answers, the model must first retrieve a piece of evidence from a knowledge base (e.g., Wikipedia). By having an explicit knowledge retrieval step, the model is forced to return factually accurate and verifiable claims. It can also use a new knowledge base at test time, thus is capable of zero-shot learning. I will focus on the task of entity retrieval and linking. I will first present a technique based on hard negative mining to make entity retrieval more robust (NAACL 2021). I will then build on the retrieval framework to present a novel paradigm for entity linking (ICLR 2022).'
-  
+
 - speaker: Gail Weiss
   url: https://gailweiss.github.io
   img: assets/img/clunch/gail_weiss.jpeg
   affiliation: EPFL
   date: January 25, 2023
   title: "Thinking Like Transformers"
-  abstract: Transformers - the purely attention based NN architecture - have emerged as a powerful tool in sequence processing. But how does a transformer think? When we discuss the computational power of RNNs, or consider a problem that they have solved, it is easy for us to think in terms of automata and their variants (such as counter machines and pushdown automata). But when it comes to transformers, no such intuitive model is available.
+  abstract:
+    Transformers - the purely attention based NN architecture - have emerged as a powerful tool in sequence processing. But how does a transformer think? When we discuss the computational power of RNNs, or consider a problem that they have solved, it is easy for us to think in terms of automata and their variants (such as counter machines and pushdown automata). But when it comes to transformers, no such intuitive model is available.
     In this talk I will present a programming language, RASP (Restricted Access Sequence Processing), which we hope will serve the same purpose for transformers as finite state machines do for RNNs. In particular, we will identify the base computations of a transformer and abstract them into a small number of primitives, which are composed into a small programming language. We will go through some example programs in the language, and discuss how a given RASP program relates to the transformer architecture.
 
 - speaker: Soroush Vosoughi
@@ -595,7 +697,7 @@
   date: December 12, 2022
   title: "Prosocial Language Models"
   abstract: |
-     Large-scale language models. (e.g., BERT, GPT-3) have revolutionized the field of natural language processing (NLP). Such pre-trained models show close-to-human-level performance on diverse tasks with little or no training data. The success of such models is at least partially due to their large size (most have hundreds or even thousands of millions of parameters) and the large datasets used for their pre-training (typically collected from the web). However, these same attributes lead to these models reflecting the biases and the antisocial attitudes on the web. These attitudes are a significant bottleneck for using these models in real-world settings, especially for social applications. In my lab, we develop methods for post hoc (i.e., inference time) mitigation of such antisocial attitudes. Post hoc mitigation allows us to avoid retraining the models (which is costly and intractable) while enforcing prosocial attitudes during inference. In this talk, I will review some of our recent work for making language models less biased and more aligned with human moral values through inference-time mitigation.
+    Large-scale language models. (e.g., BERT, GPT-3) have revolutionized the field of natural language processing (NLP). Such pre-trained models show close-to-human-level performance on diverse tasks with little or no training data. The success of such models is at least partially due to their large size (most have hundreds or even thousands of millions of parameters) and the large datasets used for their pre-training (typically collected from the web). However, these same attributes lead to these models reflecting the biases and the antisocial attitudes on the web. These attitudes are a significant bottleneck for using these models in real-world settings, especially for social applications. In my lab, we develop methods for post hoc (i.e., inference time) mitigation of such antisocial attitudes. Post hoc mitigation allows us to avoid retraining the models (which is costly and intractable) while enforcing prosocial attitudes during inference. In this talk, I will review some of our recent work for making language models less biased and more aligned with human moral values through inference-time mitigation.
 - speaker: Ben Van Durme
   url: https://www.cs.jhu.edu/~vandurme/
   img: /assets/img/clunch/ben_van_durme.jpeg
@@ -603,9 +705,9 @@
   date: December 5, 2022
   title: "Embracing Uncertainty"
   abstract: |
-     I will discuss a series of projects on collecting labels with uncertainty. Time allowing I will touch on model calibration and downstream tasks.
-     Modern Artificial Intelligence rests heavily on probabilistic models for classification. This usually means categorical nominal assignment; discrete labels given to inputs at prediction time. For example, an object captured in an image either was or was not truly a "cat", or some text describes an event that we might describe as a "TRANSACTION".
-     While concepts like cats and transactions can be real in the world, this does not mean agents can be certain of these truths.  In practice, human agents (annotators) are forced to choose from a label set without reflecting uncertainty in their decisions, and modelers then force artificial agents to do the same. Blurry images and ambiguous texts lead humans to have uncertain beliefs, while modern neural frameworks trained on discrete labels make predictions with high confidence.  Lets instead embrace uncertainty as part of agent (task) design.
+    I will discuss a series of projects on collecting labels with uncertainty. Time allowing I will touch on model calibration and downstream tasks.
+    Modern Artificial Intelligence rests heavily on probabilistic models for classification. This usually means categorical nominal assignment; discrete labels given to inputs at prediction time. For example, an object captured in an image either was or was not truly a "cat", or some text describes an event that we might describe as a "TRANSACTION".
+    While concepts like cats and transactions can be real in the world, this does not mean agents can be certain of these truths.  In practice, human agents (annotators) are forced to choose from a label set without reflecting uncertainty in their decisions, and modelers then force artificial agents to do the same. Blurry images and ambiguous texts lead humans to have uncertain beliefs, while modern neural frameworks trained on discrete labels make predictions with high confidence.  Lets instead embrace uncertainty as part of agent (task) design.
 - speaker: Smaranda Muresan
   url: http://www.cs.columbia.edu/~smara/
   img: /assets/img/clunch/smara.jpeg
@@ -613,7 +715,7 @@
   date: November 28, 2022
   title: "Text Generation: The Curious Case of Figurative Language and Argumentation"
   abstract: |
-     Large-scale language models based on transformer architectures, such as GPT-3 or BERT, have advanced the state of the art in Natural Language Understanding and Generation. However, even though these models have shown impressive performance for a variety of tasks, they often struggle to model implicit and/or non-compositional meaning, such as figurative language and argumentative text. In this talk, I will present some of our work on text generation models for figurative language and argumentation. There are two main challenges we have to address to make progress in this space: 1) the need to model common sense and/or connotative knowledge required for these tasks; and 2) the lack of large training datasets. I will discuss our proposed theoretically-grounded knowledge-enhanced text generation models for figurative language such as metaphor and for argument reframing. If time permits I will share our recent efforts of using a model-in-the-loop approach for building datasets for figurative language understanding modeled as an entailment task with explanation generation.
+    Large-scale language models based on transformer architectures, such as GPT-3 or BERT, have advanced the state of the art in Natural Language Understanding and Generation. However, even though these models have shown impressive performance for a variety of tasks, they often struggle to model implicit and/or non-compositional meaning, such as figurative language and argumentative text. In this talk, I will present some of our work on text generation models for figurative language and argumentation. There are two main challenges we have to address to make progress in this space: 1) the need to model common sense and/or connotative knowledge required for these tasks; and 2) the lack of large training datasets. I will discuss our proposed theoretically-grounded knowledge-enhanced text generation models for figurative language such as metaphor and for argument reframing. If time permits I will share our recent efforts of using a model-in-the-loop approach for building datasets for figurative language understanding modeled as an entailment task with explanation generation.
 - speaker: Yulia Tsvetkov
   url: https://homes.cs.washington.edu/~yuliats/
   img: /assets/img/clunch/yulia_tsvetkov.jpeg
@@ -621,8 +723,8 @@
   date: November 21, 2022
   title: "Interpretation as Weak Supervision for Data-Efficient NLP"
   abstract: |
-     Deep learning is typically associated with an abundance of data. But there are scenarios when pre-collected data will never be enough. For example, language on social media is constantly evolving and pretrained language models cannot adapt to rapid language change, dialects, and sociolects, no matter how large pretraining/annotated datasets are. Other examples of constantly evolving and therefore always-low-resource language domains include scientific articles, expert notes, and even news.
-     In this talk, I will advocate for using model interpretability methods to dynamically procure data annotations in such low resource scenarios.  In the first part, I will show how instance attribution approaches to model interpretability can identify critical training examples to improve the robustness and adaptability of hate speech classifiers. In the second part, I'll show how self-explaining models can be used for entity and keyphrase extraction in scientific articles. I'll conclude with more ideas for this new paradigm of using approaches to interpreting neural networks as an intrinsic component in low-resource NLP systems and not only as a tool to present explanations to humans.
+    Deep learning is typically associated with an abundance of data. But there are scenarios when pre-collected data will never be enough. For example, language on social media is constantly evolving and pretrained language models cannot adapt to rapid language change, dialects, and sociolects, no matter how large pretraining/annotated datasets are. Other examples of constantly evolving and therefore always-low-resource language domains include scientific articles, expert notes, and even news.
+    In this talk, I will advocate for using model interpretability methods to dynamically procure data annotations in such low resource scenarios.  In the first part, I will show how instance attribution approaches to model interpretability can identify critical training examples to improve the robustness and adaptability of hate speech classifiers. In the second part, I'll show how self-explaining models can be used for entity and keyphrase extraction in scientific articles. I'll conclude with more ideas for this new paradigm of using approaches to interpreting neural networks as an intrinsic component in low-resource NLP systems and not only as a tool to present explanations to humans.
 - speaker: Rotem Dror
   url: https://rtmdrr.github.io/
   img: /assets/img/rotem_dror.jpeg
@@ -630,7 +732,7 @@
   date: November 14, 2022
   title: "Standards for Experiment Design and Evaluation in Natural Language Processing"
   abstract: |
-     In this job-talk-like seminar, I will present selected works from my Ph.D. and postdoctoral research. In the first part of the talk, I will overview three papers that cover practices to compare two NLP models and decide which is better based on experiment practices that are prevalent in NLP, such as conducting experiments with multiple datasets and deep neural network models. In the second part of the talk, I will dive into the intriguing world of evaluation of text-generation applications, where I will discuss how to determine which automatic evaluation metrics are appropriate.
+    In this job-talk-like seminar, I will present selected works from my Ph.D. and postdoctoral research. In the first part of the talk, I will overview three papers that cover practices to compare two NLP models and decide which is better based on experiment practices that are prevalent in NLP, such as conducting experiments with multiple datasets and deep neural network models. In the second part of the talk, I will dive into the intriguing world of evaluation of text-generation applications, where I will discuss how to determine which automatic evaluation metrics are appropriate.
 - speaker: Hannaneh Hajishirzi
   url: https://homes.cs.washington.edu/~hannaneh/
   img: /assets/img/clunch/hannaneh_hajishirzi.jpeg
@@ -638,7 +740,7 @@
   date: November 7, 2022
   title: "Toward Robust, Multi-Task Natural Language Processing"
   abstract: |
-     Recent advances in deep learning algorithms and large-scale datasets are spurring progress in many Natural Language Processing (NLP) tasks, including question answering. Nevertheless, these models cannot scale up when task-annotated training data are scarce. This talk presents my lab's work toward building general-purpose models in NLP and how to systematically evaluate them. I present a new meta-dataset – called super-Natural Instructions –  that includes a variety of NLP tasks and their descriptions to evaluate cross-task generalization. Then, I introduce a new meta training approach that can solve more than 1600 NLP tasks only from their descriptions and a few examples. Finally, I present a series of work in robust fine-tuning methods and how to edit models with arithmetics over task vectors.
+    Recent advances in deep learning algorithms and large-scale datasets are spurring progress in many Natural Language Processing (NLP) tasks, including question answering. Nevertheless, these models cannot scale up when task-annotated training data are scarce. This talk presents my lab's work toward building general-purpose models in NLP and how to systematically evaluate them. I present a new meta-dataset – called super-Natural Instructions –  that includes a variety of NLP tasks and their descriptions to evaluate cross-task generalization. Then, I introduce a new meta training approach that can solve more than 1600 NLP tasks only from their descriptions and a few examples. Finally, I present a series of work in robust fine-tuning methods and how to edit models with arithmetics over task vectors.
 - speaker: Rui Zhang
   url: https://ryanzhumich.github.io/
   img: /assets/img/clunch/rui_zhang.jpeg
@@ -646,7 +748,7 @@
   date: October 31, 2022
   title: "Semantic Parsing in the Era of Large Language Models"
   abstract: |
-     Semantic parsing is the task of translating natural language sentences into meaning representations such as SQL queries and logic forms. Traditional semantic parsing research relies on delicate data curating, heavy feature engineering, and specific model architecturing. Despite their success, these approaches are typically not generalizable across different tasks and meaning representations, limiting systematic and compatible research. In this talk, I will provide a brief overview of recent progress in unified and efficient paradigms for semantic parsing with the help of large language models (i.e., UnifiedSKG). Then, I will describe our recent work on cross-lingual semantic parsing using text-to-text language models (i.e., XSemPLR) and retrieval-augmented in-context learning (i.e., XRICL), and two new datasets to challenge the reasoning abilities of large language models on tables (i.e., MultiHiertt) and first-order logic (i.e., FOLIO). I will conclude with some future directions for semantic parsing developments.
+    Semantic parsing is the task of translating natural language sentences into meaning representations such as SQL queries and logic forms. Traditional semantic parsing research relies on delicate data curating, heavy feature engineering, and specific model architecturing. Despite their success, these approaches are typically not generalizable across different tasks and meaning representations, limiting systematic and compatible research. In this talk, I will provide a brief overview of recent progress in unified and efficient paradigms for semantic parsing with the help of large language models (i.e., UnifiedSKG). Then, I will describe our recent work on cross-lingual semantic parsing using text-to-text language models (i.e., XSemPLR) and retrieval-augmented in-context learning (i.e., XRICL), and two new datasets to challenge the reasoning abilities of large language models on tables (i.e., MultiHiertt) and first-order logic (i.e., FOLIO). I will conclude with some future directions for semantic parsing developments.
 - speaker: Xiang (Lorraine) Li
   url: https://people.cs.umass.edu/~xiangl/
   img: /assets/img/clunch/xiang_lorraine_li.jpeg
@@ -654,8 +756,8 @@
   date: October 24, 2022
   title: "Probabilistic Commonsense Knowledge in Language"
   abstract: |
-     Commonsense knowledge is critical to achieving artificial general intelligence. This shared common background knowledge is implicit in all human communication, facilitating efficient information exchange and understanding. However, commonsense research is hampered by its immense quantity of knowledge because an explicit categorization is impossible. Furthermore, a plumber could repair a sink in a kitchen or a bathroom, indicating that common sense reveals a probable assumption rather than a definitive answer. To align with these properties of commonsense fundamentally, we want to model and evaluate such knowledge human-like using probabilistic abstractions and principles.
-     This talk will introduce a probabilistic model representing commonsense knowledge using a learned latent space of geometric embeddings -- probabilistic box embeddings. Using box embeddings makes it possible to handle commonsense queries with intersections, unions, and negations in a way similar to Venn diagram reasoning. Meanwhile, existing evaluations do not reflect the probabilistic nature of commonsense knowledge. To fill in the gap, I will discuss a method of retrieving commonsense related question answer distributions from human annotators and a novel method of generative evaluation. We utilize these approaches in two new commonsense datasets (ProtoQA, Commonsense frame completion). The combination of modeling and evaluation methods based on probabilistic principles sheds light on how commonsense knowledge can be incorporated into artificial intelligence models in the future. 
+    Commonsense knowledge is critical to achieving artificial general intelligence. This shared common background knowledge is implicit in all human communication, facilitating efficient information exchange and understanding. However, commonsense research is hampered by its immense quantity of knowledge because an explicit categorization is impossible. Furthermore, a plumber could repair a sink in a kitchen or a bathroom, indicating that common sense reveals a probable assumption rather than a definitive answer. To align with these properties of commonsense fundamentally, we want to model and evaluate such knowledge human-like using probabilistic abstractions and principles.
+    This talk will introduce a probabilistic model representing commonsense knowledge using a learned latent space of geometric embeddings -- probabilistic box embeddings. Using box embeddings makes it possible to handle commonsense queries with intersections, unions, and negations in a way similar to Venn diagram reasoning. Meanwhile, existing evaluations do not reflect the probabilistic nature of commonsense knowledge. To fill in the gap, I will discuss a method of retrieving commonsense related question answer distributions from human annotators and a novel method of generative evaluation. We utilize these approaches in two new commonsense datasets (ProtoQA, Commonsense frame completion). The combination of modeling and evaluation methods based on probabilistic principles sheds light on how commonsense knowledge can be incorporated into artificial intelligence models in the future.
 - speaker: Jacob Andreas
   url: https://www.mit.edu/~jda/
   img: /assets/img/clunch/jacob_andreas.jpeg
@@ -663,7 +765,7 @@
   date: October 17, 2022
   title: "Toward Natural Language Supervision"
   abstract: |
-     In the age of deep networks, "learning" almost invariably means "learning from examples". Image classifiers are trained with large datasets of images, machine translation systems with corpora of translated sentences, and robot policies with rollouts or demonstrations. When human learners acquire new concepts and skills, we often do so with richer supervision, especially in the form of language---we learn new concepts from exemplars accompanied by descriptions or definitions, and new skills from demonstrations accompanied by instructions. In natural language processing, recent years have seen a number of successful approaches to learning from task definitions and other forms of auxiliary language-based supervision. But these successes have been largely confined to tasks that also involve language as an input and an output---what will it take to make language-based training useful for the rest of the machine learning ecosystem? In this talk, I'll present two recent applications of natural language supervision to tasks outside the traditional domain of NLP: using language to guide visuomotor policy learning and inductive program synthesis. In these applications, natural language annotations reveal latent compositional structure in the space of programs and plans, helping models discover reusable abstractions for perception and interaction. This kind of compositional structure is present in many tasks beyond policy learning and program synthesis, and I'll conclude with a brief discussion of how these techniques might be more generally applied.
+    In the age of deep networks, "learning" almost invariably means "learning from examples". Image classifiers are trained with large datasets of images, machine translation systems with corpora of translated sentences, and robot policies with rollouts or demonstrations. When human learners acquire new concepts and skills, we often do so with richer supervision, especially in the form of language---we learn new concepts from exemplars accompanied by descriptions or definitions, and new skills from demonstrations accompanied by instructions. In natural language processing, recent years have seen a number of successful approaches to learning from task definitions and other forms of auxiliary language-based supervision. But these successes have been largely confined to tasks that also involve language as an input and an output---what will it take to make language-based training useful for the rest of the machine learning ecosystem? In this talk, I'll present two recent applications of natural language supervision to tasks outside the traditional domain of NLP: using language to guide visuomotor policy learning and inductive program synthesis. In these applications, natural language annotations reveal latent compositional structure in the space of programs and plans, helping models discover reusable abstractions for perception and interaction. This kind of compositional structure is present in many tasks beyond policy learning and program synthesis, and I'll conclude with a brief discussion of how these techniques might be more generally applied.
 - speaker: Chenhao Tan
   url: https://chenhaot.com/
   img: /assets/img/clunch/chenhao_tan.jpeg
@@ -671,7 +773,7 @@
   date: October 3, 2022
   title: "Towards Human-Centered Explanations of AI Predictions"
   abstract: |
-     Explanations of AI predictions are considered crucial for human-AI interactions such as model debugging and model-assisted decision making, but it remains an open question what makes effective AI explanations. In this talk, I will highlight the distinction between emulation and discovery tasks, which shapes the answers to this question. In emulation tasks, humans provide groundtruth labels and the goal of AI is to emulate human intelligence. Although it is intuitive to think that humans can provide valid explanations in this case, I argue that humans may not be able to provide "good" explanations. Despite the growing efforts in building datasets of human explanations, caution is required to use such human explanations for evaluation or as supervision signals. In contrast, in discovery tasks, humans may not necessarily know the groundtruth label. While human-subject experiments are increasingly used to evaluate whether explanations improve human decisions, human+AI rarely outperforms AI alone. I will discuss the importance of identifying human strengths and AI strengths, and present our initial efforts in decision-focused summarization. I will conclude with future directions for developing effective human-centered explanations.
+    Explanations of AI predictions are considered crucial for human-AI interactions such as model debugging and model-assisted decision making, but it remains an open question what makes effective AI explanations. In this talk, I will highlight the distinction between emulation and discovery tasks, which shapes the answers to this question. In emulation tasks, humans provide groundtruth labels and the goal of AI is to emulate human intelligence. Although it is intuitive to think that humans can provide valid explanations in this case, I argue that humans may not be able to provide "good" explanations. Despite the growing efforts in building datasets of human explanations, caution is required to use such human explanations for evaluation or as supervision signals. In contrast, in discovery tasks, humans may not necessarily know the groundtruth label. While human-subject experiments are increasingly used to evaluate whether explanations improve human decisions, human+AI rarely outperforms AI alone. I will discuss the importance of identifying human strengths and AI strengths, and present our initial efforts in decision-focused summarization. I will conclude with future directions for developing effective human-centered explanations.
 - speaker: William Wang (UCSB)
   url: https://sites.cs.ucsb.edu/~william/
   img: /assets/img/clunch/william_wang.png
@@ -679,7 +781,7 @@
   date: September 26, 2022
   title: "Self-Supervised Language-and-Vision Reasoning"
   abstract: |
-     A key challenge for Artificial Intelligence research is to go beyond static observational data and consider more challenging settings that involve dynamic actions and incremental decision-making. In this talk, I will introduce our work on visually-grounded language reasoning via the studies of vision-and-language navigation. In particular, I will emphasize three benefits of self-supervised learning: (1) improves generalization in unseen environments; (2) creates adversarial counterfactuals to augment observational data; (3) enables transfer learning for challenging settings. I will briefly introduce other reasoning problems my groups have been working on recently.
+    A key challenge for Artificial Intelligence research is to go beyond static observational data and consider more challenging settings that involve dynamic actions and incremental decision-making. In this talk, I will introduce our work on visually-grounded language reasoning via the studies of vision-and-language navigation. In particular, I will emphasize three benefits of self-supervised learning: (1) improves generalization in unseen environments; (2) creates adversarial counterfactuals to augment observational data; (3) enables transfer learning for challenging settings. I will briefly introduce other reasoning problems my groups have been working on recently.
 - speaker: Michael Strube
   img: assets/img/clunch/michael_strube.jpg
   url: https://www.h-its.org/people/prof-dr-michael-strube/
@@ -688,7 +790,7 @@
   title: Generalizability and Robustness in Coreference Resolution
   abstract: |
     In the last ten years we have seen considerable improvements in the performance of coreference resolvers, from about 60 points F1-measure to more than 80 since the CoNLL shared tasks 2011 and 2012. These improvements are mostly due to new machine learning techniques, in particular neural coreference resolvers. However, while these improvements have been reported on the CoNLL data, it is not clear whether these improvements hold on datasets in other genres, domains, and languages. In this talk I report on a series of experiments -- done by PhD. students in my research group -- testing the generalizability and robustness of coreference resolvers. Our experiments indicate that the results reported by modern machine learning based systems are not stable across genres and domains. However, the rule-based system by Lee et al. (2013), which won the CoNLL shared task 2011, is still competitive in these setups. A possible conclusion is that neural coreference resolvers should be equipped with more linguistic knowledge to make them more robust. To test the generalizability the field should not only evaluate on the CoNLL/OntoNotes data but on different domains, genres, languages and in downstream tasks.
-  
+
 - speaker: Su Lin Blodgett
   img: assets/img/clunch/su_lin_blodgett.jpeg
   url: https://sblodgett.github.io/
@@ -712,7 +814,7 @@
   url: https://homes.cs.washington.edu/~msap/
   affiliation: Allen Institute for AI (AI2)
   date: April 11, 2022
-  title: 'Detecting and Rewriting Socially Biased Language'
+  title: "Detecting and Rewriting Socially Biased Language"
   abstract: |
     Language has the power to reinforce stereotypes and project social biases onto others, either through overt hate or subtle biases. Accounting for this toxicity and social bias in language is crucial for natural language processing (NLP) systems to be safely and ethically deployed in the world. In this talk, I will first discuss subjectivity challenges in binary hate speech detection, by examining perceptions of offensiveness of text depending on reader attitudes and identities. Through an online study, we find several correlates between over- or under-detecting text as toxic based on political leaning, attitudes about racism and free speech. Then, as an alternative to binary hate speech detection, I will present Social Bias Frames, a new structured formalism for distilling biased implications of language. Using a new corpus of 150k structured annotations, we show that models can learn to reason about high-level offensiveness of statements, but struggle to explain why a statement might be harmful. Finally, I will introduce PowerTransformer, an unsupervised model for controllable debiasing of text through the lens of connotation frames of power and agency. With this model, we show that subtle gender biases in how characters are portrayed in stories and movies can be mitigated through automatic rewriting. I will conclude with future directions for better reasoning about toxicity and social biases in language.
 
@@ -732,8 +834,7 @@
   date: March 28, 2022
   title: "Information Surgery: Faking Multimedia Fake News for Real Fake News Detection"
   abstract: |
-    We are living in an era of information pollution. The dissemination of falsified information can cause chaos, hatred, and trust issues among humans, and can eventually hinder the development of society. In particular, human-written disinformation, which is often used to manipulate certain populations, had catastrophic impact on multiple events, such as the 2016 US Presidential Election, Brexit, the COVID-19 pandemic, and the recent Russia’s assault on Ukraine. Hence, we are in urgent need of a defending mechanism against human-written disinformation. While there has been a lot of research and many recent advances in neural fake news detection, there are many challenges remaining. In particular, the accuracy of existing techniques at detecting human-written fake news is barely above random. In this talk I will present our recent attempts at tackling four unique challenges in the frontline of combating fake news written by both machines and humans: (1) Define a new task on knowledge element level misinformation detection based on cross-media knowledge extraction and reasoning to make the detector more accurate and explainable; (2) Generate training data for the detector based on knowledge graph manipulation and knowledge graph guided natural language generation; (3) Use Natural Language Inference to ensure the fake information cannot be inferred from the rest of the real document; (4) Propose the first work to generate propaganda for more robust detection of human-written fake news. 
-
+    We are living in an era of information pollution. The dissemination of falsified information can cause chaos, hatred, and trust issues among humans, and can eventually hinder the development of society. In particular, human-written disinformation, which is often used to manipulate certain populations, had catastrophic impact on multiple events, such as the 2016 US Presidential Election, Brexit, the COVID-19 pandemic, and the recent Russia’s assault on Ukraine. Hence, we are in urgent need of a defending mechanism against human-written disinformation. While there has been a lot of research and many recent advances in neural fake news detection, there are many challenges remaining. In particular, the accuracy of existing techniques at detecting human-written fake news is barely above random. In this talk I will present our recent attempts at tackling four unique challenges in the frontline of combating fake news written by both machines and humans: (1) Define a new task on knowledge element level misinformation detection based on cross-media knowledge extraction and reasoning to make the detector more accurate and explainable; (2) Generate training data for the detector based on knowledge graph manipulation and knowledge graph guided natural language generation; (3) Use Natural Language Inference to ensure the fake information cannot be inferred from the rest of the real document; (4) Propose the first work to generate propaganda for more robust detection of human-written fake news.
 
 - speaker: Omer Levy
   img: assets/img/clunch/omer_levy.jpeg
@@ -904,14 +1005,13 @@
   abstract: |
     In recent years, there has been an increasing need for psychotherapy to address a wide variety of behavioral and mental health issues. This need has become even more prominent during the ongoing pandemic as COVID-19 related concerns have increased mental distress. Developing computational methods that gain a better understanding of mental health conversations can help practitioners to improve the quality of care. In this talk, I will first describe work on  identifying conversational behaviors that lead to successful counseling interactions. Next, I will present ongoing work on developing a counseling dialog generation system that can assist counselors while acquiring and improving counseling skills. In particular,  I will describe a counseling dialog system that provides language feedback to counseling trainees using the pretrained transformer architecture and context augmentation techniques inspired by traditional strategies used during counseling training.
 
-
 - speaker: Nate Chambers
   url: https://www.usna.edu/Users/cs/nchamber/
   affiliation: United States Naval Academy
   date: April 19, 2021
   title: "Extracting from Adversarial Text with a Visual Character-Based Model: extracting phone numbers from human trafficking ads"
   abstract: |
-     Adversarial text is written with obfuscated words and characters for the purpose of fooling machine learned extractors. Illicit domains like human trafficking often employ such techniques. This talk will address the challenge of extracting phone numbers from this noisy text, such as "3w?n7_callme28tree(?nE)_573", but more broadly the talk will discuss the NLP challenge of dealing with unicode characters in any domain. With very little available training data for human trafficking, how can today's neural models learn to generalize to the diversity of noise available to an adversarial writer? This talk will present a couple solutions to this challenge, focusing on character-based neural models that use NLP architectures like LSTMs and CRFs, but also that draw inspiration from the vision community to perform image recognition of the characters with CNNs. I'll first present results from our Best Paper Award at the Workshop for Noisy User-Generated text, exploring extraction from short text snippets, and then show simple steps to expand it to full document extraction.
+    Adversarial text is written with obfuscated words and characters for the purpose of fooling machine learned extractors. Illicit domains like human trafficking often employ such techniques. This talk will address the challenge of extracting phone numbers from this noisy text, such as "3w?n7_callme28tree(?nE)_573", but more broadly the talk will discuss the NLP challenge of dealing with unicode characters in any domain. With very little available training data for human trafficking, how can today's neural models learn to generalize to the diversity of noise available to an adversarial writer? This talk will present a couple solutions to this challenge, focusing on character-based neural models that use NLP architectures like LSTMs and CRFs, but also that draw inspiration from the vision community to perform image recognition of the characters with CNNs. I'll first present results from our Best Paper Award at the Workshop for Noisy User-Generated text, exploring extraction from short text snippets, and then show simple steps to expand it to full document extraction.
 
 - speaker: Ivan Vulic
   url: https://sites.google.com/site/ivanvulic/
@@ -1027,7 +1127,7 @@
   affiliation: Brown University/Google AI
   date: November 9, 2020
   title: "You can lead a horse to water...: Representing vs. Using Features in Neural NLP"
-  abstract: "A wave of recent work has sought to understand how pretrained language models work. Such analyses have resulted in two seemingly contradictory sets of results. On one hand, work based on \"probing classifiers\" generally suggests that SOTA language models contain rich information about linguistic structure (e.g., parts of speech, syntax, semantic roles). On the other hand, work which measures performance on linguistic \"challenge sets\" shows that models consistently fail to use this information when making predictions. In this talk, I will present a series of results that attempt to bridge this gap. Our recent experiments suggest that the disconnect is not due to catastrophic forgetting nor is it (entirely) explained by insufficient training data. Rather, it is best explained in terms of how \"accessible\" features are to the model following pretraining, where \"accessibility\" can be quantified using an information-theoretic interpretation of probing classifiers."
+  abstract: 'A wave of recent work has sought to understand how pretrained language models work. Such analyses have resulted in two seemingly contradictory sets of results. On one hand, work based on "probing classifiers" generally suggests that SOTA language models contain rich information about linguistic structure (e.g., parts of speech, syntax, semantic roles). On the other hand, work which measures performance on linguistic "challenge sets" shows that models consistently fail to use this information when making predictions. In this talk, I will present a series of results that attempt to bridge this gap. Our recent experiments suggest that the disconnect is not due to catastrophic forgetting nor is it (entirely) explained by insufficient training data. Rather, it is best explained in terms of how "accessible" features are to the model following pretraining, where "accessibility" can be quantified using an information-theoretic interpretation of probing classifiers.'
 
 - speaker: Vivek Srikumar
   url: https://svivek.com/
@@ -1041,7 +1141,7 @@
   affiliation: Oregon State University/Baidu Research USA
   date: October 26, 2020
   title: "Simultaneous Translation: Breakthrough and Recent Progress"
-  abstract: "Simultaneous interpretation (i.e., translating concurrently with the source language speech) is widely used in many scenarios including multilateral organizations (UN/EU), international summits (APEC/G-20), legal proceedings, and press conferences. However, it is well known to be one of the most challenging tasks for humans due to the simultaneous perception and production in two languages. As a result, there are only a few thousand professional simultaneous interpreters world-wide, and each of them can only sustain for 15-30 minutes in each turn. On the other hand, simultaneous translation (either speech-to-text or speech-to-speech) is also notoriously difficult for machines and has remained one of the holy grails of AI. A key challenge here is the word order difference between the source and target languages. For example, if you simultaneously translate German (an SOV language) to English (an SVO language), you often have to wait for the sentence-final German verb. Therefore, most existing \"real-time\" translation systems resort to conventional full-sentence translation, causing an undesirable latency of at least one sentence, rendering the audience largely out of sync with the speaker. There have been efforts towards genuine simultaneous translation, but with limited success. Recently, we discovered a much simpler and surprisingly effective approach to simultaneous (speech-to-text) translation by designing a \"prefix-to-prefix\" framework tailed to simultaneity requirements. This is in contrast with the \"sequence-to-sequence\" framework which assumes the availability of the full input sentence. Our approach results in the first simultaneous translation system that achieves reasonable translation quality with controllable latency and was successfully deployed in many commercial products. Since 2019, our work has attracted renewed interest in this long-standing problem which was once thought to be out of reach. I will also discuss our efforts towards the ultimate goal of simultaneous speech-to-speech translation, and conclude with a list of remaining challenges. (Part of this talk was given as an ACL 2019 Keynote, but this Clunch talk will cover more recent progress.)"
+  abstract: 'Simultaneous interpretation (i.e., translating concurrently with the source language speech) is widely used in many scenarios including multilateral organizations (UN/EU), international summits (APEC/G-20), legal proceedings, and press conferences. However, it is well known to be one of the most challenging tasks for humans due to the simultaneous perception and production in two languages. As a result, there are only a few thousand professional simultaneous interpreters world-wide, and each of them can only sustain for 15-30 minutes in each turn. On the other hand, simultaneous translation (either speech-to-text or speech-to-speech) is also notoriously difficult for machines and has remained one of the holy grails of AI. A key challenge here is the word order difference between the source and target languages. For example, if you simultaneously translate German (an SOV language) to English (an SVO language), you often have to wait for the sentence-final German verb. Therefore, most existing "real-time" translation systems resort to conventional full-sentence translation, causing an undesirable latency of at least one sentence, rendering the audience largely out of sync with the speaker. There have been efforts towards genuine simultaneous translation, but with limited success. Recently, we discovered a much simpler and surprisingly effective approach to simultaneous (speech-to-text) translation by designing a "prefix-to-prefix" framework tailed to simultaneity requirements. This is in contrast with the "sequence-to-sequence" framework which assumes the availability of the full input sentence. Our approach results in the first simultaneous translation system that achieves reasonable translation quality with controllable latency and was successfully deployed in many commercial products. Since 2019, our work has attracted renewed interest in this long-standing problem which was once thought to be out of reach. I will also discuss our efforts towards the ultimate goal of simultaneous speech-to-speech translation, and conclude with a list of remaining challenges. (Part of this talk was given as an ACL 2019 Keynote, but this Clunch talk will cover more recent progress.)'
 
 - speaker: Rui Zhang
   url: https://ryanzhumich.github.io/
@@ -1076,14 +1176,14 @@
   affiliation: University of Massachusetts Amherst
   date: September 14, 2020
   title: Towards interactive story generation
-  abstract: "Story generation is difficult to computationally formalize and evaluate, and there are many important questions to ask when tackling the problem. What should we consider as the base unit of a story (e.g., a sentence? a paragraph? a chapter?) What kind of data should we use to train these models (novels? short stories? overly simplistic mechanically-turked paragraphs?) Is any model architecture currently capable of producing long-form narratives that have some semblance of coherent discourse structure, such as plot arcs and character development? When evaluating the outputs of our models, can we do better than just asking people to rate the text based on vaguely defined properties such as \"enjoyability\"? In this talk, I'll discuss my lab's ongoing work on story generation by introducing a new dataset and evaluation method that we hope will spur progress in this area. I'll then describe practical challenges (slow inference, unsecure models) that we face when deploying our models in real-world author-facing settings, along with some solutions we have developed to combat these challenges."
+  abstract: 'Story generation is difficult to computationally formalize and evaluate, and there are many important questions to ask when tackling the problem. What should we consider as the base unit of a story (e.g., a sentence? a paragraph? a chapter?) What kind of data should we use to train these models (novels? short stories? overly simplistic mechanically-turked paragraphs?) Is any model architecture currently capable of producing long-form narratives that have some semblance of coherent discourse structure, such as plot arcs and character development? When evaluating the outputs of our models, can we do better than just asking people to rate the text based on vaguely defined properties such as "enjoyability"? In this talk, I''ll discuss my lab''s ongoing work on story generation by introducing a new dataset and evaluation method that we hope will spur progress in this area. I''ll then describe practical challenges (slow inference, unsecure models) that we face when deploying our models in real-world author-facing settings, along with some solutions we have developed to combat these challenges.'
 
 - speaker: Matt Gardner
   url: https://matt-gardner.github.io/
   affiliation: Allen Institute for Artificial Intelligence
   date: March 5, 2020
   title: NLP Evaluations That We Believe In
-  abstract: "With all of the modeling advancements in recent years, NLP benchmarks have been falling over left and right: \"human performance\" has been reached on SQuAD 1 and 2, GLUE and SuperGLUE, and many commonsense datasets.  Yet no serious researcher actually believes that these systems understand language, or even really solve the underlying tasks behind these datasets.  To get benchmarks that we actually believe in, we need to both think more deeply about the language phenomena that our benchmarks are targeting, and make our evaluation sets more rigorous.  I will first present ORB, an Open Reading Benchmark that collects many reading comprehension datasets that we (and others) have recently built, targeting various aspects of what it means to read.  I will then present contrast sets, a way of creating non-iid test sets that more thoroughly evaluate a model's abilities on some task, decoupling training data artifacts from test labels."
+  abstract: 'With all of the modeling advancements in recent years, NLP benchmarks have been falling over left and right: "human performance" has been reached on SQuAD 1 and 2, GLUE and SuperGLUE, and many commonsense datasets.  Yet no serious researcher actually believes that these systems understand language, or even really solve the underlying tasks behind these datasets.  To get benchmarks that we actually believe in, we need to both think more deeply about the language phenomena that our benchmarks are targeting, and make our evaluation sets more rigorous.  I will first present ORB, an Open Reading Benchmark that collects many reading comprehension datasets that we (and others) have recently built, targeting various aspects of what it means to read.  I will then present contrast sets, a way of creating non-iid test sets that more thoroughly evaluate a model''s abilities on some task, decoupling training data artifacts from test labels.'
 
 - speaker: Mohammad Sadegh Rasooli
   url: https://rasoolims.github.io/about/
@@ -1178,7 +1278,7 @@
   url: http://xuanyu.me/
   affiliation: University of Pennsylvania
   date: October 29, 2019
-  title: "\"Going on a vacation\" takes longer than \"Going for a walk\": A Study of Temporal Commonsense Understanding"
+  title: '"Going on a vacation" takes longer than "Going for a walk": A Study of Temporal Commonsense Understanding'
   abstract: Understanding time is crucial for understanding events expressed in natural language. Because people rarely say the obvious, it is often necessary to have commonsense knowledge about various temporal aspects of events, such as duration, frequency, and temporal order. However, this important problem has so far received limited attention. This paper systematically studies this temporal commonsense problem. Specifically, we define five classes of temporal commonsense, and use crowdsourcing to develop a new dataset, MCTACO, that serves as a test set for this task. We find that the best current methods used on MCTACO are still far behind human performance, by about 20%, and discuss several directions for improvement. We hope that the new dataset and our study here can foster more future research on this topic.
 
 - speaker: Katharina Kann
