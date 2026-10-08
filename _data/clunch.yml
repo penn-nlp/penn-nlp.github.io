@@ -23,6 +23,14 @@
 #   abstract:
 #
 
+- speaker: Pratyusha Sharma
+  url: https://pratyushasharma.github.io/#home
+  affiliation: NYU
+  date: October 12th, 2026
+  img: assets/img/clunch/pratyusha-sharma.jpeg
+  title:
+  abstract:
+
 - speaker: Terra Blevins
   url: https://blvns.github.io/
   affiliation: Northeastern University
