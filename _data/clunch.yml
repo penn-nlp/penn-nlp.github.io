@@ -22,14 +22,33 @@
 #   title:
 #   abstract:
 #
+#
+- speaker: Will Merrill
+  url: https://lambdaviking.com/
+  affiliation: TTIC
+  date: October 26th, 2026
+  img: assets/img/clunch/will-merrill.webp
+  title: "Olmo Hybrid: From Theory to Practice and Back"
+  abstract: |
+    Recent work has demonstrated the potential of non-transformer language models, especially linear recurrent neural networks (RNNs) and hybrid models that mix recurrence and attention. Yet there is no consensus on whether the potential benefits of these new architectures justify the risk and effort of scaling them up. To address this, we provide evidence for the advantages of hybrid models over pure transformers on several fronts. First, theoretically, we show that hybrid models do not merely inherit the expressivity of transformers and linear RNNs, but can express tasks beyond both, such as code execution. Putting this theory to practice, we train Olmo Hybrid, a 7B-parameter model largely comparable to Olmo 3 7B but with the sliding window layers replaced by Gated DeltaNet layers. We show that Olmo Hybrid outperforms Olmo 3 across standard pretraining and mid-training evaluations, demonstrating the benefit of hybrid models in a controlled, large-scale setting. We find that the hybrid model scales significantly more efficiently than the transformer, explaining its higher performance. However, its unclear why greater expressivity on specific formal problems should result in better scaling or superior performance on downstream tasks unrelated to those problems. To explain this apparent gap, we return to theory and argue why increased expressivity should translate to better scaling efficiency, completing the loop. Overall, our results suggest that hybrid models mixing attention and recurrent layers are a powerful extension to the language modeling paradigm: not merely to reduce memory during inference, but as a fundamental way to obtain more expressive models that scale better during pretraining.
+
+- speaker: Tianmin Shu
+  url: https://www.tshu.io/
+  affiliation: Johns Hopkins University
+  date: October 19th, 2026
+  img: assets/img/clunch/tianmin-shu.jpg
+  title: Toward Human-Level Machine Social Intelligence for Adaptive AI Partners
+  abstract: |
+    Despite our tremendous progress in AI, current AI agents still cannot adequately understand, interact with, and learn from humans in real-world settings over extended periods. One of the key missing ingredients is social intelligence. In this talk, I will discuss how we can engineer human-level machine Theory of Mind for adaptive AI partners. I will begin by showing how cognitive modeling and foundation models can be combined to build scalable, robust, model-based approaches for multimodal Theory of Mind. I will then discuss how Theory of Mind reasoning can enhance multimodal human-AI collaboration. Finally, I will present some of our recent efforts on scaling Theory of Mind in the real world, including (1) internalizing explicit mental reasoning into LLMs through self-supervised reinforcement learning, (2) ground mental reasoning to the 3D world via generative world models, and (3) latent user thoughts as a new training data modality for enhancing human-model alignment.
 
 - speaker: Pratyusha Sharma
   url: https://pratyushasharma.github.io/#home
   affiliation: NYU
   date: October 12th, 2026
   img: assets/img/clunch/pratyusha-sharma.jpeg
-  title:
-  abstract:
+  title: Discovering and Engineering the Computation Underlying Large Intelligent Agents
+  abstract: |
+    The richness of language and intelligent behavior has often been attributed to latent compositional structure. Can we build tools for discovering how deep networks learn and represent this latent structure implicitly? And more importantly, can we use this knowledge to improve generalization in largely structure-less general purpose models or refine our understanding of the world they describe? In this talk, I present three perspectives to answer these questions. I will discuss experimental methods to functionally characterize the space of learnt solutions in LLMs and demonstrate how this understanding can be used to improve their empirical generalization in a gradient free manner, sometimes by as much as 30% points on language understanding benchmarks. Following that, I show how to decipher the structure of another (black box) language-like system, the naturally arising communication system of sperm whales in the wild, discovering for the first time a unique combinatorial communication system. Finally, I apply insights from these results to equip embodied agents with a latent language of thought– hierarchical and compositional—and show how it can enable long-horizon reasoning and planning in these systems.
 
 - speaker: Terra Blevins
   url: https://blvns.github.io/
