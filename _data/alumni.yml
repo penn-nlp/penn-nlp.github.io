@@ -4,65 +4,302 @@
 #  current:
 #  url:
 
+- name: Weiqiu You
+  degree: Ph.D.
+  year: 2026
+  current: Research Scientist, Meta
+  url: https://weiqiuyou.com/
+  linkedin: https://www.linkedin.com/in/weiqiu-you-80091795/
+  thesis: "Structured Explanations for Scientific Domains Building on Foundation Models"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/63207
+
+- name: Samar Haider
+  degree: Ph.D.
+  year: 2026
+  current: Postdoctoral Researcher, Northwestern University
+  url: https://samarh.github.io/
+  linkedin: https://www.linkedin.com/in/samarhaider/
+  thesis: "A Computational Approach to News Production"
+
+- name: Shreya Havaldar
+  degree: Ph.D.
+  year: 2026
+  current: Senior Researcher, Bloomberg
+  url: https://shreyahavaldar.com
+  linkedin: https://www.linkedin.com/in/shreyahavaldar/
+  thesis: "Towards Explaining, Evaluating, And Mitigating Cultural Bias In Large Language Models"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/63073
+
+- name: Artemis Panagopoulou
+  degree: Ph.D.
+  year: 2026
+  current: Senior Research Scientist, Salesforce Research
+  url: https://artemisp.github.io/
+  linkedin: https://www.linkedin.com/in/apanagop/
+  thesis: "Synthesizing Missing Data for Multimodal Models"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/63215
+
+- name: Sunghye Cho
+  degree: Postdoc
+  year: 2026
+  current: Assistant Professor, University of Cincinnati
+  url: http://www.sunghyecho.com/
+  linkedin: https://www.linkedin.com/in/csunghye/
+
+- name: Christine Soh Yue
+  degree: Ph.D.
+  year: 2026
+  current:
+  url:
+  thesis: "Learning Variation and Systematicity in Language"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/62772
+
+- name: Jeffrey (Young-Min) Cho
+  degree: Ph.D.
+  year: 2026
+  current: Amazon
+  url: https://jeffreych0.github.io/
+  linkedin: https://www.linkedin.com/in/jeffrey-young-min-cho-888105180/
+  thesis: "Agent Communication for Collaborative Intelligence"
+
+- name: Adam Stein
+  degree: Ph.D.
+  year: 2026
+  current: "Reflection AI"
+  url: https://www.seas.upenn.edu/~steinad/
+  thesis: "On the Interface Between Foundation Models and Programs"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/63127
+
+- name: Alyssa Hwang
+  degree: Ph.D.
+  year: 2025
+  current: AI & Data Consultant, Artefact
+  url: http://alyssahwang.com/
+  linkedin: https://www.linkedin.com/in/alyssa-hwang/
+  thesis: "User Interfaces for Fine-grained Integration of Information"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/62394
+
+- name: Ajay Patel
+  degree: Ph.D.
+  year: 2026
+  current: Postdoctoral Researcher, The Wharton School, University of Pennsylvania
+  url: https://ajayp.app/
+  linkedin: https://www.linkedin.com/in/ajay-patel-ab876795/
+  thesis: "Leveraging Synthetic Data from Large Language Models to Steer and Enhance Model Learning"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/62693
+
+- name: Bryan Li
+  degree: Ph.D.
+  year: 2025
+  current: Research Scientist, Google
+  url: https://manestay.github.io/
+  linkedin: https://www.linkedin.com/in/bryanli18/
+  thesis: "Towards Multilingual Evaluations of Knowledge for Large Language Models"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/62366
+
+- name: Xingyu Fu
+  degree: Ph.D.
+  year: 2025
+  current: Research Scientist, Meta Superintelligence Labs
+  url: https://zeyofu.github.io/
+  linkedin: https://www.linkedin.com/in/xingyu-fu-cheers/
+  thesis: "Bridging Perception and Reasoning in Multimodal Models"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/62300
+
+- name: Chaitanya Malaviya
+  degree: Ph.D.
+  year: 2025
+  current: Senior Research Scientist, Google DeepMind
+  url: https://chaitanyamalaviya.github.io/
+  linkedin: https://www.linkedin.com/in/chaitanya-malaviya-91734560/
+  thesis: "Towards Ecologically Valid Evaluations of Language Models"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/61656
+
+- name: Yue Yang
+  degree: Ph.D.
+  year: 2025
+  current: Member of Technical Staff, Thinking Machines Lab
+  url: https://yueyang1996.github.io/
+  linkedin: https://www.linkedin.com/in/yue-yang-4b2075174/
+  thesis: "Language Priors for Visual Intelligence"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/61648
+
+- name: Aditya Kashyap
+  degree: Ph.D.
+  year: 2025
+  current: Applied NLP Engineer, Vitruvia Labs
+  url:
+  linkedin: https://www.linkedin.com/in/adityaforai/
+  thesis: "Applying Language Models To Patient Health Records: Acronym Expansion, Long Document Classification and Explainable Predictions"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/61241
+
+- name: Marianna Apidianaki
+  degree: Senior Researcher
+  year: 2025
+  current: CNRS Researcher, Aix-Marseille University
+  url: https://mariannaapi.github.io/
+  linkedin: https://www.linkedin.com/in/marianna-apidianaki-2411735/
+
+- name: Ankit Aich
+  degree: Postdoc
+  year: 2025
+  current: Senior Research Scientist, Snorkel AI
+  url: https://ankitaich.com/
+  linkedin: https://www.linkedin.com/in/ankitaich/
+
+- name: Sunny Rai
+  degree: Postdoc
+  year: 2025
+  current: Senior Applied Scientist, Microsoft
+  url: https://www.raisunny.com
+  linkedin: https://www.linkedin.com/in/sunnyrai-nlp/
+
+- name: Xin Gao
+  degree: Ph.D.
+  year: 2025
+  current:
+  url:
+  thesis: "Compositional and Conversational Pressures on Silent Pauses in Spontaneous and Read Speech"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/61691
+
+- name: Anton Xue
+  degree: Ph.D.
+  year: 2025
+  current: "Postdoc, UT Austin"
+  url: https://antonxue.github.io/
+  thesis: "Trustworthy Machine Learning: Specification, Verification, and Explanation"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/61739
+
+- name: Xiaodong Yu
+  degree: Ph.D.
+  year: 2024
+  current: Research Scientist, Snowflake AI Research
+  url: https://www.xiaodongyu.me/
+  linkedin: https://www.linkedin.com/in/xiaodong-yu-22080b16b/
+  thesis: "Knowledge Acquisition and Assimilation for Natural Language Understanding"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/60906
+
 - name: Ryuto Koike
   degree: Visiting Researcher
   year: 2024
   current: Ph.D. Student, Tokyo Institute of Technology
   url: https://ryuryukke.github.io/
+  linkedin: https://www.linkedin.com/in/ryuto-koike/
 
 - name: Veronica Qing Lyu
   degree: Ph.D.
   year: 2024
   current: Research Scientist, Databricks
   url: https://veronica320.github.io/
+  linkedin: https://www.linkedin.com/in/qing-lyu-255514209/
+  thesis: "Faithful and Useful Explanations by Large Language Models"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/60832
 
 - name: Harry Zhang
   degree: Ph.D.
   year: 2024
   current: Assistant Professor, Drexel University
   url: http://zharry.com/
+  linkedin: https://www.linkedin.com/in/hazrael/
+  thesis: "Structured Event Reasoning with Large Language Models"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/60359
 
 - name: Ben Zhou
   degree: Ph.D.
   year: 2024
   current: Assistant Professor, Arizona State University
   url: http://xuanyu.me/
+  linkedin: https://www.linkedin.com/in/xuanyu-zhou-34b903353/
+  thesis: "Incidental Decomposition for Complex Reasoning"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/60466
 
 - name: "Sihao Chen"
   degree: "Ph.D."
   year: 2024
   current: Research Scientist, Microsoft
   url: https://sihaoc.github.io/
+  linkedin: https://www.linkedin.com/in/sihao-chen-429673b1/
+  thesis: "Methods and Challenges In Inference Across Textual Sources"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/60863
 
 - name: Vivek Gupta
   degree: "Postdoc"
   year: 2024
   current: Assistant Professor, Arizona State University
   url: https://vgupta123.github.io
+  linkedin: https://www.linkedin.com/in/keviv9/
+
+- name: Jiayao Zhang
+  degree: Ph.D.
+  year: 2024
+  current: "Radix Trading"
+  url:
+  thesis: "Principled and Explainable Reasoning involving Natural Languages"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/60114
+
+- name: Daoxin Li
+  degree: Ph.D.
+  year: 2024
+  current:
+  url:
+  thesis: "Distributional learning of syntactic generalizations"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/60389
+
+- name: Kaifu Wang
+  degree: Ph.D.
+  year: 2024
+  current: "Goldman Sachs"
+  url:
+  thesis: "Learning Structured Models with Weak Supervision"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/60145
+
+- name: Gwendolyn Hildebrandt
+  degree: Ph.D.
+  year: 2024
+  current:
+  url:
+  thesis: "Distributional cues to syntactic structure: case studies in Korean"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/60398
 
 - name: Rotem Dror
   degree: "Postdoc"
   year: 2023
   current: Assistant Professor (Senior Lecturer), University of Haifa
   url: https://rtmdrr.github.io/
+  linkedin: https://www.linkedin.com/in/rotem-dror-43664938/
 
 - name: Lara Martin
   degree: Postdoc
   year: 2023
   current: Assistant Professor, University of Maryland, Baltimore County
   url: http://laramartin.net/
+  linkedin: https://www.linkedin.com/in/lara-j-martin/
 
 - name: "Salvatore Giorgi"
   degree: Ph.D.
   year: 2023
   current: Research Scientist, National Institute on Drug Abuse
   url: http://www.salvatoregiorgi.com/
+  linkedin: https://www.linkedin.com/in/salvatore-giorgi-1101b253/
+  thesis: "Multi-level Methods for Estimating Community Language from Social Media with User and Community Sociodemographics"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/59527
 
 - name: Oshin Agarwal
   degree: Ph.D.
   year: 2023
   current: Senior NLP Research Engineer, Bloomberg LP
   url: https://www.seas.upenn.edu/~oagarwal/
+  linkedin: https://www.linkedin.com/in/oshinagarwal92/
+  thesis: "Practical Named Entity Recognition: The Role Of Entity And Its Context"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/58960
+
+- name: Ryan Budnick
+  degree: Ph.D.
+  year: 2023
+  current:
+  url:
+  thesis: "Learning Grammar Distributions with Limited Feedback"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/59190
 
 - name: Elior Sulem
   degree: Postdoc
@@ -76,65 +313,136 @@
   current: Assistant Professor, Carnegie Mellon University
   url: https://daphnei.com/
   
+  thesis: "Understanding the Limitations of Using Large Language Models for Text Generation"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/58984
 - name: Yi Zhang
   degree: Ph.D.
   year: 2022
   current: Applied Scientist, Amazon Web Services (AWS) AI Labs
   url: https://yizhang.io/    
+  linkedin: https://www.linkedin.com/in/yi-zhang-5b135a97/
   
+  thesis: "Extending Provenance for Understanding Claims and Data Analyses"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/59734
 - name: Soham Dan
   degree: Ph.D.
   year: 2022
   current: Research Scientist, IBM
   url: https://sdan2.github.io/  
+  linkedin: https://www.linkedin.com/in/soham-dan-974286a1/
+  thesis: "Compositional Generalization In Instruction Following Tasks"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/59692
 
 - name: Daniel Deutsch
   degree: Ph.D.
   year: 2022
   current: Research Scientist, Google
   url: https://danieldeutsch.github.io/
+  linkedin: https://www.linkedin.com/in/danielfdeutsch/
+  thesis: "Methods For Text Summarization Evaluation"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/32097
 
 - name: Hangfeng He
   degree: Ph.D.
-  year: 2022  
+  year: 2023
   current: Assistant Professor, University of Rochester
   url: https://hornhehhf.github.io/
+  linkedin: https://www.linkedin.com/in/hangfeng-he-5a9288141/
+  thesis: "Incidental Supervision for Natural Language Understanding"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/59082
+
+- name: Will Bruno
+  degree: Postdoc
+  year: 2022
+  current:
+  url:
+
+- name: Tingting Liu
+  degree: Postdoc
+  year: 2022
+  current: "NIH"
+  url:
 
 - name: Mohammad Sadegh Rasooli
   degree: Postdoc
   year: 2021
   current: Applied Scientist, Microsoft Research
   url: https://rasoolims.github.io/about/
+  linkedin: https://www.linkedin.com/in/rasoolims/
 
 - name: "Spencer Caplan"
   degree: Ph.D.
   year: 2021
   current: Assistant Professor, CUNY Graduate Center
   url: http://www.spencercaplan.org/
+  thesis: "The Immediacy Of Linguistic Computation"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/31846
 
 - name: "Reno Kriz"
   degree: Ph.D.
   year: 2021
   current: Researcher, HLTCOE at JHU
   url: https://rekriz11.github.io/
+  linkedin: https://www.linkedin.com/in/reno-kriz/
+  thesis: "Towards A Practically Useful Text Simplification System"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/31587
 
 - name: Nitish Gupta
   degree: Ph.D.
   year: 2021
   current: Research Scientist, Google AI
   url: http://nitishgupta.github.io/
+  linkedin: https://www.linkedin.com/in/guptanitish/
+  thesis: "Learning To Compositionally Reason Over Natural Language"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/31119
+
+- name: Caitlin Richter
+  degree: Ph.D.
+  year: 2021
+  current:
+  url:
+  thesis: "Alternation-Sensitive Phoneme Learning: Implications For Children's Development And Language Change"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/31462
 
 - name: Muhao Chen
   degree: Postdoc
   year: 2020
   current: Assistant Professor, University of California, Davis
   url: https://muhaochen.github.io/
+  linkedin: https://www.linkedin.com/in/muhao-chen-254047a7/
 
 - name: Jordan Kodner
   degree: Ph.D.
   year: 2020
   current: Assistant Professor, Stony Brook University
   url: https://jkodner05.github.io/
+  linkedin: https://www.linkedin.com/in/jordan-kodner-9ab68a95/
+  thesis: "Language Acquisition In The Past"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/30930
+
+- name: Hong Zhang
+  degree: Ph.D.
+  year: 2020
+  current:
+  url:
+  thesis: "The Distribution Of Disfluencies In Spontaneous Speech: Empirical Observations And Theoretical Implications"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/31032
+
+- name: Andrea Ceolin
+  degree: Ph.D.
+  year: 2020
+  current:
+  url:
+  thesis: "Functionalism, Lexical Contrast And Sound Change"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/31068
+
+- name: Aletheia Cui
+  degree: Ph.D.
+  year: 2020
+  current:
+  url:
+  thesis: "The Emergence Of Phonological Categories"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/30865
 
 - name: Hongzhi Xu
   degree: Postdoc
@@ -148,549 +456,1169 @@
   current: Duolingo AI group
   img: assets/img/stephen_mayhew.jpg
   url: http://mayhewsw.github.io/
+  linkedin: https://www.linkedin.com/in/stephen-mayhew/
+  thesis: "Low-Resource Named Entity Recognition"
+  thesis_url: https://cogcomp.seas.upenn.edu/papers/Mayhew19.pdf
 
 - name: Anne Cocos
   degree: Ph.D.
   year: 2019
-  current: Manager, AI/ML, GlaxoSmithKline
+  current: Anthropic
   url: http://acocos.github.io/
+  linkedin: https://www.linkedin.com/in/annecocos/
+  thesis: "Paraphrase-Based Models Of Lexical Semantics"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/30355
 
 - name: "Daniel Khashabi"
   degree: Ph.D.
   year: 2019
   current: Young Investigator, Allen Institute for Artificial Intelligence
   url: http://www.cis.upenn.edu/~danielkh/
+  linkedin: https://www.linkedin.com/in/daniel-khashabi/
+  thesis: "Reasoning-Driven Question-Answering For Natural Language Understanding"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/30277
 
 - name: "Joao Sedoc"
   degree: Ph.D.
   year: 2019
   current: Assistant Research Professor, Johns Hopkins University
   url: https://sites.google.com/site/jsedoc/home
+  linkedin: https://www.linkedin.com/in/jo%C3%A3o-sedoc/
+  thesis: "Building and Evaluating Conversational Agents"
+  thesis_url: https://find.library.upenn.edu/catalog/9977692842303681
 
 - name: "Shyam Upadhyay"
   degree: Ph.D.
   year: 2019
   current: Research Scientist, Google
   url: http://shyamupa.com/
+  linkedin: https://www.linkedin.com/in/shyamupa/
+  thesis: "Exploiting Cross-Lingual Representations For Natural Language Processing"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/30270
 
 - name: Wenpeng Yin
   degree: Postdoc
   year: 2019
   current: Salesforce
   url: https://sites.google.com/site/yinwenpeng1987/
+  linkedin: https://www.linkedin.com/in/yinwenpeng/
+
+- name: Ava Irani
+  degree: Ph.D.
+  year: 2019
+  current:
+  url:
+  thesis: "Learning From Positive Evidence: The Acquisition Of Verb Argument Structure"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/30502
 
 - name: Anietie Andy
   degree: Postdoc
   year: 2018
   current:
   url: https://anietieandy.github.io/
-
-- name: Marianna Apidianaki
-  degree: Visiting Researcher
-  year: 2018
-  current: Researcher, French National Center for Scientific Research
-  url: https://perso.limsi.fr/marianna/
+  linkedin: https://www.linkedin.com/in/anietie-andy-92424120/
 
 - name: Snigdha Chaturvedi
   degree: Postdoc
   year: 2018
   current: Assistant Professor, UNC Chapel Hill
   url: https://sites.google.com/site/snigdhac/
+  linkedin: https://www.linkedin.com/in/snigdha-chaturvedi-73362166/
 
 - name: Mark Sammons
   degree: Research Assistant Professor
   year: 2018
   current: Research Engineer, Elemental Cognition
   url: http://cogcomp.org/member_pages/sammons/markSammons.html
+  linkedin: https://www.linkedin.com/in/markssammons/
 
 - name: Derry Wijaya
   degree: Postdoc
   year: 2018
   current: Assistant Professor, Boston University
   url: https://derrywijaya.github.io/
+  linkedin: https://www.linkedin.com/in/derry-wijaya-577b80178/
+
+- name: Daniel Preotiuc-Pietro
+  degree: Postdoc
+  year: 2018
+  current: "Bloomberg"
+  url:
+
+- name: Kokil Jaidka
+  degree: Postdoc
+  year: 2018
+  current: "Associate Professor, National University of Singapore"
+  url:
+
+- name: Mao-Hsu Chen
+  degree: Ph.D.
+  year: 2018
+  current:
+  url:
+  thesis: "Tone Sandhi Phenomena In Taiwan Southern Min"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/30031
 
 - name: Junyi (Jessy) Li
   degree: Ph.D.
   year: 2017
   current: Assistant Professor, The University of Texas at Austin
   url: https://jjessyli.github.io/
+  linkedin: https://www.linkedin.com/in/jessy-li-7679a521/
+  thesis: "From Discourse Structure To Text Specificity: Studies Of Coherence Preferences"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/29362
 
 - name: Ellie Pavlick
   degree: Ph.D.
   year: 2017
   current: Assistant Professor, Brown University
   url: http://cs.brown.edu/people/epavlick/
+  linkedin: https://www.linkedin.com/in/ellie-pavlick-tobochnik-982829b6/
+  thesis: "Compositional Lexical Semantics In Natural Language Inference"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/29445
+
+- name: Gayeon Son
+  degree: Ph.D.
+  year: 2017
+  current:
+  url:
+  thesis: "Interactive Development Of F0 As An Acoustic Cue For Korean Stop Contrast"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/29522
+
+- name: Hezekiah Akiva Bacovcin
+  degree: Ph.D.
+  year: 2017
+  current:
+  url:
+  thesis: "Parameterising Germanic Ditransitive Variation: A Historical-Comparative Study"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/29066
+
+- name: Sunghye Cho
+  degree: Ph.D.
+  year: 2017
+  current: Assistant Professor, University of Cincinnati
+  url: http://www.sunghyecho.com/
+  linkedin: https://www.linkedin.com/in/csunghye/
+  thesis: "Development Of Pitch Contrast And Seoul Korean Intonation"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/29122
+
+- name: Wei Xu
+  degree: Postdoc
+  year: 2016
+  current: "Associate Professor, Georgia Institute of Technology"
+  url: https://cocoxu.github.io/
 
 - name: Kai Hong
   degree: Ph.D.
   year: 2015
   current: Google
   url: https://scholar.google.com/citations?user=2S6Vj64AAAAJ&hl=en
+  linkedin: https://www.linkedin.com/in/kai-hong-4b679b25/
+  thesis: "Content Selection in Multi-Document Summarization"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/28611
+
+- name: Houwei Cao
+  degree: Postdoc
+  year: 2015
+  current: "Associate Professor, New York Institute of Technology"
+  url:
+
+- name: Yong-cheol Lee
+  degree: Ph.D.
+  year: 2015
+  current:
+  url:
+  thesis: "Prosodic Focus Within and Across Languages"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/28685
+
+- name: Aaron Ecay
+  degree: Ph.D.
+  year: 2015
+  current:
+  url:
+  thesis: "A Multi-Step Analysis of the Evolution of English Do-Support"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/27820
 
 - name: Paramveer Dhillon
   degree: Ph.D.
   year: 2014
   current: Postdoctoral Associate, MIT Sloan School of Management
   url: http://pdhillon.com/
+  linkedin: https://www.linkedin.com/in/paramveer-dhillon-68126515/
+  thesis: "Advances in Spectral Learning with Applications to Text Analysis and Brain Imaging"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/28050
+
+- name: H. Andrew Schwartz
+  degree: Postdoc
+  year: 2014
+  current: "Associate Professor, Stony Brook University / Vanderbilt University"
+  url:
+
+- name: Jennifer Gillenwater
+  degree: Ph.D.
+  year: 2014
+  current: "Research Scientist, Google"
+  url:
+  thesis: "Approximate Inference for Determinantal Point Processes"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/28080
+
+- name: Jordan Rodu
+  degree: Ph.D.
+  year: 2014
+  current: "Assistant Professor of Statistics, University of Virginia"
+  url:
+  thesis: "Spectral Estimation of Hidden Markov Models"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/28233
 
 - name: Emily Pitler
   degree: Ph.D.
-  year: 2014
+  year: 2013
   current: Google
   url: http://research.google.com/pubs/EmilyPitler.html
+  linkedin: https://www.linkedin.com/in/emily-pitler-93b7291/
+  thesis: "Models for Improved Tractability and Accuracy in Dependency Parsing"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/32699
 
 - name: Qiuye Zhao
   degree: Ph.D.
   year: 2014
   current: Postdoc, Chinese Academies of Science
   url:
+  linkedin: https://www.linkedin.com/in/qiuye-zhao-82618a60/
+  thesis: "Exploring Linguistic Constraints in Nlp Applications"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/28343
 
 - name: Kyle Gorman
   degree: Ph.D.
   year: 2013
   current: Assistant Professor, CUNY Graduate Center
   url: http://wellformedness.com/
+  linkedin: https://www.linkedin.com/in/kyle-gorman-0966999/
+  thesis: "Generative Phonotactics"
+  thesis_url: https://find.library.upenn.edu/catalog/9960577603503681
 
 - name: Annie Louis
   degree: Ph.D.
   year: 2013
   current: Newton International Fellow, University of Edinburgh
   url: http://homepages.inf.ed.ac.uk/alouis/
+  thesis: "Predicting Text Quality: Metrics for Content, Organization and Reader Interest"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/32430
 
 - name: Constantine Lignos
   degree: Ph.D.
   year: 2013
   current: Assistant Professor, Brandeis University
   url: http://lignos.org/
+  linkedin: https://www.linkedin.com/in/clignos/
+  thesis: "Modeling Words in the Mind"
+  thesis_url: https://find.library.upenn.edu/catalog/9961220173503681
+
+- name: David Weiss
+  degree: Ph.D.
+  year: 2013
+  current: "Google (SyntaxNet/NLP)"
+  url:
+  thesis: "Enabling More Accurate and Efficient Structured Prediction"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/32730
+
+- name: João Graça
+  degree: Postdoc
+  year: 2012
+  current: "Co-founder & CTO, Unbabel"
+  url:
+
+- name: Alex Kulesza
+  degree: Ph.D.
+  year: 2012
+  current: "Research Scientist, Google"
+  url:
+  thesis: "Learning with Determinantal Point Processes"
+  thesis_url: https://find.library.upenn.edu/catalog/9958684853503681
+
+- name: Alexy Khrabrov
+  degree: Ph.D.
+  year: 2011
+  current:
+  url:
+  thesis: "Mind Economy: Dynamic Graph Analysis of Communications"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/31585
 
 - name: Lucas Champollion
   degree: Ph.D.
   year: 2010
   current: Associate Professor, NYU
   url: https://champollion.com/
+  linkedin: https://www.linkedin.com/in/champoll/
+  thesis: "Parts of a Whole: Distributivity as a Bridge Between Aspect and Measurement"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/32747
 
 - name: Nikhil Dinesh
   degree: Ph.D.
   year: 2010
   current: Computer Scientist, SRI International
   url: http://www.cis.upenn.edu/~nikhild/
+  thesis: "Regulatory Conformance Checking: Logic and Logical Form"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/29920
 
 - name: Ryan Gabbard
   degree: Ph.D.
   year: 2010
   current: ISI
   url: https://www.isi.edu/people/gabbard/about
+  linkedin: https://www.linkedin.com/in/ryan-gabbard-86a161112/
+  thesis: "Null Element Restoration"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/29579
 
 - name: Kuzman Ganchev
   degree: Ph.D.
   year: 2010
   current: Research Scientist, Google
   url: http://www.seas.upenn.edu/~kuzman/
+  linkedin: https://www.linkedin.com/in/kuzman-ganchev-b5706b238/
+  thesis: "Posterior Regularization for Learning with Side Information and Weak Supervision"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/29590
 
 - name: Partha Pratim Talukdar
   degree: Ph.D.
   year: 2010
   current: PostDoc, Microsoft Search Labs
   url: http://www.cis.upenn.edu/~partha/
+  linkedin: https://www.linkedin.com/in/parthapratimtalukdar/
+  thesis: "Graph-Based Weakly-Supervised Methods for Information Extraction & Integration"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/6577
+
+- name: Joshua Tauberer
+  degree: Ph.D.
+  year: 2010
+  current: "GovTrack.us founder"
+  url:
+  thesis: "Learning [Voice]"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/29843
+
+- name: Ted Sandler
+  degree: Ph.D.
+  year: 2010
+  current: "Amazon"
+  url:
+  thesis: "Regularized learning with feature networks"
+  thesis_url: https://find.library.upenn.edu/catalog/9948087243503681
 
 - name: Mark Dredze
   degree: Ph.D.
   year: 2009
   current: Associate Professor, Johns Hopkins University (Center of Excellence)
   url: https://www.cs.jhu.edu/~mdredze/
+  linkedin: https://www.linkedin.com/in/mark-dredze-b47a74212/
+  thesis: "Intelligent Email: Aiding Users with AI"
+  thesis_url: https://find.library.upenn.edu/catalog/9949733193503681
 
 - name: Keelan Evanini
   degree: Ph.D.
   year: 2009
   current: ETS
   url: http://www.evanini.com/keelan.html
+  linkedin: https://www.linkedin.com/in/keelan-evanini-4367b01/
+  thesis: "The permeability of dialect boundaries: a case study of the region surrounding Erie, Pennsylvania"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/32642
+
+- name: Koby Crammer
+  degree: Postdoc
+  year: 2009
+  current: "Professor, Technion"
+  url:
+
+- name: Joel Wallenberg
+  degree: Ph.D.
+  year: 2009
+  current: "Senior Lecturer, Newcastle University"
+  url:
+  thesis: "Antisymmetry and the Conservation of C-Command: Scrambling and Phrase Structure in Synchronic and Diachronic Perspective"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/32544
+
+- name: Vasileios (Bill) Kandylas
+  degree: Ph.D.
+  year: 2009
+  current: "Microsoft"
+  url:
+  thesis: "Online Clustering and Citation Analysis Using Streemer"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/32349
 
 - name: Erwin Chan
   degree: Ph.D.
   year: 2008
   current: Assistant Professor Linguistics, University of Arizona
   url:
+  thesis: "Structures and Distributions in Morphology Learning"
+  thesis_url: https://find.library.upenn.edu/catalog/9944356893503681
 
 - name: Liang Huang
   degree: Ph.D.
   year: 2008
   current: Assistant Professor, Oregon State University
   url: http://web.engr.oregonstate.edu/~huanlian/
+  linkedin: https://www.linkedin.com/in/lianghuang/
+  thesis: "Forest-based algorithms in natural language processing"
+  thesis_url: https://find.library.upenn.edu/catalog/9944513763503681
 
 - name: Edward Loper
   degree: Ph.D.
   year: 2008
   current: BBN
   url:
+  linkedin: https://www.linkedin.com/in/edward-loper-81636068/
+  thesis: "Encoding Structured Output Values"
+  thesis_url: https://find.library.upenn.edu/catalog/9949731573503681
 
 - name: Tatjana Scheffler
   degree: Ph.D.
   year: 2008
   current: Researcher, DFKI Berlin
   url:
+  thesis: "Semantic operators in different dimensions"
+  thesis_url: https://find.library.upenn.edu/catalog/9944535503503681
 
 - name: John Blitzer
   degree: Ph.D.
   year: 2007
   current: Research Scientist, Google
   url:
+  linkedin: https://www.linkedin.com/in/john-blitzer-4256065/
+  thesis: "Domain Adaptation of Natural Language Processing Systems"
+  thesis_url: https://find.library.upenn.edu/catalog/9943515723503681
 
 - name: Nick Montfort
   degree: Ph.D.
   year: 2007
   current: Assistant Professor, MIT
   url:
+  thesis: "Generating Narrative Variation in Interactive Fiction"
+  thesis_url: https://find.library.upenn.edu/catalog/9941721543503681
 
 - name: Fei Sha
   degree: Ph.D.
   year: 2007
   current: Assistant Professor, University of Southern California
   url:
+  linkedin: https://www.linkedin.com/in/feisha/
+  thesis: "Large Margin Training of Acoustic Models for Speech Recognition"
+  thesis_url: https://find.library.upenn.edu/catalog/9941556553503681
 
 - name: Szu-ting Yi
   degree: Ph.D.
   year: 2007
   current:
   url:
+  linkedin: https://www.linkedin.com/in/szu-ting-yi-3071a01/
+  thesis: "Robust Semantic Role Labeling Using Parsing Variations and Semantic Classes"
+  thesis_url: https://find.library.upenn.edu/catalog/9941738573503681
 
 - name: Jinying Chen
   degree: Ph.D.
   year: 2006
   current: BBN
   url:
+  linkedin: https://www.linkedin.com/in/jinying-chen-a658a214/
+  thesis: "Towards High-Performance Word Sense Disambiguation by Combining Rich Linguistic Knowledge and Machine Learning Approaches"
+  thesis_url: https://find.library.upenn.edu/catalog/9941255253503681
 
 - name: Susan Converse
   degree: Ph.D.
   year: 2006
   current:
   url:
+  linkedin: https://www.linkedin.com/in/susan-p-converse-7337803/
+  thesis: "Pronominal anaphora resolution in Chinese"
+  thesis_url: https://find.library.upenn.edu/catalog/9940197763503681
 
 - name: Yuan Ding
   degree: Ph.D.
   year: 2006
   current:
   url:
+  thesis: "Machine Translation Using Probabilistic Synchronous Dependency Insertion Grammars"
+  thesis_url: https://find.library.upenn.edu/catalog/9941255403503681
 
 - name: Na-Rae Han
   degree: Ph.D.
   year: 2006
   current: Korea University
   url:
+  linkedin: https://www.linkedin.com/in/na-rae-han-2743306/
+  thesis: "Korean zero pronouns: analysis and resolution"
+  thesis_url: https://find.library.upenn.edu/catalog/9940226443503681
 
 - name: Matt Huenerfauth
   degree: Ph.D.
   year: 2006
   current: Assistant Professor, CUNY
   url:
+  linkedin: https://www.linkedin.com/in/matt-huenerfauth/
+  thesis: "Generating American Sign Language Classifier Predicates for English-to-ASL Machine Translation"
+  thesis_url: https://find.library.upenn.edu/catalog/9941267663503681
 
 - name: Ryan McDonald
   degree: Ph.D.
   year: 2006
   current: Google Research
   url:
+  linkedin: https://www.linkedin.com/in/ryanmcd/
+  thesis: "Discriminative learning and spanning tree algorithms for dependency parsing"
+  thesis_url: https://find.library.upenn.edu/catalog/9940807953503681
 
 - name: Libin Shen
   degree: Ph.D.
   year: 2006
   current: BBN
   url:
+  linkedin: https://www.linkedin.com/in/libinshen/
+  thesis: "Statistical LTAG parsing"
+  thesis_url: https://find.library.upenn.edu/catalog/9940860173503681
 
 - name: Karin Kipper Schuler
   degree: Ph.D.
   year: 2005
   current: University of Colorado
   url:
+  thesis: "VerbNet: A Broad-Coverage, Comprehensive Verb Lexicon"
+  thesis_url: https://find.library.upenn.edu/catalog/9939450473503681
 
 - name: Craig Martell
   degree: Ph.D.
   year: 2005
   current: Associate Professor, Naval Postgraduate School
   url:
+  linkedin: https://www.linkedin.com/in/craighmartell/
+  thesis: "FORM: An Experiment in the Annotation of the Kinematics of Gesture"
+  thesis_url: https://find.library.upenn.edu/catalog/9939613443503681
 
 - name: Tom Morton
   degree: Ph.D.
   year: 2005
   current: Comcast
   url:
+  linkedin: https://www.linkedin.com/in/tom-morton-5248552/
+  thesis: "Using semantic relations to improve information retrieval"
+  thesis_url: https://find.library.upenn.edu/catalog/9939635233503681
 
 - name: Dan Bikel
   degree: Ph.D.
   year: 2004
   current: Research Scientist, Google
   url:
+  linkedin: https://www.linkedin.com/in/danbikel/
+  thesis: "On the Parameter Space of Generative Lexicalized Statistical Parsing Models"
+  thesis_url: https://find.library.upenn.edu/catalog/9936679053503681
 
 - name: David Chiang
   degree: Ph.D.
   year: 2004
   current: ISI/USC
   url:
+  thesis: "Evaluating grammar formalisms for applications to natural language processing and biological sequence analysis"
+  thesis_url: https://find.library.upenn.edu/catalog/9935853623503681
 
 - name: Hoa Trang Dang
   degree: Ph.D.
   year: 2004
   current: NIST
   url:
+  linkedin: https://www.linkedin.com/in/hoa-dang-5184876/
+  thesis: "Investigations into the Role of Lexical Semantics in Word Sense Disambiguation"
+  thesis_url: https://find.library.upenn.edu/catalog/9936786613503681
 
 - name: Eleni Miltsakaki
   degree: Ph.D.
   year: 2003
   current: Senior Researcher, Department of Computer & Information Science, University of Pennsylvania
   url: https://www.miltsakaki.com/
+  linkedin: https://www.linkedin.com/in/elenimiltsakaki/
+  thesis: "The syntax-discourse interface: effects of the main-subordinate distinction on attention structure"
+  thesis_url: https://find.library.upenn.edu/catalog/9934452063503681
 
 - name: Carlos Prolo
   degree: Ph.D.
   year: 2003
   current: Associate Professor, Pontificia Universidade Catolica do Rio Grande do Sul (PUCRS)
   url:
+  linkedin: https://www.linkedin.com/in/carlos-a-prolo-36194419/
+  thesis: "LR parsing for tree adjoining grammars and its application to corpus-based natural language parsing"
+  thesis_url: https://find.library.upenn.edu/catalog/9934602453503681
 
 - name: William Schuler
   degree: Ph.D.
   year: 2003
   current: Assistant Professor, University of Minnesota
   url:
+  thesis: "Tractable models of natural language semantics for recognizing spoken directions"
+  thesis_url: https://find.library.upenn.edu/catalog/9949730043503681
 
 - name: Christian Vogler
   degree: Ph.D.
   year: 2003
   current:
   url:
+  linkedin: https://www.linkedin.com/in/cvogler/
+  thesis: "American Sign Language recognition: reducing the complexity of the task with phoneme-based modeling and parallel hidden Markov models"
+  thesis_url: https://find.library.upenn.edu/catalog/9934465023503681
+
+- name: Cassandre Creswell
+  degree: Ph.D.
+  year: 2003
+  current:
+  url:
+  thesis: "Syntactic form and discourse function in natural language generation"
+  thesis_url: https://find.library.upenn.edu/catalog/9934438233503681
+
+- name: Rashmi Prasad
+  degree: Ph.D.
+  year: 2003
+  current:
+  url:
+  thesis: "Constraints on the Generation of Referring Expressions, with Special Reference to Hindi"
+  thesis_url: https://find.library.upenn.edu/catalog/9934460193503681
 
 - name: Anoop Sarkar
   degree: Ph.D.
   year: 2002
   current: Professor, Simon Fraser University
   url: https://www.cs.sfu.ca/~anoop/
+  linkedin: https://www.linkedin.com/in/anoop-sarkar-1b1717291/
+  thesis: "Combining labeled and unlabeled data in statistical natural language parsing"
+  thesis_url: https://find.library.upenn.edu/catalog/9932797493503681
 
 - name: Jason Eisner
   degree: Ph.D.
   year: 2001
   current: Professor, Johns Hopkins University
   url: http://www.cs.jhu.edu/~jason/
+  thesis: "Smoothing a Probabilistic Lexicon via Syntactic Transformations"
+  thesis_url: https://find.library.upenn.edu/catalog/9930795003503681
 
 - name: Fei Xia
   degree: Ph.D.
   year: 2001
   current: Professor, University of Washington
   url: https://faculty.washington.edu/fxia/
+  linkedin: https://www.linkedin.com/in/fei-xia-594aaa2/
+  thesis: "Automatic grammar generation from two different perspectives"
+  thesis_url: https://find.library.upenn.edu/catalog/9931607683503681
 
 - name: Seth Kulick
   degree: Ph.D.
   year: 2000
   current: University of Pennsylvania
   url:
+  linkedin: https://www.linkedin.com/in/seth-kulick-b4470122/
+  thesis: "Constraining non-local dependencies in tree adjoining grammar: computational and linguistic perspectives"
+  thesis_url: https://find.library.upenn.edu/catalog/9949719893503681
+
+- name: Ramamani (Rama) Bindiganavale
+  degree: Ph.D.
+  year: 2000
+  current:
+  url:
+  thesis: "Building Parameterized Action Representations From Observation"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/7855
 
 - name: Michael Collins
   degree: Ph.D.
   year: 1999
   current: Professor, Columbia University
   url: http://www.cs.columbia.edu/~mcollins/
+  thesis: "Head-Driven Statistical Models for Natural Language Parsing"
+  thesis_url: https://find.library.upenn.edu/catalog/9926181453503681
 
 - name: Nobo Komagata
   degree: Ph.D.
   year: 1999
   current: PhenomenoLogic
   url:
+  thesis: "A Computational Analysis of Information Structure Using Parallel Expository Texts in English and Japanese"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/37651
 
 - name: Christy Doran
   degree: Ph.D.
   year: 1998
   current: Mitre Corporation
   url:
+  linkedin: https://www.linkedin.com/in/christy-doran/
+  thesis: "Incorporating Punctuation Into the Sentence Grammar: A Lexicalized Tree Adjoining Grammar Perspective"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/37675
 
 - name: Dan Melamed
   degree: Ph.D.
   year: 1998
   current: Assistant Professor, NYU
   url:
+  linkedin: https://www.linkedin.com/in/danmelamed/
+  thesis: "Empirical Methods for Exploiting Parallel Texts"
+  thesis_url: https://find.library.upenn.edu/catalog/9949711893503681
 
 - name: Adwait Ratnaparkhi
   degree: Ph.D.
   year: 1998
   current: Director, Voice and NLU R&D, Roku
   url:
+  linkedin: https://www.linkedin.com/in/adwaitratnaparkhi/
+  thesis: "Maximum Entropy Models For Natural Language Ambiguity Resolution"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/37667
 
 - name: Matthew Stone
   degree: Ph.D.
   year: 1998
   current: Professor, Rutgers
   url:
+  linkedin: https://www.linkedin.com/in/matthew-stone-184774174/
+  thesis: "Modality in Dialogue: Planning, Pragmatics and Computation"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/37674
 
 - name: Srinivas Bangalore
   degree: Ph.D.
   year: 1997
   current: Director of AI Research, Interactions LLC
   url: https://sbangalore.com/
+  linkedin: https://www.linkedin.com/in/srinivas-bangalore/
+  thesis: "Complexity of Lexical Descriptions and its Relevance to Partial Parsing"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/37690
 
 - name: David Yarowsky
   degree: Ph.D.
   year: 1996
   current: Professor, Johns Hopkins University
   url: http://www.cs.jhu.edu/~yarowsky/
+  linkedin: https://www.linkedin.com/in/david-yarowsky-8391607/
+  thesis: "Three Machine Learning Algorithms for Lexical Ambiguity Resolution"
+  thesis_url: https://find.library.upenn.edu/catalog/9949704593503681
+
+- name: Scott Prevost
+  degree: Ph.D.
+  year: 1996
+  current:
+  url:
+  thesis: "A Semantics of Contrast and Information Structure for Specifying Intonation in Spoken Language Generation"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/37666
+
+- name: Jong Cheol Park
+  degree: Ph.D.
+  year: 1996
+  current: "Professor of Computer Science, KAIST"
+  url:
+  thesis: "A Lexical Theory of Quantification in Ambiguous Query Interpretation"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/37517
+
+- name: Umit Deniz Turan
+  degree: Ph.D.
+  year: 1996
+  current:
+  url:
+  thesis: "Null vs. Overt Subjects in Turkish Discourse: A Centering Analysis"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/37704
+
+- name: Lance Ramshaw
+  degree: Postdoc
+  year: 1996
+  current: "Raytheon BBN Technologies"
+  url:
+
+- name: Charles L. Ortiz, Jr.
+  degree: Ph.D.
+  year: 1996
+  current:
+  url:
+  thesis: "Worlds of Change: Counterfactual Reasoning and Causation"
+  thesis_url: https://find.library.upenn.edu/catalog/9949706583503681
+
+- name: Abigail S. Gertner
+  degree: Ph.D.
+  year: 1996
+  current:
+  url:
+  thesis: "Critiquing: Effective Decision Support In Time-Critical Domains"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/37532
+
+- name: Libby Levison
+  degree: Ph.D.
+  year: 1996
+  current:
+  url:
+  thesis: "Connecting planning and acting via object-specific reasoning"
+  thesis_url: https://find.library.upenn.edu/catalog/9919727863503681
+
+- name: Beryl Hoffman
+  degree: Ph.D.
+  year: 1995
+  current: "Professor of Computer Science, Elon University"
+  url:
+  thesis: "The Computational Analysis of the Syntax and Interpretation of \"Free\" Word Order in Turkish"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/37544
+
+- name: Christopher W. Geib
+  degree: Ph.D.
+  year: 1995
+  current:
+  url:
+  thesis: "The intentional planning system (ItPlanS)"
+  thesis_url: https://find.library.upenn.edu/catalog/9919121343503681
 
 - name: James Henderson
   degree: Ph.D.
   year: 1994
   current: University of Geneva
   url: http://cui.unige.ch/~hendersj/
+  linkedin: https://www.linkedin.com/in/james-henderson-3b68346b/
+  thesis: "Description Based Parsing in a Connectionist Network"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/37573
 
 - name: Owen Rambow
   degree: Ph.D.
   year: 1994
   current: Research Scientist, Elemental Cognition
   url: https://owenrambow.com/
+  linkedin: https://www.linkedin.com/in/owen-rambow-3796a81/
+  thesis: "Formal and Computational Aspects of Natural Language Syntax"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/37569
+
+- name: Hyun Seok Park
+  degree: Ph.D.
+  year: 1994
+  current:
+  url:
+  thesis: "Korean Grammar Using TAGs"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/37589
+
+- name: Michael White
+  degree: Ph.D.
+  year: 1994
+  current: "Professor of Linguistics, Ohio State University"
+  url:
+  thesis: "A Computational Approach to Aspectual Composition"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/37572
 
 - name: Philip Resnik
   degree: Ph.D.
-  year: 1994
+  year: 1993
   current: Professor, University of Maryland
   url: http://legacydirs.umiacs.umd.edu/~resnik/
+  linkedin: https://www.linkedin.com/in/philip-resnik-a26593/
+  thesis: "Selection and Information: A Class-Based Approach to Lexical Relationships"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/37620
 
 - name: Eric Brill
   degree: Ph.D.
   year: 1993
   current: VP Research, eBay
   url:
+  linkedin: https://www.linkedin.com/in/ericbrill/
+  thesis: "A Corpus-Based Approach to Language Learning"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/37609
 
 - name: Jeff Reynar
   degree: Ph.D.
-  year: 1993
+  year: 1998
   current: Google
   url:
+  linkedin: https://www.linkedin.com/in/jeffreynar/
+  thesis: "Topic Segmentation: Algorithms And Applications"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/37673
+
+- name: Daniel Hardt
+  degree: Ph.D.
+  year: 1993
+  current: "Professor, Copenhagen Business School"
+  url:
+  thesis: "Verb Phrase Ellipsis: Form, Meaning, and Processing"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/37599
+
+- name: Michael Niv
+  degree: Ph.D.
+  year: 1993
+  current:
+  url:
+  thesis: "A Computational Model of Syntactic Processing: Ambiguity Resolution from Interpretation"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/37601
+
+- name: Barbara Di Eugenio
+  degree: Ph.D.
+  year: 1993
+  current: "Professor of Computer Science, University of Illinois Chicago"
+  url:
+  thesis: "Understanding Natural Language Instructions: A Computational Approach to Purpose Clauses"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/37616
 
 - name: Michel Degraff
   degree: Ph.D.
   year: 1992
   current: Associate Professor Linguistics, MIT
   url:
+  linkedin: https://www.linkedin.com/in/michel-degraff-a7597287/
+  thesis: "Creole Grammars and Acquisition of Syntax: The Case of Haitian"
+  thesis_url: https://find.library.upenn.edu/catalog/9949699493503681
 
 - name: Robert Frank
   degree: Ph.D.
   year: 1992
   current: Professor & Chair, Linguistics, Yale
   url: https://ling.yale.edu/people/robert-frank
+  linkedin: https://www.linkedin.com/in/bob-frank-55312830/
+  thesis: "Syntactic locality and tree adjoining grammar: grammatical, acquisition and processing perspectives"
+  thesis_url: https://find.library.upenn.edu/catalog/9949699683503681
 
 - name: Robert Rubinoff
   degree: Ph.D.
   year: 1992
   current:
   url:
+  thesis: "Negotiation, Feedback, and Perspective within Natural Language Generation"
+  thesis_url: https://find.library.upenn.edu/catalog/9917505733503681
+
+- name: Catherine Pelachaud
+  degree: Ph.D.
+  year: 1991
+  current: "Research Director, CNRS / ISIR, Sorbonne Universite"
+  url:
+  thesis: "Communication and coarticulation in facial animation"
+  thesis_url: https://find.library.upenn.edu/catalog/9916848553503681
 
 - name: Jugal Kalita
   degree: Ph.D.
   year: 1990
   current: Associate Professor, University of Colorado
   url:
+  linkedin: https://www.linkedin.com/in/jugal-kalita-247b8213/
+  thesis: "Natural Language Control of Animation of Task Performance in a Physical Domain"
+  thesis_url: https://find.library.upenn.edu/catalog/9949697593503681
 
 - name: Yves Schabes
   degree: Ph.D.
   year: 1990
   current: Founder of Teragram, Inc
   url:
+  linkedin: https://www.linkedin.com/in/schabes/
+  thesis: "Mathematical and computational aspects of lexicalized grammars"
+  thesis_url: https://find.library.upenn.edu/catalog/9916259163503681
 
 - name: Lyn Walker
   degree: Ph.D.
-  year:
-  current: Professor, University of Sheffield
+  year: 1993
+  current: Professor, UC Santa Cruz
   url:
+  linkedin: https://www.linkedin.com/in/marilyn-walker-aaaab715/
+  thesis: "Informational Redundancy and Resource Bounds in Dialogue"
+  thesis_url: https://repository.upenn.edu/handle/20.500.14332/37611
+
+- name: David Klein
+  degree: Ph.D.
+  year: 1989
+  current:
+  url:
+  thesis: "Interpretive value analysis"
+  thesis_url: https://find.library.upenn.edu/catalog/9916164003503681
+
+- name: Beatrice Santorini
+  degree: Ph.D.
+  year: 1989
+  current: "Penn Linguistics (lecturer, retired)"
+  url:
+  thesis: "The Generalization of the Verb-Second Constraint in the History of Yiddish"
+  thesis_url: https://find.library.upenn.edu/catalog/9916095593503681
 
 - name: David Weir
   degree: Ph.D.
   year: 1988
   current: Professor, University of Sussex
   url:
+  linkedin: https://www.linkedin.com/in/weird/
+  thesis: "Characterizing mildly context-sensitive grammar formalisms"
+  thesis_url: https://find.library.upenn.edu/catalog/9916046623503681
+
+- name: Robert Kass
+  degree: Ph.D.
+  year: 1988
+  current:
+  url:
+  thesis: "Acquiring a model of the user's beliefs from a cooperative advisory dialog"
+  thesis_url: https://find.library.upenn.edu/catalog/9916049103503681
+
+- name: Martha Pollack
+  degree: Ph.D.
+  year: 1986
+  current: "Former President, Cornell University"
+  url:
+  thesis: "Inferring Domain Plans in Question-Answering"
+  thesis_url: https://find.library.upenn.edu/catalog/9915946763503681
 
 - name: Julia Hirschberg
   degree: Ph.D.
   year: 1985
   current: Professor, Columbia
   url: http://www.cs.columbia.edu/~julia/
+  linkedin: https://www.linkedin.com/in/julia-hirschberg-5551352/
+  thesis: "A Theory of Scalar Implicature"
+  thesis_url: https://find.library.upenn.edu/catalog/9949693843503681
 
 - name: Kathleen McCoy
   degree: Ph.D.
   year: 1985
   current: Professor, University of Delaware
   url:
+  linkedin: https://www.linkedin.com/in/kathy-mccoy-574a7b202/
+  thesis: "Correcting object-related misconceptions"
+  thesis_url: https://find.library.upenn.edu/catalog/9915951203503681
+
+- name: Gregory Ward
+  degree: Ph.D.
+  year: 1985
+  current: "Professor of Linguistics, Northwestern University"
+  url: https://www.gregoryward.org/
+  thesis: "The Semantics and Pragmatics of Preposing"
+  thesis_url: https://find.library.upenn.edu/catalog/9915945413503681
 
 - name: Eric Mays
   degree: Ph.D.
   year: 1984
   current: IBM Research
   url:
+  linkedin: https://www.linkedin.com/in/ericmays/
+  thesis: "Modal temporal logic for reasoning about changing databases, with applications to natural language question-answering"
+  thesis_url: https://find.library.upenn.edu/catalog/9949693103503681
 
 - name: Kathleen McKeown
   degree: Ph.D.
   year: 1982
   current: Professor, Columbia
   url: http://www.cs.columbia.edu/~kathy/
+  linkedin: https://www.linkedin.com/in/kathymckeown/
+  thesis: "Generating natural language text in response to questions about database structure"
+  thesis_url: https://find.library.upenn.edu/catalog/9924975573503681
 
 - name: Vijay K. Shanker
   degree: Ph.D.
-  year:
+  year: 1987
   current: Professor, University of Delaware
   url:
+  thesis: "A study of tree adjoining grammars"
+  thesis_url: https://find.library.upenn.edu/catalog/9949695253503681
 
 - name: Thomas Kaczmarek
   degree: Ph.D.
   year: 1977
   current:
   url:
+  thesis: "Computational aspects of speech synthesis"
+  thesis_url: https://find.library.upenn.edu/catalog/997930153503681
 
 - name: S.Jerrold Kaplan
   degree: Ph.D.
-  year: 1977
+  year: 1979
   current:
   url:
+  linkedin: https://www.linkedin.com/in/jerry-kaplan/
+  thesis: "Cooperative responses from a portable natural language data base query system"
+  thesis_url: https://find.library.upenn.edu/catalog/9949689233503681
 
 - name: Stanley Rosenschein
   degree: Ph.D.
   year: 1975
   current: Quindi Corporation
   url:
+  linkedin: https://www.linkedin.com/in/rosenschein/
+  thesis: "Partial information and lattice theory, application to word choice"
 
 - name: Ralph Weischedel
   degree: Ph.D.
   year: 1975
   current: ISI Boston
   url:
+  linkedin: https://www.linkedin.com/in/ralph-weischedel-8590a123/
+  thesis: "Computation of a unique class of inferences: presupposition and entailment"
+  thesis_url: https://find.library.upenn.edu/catalog/998441813503681
+
+- name: Senta Plotz
+  degree: Ph.D.
+  year: 1969
+  current:
+  url:
+  thesis: "Simple copula structures in English"
+  thesis_url: https://find.library.upenn.edu/catalog/999416203503681
 
 - name: Johnson Hart
   degree: Ph.D.
   year: 1972
   current: JMH Associates
   url:
+  thesis: "Formal properties of local adjunct languages"
+  thesis_url: https://find.library.upenn.edu/catalog/999385213503681
 
 - name: Lynette Hirschman
   degree: Ph.D.
   year: 1972
   current: Mitre Corporation
   url:
+  linkedin: https://www.linkedin.com/in/lynette-hirschman-138989b/
+  thesis: "Formalisms for transformational grammar: a comparative study with special reference to quantifiers and adverbs"
+  thesis_url: https://find.library.upenn.edu/catalog/999464463503681
 
 - name: Masako Takahashi
   degree: Ph.D.
   year: 1972
   current: Tokyo Inst. Of Technology, first Japanese woman PhD in Computer Science
   url:
+  thesis: "Regular sets of strings, trees, and W-structures"
+  thesis_url: https://find.library.upenn.edu/catalog/998586963503681
 
 - name: Leon Levy
   degree: Ph.D.
   year: 1970
   current:
   url:
+  thesis: "Generalized local adjunction and replacement in adjunct languages"
+  thesis_url: https://find.library.upenn.edu/catalog/999475803503681
 
 - name: David Klappholz
   degree: Ph.D.
-  year:
+  year: 1974
   current:
   url:
+  linkedin: https://www.linkedin.com/in/david-klappholz-0913508/
+  thesis: "Bi-directional Tree Automata"
+
+- name: S. Rao Kosaraju
+  degree: Ph.D.
+  year: 1969
+  current: "Professor Emeritus, Johns Hopkins University"
+  url: https://www.cs.jhu.edu/~kosaraju/
+  thesis: "Computations on iterative automata"
+  thesis_url: https://find.library.upenn.edu/catalog/999403863503681
+
+- name: Edward Burkhart
+  degree: Ph.D.
+  year: 1968
+  current:
+  url:
+  thesis: "A procedure for decomposing Chinese-Japanese ideographs"
+  thesis_url: https://find.library.upenn.edu/catalog/999386563503681
+
+- name: William Bridges Smith
+  degree: Ph.D.
+  year: 1968
+  current:
+  url:
+  thesis: "Error control in formal languages"
+  thesis_url: https://find.library.upenn.edu/catalog/996429523503681
 
 - name: Robert Mulholland
   degree: Ph.D.
   year: 1965
   current:
   url:
+  thesis: "A general theory of noiseless decision feedback for discrete memoryless channels"
+  thesis_url: https://find.library.upenn.edu/catalog/997614393503681
 
 - name: Noam Chomsky
   degree: Ph.D.
   year: 1955
   current: Institute Professor Emeritus, MIT
   url: https://chomsky.info/
+  thesis: "Transformational analysis"
+  thesis_url: https://find.library.upenn.edu/catalog/999469613503681

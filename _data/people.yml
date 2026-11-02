@@ -1,12 +1,8 @@
-- name: Ankit Aich
-  status: postdoc
-  img: assets/img/ankit_aich.png
-  url: https://ankitaich.com/
-
-- name: Marianna Apidianaki
-  status: staff
-  img: assets/img/marianna_apidianaki.jpg
-  url: https://mariannaapi.github.io/
+- name: Sameer Bhatti
+  status: phd
+  img: assets/img/sameer_bhatti.jpg
+  url: https://www.linkedin.com/in/sameer-bhatti/
+  linkedin: https://www.linkedin.com/in/sameer-bhatti/
 
 - name: "Chris Callison-Burch"
   status: "faculty"
@@ -17,117 +13,107 @@
   status: phd
   img: assets/img/allen_chang.jpg
   url: https://www.cylumn.com/
+  linkedin: https://www.linkedin.com/in/cylumn/
 
-- name: Sunghye Cho
+- name: Vivienne Chi
   status: postdoc
-  img: assets/img/sunghye_cho.jpg
-  url: http://www.sunghyecho.com/
-
-- name: Jeffrey (Young-Min) Cho
-  status: "phd"
-  img: assets/img/young_min_cho.jpg
-  url: https://jeffreych0.github.io/ 
+  img: assets/img/vivienne_chi.jpeg
+  url: https://vivichi7.github.io
 
 - name: "Liam Dugan"
   status: "phd"
   img: assets/img/liam_dugan.jpeg
   url: http://liamdugan.com/
+  linkedin: https://www.linkedin.com/in/liam-dugan/
 
 - name: Yu Feng
   status: phd
   img: assets/img/yu_feng.jpg
   url: https://annieyufeng.github.io/
-
-- name: Xingyu Fu
-  status: phd
-  img: assets/img/xingyu_fu.jpeg
-  url: https://zeyofu.github.io/
+  linkedin: https://www.linkedin.com/in/yu-feng-50b737161/
 
 - name: Sharath Chandra Guntuku
   status: faculty
   img: assets/img/sharath_chandra_guntuku.jpeg
   url: https://sharathg.cis.upenn.edu/
 
-- name: Samar Haider
+- name: Zoey (Zhuoqun) Hao
   status: phd
-  img: assets/img/samar_haider.jpg
-  url: https://samarh.github.io/
-
-- name: Shreya Havaldar
-  status: phd
-  img: assets/img/shreya_havaldar.JPG
-  url: https://shreyahavaldar.com
-  
-- name: Alyssa Hwang
-  status: phd
-  img: assets/img/alyssa_hwang.jpg
-  url: http://alyssahwang.com/
+  img: assets/img/zoey_hao.jpg
+  url:
+  linkedin: https://www.linkedin.com/in/zoey-hao-b3829413a/
 
 - name: Alon Jacoby
   status: phd
   img: assets/img/alon_jacoby.jpg
   url: https://alonj.github.io/
+  linkedin: https://www.linkedin.com/in/alonj/
 
 - name: Helen Jin
   status: phd
   img: assets/img/helen_jin.jpg
   url: https://helenjin.github.io/
+  linkedin: https://www.linkedin.com/in/jin-helen/
 
-- name: Aditya Kashyap
+- name: Grace Kim
   status: phd
-  img: assets/img/aditya_kashyap.png
-  url:
-
-- name: Bryan Li
-  status: phd
-  img: assets/img/bryan_li.jpg
-  url: https://manestay.github.io/  
+  img: assets/img/grace_kim.png
+  url: https://graceyekim.github.io/
+  linkedin: https://www.linkedin.com/in/graceut/
 
 - name: Yifei Li
   status: phd
   img: assets/img/yifei_li.jpg
-  url: https://realliyifei.github.io/  
+  url: https://realliyifei.github.io/
+  linkedin: https://www.linkedin.com/in/realliyifei/
 
 - name: "Mark Liberman"
   status: "faculty"
   img: assets/img/mark_liberman.jpg
   url: http://www.ling.upenn.edu/~myl/
 
-- name: "Danni Ma"
-  status: "phd"
-  img: assets/img/danni_ma.jpg
-  url:
-
-- name: Chaitanya Malaviya
+- name: Maxine Liu
   status: phd
-  img: assets/img/chaitanya_malaviya.jpg
-  url: https://chaitanyamalaviya.github.io/
+  img: assets/img/maxine_liu.png
+  url: https://www.linkedin.com/in/maxine-liu-60577422a
+  linkedin: https://www.linkedin.com/in/maxine-liu-60577422a/
+
+- name: Siyi Liu
+  status: phd
+  img: assets/img/siyi_liu.jpg
+  url: https://liusiyi641.github.io/
+  linkedin: https://www.linkedin.com/in/siyi-liu-80403b206/
+
+- name: Josh Magnus Ludan
+  status: phd
+  img: assets/img/josh_ludan.jpg
+  url: https://www.jmrludan.com
+  linkedin: https://www.linkedin.com/in/jmrludan/
+
+- name: Dan-Mircea Mirea
+  status: postdoc
+  img: assets/img/dan_mircea_mirea.jpg
+  url: https://dan-mirea.com
+  linkedin: https://www.linkedin.com/in/dan-mirea/
 
 - name: Eleni Miltsakaki
   status: staff
   img: assets/img/eleni_miltsakaki.jpg
   url: https://www.miltsakaki.com/
+  linkedin: https://www.linkedin.com/in/elenimiltsakaki/
 
-- name: Artemis Panagopoulou
+- name: Elliot Pickens
   status: phd
-  img: assets/img/artemis_panagopoulou.jpeg
-  url: https://artemisp.github.io/
-
-- name: Ajay Patel
-  status: phd
-  img: assets/img/ajay_patel.jpg
-  url: https://ajayp.app/
-  
-- name: Sunny Rai
-  status: postdoc
-  img: assets/img/sunny_rai.png
-  url: https://www.raisunny.com
+  img: assets/img/elliot_pickens.png
+  url: https://epickens.github.io
+  linkedin: https://www.linkedin.com/in/pickense/
 
 - name: Delip Rao
   status: phd
   img: assets/img/delip_rao.jpg
   url: https://deliprao.com
-  
+  linkedin: https://www.linkedin.com/in/deliprao/
+
 - name: "Dan Roth"
   status: "faculty"
   img: assets/img/dan_roth.jpg
@@ -137,25 +123,29 @@
   status: staff
   img: assets/img/neville_ryant.png
   url: https://www.ldc.upenn.edu/staff/neville-ryant
+  linkedin: https://www.linkedin.com/in/neville-ryant-8a3b6622/
 
 - name: Neil Sehgal
   status: phd
   img: assets/img/neil_sehgal.jpg
   url: https://sehgal-neil.github.io/
+  linkedin: https://www.linkedin.com/in/neil-sehgal/
 
 - name: Jennifer Sheffield
   status: staff
   img: assets/img/jennifer_sheffield.jpg
+  linkedin: https://www.linkedin.com/in/jennifer-s-sheffield-98717a11/
 
 - name: "Lyle Ungar"
   status: "faculty"
   img: assets/img/lyle_ungar.jpg
   url: http://www.seas.upenn.edu/~ungar/
-  
+
 - name: Haoyu Wang
   status: phd
   img: assets/img/haoyu_wang.jpg
-  url: https://why2011btv.github.io/  
+  url: https://why2011btv.github.io/
+  linkedin: https://www.linkedin.com/in/haoyu-alex-wang-a66149116/
 
 - name: Tomer Wolfson
   status: postdoc
@@ -167,27 +157,13 @@
   img: assets/img/charles_yang.jpg
   url: http://www.ling.upenn.edu/~ycharles/
 
-- name: Yue Yang
-  status: phd
-  img: assets/img/yue_yang.png
-  url: https://yueyang1996.github.io/
-
 - name: Mark Yatskar
   status: faculty
   img: assets/img/mark_yatskar_square_new.png
   url: https://www.cis.upenn.edu/~myatskar/
 
-- name: Weiqiu You
-  status: phd
-  img: assets/img/weiqiu_you.jpeg
-  url: http://fallcat.github.io/
-
-- name: Xiaodong Yu
-  status: "phd"
-  img: assets/img/xiaodong_yu.jpg
-  url: https://www.xiaodongyu.me/
-
 - name: Andrew Zhu
   status: "phd"
   img: assets/img/andrew_zhu.png
   url: https://zhu.codes
+  linkedin: https://www.linkedin.com/in/angzhu/
