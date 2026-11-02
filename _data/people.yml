@@ -144,7 +144,7 @@
 - name: Enxin Song
   status: phd
   img: assets/img/enxin_song.jpg
-  url:
+  url: https://www.enxinsong.com/
 
 - name: Yao Tang
   status: phd
