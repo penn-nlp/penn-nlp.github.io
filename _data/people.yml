@@ -32,6 +32,11 @@
   url: https://annieyufeng.github.io/
   linkedin: https://www.linkedin.com/in/yu-feng-50b737161/
 
+- name: Jiatao Gu
+  status: faculty
+  img: assets/img/jiatao_gu.jpg
+  url: https://jiataogu.me
+
 - name: Sharath Chandra Guntuku
   status: faculty
   img: assets/img/sharath_chandra_guntuku.jpeg
@@ -135,6 +140,17 @@
   status: staff
   img: assets/img/jennifer_sheffield.jpg
   linkedin: https://www.linkedin.com/in/jennifer-s-sheffield-98717a11/
+
+- name: Enxin Song
+  status: phd
+  img: assets/img/enxin_song.jpg
+  url:
+
+- name: Yao Tang
+  status: phd
+  img: assets/img/yao_tang.jpg
+  url: https://yaotang23.github.io
+  linkedin: https://www.linkedin.com/in/yaotangyaotang/
 
 - name: "Lyle Ungar"
   status: "faculty"
