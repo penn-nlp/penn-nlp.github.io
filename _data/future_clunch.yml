@@ -13,3 +13,12 @@
 #   title: The talk of the title goes here.
 #   abstract: The abstract of the talk will go here.
 
+- speaker: Vasudha Varadarajan
+  url: https://vasevarad.github.io/
+  affiliation: Carnegie Mellon University
+  date: November 9th, 2026
+  img: assets/img/clunch/vasudha_varadarajan.jpg
+  title: "Toward a Measurement Science for Social AI"
+  abstract: |
+    As AI systems enter socially situated and high-stakes interactions, their behavior depends on who they interact with, the context, and how the interaction unfolds. Yet evaluation often reduces this complexity to static labels and aggregate scores, treating culture, safety, and capability as singular or fixed. My research develops a measurement science for human-AI interaction that captures both the diversity of human expectations and the multiple dimensions of model behavior. In this talk, I will present measurement approaches that account for user context and variation by design. First, I will examine the use of general-purpose AI during mental distress, grounding evaluation in human perceptions and demonstrating how perceptions of harm vary across populations. I will then introduce CCBench, which tests cultural competence of models – the ability to recognize and respond to more realistic values and preferences, that are implicitly revealed in interaction, without assuming fixed cultural profiles. Finally, I will present BenchMIRT, a measurement-theory-based approach for evaluating benchmarks that helps disentangle constructs such as safety and capability, diagnose benchmark weaknesses, and make evaluations more efficient. Together, this talk offers researchers a foundation for strengthening existing benchmarks and evaluations so they better account for heterogeneity, partial observability and interaction in socially situated AI.
+

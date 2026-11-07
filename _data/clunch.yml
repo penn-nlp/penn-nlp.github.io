@@ -23,6 +23,24 @@
 #   abstract:
 #
 #
+- speaker: David Chiang
+  url: https://www3.nd.edu/~dchiang/
+  affiliation: University of Notre Dame
+  date: November 5th, 2026 (Bonus Talk)
+  img: assets/img/clunch/david_chiang.png
+  title: "What Transformers Can and Can't Do"
+  abstract: |
+    Neural networks are advancing the state of the art in many areas of artificial intelligence, but in many respects remain poorly understood. At a time when new abilities as well as new limitations of neural networks are continually coming to light, a clear understanding of what they can and cannot do is more needed than ever. The theoretical study of transformers, the dominant neural network for sequences, is just beginning, and we have helped to make this into a fruitful and fast-growing area of research. Our approach is to relate transformers to mathematical formalisms for describing formal languages, like automata, circuits, and especially logics. The picture that is emerging is that the expressivity of transformers is highly dependent on one's assumptions, but in any case does not fit neatly into the well-known Chomsky hierarchy. The complexity classes that are more suitable for transformers come from the subregular hierarchy, circuit complexity, and descriptive complexity. I will give a survey of this new subfield, focusing on recent results and some open questions. It will include joint work with my student Andy Yang and other collaborators.
+
+- speaker: Haneul Yoo
+  url: https://haneul-yoo.github.io/
+  affiliation: New York University
+  date: November 2nd, 2026
+  img: assets/img/clunch/haneul_yoo.jpg
+  title: "Enhancing Multilingual LLMs with Code-Switching"
+  abstract: |
+    Despite recent advances, large language models (LLMs) exhibit uneven performance across languages and often struggle with code-switching—the natural alternation between multiple languages. While code-switching is a common and meaningful mode of human communication, LLMs remain brittle to code-switching inputs, treating them as noise. This talk reframes code-switching as a valuable linguistic signal, exploring how it can be leveraged across the LLM lifecycle, from evaluation, to training, to inference. I will begin with output language alignment (OLA), highlighting systematic failures to respond in the expected language in code-switching contexts. I will also introduce code-switching red-teaming (CSRT), which reveals vulnerabilities in safety and multilingual understanding. I will then present code-switching curriculum learning (CSCL), a data-efficient approach to cross-lingual transfer inspired by human second-language learning. Finally, I will introduce code-switching in-context learning (CSICL), which uses gradual transitions from a target language to English to improve multilingual generalization without additional training.
+
 - speaker: Will Merrill
   url: https://lambdaviking.com/
   affiliation: TTIC
